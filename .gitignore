@@ -1,0 +1,37 @@
+# Private working directory - plans, notes.
+workdir/
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+coverage/
+
+# Raw open-data downloads
+data/raw/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Test and tooling artefacts
+playwright-report/
+test-results/
+.vite/
+.eslintcache
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
