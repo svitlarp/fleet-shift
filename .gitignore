@@ -3,7 +3,6 @@ workdir/
 
 # Dependencies
 node_modules/
-.pnpm-store/
 
 # Build output
 dist/
@@ -34,4 +33,3 @@ test-results/
 # Logs
 *.log
 npm-debug.log*
-pnpm-debug.log*

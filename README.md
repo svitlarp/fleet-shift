@@ -31,11 +31,11 @@ assumption.
 
 ## Data sources
 
-| Dataset | Used for |
-| --- | --- |
-| Prix des carburants (data.gouv.fr) | fuel price history and scenarios |
-| IRVE charging stations (data.gouv.fr) | charging coverage around each base |
-| OpenEV Data / EEA CO₂ | EV catalogue: battery, WLTP range, consumption |
+| Dataset                               | Used for                                       |
+| ------------------------------------- | ---------------------------------------------- |
+| Prix des carburants (data.gouv.fr)    | fuel price history and scenarios               |
+| IRVE charging stations (data.gouv.fr) | charging coverage around each base             |
+| OpenEV Data / EEA CO₂                 | EV catalogue: battery, WLTP range, consumption |
 
 Raw downloads are stored under `data/raw/` and are not committed.
 
@@ -43,13 +43,12 @@ Raw downloads are stored under `data/raw/` and are not committed.
 
 TypeScript everywhere, npm workspaces.
 
-| Package | Contents |
-| --- | --- |
-| `apps/web` | React + Vite, TanStack Query, React Hook Form + zod, Recharts, Leaflet |
-| `apps/api` | Fastify + zod, Drizzle ORM, PostgreSQL, Playwright (PDF) |
-| `packages/core` | pure calculation: suitability, chargers, TCO, scenarios, planner |
-| `packages/data` | scripts for the open datasets |
-
+| Package         | Contents                                                               |
+| --------------- | ---------------------------------------------------------------------- |
+| `apps/web`      | React + Vite, TanStack Query, React Hook Form + zod, Recharts, Leaflet |
+| `apps/api`      | Fastify + zod, Drizzle ORM, PostgreSQL, Playwright (PDF)               |
+| `packages/core` | pure calculation: suitability, chargers, TCO, scenarios, planner       |
+| `packages/data` | scripts for the open datasets                                          |
 
 ## Getting started
 
@@ -73,7 +72,7 @@ npm run test:coverage   # Vitest with coverage thresholds (70 %)
 
 ## Status
 
-Early development. The 6-week build starts on 2026-10-26; 
+Early development. The 6-week build starts on 2026-10-26;
 
 ## Scope
 
