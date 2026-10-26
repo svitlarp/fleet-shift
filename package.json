@@ -7,11 +7,16 @@
     "eslint": "^10.13.0",
     "globals": "^17.13.0",
     "prettier": "^3.9.10",
+    "typescript": "^6.0.3",
     "typescript-eslint": "^8.72.0"
   },
   "scripts": {
     "lint": "eslint .",
     "format": "prettier . --write",
-    "format:check": "prettier . --check"
+    "format:check": "prettier . --check",
+    "typecheck:api": "tsc --noEmit -p apps/api/tsconfig.json",
+    "typecheck:web": "tsc --noEmit -p apps/web/tsconfig.json",
+    "typecheck:core": "tsc --noEmit -p packages/core/tsconfig.json",
+    "typecheck": "npm run typecheck:api && npm run typecheck:web && npm run typecheck:core"
   }
 }
