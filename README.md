@@ -33,11 +33,20 @@ assumption.
 
 | Dataset                               | Used for                                       |
 | ------------------------------------- | ---------------------------------------------- |
-| Prix des carburants (data.gouv.fr)    | fuel price history and scenarios               |
+| Prix des carburants (data.gouv.fr)    | fuel price history (2015-2025 years) and scenarios               |
 | IRVE charging stations (data.gouv.fr) | charging coverage around each base             |
 | OpenEV Data / EEA CO₂                 | EV catalogue: battery, WLTP range, consumption |
 
 Raw downloads are stored under `data/raw/` and are not committed.
+
+**-> Fuel Price Data**
+
+Historical fuel price data for 10 years, downloaded from Prix des carburants – Open Data.
+
+The data is provided under the French government's Licence Ouverte / Open Licence (Etalab 2.0) and is freely available for reuse.
+
+Source: data.gouv.fr
+Licence: Licence Ouverte / Open Licence 2.0
 
 ## Stack
 

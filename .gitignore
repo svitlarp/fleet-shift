@@ -11,7 +11,7 @@ build/
 coverage/
 
 # Raw open-data downloads
-data/raw/
+packages/data/raw
 
 # Environment
 .env
