@@ -1,23 +1,22 @@
-// ESM
 import Fastify from "fastify";
 
 const fastify = Fastify({
   logger: true,
 });
 
-fastify.get("/", async () => {
-  return { hello: "Sv from Fastify" };
+fastify.get("/", () => {
+  return { hello: "Fastify " };
 });
 
 /**
  * Run the server!
  */
-const start = async () => {
+const start = async (): Promise<void> => {
   try {
     await fastify.listen({ port: 3000 });
   } catch (err) {
     fastify.log.error(err);
-    process.exit(1);
+    process.exitCode = 1;
   }
 };
-start();
+void start();
