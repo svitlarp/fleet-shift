@@ -12,8 +12,12 @@ export default defineConfig([
   },
   {
     files: ["**/*.{ts,mts,cts}"],
-    plugins: { js },
-    extends: [js.configs.recommended, ...tseslint.configs.recommended],
-    languageOptions: { globals: { ...globals.browser, ...globals.node } },
+    extends: [js.configs.recommended, ...tseslint.configs.strictTypeChecked],
+    languageOptions: {
+      globals: { ...globals.browser, ...globals.node },
+      parserOptions: {
+        projectService: true,
+      },
+    },
   },
 ]);
