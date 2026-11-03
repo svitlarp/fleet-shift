@@ -29,6 +29,16 @@ year-by-year replacement plan and a client-ready report.
 Every figure in the report carries its provenance: open data, user input or a stated
 assumption.
 
+## Project structure
+
+data/ 
+
+raw/ - original data from open government data sources provided under an open licence
+
+manifest/ - metadata about the data sources and raw files, including their provenance and integrity information. 
+
+processed/ - processed data ready to be used by the FleetShift application.
+
 ## Data sources
 
 | Dataset                               | Used for                                       |

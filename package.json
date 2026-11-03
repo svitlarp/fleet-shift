@@ -1,4 +1,4 @@
-{
+{ "type": "module", 
   "dependencies": {
     "fastify": "^5.12.7",
     "saxes": "^6.0.0",
