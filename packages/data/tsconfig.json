@@ -6,8 +6,16 @@
     "outDir": "./dist",
     "types": ["node"],
     "esModuleInterop": true,
-    "strict": true
+    "strict": true,
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+    // "paths": {
+    //   "@/*": ["./src"],
+    //   "@source-urls/*": ["./source-urls/*"],
+    //   "@fuel-prices/*": ["./raw/fuel-prices/*"]
+    // }
   },
-  "include": ["src/**/*.ts"],
+  "include": ["src/**/*.ts", "manifest/make-manifest.ts"],
   "exclude": ["node_modules", "dist", "raw"]
 }
