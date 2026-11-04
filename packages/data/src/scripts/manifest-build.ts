@@ -7,6 +7,7 @@ import { generateManifest } from "../lib/generate-file-manifest.ts";
 const arrOfFuelFiles = await fs.readdir(fuelDir);
 console.log("arrOfFuelFiles", arrOfFuelFiles);
 
+
 async function generateManifests(files: string[]) {
     const result = await Promise.all(
         files.map((fileName) => {
@@ -17,13 +18,12 @@ async function generateManifests(files: string[]) {
     return result;
 }
 
-generateManifests(arrOfFuelFiles).catch((err: unknown) => {
-    console.log("Manifests generation failed: ", err);
-    process.exitCode = 1;
-});
+function main() {
+    generateManifests(arrOfFuelFiles).catch((err: unknown) => {
+        console.log("Manifests generation failed: ", err);
+        process.exitCode = 1;
+    });
+}
 
 
-
-// function main() {
-    
-// }
+main();
