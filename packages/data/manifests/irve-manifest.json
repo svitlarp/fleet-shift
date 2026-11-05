@@ -1,0 +1,12 @@
+[
+  {
+    "fileName": "consolidation_transport_irve_statique.csv",
+    "sourceURL": "https://www.data.gouv.fr/datasets/beta-bases-nationales-des-points-de-recharge-pour-vehicules-electriques-en-france-irve?resource_id=4ca78c71-4ea4-475d-bd3a-d4aef88f7bf8",
+    "datasetId": "beta-bases--des-points-de-recharge-pour-vehicules-electriques-en--irve",
+    "resourceId": "4ca78c71-4ea4-475d-bd3a-d4aef88f7bf8",
+    "sourceUpdatedAt": "2026-11-04T05:40:05.000000+0000",
+    "downloadedAt": "2026-11-05T22:00:54.452Z",
+    "sizeBytes": 127889569,
+    "hash": "8fd671c99c5387c9b646ced4f40969e49a42c75dce7d3bf1281322a1c73f8aec"
+  }
+]

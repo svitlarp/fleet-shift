@@ -3,7 +3,7 @@
     "fileName": "PrixCarburants_annuel_2015.xml",
     "year": "2015",
     "sourceURL": "https://donnees.roulez-eco.fr/opendata/annee/2015",
-    "downloadedAt": "2026-11-05T12:29:34.753Z",
+    "downloadedAt": "2026-11-05T22:00:51.670Z",
     "sizeBytes": 233788701,
     "hash": "499b4248828bc35cfd6fa2a467e11b739844c381f1035d037cca3e4fd71d868b"
   },
@@ -11,7 +11,7 @@
     "fileName": "PrixCarburants_annuel_2016.xml",
     "year": "2016",
     "sourceURL": "https://donnees.roulez-eco.fr/opendata/annee/2016",
-    "downloadedAt": "2026-11-05T12:29:34.952Z",
+    "downloadedAt": "2026-11-05T22:00:51.867Z",
     "sizeBytes": 274639478,
     "hash": "506f55591655903436c8eef6e1fc52c09e5f4471422a9216f2e3e010205a7f96"
   },
@@ -19,7 +19,7 @@
     "fileName": "PrixCarburants_annuel_2017.xml",
     "year": "2017",
     "sourceURL": "https://donnees.roulez-eco.fr/opendata/annee/2017",
-    "downloadedAt": "2026-11-05T12:29:35.126Z",
+    "downloadedAt": "2026-11-05T22:00:52.096Z",
     "sizeBytes": 259066544,
     "hash": "3af4cdd854622d1a3f2f3a0384f100fe1ea03cb1aa76dedede98c147f1a818db"
   },
@@ -27,7 +27,7 @@
     "fileName": "PrixCarburants_annuel_2018.xml",
     "year": "2018",
     "sourceURL": "https://donnees.roulez-eco.fr/opendata/annee/2018",
-    "downloadedAt": "2026-11-05T12:29:35.361Z",
+    "downloadedAt": "2026-11-05T22:00:52.446Z",
     "sizeBytes": 279516243,
     "hash": "b553273694bfe475b20e8d87680bb32902902879827536ca9c47b18458873f3c"
   },
@@ -35,7 +35,7 @@
     "fileName": "PrixCarburants_annuel_2019.xml",
     "year": "2019",
     "sourceURL": "https://donnees.roulez-eco.fr/opendata/annee/2019",
-    "downloadedAt": "2026-11-05T12:29:35.585Z",
+    "downloadedAt": "2026-11-05T22:00:53.022Z",
     "sizeBytes": 302514757,
     "hash": "d95ff253e5e9570516f4a975bcb5c92c976e21c36327c69e5815c69da1669562"
   },
@@ -43,7 +43,7 @@
     "fileName": "PrixCarburants_annuel_2020.xml",
     "year": "2020",
     "sourceURL": "https://donnees.roulez-eco.fr/opendata/annee/2020",
-    "downloadedAt": "2026-11-05T12:29:35.785Z",
+    "downloadedAt": "2026-11-05T22:00:53.243Z",
     "sizeBytes": 278250870,
     "hash": "a905ef931261595342d69c41b76b385b3360bd00840c21dd848680e86df064bd"
   },
@@ -51,7 +51,7 @@
     "fileName": "PrixCarburants_annuel_2021.xml",
     "year": "2021",
     "sourceURL": "https://donnees.roulez-eco.fr/opendata/annee/2021",
-    "downloadedAt": "2026-11-05T12:29:35.988Z",
+    "downloadedAt": "2026-11-05T22:00:53.445Z",
     "sizeBytes": 307240217,
     "hash": "3a2f68fc02ebfa573d9368ee791b1c6da318268bef47aaf029a61f9e3fb2ccb9"
   },
@@ -59,7 +59,7 @@
     "fileName": "PrixCarburants_annuel_2022.xml",
     "year": "2022",
     "sourceURL": "https://donnees.roulez-eco.fr/opendata/annee/2022",
-    "downloadedAt": "2026-11-05T12:29:36.225Z",
+    "downloadedAt": "2026-11-05T22:00:53.688Z",
     "sizeBytes": 378488851,
     "hash": "ac8353a8bb752dad7958e853948978ed23fbd22c1bbae50aba4a985c4f6ec328"
   },
@@ -67,7 +67,7 @@
     "fileName": "PrixCarburants_annuel_2023.xml",
     "year": "2023",
     "sourceURL": "https://donnees.roulez-eco.fr/opendata/annee/2023",
-    "downloadedAt": "2026-11-05T12:29:36.453Z",
+    "downloadedAt": "2026-11-05T22:00:53.908Z",
     "sizeBytes": 346761734,
     "hash": "9ad122e0778ccc3e94c20d2b9383c77e153738f9b1c05c4bb9e36ba2fd0726a0"
   },
@@ -75,7 +75,7 @@
     "fileName": "PrixCarburants_annuel_2024.xml",
     "year": "2024",
     "sourceURL": "https://donnees.roulez-eco.fr/opendata/annee/2024",
-    "downloadedAt": "2026-11-05T12:29:36.674Z",
+    "downloadedAt": "2026-11-05T22:00:54.127Z",
     "sizeBytes": 336962217,
     "hash": "beb48ecd21381c38dab8c14e09262d5cd911c9379e986c950872467414a97f86"
   },
@@ -83,7 +83,7 @@
     "fileName": "PrixCarburants_annuel_2025.xml",
     "year": "2025",
     "sourceURL": "https://donnees.roulez-eco.fr/opendata/annee/2025",
-    "downloadedAt": "2026-11-05T12:29:36.917Z",
+    "downloadedAt": "2026-11-05T22:00:54.371Z",
     "sizeBytes": 386456970,
     "hash": "0a4b4afac8bf60777cdd11bc20d7557c881d3106dfde031da04ed6d4121358fd"
   }
