@@ -27,3 +27,8 @@ export interface IRVEManifest extends BaseManifest {
     resourceId: string;
     sourceUpdatedAt: string;
 }
+
+export interface EVCatalogManifest extends BaseManifest {
+    sourceURL: string;
+    sourceUpdatedAt: string;
+}
