@@ -1,29 +1,32 @@
 import path from "node:path";
-import fs from "node:fs/promises";
-import { fuelDir } from "../lib/path.ts";
-import { generateManifest } from "../lib/generate-file-manifest.ts";
+import { projectRoot } from "../lib/path.ts";
+import  { generateManifests } from "../lib/generateManifests.ts";
+import { writeManifest } from "../lib/writeManifest.ts";
 
 
-const arrOfFuelFiles = await fs.readdir(fuelDir);
-console.log("arrOfFuelFiles", arrOfFuelFiles);
+const datasets = [
+  {
+    name: "fuel",
+    directory: path.join(projectRoot, "raw/fuel-prices"),
+    manifestPath: path.join(projectRoot, "manifests/fuel-manifest.json"),
+  },
+//   {
+//     name: "irve",
+//     directory: path.join(projectRoot, "raw/irve"),
+//     manifestPath: path.join(projectRoot, "manifests/irve-manifest.json"),
+//   },
+];
 
+async function main(): Promise<void> {
+  for (const dataset of datasets) {
+      const manifestContent = await generateManifests(dataset.directory);
 
-async function generateManifests(files: string[]) {
-    const result = await Promise.all(
-        files.map((fileName) => {
-            const filePath = path.join(fuelDir, fileName);
-            return generateManifest(filePath);
-        })
-    );
-    return result;
+      await writeManifest(dataset.manifestPath, manifestContent);
+      console.log(`Generated ${dataset.name} manifest`);
+  }
 }
 
-function main() {
-    generateManifests(arrOfFuelFiles).catch((err: unknown) => {
-        console.log("Manifests generation failed: ", err);
-        process.exitCode = 1;
-    });
-}
-
-
-main();
+main().catch((error: unknown) => {
+  console.error("Manifests generation failed: ", error);
+  process.exitCode = 1;
+});

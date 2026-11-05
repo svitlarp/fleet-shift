@@ -1,3 +1,5 @@
+import type { FuelYear } from "./fuel-year.ts";
+
 export interface FileManifest {
     fileName: string;
     year: FuelYear;
