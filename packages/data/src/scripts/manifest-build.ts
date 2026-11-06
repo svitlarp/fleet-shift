@@ -1,12 +1,16 @@
 import path from "node:path";
 import { projectRoot } from "../lib/manifest/path.ts";
-import  { generateManifests } from "../lib/manifest/generateManifests.ts";
+import { generateManifests } from "../lib/manifest/generateManifests.ts";
 import { writeManifest } from "../lib/manifest/writeManifest.ts";
 import { generateFuelFileManifest } from "../lib/manifest/gen-fuel-file-manifest.ts";
 import { generateIRVEFileManifest } from "../lib/manifest/gen-irve-file-manifest.ts";
-import type { DatasetConfig, EVCatalogManifest, FuelManifest, IRVEManifest } from "../types/manifest.ts";
+import type {
+  DatasetConfig,
+  EVCatalogManifest,
+  FuelManifest,
+  IRVEManifest,
+} from "../types/manifest.ts";
 import { generateEVCatalogFileManifest } from "../lib/manifest/gen-ev-catalog-manifest.ts";
-
 
 type AnyManifest = FuelManifest | IRVEManifest | EVCatalogManifest;
 
@@ -28,19 +32,19 @@ const datasets: DatasetConfig<AnyManifest>[] = [
     directory: path.join(projectRoot, "raw/ev-catalog"),
     manifestPath: path.join(projectRoot, "manifests/ev-catalog-manifest.json"),
     generator: generateEVCatalogFileManifest,
-  }
+  },
 ];
 
 async function main(): Promise<void> {
   for (const dataset of datasets) {
-      const manifestContent = await generateManifests<AnyManifest>(
-        dataset.directory, 
-        dataset.generator
-      );
+    const manifestContent = await generateManifests<AnyManifest>(
+      dataset.directory,
+      dataset.generator,
+    );
 
-      await writeManifest(dataset.manifestPath, manifestContent);
+    await writeManifest(dataset.manifestPath, manifestContent);
 
-      console.log(`Generated ${dataset.name} manifest`);
+    console.log(`Generated ${dataset.name} manifest`);
   }
 }
 
@@ -48,7 +52,3 @@ main().catch((error: unknown) => {
   console.error("Manifests generation failed: ", error);
   process.exitCode = 1;
 });
-
-
-
-

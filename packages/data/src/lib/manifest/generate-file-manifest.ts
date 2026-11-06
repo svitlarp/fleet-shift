@@ -4,7 +4,6 @@ import type { Stats } from "node:fs";
 import { calculateFileHash } from "./hash-file.ts";
 import type { BaseManifest } from "../../types/manifest.ts";
 
-
 /**
  * Generates metadata for the given file
  * @param value - Absolute path to the file
@@ -14,7 +13,6 @@ export async function generateFileManifest<TMetadata extends object>(
   filePath: string,
   generateMetadata: (fileName: string) => TMetadata | Promise<TMetadata>,
 ): Promise<BaseManifest & TMetadata> {
-
   const fileName = path.basename(filePath);
   const stats: Stats = await fs.stat(filePath);
   const hash = await calculateFileHash(filePath);
@@ -28,4 +26,3 @@ export async function generateFileManifest<TMetadata extends object>(
     hash,
   };
 }
-

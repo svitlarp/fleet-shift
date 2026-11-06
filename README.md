@@ -31,21 +31,21 @@ assumption.
 
 ## Project structure
 
-data/ 
+data/
 
 raw/ - original data from open government data sources provided under an open licence
 
-manifest/ - metadata about the data sources and raw files, including their provenance and integrity information. 
+manifest/ - metadata about the data sources and raw files, including their provenance and integrity information.
 
 processed/ - processed data ready to be used by the FleetShift application.
 
 ## Data sources
 
-| Dataset                               | Used for                                       |
-| ------------------------------------- | ---------------------------------------------- |
-| Prix des carburants (data.gouv.fr)    | fuel price history (2015-2025 years) and scenarios               |
-| IRVE charging stations (data.gouv.fr) | charging coverage around each base             |
-| OpenEV Data / EEA CO₂                 | EV catalogue: battery, WLTP range, consumption |
+| Dataset                               | Used for                                           |
+| ------------------------------------- | -------------------------------------------------- |
+| Prix des carburants (data.gouv.fr)    | fuel price history (2015-2025 years) and scenarios |
+| IRVE charging stations (data.gouv.fr) | charging coverage around each base                 |
+| OpenEV Data / EEA CO₂                 | EV catalogue: battery, WLTP range, consumption     |
 
 Raw downloads are stored under `data/raw/` and are not committed.
 

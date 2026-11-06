@@ -5,9 +5,10 @@ import { generateFileManifest } from "./generate-file-manifest.ts";
 
 const sourceUrls: EVCatalogSource = sourceUrlsJson;
 
-// TODO: improve sourceUpdatedAt variable -> parse CSV file 
-export async function generateEVCatalogFileManifest(filePath: string): Promise<EVCatalogManifest> {
-  
+// TODO: improve sourceUpdatedAt variable -> parse CSV file
+export async function generateEVCatalogFileManifest(
+  filePath: string,
+): Promise<EVCatalogManifest> {
   return generateFileManifest(filePath, () => ({
     sourceURL: sourceUrls.sourceURL,
     sourceUpdatedAt: sourceUrls.sourceUpdatedAt,

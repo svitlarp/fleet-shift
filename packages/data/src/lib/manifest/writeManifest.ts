@@ -1,7 +1,6 @@
 import fs from "node:fs/promises";
 import type { BaseManifest } from "../../types/manifest.ts";
 
-
 /**
  * Write manifest to the manifest file
  * @param filePath Write manifest to the manifest file
@@ -18,4 +17,4 @@ export async function writeManifest(
   }
 
   await fs.writeFile(filePath, JSON.stringify(content, null, 2), "utf-8");
-};
+}
