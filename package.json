@@ -22,6 +22,7 @@
     "typecheck:api": "tsc --noEmit -p apps/api/tsconfig.json",
     "typecheck:web": "tsc --noEmit -p apps/web/tsconfig.json",
     "typecheck:core": "tsc --noEmit -p packages/core/tsconfig.json",
-    "typecheck": "npm run typecheck:api && npm run typecheck:web && npm run typecheck:core"
+    "typecheck:data": "tsc --noEmit -p packages/data/tsconfig.json",
+    "typecheck": "npm run typecheck:api && npm run typecheck:web && npm run typecheck:core && npm run typecheck:data"
   }
 }
