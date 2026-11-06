@@ -1,5 +1,5 @@
 import fs from "node:fs/promises";
-import type { FileManifest } from "../types/manifest.ts";
+import type { BaseManifest } from "../../types/manifest.ts";
 
 
 /**
@@ -9,7 +9,7 @@ import type { FileManifest } from "../types/manifest.ts";
  */
 export async function writeManifest(
   filePath: string,
-  content: FileManifest[],
+  content: BaseManifest[],
 ): Promise<void> {
   try {
     await fs.access(filePath);

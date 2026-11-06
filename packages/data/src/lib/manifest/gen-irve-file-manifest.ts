@@ -1,6 +1,6 @@
-import sourceUrlsJson from "../../source-urls/irve-source-urls.json" with { type: "json" };
-import type { IRVEManifest } from "../types/manifest.ts";
-import type { IRVESource } from "../types/irve-source.ts";
+import sourceUrlsJson from "../../../source-urls/irve-source-urls.json" with { type: "json" };
+import type { IRVEManifest } from "../../types/manifest.ts";
+import type { IRVESource } from "../../types/irve-source.ts";
 import { generateFileManifest } from "./generate-file-manifest.ts";
 
 

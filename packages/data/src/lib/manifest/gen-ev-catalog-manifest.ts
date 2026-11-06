@@ -1,8 +1,7 @@
-import sourceUrlsJson from "../../source-urls/ev-catalog-source-urls.json" with { type: "json" };
-import type { EVCatalogManifest } from "../types/manifest.ts";
+import sourceUrlsJson from "../../../source-urls/ev-catalog-source-urls.json" with { type: "json" };
+import type { EVCatalogManifest } from "../../types/manifest.ts";
+import type { EVCatalogSource } from "../../types/ev-catalog-source.ts";
 import { generateFileManifest } from "./generate-file-manifest.ts";
-import type { EVCatalogSource } from "../types/ev-catalog-source.ts";
-
 
 const sourceUrls: EVCatalogSource = sourceUrlsJson;
 

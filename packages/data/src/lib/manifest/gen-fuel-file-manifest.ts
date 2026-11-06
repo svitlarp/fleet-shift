@@ -1,6 +1,6 @@
-import sourceUrls from "../../source-urls/fuel-source-urls.json" with { type: "json" };
-import type { FuelManifest } from "../types/manifest.ts";
-import type { FuelYear } from "../types/fuel-year.ts";
+import sourceUrls from "../../../source-urls/fuel-source-urls.json" with { type: "json" };
+import type { FuelManifest } from "../../types/manifest.ts";
+import type { FuelYear } from "../../types/fuel-year.ts";
 import { generateFileManifest } from "./generate-file-manifest.ts";
 
 
