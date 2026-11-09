@@ -3,23 +3,36 @@ import fs from "node:fs";
 import path from "node:path";
 import saxes from "saxes";
 import { projectRoot } from "../manifest/path.ts";
-import { number } from "zod";
 
 // const stationIDs = new Set<string>();
 interface StationContent {
   id: string;
   cp: string;
-  priceE10Avg: number;
-  priceGazoleAvg: number;
+  priceE10Avg: number | null;
+  priceGazoleAvg: number | null;
 }
 
 interface currentStation {
+  // Station ID from XML file
   id: string;
+  //  CodePostal - postal code of the Station
   cp: string;
-  priceE10Sum: number;
-  priceGazoleSum: number;
-  countE10: number;
-  countGazole: number;
+
+  // Last known price for E10 / Gazole
+  priceE10Sum: number | null;
+  priceGazoleSum: number | null;
+
+  // Sum of the products of price and duration
+  priceWeightedE10Sum: number;
+  priceWeightedGazoleSum: number;
+
+  // Timestamp of the last price update
+  timestampE10Sum: number;
+  timestampGazoleSum: number;
+
+  // Sum of the products of all timestamps for E10 / Gazole
+  totalDurationE10Ms: number;
+  totalDurationGazoleMs: number;
 }
 
 interface ParseResult {
@@ -49,8 +62,14 @@ async function parseStation(
   const stationContent: StationContent[] = [];
   let totalPACAStations = 0;
   let totalNumOfStationsNoE10: number = 0;
-  let stationsArrNoE10: string[] = [];
+  const stationsArrNoE10: string[] = [];
   let currentStation: currentStation | null = null;
+  // TODO: Scale year variable
+  const fileName = path.basename(filePath);
+  const year = Number(fileName.match(/(\d{4})\.xml$/i)?.[1]);
+  let priceUpdatedTimestampDiff = null;
+  let priceWeightedCurrentE10 = 0;
+  let priceWeightedCurrentGazole = 0;
 
   parser.on("opentag", (tag) => {
     // Open a new station
@@ -63,10 +82,10 @@ async function parseStation(
         currentStation = {
           id,
           cp,
-          priceE10Sum: 0,
-          priceGazoleSum: 0,
-          countE10: 0,
-          countGazole: 0,
+          priceWeightedE10Sum: 0,
+          priceWeightedGazoleSum: 0,
+          timestampE10Sum: Date.UTC(year, 0, 1),
+          timestampGazoleSum: Date.UTC(year, 0, 1),
         };
       } else {
         currentStation = null;
@@ -80,23 +99,36 @@ async function parseStation(
     const fuelName = tag.attributes.nom;
     const valeur = Number(tag.attributes.valeur);
 
+    // Extract the price update date and convert it to a timestamp
+    const maj = tag.attributes.maj;
+    if (!maj) return;
+    const currentPriceTimestamp = Date.parse(maj); // timestamp like "2015-01-03T11:01:38" of date like "2015-01-03T11:01:38"
+
     if (fuelName === "E10") {
-      currentStation.priceE10Sum += valeur;
-      currentStation.countE10 += 1;
+      // currentStation.countE10 += 1;
+      priceUpdatedTimestampDiff = currentPriceTimestamp - currentStation.timestampE10Sum;
+      priceWeightedCurrentE10 = valeur * priceUpdatedTimestampDiff;
+      currentStation.priceWeightedE10Sum += priceWeightedCurrentE10;
+      timestampE10Sum += priceUpdatedTimestampDiff;
+      currentStation.timestampE10 = currentPriceTimestamp;
     }
     if (fuelName === "Gazole") {
-      currentStation.priceGazoleSum += valeur;
-      currentStation.countGazole += 1;
+      // currentStation.countGazole += 1;
+      priceUpdatedTimestampDiff = currentPriceTimestamp - currentStation.timestampGazoleSum;
+      priceWeightedCurrentGazole = valeur * priceUpdatedTimestampDiff;
+      currentStation.priceWeightedGazoleSum += priceWeightedCurrentGazole;
+      timestampGazoleSum += priceUpdatedTimestampDiff;
+      currentStation.timestampGazole = currentPriceTimestamp;
     }
   });
 
   // Close station
   parser.on("closetag", (tag) => {
     if (tag.name === "pdv" && currentStation) {
-      const { id, cp, priceE10Sum, priceGazoleSum, countE10, countGazole } =
+      const { id, cp, priceWeightedE10Sum, priceWeightedGazoleSum, timestampE10Sum, timestampGazoleSum } =
         currentStation;
 
-      if (currentStation.priceE10Sum === 0 && currentStation.priceGazoleSum > 0) {
+      if (currentStation.priceWeightedE10Sum === 0 && currentStation.priceWeightedGazoleSum > 0) {
         totalNumOfStationsNoE10 += 1;
         stationsArrNoE10.push(currentStation.id);
       }
@@ -104,9 +136,9 @@ async function parseStation(
       stationContent.push({
         id,
         cp,
-        priceE10Avg: countE10 > 0 ? priceE10Sum / countE10 / 1000 : null,
+        priceE10Avg: timestampE10Sum > 0 ? priceWeightedE10Sum / timestampE10Sum / 1000 : null,
         priceGazoleAvg:
-          countGazole > 0 ? priceGazoleSum / countGazole / 1000 : null,
+          timestampGazoleSum > 0 ? priceWeightedGazoleSum / timestampGazoleSum / 1000 : null,
       });
 
       totalPACAStations += 1;
