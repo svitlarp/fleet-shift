@@ -1,0 +1,7654 @@
+{
+  "stations": [
+    {
+      "id": "4000001",
+      "cp": "04000",
+      "priceE10Avg": "1.809",
+      "priceGazoleAvg": "1.725"
+    },
+    {
+      "id": "4000003",
+      "cp": "04000",
+      "priceE10Avg": "1.813",
+      "priceGazoleAvg": "1.732"
+    },
+    {
+      "id": "4000004",
+      "cp": "04000",
+      "priceE10Avg": "1.819",
+      "priceGazoleAvg": "1.732"
+    },
+    {
+      "id": "4100001",
+      "cp": "04204",
+      "priceE10Avg": "1.787",
+      "priceGazoleAvg": "1.685"
+    },
+    {
+      "id": "4100002",
+      "cp": "04100",
+      "priceE10Avg": "1.741",
+      "priceGazoleAvg": "1.646"
+    },
+    {
+      "id": "4100003",
+      "cp": "04100",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "4100007",
+      "cp": "04100",
+      "priceE10Avg": "1.741",
+      "priceGazoleAvg": "1.647"
+    },
+    {
+      "id": "4100008",
+      "cp": "04100",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "4100009",
+      "cp": "04100",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.704"
+    },
+    {
+      "id": "4100010",
+      "cp": "04100",
+      "priceE10Avg": "1.867",
+      "priceGazoleAvg": "1.761"
+    },
+    {
+      "id": "4100011",
+      "cp": "04100",
+      "priceE10Avg": "1.750",
+      "priceGazoleAvg": "1.656"
+    },
+    {
+      "id": "4100012",
+      "cp": "04100",
+      "priceE10Avg": "1.824",
+      "priceGazoleAvg": "1.710"
+    },
+    {
+      "id": "4103001",
+      "cp": "04100",
+      "priceE10Avg": "1.749",
+      "priceGazoleAvg": "1.653"
+    },
+    {
+      "id": "4120002",
+      "cp": "04120",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.763"
+    },
+    {
+      "id": "4120003",
+      "cp": "04120",
+      "priceE10Avg": "1.895",
+      "priceGazoleAvg": "1.842"
+    },
+    {
+      "id": "4120004",
+      "cp": "04120",
+      "priceE10Avg": "1.891",
+      "priceGazoleAvg": "1.848"
+    },
+    {
+      "id": "4120005",
+      "cp": "04120",
+      "priceE10Avg": "1.773",
+      "priceGazoleAvg": "1.660"
+    },
+    {
+      "id": "4130001",
+      "cp": "04130",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "4130002",
+      "cp": "04130",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "4130003",
+      "cp": "04130",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "4130004",
+      "cp": "04130",
+      "priceE10Avg": "1.963",
+      "priceGazoleAvg": "1.898"
+    },
+    {
+      "id": "4130005",
+      "cp": "04130",
+      "priceE10Avg": "1.963",
+      "priceGazoleAvg": "1.898"
+    },
+    {
+      "id": "4140001",
+      "cp": "04140",
+      "priceE10Avg": "1.783",
+      "priceGazoleAvg": "1.686"
+    },
+    {
+      "id": "4160001",
+      "cp": "04160",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "4160002",
+      "cp": "04160",
+      "priceE10Avg": "1.924",
+      "priceGazoleAvg": "1.847"
+    },
+    {
+      "id": "4160003",
+      "cp": "04160",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "4160004",
+      "cp": "04160",
+      "priceE10Avg": "1.787",
+      "priceGazoleAvg": "1.692"
+    },
+    {
+      "id": "4160005",
+      "cp": "04160",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "4160006",
+      "cp": "04160",
+      "priceE10Avg": "1.705",
+      "priceGazoleAvg": "1.606"
+    },
+    {
+      "id": "4170001",
+      "cp": "04170",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "4170002",
+      "cp": "04170",
+      "priceE10Avg": "1.920",
+      "priceGazoleAvg": "1.842"
+    },
+    {
+      "id": "4170003",
+      "cp": "04170",
+      "priceE10Avg": "1.853",
+      "priceGazoleAvg": "1.763"
+    },
+    {
+      "id": "4190001",
+      "cp": "04190",
+      "priceE10Avg": "1.802",
+      "priceGazoleAvg": "1.701"
+    },
+    {
+      "id": "4200001",
+      "cp": "04200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "4200003",
+      "cp": "04200",
+      "priceE10Avg": "1.782",
+      "priceGazoleAvg": "1.682"
+    },
+    {
+      "id": "4200006",
+      "cp": "04200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "4200007",
+      "cp": "04200",
+      "priceE10Avg": "1.760",
+      "priceGazoleAvg": "1.665"
+    },
+    {
+      "id": "4200008",
+      "cp": "04200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "4200009",
+      "cp": "04200",
+      "priceE10Avg": "1.978",
+      "priceGazoleAvg": "1.913"
+    },
+    {
+      "id": "4200010",
+      "cp": "04200",
+      "priceE10Avg": "1.806",
+      "priceGazoleAvg": "1.702"
+    },
+    {
+      "id": "4204001",
+      "cp": "04204",
+      "priceE10Avg": "1.775",
+      "priceGazoleAvg": "1.674"
+    },
+    {
+      "id": "4210001",
+      "cp": "04210",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "4210002",
+      "cp": "04210",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "4210004",
+      "cp": "04210",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.704"
+    },
+    {
+      "id": "4210005",
+      "cp": "04210",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "4210006",
+      "cp": "04210",
+      "priceE10Avg": "1.765",
+      "priceGazoleAvg": "1.671"
+    },
+    {
+      "id": "4240002",
+      "cp": "04240",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.712"
+    },
+    {
+      "id": "4260002",
+      "cp": "04260",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.883"
+    },
+    {
+      "id": "4280001",
+      "cp": "04280",
+      "priceE10Avg": "1.790",
+      "priceGazoleAvg": "1.654"
+    },
+    {
+      "id": "4300001",
+      "cp": "04300",
+      "priceE10Avg": "1.864",
+      "priceGazoleAvg": "1.807"
+    },
+    {
+      "id": "4300002",
+      "cp": "04300",
+      "priceE10Avg": "1.783",
+      "priceGazoleAvg": "1.688"
+    },
+    {
+      "id": "4300003",
+      "cp": "04300",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "4300005",
+      "cp": "04300",
+      "priceE10Avg": "1.747",
+      "priceGazoleAvg": "1.642"
+    },
+    {
+      "id": "4320001",
+      "cp": "04320",
+      "priceE10Avg": "1.873",
+      "priceGazoleAvg": "1.767"
+    },
+    {
+      "id": "4320002",
+      "cp": "04320",
+      "priceE10Avg": "1.776",
+      "priceGazoleAvg": "1.670"
+    },
+    {
+      "id": "4330004",
+      "cp": "04330",
+      "priceE10Avg": "1.921",
+      "priceGazoleAvg": "1.860"
+    },
+    {
+      "id": "4360001",
+      "cp": "04360",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.855"
+    },
+    {
+      "id": "4370001",
+      "cp": "04370",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.883"
+    },
+    {
+      "id": "4400001",
+      "cp": "04400",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "4400002",
+      "cp": "04400",
+      "priceE10Avg": "1.819",
+      "priceGazoleAvg": "1.779"
+    },
+    {
+      "id": "4400003",
+      "cp": "04400",
+      "priceE10Avg": "1.860",
+      "priceGazoleAvg": "1.766"
+    },
+    {
+      "id": "4400004",
+      "cp": "04400",
+      "priceE10Avg": "1.854",
+      "priceGazoleAvg": "1.758"
+    },
+    {
+      "id": "4400005",
+      "cp": "04400",
+      "priceE10Avg": "1.884",
+      "priceGazoleAvg": "1.778"
+    },
+    {
+      "id": "4500001",
+      "cp": "04500",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.808"
+    },
+    {
+      "id": "4500002",
+      "cp": "04500",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "4500003",
+      "cp": "04500",
+      "priceE10Avg": "1.791",
+      "priceGazoleAvg": "1.687"
+    },
+    {
+      "id": "4510003",
+      "cp": "04510",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.752"
+    },
+    {
+      "id": "4600002",
+      "cp": "04160",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.745"
+    },
+    {
+      "id": "4700001",
+      "cp": "04700",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "4700002",
+      "cp": "04700",
+      "priceE10Avg": "1.800",
+      "priceGazoleAvg": "1.698"
+    },
+    {
+      "id": "4700003",
+      "cp": "04700",
+      "priceE10Avg": "1.890",
+      "priceGazoleAvg": "1.683"
+    },
+    {
+      "id": "4700004",
+      "cp": "04700",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "4700005",
+      "cp": "04700",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "4700006",
+      "cp": "04700",
+      "priceE10Avg": "1.787",
+      "priceGazoleAvg": "1.686"
+    },
+    {
+      "id": "4800001",
+      "cp": "04800",
+      "priceE10Avg": "1.853",
+      "priceGazoleAvg": "1.777"
+    },
+    {
+      "id": "5000001",
+      "cp": "05000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "5000003",
+      "cp": "05000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "5000005",
+      "cp": "05000",
+      "priceE10Avg": "1.757",
+      "priceGazoleAvg": "1.667"
+    },
+    {
+      "id": "5000006",
+      "cp": "05000",
+      "priceE10Avg": "1.768",
+      "priceGazoleAvg": "1.670"
+    },
+    {
+      "id": "5000008",
+      "cp": "05000",
+      "priceE10Avg": "1.764",
+      "priceGazoleAvg": "1.666"
+    },
+    {
+      "id": "5000010",
+      "cp": "05000",
+      "priceE10Avg": "1.760",
+      "priceGazoleAvg": "1.669"
+    },
+    {
+      "id": "5000011",
+      "cp": "05000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "5000014",
+      "cp": "05000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "5000017",
+      "cp": "05000",
+      "priceE10Avg": "1.856",
+      "priceGazoleAvg": "1.769"
+    },
+    {
+      "id": "5000018",
+      "cp": "05000",
+      "priceE10Avg": "1.856",
+      "priceGazoleAvg": "1.768"
+    },
+    {
+      "id": "5000019",
+      "cp": "05000",
+      "priceE10Avg": "1.725",
+      "priceGazoleAvg": "1.619"
+    },
+    {
+      "id": "5100001",
+      "cp": "05100",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "5100004",
+      "cp": "05100",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.716"
+    },
+    {
+      "id": "5100005",
+      "cp": "05100",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "5100007",
+      "cp": "05100",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "5100008",
+      "cp": "05100",
+      "priceE10Avg": "1.792",
+      "priceGazoleAvg": "1.709"
+    },
+    {
+      "id": "5100009",
+      "cp": "05100",
+      "priceE10Avg": "1.791",
+      "priceGazoleAvg": "1.705"
+    },
+    {
+      "id": "5120002",
+      "cp": "05120",
+      "priceE10Avg": "1.804",
+      "priceGazoleAvg": "1.695"
+    },
+    {
+      "id": "5120003",
+      "cp": "05120",
+      "priceE10Avg": "1.791",
+      "priceGazoleAvg": "1.704"
+    },
+    {
+      "id": "5130001",
+      "cp": "05130",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "5130002",
+      "cp": "05130",
+      "priceE10Avg": "1.759",
+      "priceGazoleAvg": "1.666"
+    },
+    {
+      "id": "5130004",
+      "cp": "05130",
+      "priceE10Avg": "1.808",
+      "priceGazoleAvg": "1.711"
+    },
+    {
+      "id": "5160001",
+      "cp": "05160",
+      "priceE10Avg": "1.773",
+      "priceGazoleAvg": "1.673"
+    },
+    {
+      "id": "5190001",
+      "cp": "05190",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "5190002",
+      "cp": "05190",
+      "priceE10Avg": "1.788",
+      "priceGazoleAvg": "1.691"
+    },
+    {
+      "id": "5200001",
+      "cp": "05200",
+      "priceE10Avg": "1.772",
+      "priceGazoleAvg": "1.673"
+    },
+    {
+      "id": "5200004",
+      "cp": "05200",
+      "priceE10Avg": "1.771",
+      "priceGazoleAvg": "1.674"
+    },
+    {
+      "id": "5200005",
+      "cp": "05200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "5200006",
+      "cp": "05200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "5200007",
+      "cp": "05200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.743"
+    },
+    {
+      "id": "5200008",
+      "cp": "05200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "5200009",
+      "cp": "05200",
+      "priceE10Avg": "1.863",
+      "priceGazoleAvg": "1.764"
+    },
+    {
+      "id": "5220001",
+      "cp": "05220",
+      "priceE10Avg": "1.791",
+      "priceGazoleAvg": "1.704"
+    },
+    {
+      "id": "5230003",
+      "cp": "05230",
+      "priceE10Avg": "1.773",
+      "priceGazoleAvg": "1.675"
+    },
+    {
+      "id": "5230004",
+      "cp": "05230",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "5230006",
+      "cp": "05230",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "5230007",
+      "cp": "05230",
+      "priceE10Avg": "1.774",
+      "priceGazoleAvg": "1.677"
+    },
+    {
+      "id": "5230008",
+      "cp": "05230",
+      "priceE10Avg": "1.774",
+      "priceGazoleAvg": "1.677"
+    },
+    {
+      "id": "5240001",
+      "cp": "05240",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "5240002",
+      "cp": "05240",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "5240003",
+      "cp": "05240",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.732"
+    },
+    {
+      "id": "5240004",
+      "cp": "05240",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.715"
+    },
+    {
+      "id": "5260001",
+      "cp": "05260",
+      "priceE10Avg": "1.872",
+      "priceGazoleAvg": "1.776"
+    },
+    {
+      "id": "5260002",
+      "cp": "05260",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.710"
+    },
+    {
+      "id": "5300001",
+      "cp": "05300",
+      "priceE10Avg": "1.859",
+      "priceGazoleAvg": "1.761"
+    },
+    {
+      "id": "5300002",
+      "cp": "05300",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "5300003",
+      "cp": "05300",
+      "priceE10Avg": "1.791",
+      "priceGazoleAvg": "1.693"
+    },
+    {
+      "id": "5300004",
+      "cp": "05300",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "5300005",
+      "cp": "05300",
+      "priceE10Avg": "1.749",
+      "priceGazoleAvg": "1.643"
+    },
+    {
+      "id": "5350001",
+      "cp": "05350",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.842"
+    },
+    {
+      "id": "5400002",
+      "cp": "05400",
+      "priceE10Avg": "1.791",
+      "priceGazoleAvg": "1.690"
+    },
+    {
+      "id": "5400003",
+      "cp": "05400",
+      "priceE10Avg": "1.819",
+      "priceGazoleAvg": "1.725"
+    },
+    {
+      "id": "5400004",
+      "cp": "05400",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.704"
+    },
+    {
+      "id": "5500001",
+      "cp": "05500",
+      "priceE10Avg": "1.769",
+      "priceGazoleAvg": "1.673"
+    },
+    {
+      "id": "5500002",
+      "cp": "05500",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.699"
+    },
+    {
+      "id": "5560001",
+      "cp": "05560",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "5560002",
+      "cp": "05560",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.817"
+    },
+    {
+      "id": "5600002",
+      "cp": "05600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.698"
+    },
+    {
+      "id": "5600004",
+      "cp": "05600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "5600005",
+      "cp": "05600",
+      "priceE10Avg": "1.805",
+      "priceGazoleAvg": "1.698"
+    },
+    {
+      "id": "5600006",
+      "cp": "05600",
+      "priceE10Avg": "1.793",
+      "priceGazoleAvg": "1.691"
+    },
+    {
+      "id": "5700001",
+      "cp": "05700",
+      "priceE10Avg": "1.805",
+      "priceGazoleAvg": "1.709"
+    },
+    {
+      "id": "5700002",
+      "cp": "05700",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.719"
+    },
+    {
+      "id": "6000001",
+      "cp": "06000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6000006",
+      "cp": "06000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6000007",
+      "cp": "06000",
+      "priceE10Avg": "1.846",
+      "priceGazoleAvg": "1.744"
+    },
+    {
+      "id": "6000009",
+      "cp": "06000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6000010",
+      "cp": "06300",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6000011",
+      "cp": "06200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6000012",
+      "cp": "06000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6000015",
+      "cp": "06000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6000018",
+      "cp": "06000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6000021",
+      "cp": "06000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6000022",
+      "cp": "06000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6000025",
+      "cp": "06100",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6000026",
+      "cp": "06300",
+      "priceE10Avg": "1.889",
+      "priceGazoleAvg": "1.796"
+    },
+    {
+      "id": "6000027",
+      "cp": "06000",
+      "priceE10Avg": "1.889",
+      "priceGazoleAvg": "1.791"
+    },
+    {
+      "id": "6000028",
+      "cp": "06000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6000029",
+      "cp": "06000",
+      "priceE10Avg": "1.796",
+      "priceGazoleAvg": "1.699"
+    },
+    {
+      "id": "6000030",
+      "cp": "06000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6000031",
+      "cp": "06000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6000032",
+      "cp": "06000",
+      "priceE10Avg": "1.855",
+      "priceGazoleAvg": "1.763"
+    },
+    {
+      "id": "6000033",
+      "cp": "06000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6000036",
+      "cp": "06000",
+      "priceE10Avg": "1.853",
+      "priceGazoleAvg": "1.759"
+    },
+    {
+      "id": "6013001",
+      "cp": "06130",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6100003",
+      "cp": "06100",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6100004",
+      "cp": "06100",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6100006",
+      "cp": "06100",
+      "priceE10Avg": "1.856",
+      "priceGazoleAvg": "1.763"
+    },
+    {
+      "id": "6110001",
+      "cp": "06110",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6110002",
+      "cp": "06110",
+      "priceE10Avg": "1.831",
+      "priceGazoleAvg": "1.745"
+    },
+    {
+      "id": "6110004",
+      "cp": "06110",
+      "priceE10Avg": "1.782",
+      "priceGazoleAvg": "1.681"
+    },
+    {
+      "id": "6110005",
+      "cp": "06110",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6110006",
+      "cp": "06110",
+      "priceE10Avg": "1.765",
+      "priceGazoleAvg": "1.707"
+    },
+    {
+      "id": "6110007",
+      "cp": "06110",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6110008",
+      "cp": "06110",
+      "priceE10Avg": "1.884",
+      "priceGazoleAvg": "1.789"
+    },
+    {
+      "id": "6110009",
+      "cp": "06110",
+      "priceE10Avg": "1.756",
+      "priceGazoleAvg": "1.665"
+    },
+    {
+      "id": "6110010",
+      "cp": "06110",
+      "priceE10Avg": "1.732",
+      "priceGazoleAvg": "1.624"
+    },
+    {
+      "id": "6130001",
+      "cp": "06130",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6130002",
+      "cp": "06130",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6130003",
+      "cp": "06310",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6130005",
+      "cp": "06130",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6130006",
+      "cp": "06130",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6130007",
+      "cp": "06130",
+      "priceE10Avg": "1.769",
+      "priceGazoleAvg": "1.680"
+    },
+    {
+      "id": "6130008",
+      "cp": "06130",
+      "priceE10Avg": "1.791",
+      "priceGazoleAvg": "1.696"
+    },
+    {
+      "id": "6130009",
+      "cp": "06130",
+      "priceE10Avg": "1.927",
+      "priceGazoleAvg": "1.800"
+    },
+    {
+      "id": "6130010",
+      "cp": "06130",
+      "priceE10Avg": "1.847",
+      "priceGazoleAvg": "1.755"
+    },
+    {
+      "id": "6130012",
+      "cp": "06130",
+      "priceE10Avg": "1.773",
+      "priceGazoleAvg": "1.683"
+    },
+    {
+      "id": "6130013",
+      "cp": "06130",
+      "priceE10Avg": "1.751",
+      "priceGazoleAvg": "1.675"
+    },
+    {
+      "id": "6140001",
+      "cp": "06140",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6140004",
+      "cp": "06140",
+      "priceE10Avg": "1.893",
+      "priceGazoleAvg": "1.789"
+    },
+    {
+      "id": "6140005",
+      "cp": "06140",
+      "priceE10Avg": "1.867",
+      "priceGazoleAvg": "1.765"
+    },
+    {
+      "id": "6150003",
+      "cp": "06150",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6150004",
+      "cp": "06150",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6150005",
+      "cp": "06150",
+      "priceE10Avg": "1.806",
+      "priceGazoleAvg": "1.701"
+    },
+    {
+      "id": "6150006",
+      "cp": "06150",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6150007",
+      "cp": "06150",
+      "priceE10Avg": "1.739",
+      "priceGazoleAvg": "1.646"
+    },
+    {
+      "id": "6150008",
+      "cp": "06150",
+      "priceE10Avg": "1.787",
+      "priceGazoleAvg": "1.680"
+    },
+    {
+      "id": "6150011",
+      "cp": "06150",
+      "priceE10Avg": "1.888",
+      "priceGazoleAvg": "1.809"
+    },
+    {
+      "id": "6150012",
+      "cp": "06150",
+      "priceE10Avg": "1.775",
+      "priceGazoleAvg": "1.654"
+    },
+    {
+      "id": "6156001",
+      "cp": "06150",
+      "priceE10Avg": "1.790",
+      "priceGazoleAvg": "1.690"
+    },
+    {
+      "id": "6160007",
+      "cp": "06160",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6160008",
+      "cp": "06160",
+      "priceE10Avg": "1.908",
+      "priceGazoleAvg": "1.832"
+    },
+    {
+      "id": "6190004",
+      "cp": "06190",
+      "priceE10Avg": "1.871",
+      "priceGazoleAvg": "1.772"
+    },
+    {
+      "id": "6190006",
+      "cp": "06190",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6190007",
+      "cp": "06190",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6190008",
+      "cp": "06190",
+      "priceE10Avg": "1.845",
+      "priceGazoleAvg": "1.740"
+    },
+    {
+      "id": "6190011",
+      "cp": "06190",
+      "priceE10Avg": "1.929",
+      "priceGazoleAvg": "1.840"
+    },
+    {
+      "id": "6200002",
+      "cp": "06200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6200005",
+      "cp": "06200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6200007",
+      "cp": "06000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6200008",
+      "cp": "06200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6200009",
+      "cp": "06200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6200012",
+      "cp": "06200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6200014",
+      "cp": "06200",
+      "priceE10Avg": "1.786",
+      "priceGazoleAvg": "1.689"
+    },
+    {
+      "id": "6200017",
+      "cp": "06200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6200018",
+      "cp": "06200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6200019",
+      "cp": "06200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6200021",
+      "cp": "06200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6200022",
+      "cp": "06200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6200024",
+      "cp": "06200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6200025",
+      "cp": "06200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6200026",
+      "cp": "06200",
+      "priceE10Avg": "1.790",
+      "priceGazoleAvg": "1.696"
+    },
+    {
+      "id": "6200027",
+      "cp": "06200",
+      "priceE10Avg": "1.755",
+      "priceGazoleAvg": "1.664"
+    },
+    {
+      "id": "6200028",
+      "cp": "06200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6200031",
+      "cp": "06200",
+      "priceE10Avg": "1.892",
+      "priceGazoleAvg": "1.789"
+    },
+    {
+      "id": "6200032",
+      "cp": "06200",
+      "priceE10Avg": "1.850",
+      "priceGazoleAvg": "1.749"
+    },
+    {
+      "id": "6200033",
+      "cp": "06200",
+      "priceE10Avg": "1.860",
+      "priceGazoleAvg": "1.786"
+    },
+    {
+      "id": "6201001",
+      "cp": "06200",
+      "priceE10Avg": "1.747",
+      "priceGazoleAvg": "1.668"
+    },
+    {
+      "id": "6201002",
+      "cp": "06200",
+      "priceE10Avg": "1.732",
+      "priceGazoleAvg": "1.642"
+    },
+    {
+      "id": "6210009",
+      "cp": "06210",
+      "priceE10Avg": "1.823",
+      "priceGazoleAvg": "1.699"
+    },
+    {
+      "id": "6210010",
+      "cp": "06210",
+      "priceE10Avg": "1.718",
+      "priceGazoleAvg": "1.608"
+    },
+    {
+      "id": "6211001",
+      "cp": "06210",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6220001",
+      "cp": "06220",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6220003",
+      "cp": "06220",
+      "priceE10Avg": "1.792",
+      "priceGazoleAvg": "1.697"
+    },
+    {
+      "id": "6220004",
+      "cp": "06220",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6220005",
+      "cp": "06220",
+      "priceE10Avg": "1.873",
+      "priceGazoleAvg": "1.782"
+    },
+    {
+      "id": "6220006",
+      "cp": "06220",
+      "priceE10Avg": "1.743",
+      "priceGazoleAvg": "1.652"
+    },
+    {
+      "id": "6220007",
+      "cp": "06220",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6230001",
+      "cp": "06230",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6230002",
+      "cp": "06230",
+      "priceE10Avg": "1.798",
+      "priceGazoleAvg": "1.704"
+    },
+    {
+      "id": "6230003",
+      "cp": "06230",
+      "priceE10Avg": "1.895",
+      "priceGazoleAvg": "1.802"
+    },
+    {
+      "id": "6240003",
+      "cp": "06240",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6240004",
+      "cp": "06240",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.803"
+    },
+    {
+      "id": "6240006",
+      "cp": "06240",
+      "priceE10Avg": "1.910",
+      "priceGazoleAvg": "1.826"
+    },
+    {
+      "id": "6250001",
+      "cp": "06250",
+      "priceE10Avg": "1.776",
+      "priceGazoleAvg": "1.676"
+    },
+    {
+      "id": "6250003",
+      "cp": "06250",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6250004",
+      "cp": "06250",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6250005",
+      "cp": "06250",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6250006",
+      "cp": "06250",
+      "priceE10Avg": "2.144",
+      "priceGazoleAvg": "1.994"
+    },
+    {
+      "id": "6250008",
+      "cp": "06250",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6250009",
+      "cp": "06250",
+      "priceE10Avg": "1.917",
+      "priceGazoleAvg": "1.834"
+    },
+    {
+      "id": "6250010",
+      "cp": "06250",
+      "priceE10Avg": "1.791",
+      "priceGazoleAvg": "1.689"
+    },
+    {
+      "id": "6250011",
+      "cp": "06250",
+      "priceE10Avg": "1.820",
+      "priceGazoleAvg": "1.694"
+    },
+    {
+      "id": "6260001",
+      "cp": "06260",
+      "priceE10Avg": "1.878",
+      "priceGazoleAvg": "1.770"
+    },
+    {
+      "id": "6260002",
+      "cp": "06260",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.653"
+    },
+    {
+      "id": "6270001",
+      "cp": "06270",
+      "priceE10Avg": "1.785",
+      "priceGazoleAvg": "1.737"
+    },
+    {
+      "id": "6270002",
+      "cp": "06270",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6270003",
+      "cp": "06270",
+      "priceE10Avg": "1.809",
+      "priceGazoleAvg": "1.688"
+    },
+    {
+      "id": "6270004",
+      "cp": "06270",
+      "priceE10Avg": "1.748",
+      "priceGazoleAvg": "1.637"
+    },
+    {
+      "id": "6281001",
+      "cp": "06200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6281002",
+      "cp": "06281",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6296001",
+      "cp": "06200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.774"
+    },
+    {
+      "id": "6300002",
+      "cp": "06300",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6300003",
+      "cp": "06300",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6300004",
+      "cp": "06300",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6300005",
+      "cp": "06300",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6300008",
+      "cp": "06300",
+      "priceE10Avg": "1.796",
+      "priceGazoleAvg": "1.702"
+    },
+    {
+      "id": "6300010",
+      "cp": "06300",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6300011",
+      "cp": "06300",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6300012",
+      "cp": "06300",
+      "priceE10Avg": "1.931",
+      "priceGazoleAvg": "1.851"
+    },
+    {
+      "id": "6300014",
+      "cp": "06300",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6300015",
+      "cp": "06300",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6300016",
+      "cp": "06300",
+      "priceE10Avg": "1.889",
+      "priceGazoleAvg": "1.797"
+    },
+    {
+      "id": "6300017",
+      "cp": "06300",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6300018",
+      "cp": "06300",
+      "priceE10Avg": "1.792",
+      "priceGazoleAvg": "1.697"
+    },
+    {
+      "id": "6300019",
+      "cp": "06300",
+      "priceE10Avg": "1.989",
+      "priceGazoleAvg": "1.958"
+    },
+    {
+      "id": "6310001",
+      "cp": "06310",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6310002",
+      "cp": "06310",
+      "priceE10Avg": "1.927",
+      "priceGazoleAvg": "1.802"
+    },
+    {
+      "id": "6320001",
+      "cp": "06320",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6320002",
+      "cp": "06320",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6320003",
+      "cp": "06320",
+      "priceE10Avg": "1.931",
+      "priceGazoleAvg": "1.846"
+    },
+    {
+      "id": "6320004",
+      "cp": "06320",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.861"
+    },
+    {
+      "id": "6320005",
+      "cp": "06320",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6320006",
+      "cp": "06320",
+      "priceE10Avg": "1.892",
+      "priceGazoleAvg": "1.811"
+    },
+    {
+      "id": "6330002",
+      "cp": "06330",
+      "priceE10Avg": "1.824",
+      "priceGazoleAvg": "1.726"
+    },
+    {
+      "id": "6330003",
+      "cp": "06330",
+      "priceE10Avg": "1.858",
+      "priceGazoleAvg": "1.755"
+    },
+    {
+      "id": "6340001",
+      "cp": "06340",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.772"
+    },
+    {
+      "id": "6340002",
+      "cp": "06340",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.712"
+    },
+    {
+      "id": "6345001",
+      "cp": "06345",
+      "priceE10Avg": "1.786",
+      "priceGazoleAvg": "1.691"
+    },
+    {
+      "id": "6360001",
+      "cp": "06360",
+      "priceE10Avg": "2.012",
+      "priceGazoleAvg": "1.972"
+    },
+    {
+      "id": "6370001",
+      "cp": "06370",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6370002",
+      "cp": "06370",
+      "priceE10Avg": "1.725",
+      "priceGazoleAvg": "1.629"
+    },
+    {
+      "id": "6380001",
+      "cp": "06380",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6390001",
+      "cp": "06390",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6400001",
+      "cp": "06400",
+      "priceE10Avg": "1.883",
+      "priceGazoleAvg": "1.786"
+    },
+    {
+      "id": "6400004",
+      "cp": "06400",
+      "priceE10Avg": "1.785",
+      "priceGazoleAvg": "1.683"
+    },
+    {
+      "id": "6400005",
+      "cp": "06400",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.855"
+    },
+    {
+      "id": "6400006",
+      "cp": "06400",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6400007",
+      "cp": "06600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6400009",
+      "cp": "06400",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6400010",
+      "cp": "06400",
+      "priceE10Avg": "1.882",
+      "priceGazoleAvg": "1.785"
+    },
+    {
+      "id": "6400011",
+      "cp": "06400",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6400012",
+      "cp": "06400",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6400013",
+      "cp": "06400",
+      "priceE10Avg": "1.839",
+      "priceGazoleAvg": "1.740"
+    },
+    {
+      "id": "6410003",
+      "cp": "06410",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.818"
+    },
+    {
+      "id": "6420001",
+      "cp": "06420",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.882"
+    },
+    {
+      "id": "6430001",
+      "cp": "06430",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.821"
+    },
+    {
+      "id": "6440001",
+      "cp": "06440",
+      "priceE10Avg": "1.747",
+      "priceGazoleAvg": "1.650"
+    },
+    {
+      "id": "6450001",
+      "cp": "06450",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6450002",
+      "cp": "06450",
+      "priceE10Avg": "1.891",
+      "priceGazoleAvg": "1.790"
+    },
+    {
+      "id": "6460001",
+      "cp": "06460",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6460002",
+      "cp": "06460",
+      "priceE10Avg": "1.814",
+      "priceGazoleAvg": "1.722"
+    },
+    {
+      "id": "6480002",
+      "cp": "06480",
+      "priceE10Avg": "1.731",
+      "priceGazoleAvg": "1.641"
+    },
+    {
+      "id": "6500001",
+      "cp": "06500",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6500004",
+      "cp": "06500",
+      "priceE10Avg": "1.801",
+      "priceGazoleAvg": "1.756"
+    },
+    {
+      "id": "6500005",
+      "cp": "06500",
+      "priceE10Avg": "1.854",
+      "priceGazoleAvg": "1.754"
+    },
+    {
+      "id": "6500007",
+      "cp": "06500",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6500008",
+      "cp": "06500",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.818"
+    },
+    {
+      "id": "6500010",
+      "cp": "06500",
+      "priceE10Avg": "1.848",
+      "priceGazoleAvg": "1.744"
+    },
+    {
+      "id": "6510001",
+      "cp": "06510",
+      "priceE10Avg": "1.906",
+      "priceGazoleAvg": "1.822"
+    },
+    {
+      "id": "6510002",
+      "cp": "06510",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6510003",
+      "cp": "06510",
+      "priceE10Avg": "1.789",
+      "priceGazoleAvg": "1.688"
+    },
+    {
+      "id": "6520001",
+      "cp": "06520",
+      "priceE10Avg": "1.783",
+      "priceGazoleAvg": "1.685"
+    },
+    {
+      "id": "6530001",
+      "cp": "06530",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6530002",
+      "cp": "06530",
+      "priceE10Avg": "1.797",
+      "priceGazoleAvg": "1.683"
+    },
+    {
+      "id": "6530003",
+      "cp": "06530",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6530004",
+      "cp": "06530",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6530006",
+      "cp": "06530",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6530007",
+      "cp": "06530",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.696"
+    },
+    {
+      "id": "6530008",
+      "cp": "06530",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.713"
+    },
+    {
+      "id": "6540002",
+      "cp": "06540",
+      "priceE10Avg": "2.009",
+      "priceGazoleAvg": "1.903"
+    },
+    {
+      "id": "6550001",
+      "cp": "06550",
+      "priceE10Avg": "1.879",
+      "priceGazoleAvg": "1.787"
+    },
+    {
+      "id": "6550002",
+      "cp": "06550",
+      "priceE10Avg": "1.782",
+      "priceGazoleAvg": "1.682"
+    },
+    {
+      "id": "6560001",
+      "cp": "06560",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.670"
+    },
+    {
+      "id": "6560003",
+      "cp": "06560",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6560005",
+      "cp": "06560",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6560006",
+      "cp": "06560",
+      "priceE10Avg": "1.865",
+      "priceGazoleAvg": "1.770"
+    },
+    {
+      "id": "6580001",
+      "cp": "06580",
+      "priceE10Avg": "1.768",
+      "priceGazoleAvg": "1.669"
+    },
+    {
+      "id": "6600001",
+      "cp": "06600",
+      "priceE10Avg": "1.768",
+      "priceGazoleAvg": "1.687"
+    },
+    {
+      "id": "6600003",
+      "cp": "06600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6600006",
+      "cp": "06600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6600007",
+      "cp": "06600",
+      "priceE10Avg": "1.874",
+      "priceGazoleAvg": "1.789"
+    },
+    {
+      "id": "6600008",
+      "cp": "06600",
+      "priceE10Avg": "1.804",
+      "priceGazoleAvg": "1.720"
+    },
+    {
+      "id": "6600009",
+      "cp": "06600",
+      "priceE10Avg": "1.804",
+      "priceGazoleAvg": "1.719"
+    },
+    {
+      "id": "6600010",
+      "cp": "06600",
+      "priceE10Avg": "1.803",
+      "priceGazoleAvg": "1.713"
+    },
+    {
+      "id": "6600012",
+      "cp": "06600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.812"
+    },
+    {
+      "id": "6600013",
+      "cp": "06600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6600014",
+      "cp": "06160",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6600017",
+      "cp": "06600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6600018",
+      "cp": "06600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6600019",
+      "cp": "06600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6600021",
+      "cp": "06600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6600022",
+      "cp": "06600",
+      "priceE10Avg": "1.882",
+      "priceGazoleAvg": "1.795"
+    },
+    {
+      "id": "6600023",
+      "cp": "06600",
+      "priceE10Avg": "1.875",
+      "priceGazoleAvg": "1.788"
+    },
+    {
+      "id": "6600024",
+      "cp": "06600",
+      "priceE10Avg": "1.767",
+      "priceGazoleAvg": "1.681"
+    },
+    {
+      "id": "6600026",
+      "cp": "06600",
+      "priceE10Avg": "1.717",
+      "priceGazoleAvg": "1.624"
+    },
+    {
+      "id": "6600027",
+      "cp": "06600",
+      "priceE10Avg": "1.709",
+      "priceGazoleAvg": "1.613"
+    },
+    {
+      "id": "6610001",
+      "cp": "06610",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6610002",
+      "cp": "06610",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.775"
+    },
+    {
+      "id": "6610003",
+      "cp": "06610",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6610005",
+      "cp": "06610",
+      "priceE10Avg": "1.841",
+      "priceGazoleAvg": "1.742"
+    },
+    {
+      "id": "6640001",
+      "cp": "06640",
+      "priceE10Avg": "1.866",
+      "priceGazoleAvg": "1.804"
+    },
+    {
+      "id": "6650001",
+      "cp": "06650",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6650002",
+      "cp": "06650",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.930"
+    },
+    {
+      "id": "6650003",
+      "cp": "06650",
+      "priceE10Avg": "2.080",
+      "priceGazoleAvg": "1.999"
+    },
+    {
+      "id": "6650004",
+      "cp": "06650",
+      "priceE10Avg": "1.717",
+      "priceGazoleAvg": "1.611"
+    },
+    {
+      "id": "6650005",
+      "cp": "06650",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6660002",
+      "cp": "06660",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6670003",
+      "cp": "06670",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6670004",
+      "cp": "06670",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6670005",
+      "cp": "06670",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6670007",
+      "cp": "06670",
+      "priceE10Avg": "1.783",
+      "priceGazoleAvg": "1.683"
+    },
+    {
+      "id": "6670008",
+      "cp": "06670",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.941"
+    },
+    {
+      "id": "6670009",
+      "cp": "06670",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6670010",
+      "cp": "06670",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.857"
+    },
+    {
+      "id": "6670011",
+      "cp": "06670",
+      "priceE10Avg": "1.816",
+      "priceGazoleAvg": "1.715"
+    },
+    {
+      "id": "6670012",
+      "cp": "06670",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6700002",
+      "cp": "06700",
+      "priceE10Avg": "1.874",
+      "priceGazoleAvg": "1.783"
+    },
+    {
+      "id": "6700003",
+      "cp": "06700",
+      "priceE10Avg": "1.900",
+      "priceGazoleAvg": "1.816"
+    },
+    {
+      "id": "6700004",
+      "cp": "06700",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6700005",
+      "cp": "06700",
+      "priceE10Avg": "1.855",
+      "priceGazoleAvg": "1.808"
+    },
+    {
+      "id": "6700006",
+      "cp": "06700",
+      "priceE10Avg": "1.867",
+      "priceGazoleAvg": "1.780"
+    },
+    {
+      "id": "6700007",
+      "cp": "06700",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6700008",
+      "cp": "06700",
+      "priceE10Avg": "1.908",
+      "priceGazoleAvg": "1.821"
+    },
+    {
+      "id": "6750002",
+      "cp": "06750",
+      "priceE10Avg": "1.838",
+      "priceGazoleAvg": "1.741"
+    },
+    {
+      "id": "6770001",
+      "cp": "06510",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6770002",
+      "cp": "06770",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6800001",
+      "cp": "06800",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6800002",
+      "cp": "06800",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6800004",
+      "cp": "06800",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6800005",
+      "cp": "06800",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6800006",
+      "cp": "06800",
+      "priceE10Avg": "1.898",
+      "priceGazoleAvg": "1.806"
+    },
+    {
+      "id": "6800011",
+      "cp": "06800",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6800016",
+      "cp": "06800",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6800017",
+      "cp": "06800",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6800018",
+      "cp": "06800",
+      "priceE10Avg": "1.873",
+      "priceGazoleAvg": "1.783"
+    },
+    {
+      "id": "6800019",
+      "cp": "06800",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6800020",
+      "cp": "06800",
+      "priceE10Avg": "1.765",
+      "priceGazoleAvg": "1.670"
+    },
+    {
+      "id": "6800022",
+      "cp": "06800",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6800023",
+      "cp": "06800",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6800024",
+      "cp": "06800",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6800025",
+      "cp": "06800",
+      "priceE10Avg": "1.823",
+      "priceGazoleAvg": "1.694"
+    },
+    {
+      "id": "6800026",
+      "cp": "06800",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6800027",
+      "cp": "06800",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6800029",
+      "cp": "06800",
+      "priceE10Avg": "1.890",
+      "priceGazoleAvg": "1.784"
+    },
+    {
+      "id": "6800030",
+      "cp": "06800",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "6800031",
+      "cp": "06800",
+      "priceE10Avg": "1.885",
+      "priceGazoleAvg": "1.799"
+    },
+    {
+      "id": "13000001",
+      "cp": "13004",
+      "priceE10Avg": "1.769",
+      "priceGazoleAvg": "1.670"
+    },
+    {
+      "id": "13000003",
+      "cp": "13000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.763"
+    },
+    {
+      "id": "13001002",
+      "cp": "13001",
+      "priceE10Avg": "1.714",
+      "priceGazoleAvg": "1.610"
+    },
+    {
+      "id": "13002003",
+      "cp": "13002",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13002004",
+      "cp": "13002",
+      "priceE10Avg": "1.863",
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13003001",
+      "cp": "13003",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13003003",
+      "cp": "13003",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13003004",
+      "cp": "13003",
+      "priceE10Avg": "1.763",
+      "priceGazoleAvg": "1.666"
+    },
+    {
+      "id": "13004003",
+      "cp": "13004",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13004004",
+      "cp": "13004",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13004005",
+      "cp": "13004",
+      "priceE10Avg": "1.765",
+      "priceGazoleAvg": "1.665"
+    },
+    {
+      "id": "13005002",
+      "cp": "13005",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13005005",
+      "cp": "13005",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13005009",
+      "cp": "13005",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13005010",
+      "cp": "13005",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13005011",
+      "cp": "13005",
+      "priceE10Avg": "1.870",
+      "priceGazoleAvg": "1.767"
+    },
+    {
+      "id": "13005012",
+      "cp": "13005",
+      "priceE10Avg": "1.860",
+      "priceGazoleAvg": "1.763"
+    },
+    {
+      "id": "13005013",
+      "cp": "13005",
+      "priceE10Avg": "1.765",
+      "priceGazoleAvg": "1.665"
+    },
+    {
+      "id": "13006002",
+      "cp": "13006",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13006003",
+      "cp": "13006",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13006004",
+      "cp": "13006",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13006005",
+      "cp": "13006",
+      "priceE10Avg": "1.843",
+      "priceGazoleAvg": "1.766"
+    },
+    {
+      "id": "13007001",
+      "cp": "13007",
+      "priceE10Avg": "1.770",
+      "priceGazoleAvg": "1.670"
+    },
+    {
+      "id": "13007002",
+      "cp": "13007",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13007007",
+      "cp": "13007",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13007008",
+      "cp": "13007",
+      "priceE10Avg": "1.901",
+      "priceGazoleAvg": "1.817"
+    },
+    {
+      "id": "13008001",
+      "cp": "13008",
+      "priceE10Avg": "1.769",
+      "priceGazoleAvg": "1.670"
+    },
+    {
+      "id": "13008003",
+      "cp": "13008",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13008004",
+      "cp": "13008",
+      "priceE10Avg": "1.765",
+      "priceGazoleAvg": "1.665"
+    },
+    {
+      "id": "13008008",
+      "cp": "13008",
+      "priceE10Avg": "1.749",
+      "priceGazoleAvg": "1.651"
+    },
+    {
+      "id": "13008012",
+      "cp": "13008",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13008013",
+      "cp": "13008",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13008014",
+      "cp": "13008",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.915"
+    },
+    {
+      "id": "13008015",
+      "cp": "13008",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13008016",
+      "cp": "13008",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13008017",
+      "cp": "13008",
+      "priceE10Avg": "1.758",
+      "priceGazoleAvg": "1.659"
+    },
+    {
+      "id": "13008018",
+      "cp": "13008",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.940"
+    },
+    {
+      "id": "13008019",
+      "cp": "13008",
+      "priceE10Avg": "1.901",
+      "priceGazoleAvg": "1.817"
+    },
+    {
+      "id": "13009001",
+      "cp": "13009",
+      "priceE10Avg": "1.827",
+      "priceGazoleAvg": "1.746"
+    },
+    {
+      "id": "13009002",
+      "cp": "13009",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13009003",
+      "cp": "13009",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13009004",
+      "cp": "13009",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13009005",
+      "cp": "13009",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13009006",
+      "cp": "13009",
+      "priceE10Avg": "1.724",
+      "priceGazoleAvg": "1.632"
+    },
+    {
+      "id": "13009008",
+      "cp": "13009",
+      "priceE10Avg": "1.757",
+      "priceGazoleAvg": "1.659"
+    },
+    {
+      "id": "13009009",
+      "cp": "13009",
+      "priceE10Avg": "1.829",
+      "priceGazoleAvg": "1.712"
+    },
+    {
+      "id": "13009011",
+      "cp": "13009",
+      "priceE10Avg": "1.707",
+      "priceGazoleAvg": "1.605"
+    },
+    {
+      "id": "13010001",
+      "cp": "13010",
+      "priceE10Avg": "1.758",
+      "priceGazoleAvg": "1.657"
+    },
+    {
+      "id": "13010002",
+      "cp": "13009",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13010005",
+      "cp": "13010",
+      "priceE10Avg": "1.770",
+      "priceGazoleAvg": "1.670"
+    },
+    {
+      "id": "13010007",
+      "cp": "13010",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13010009",
+      "cp": "13010",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13010010",
+      "cp": "13010",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13010011",
+      "cp": "13010",
+      "priceE10Avg": "1.757",
+      "priceGazoleAvg": "1.659"
+    },
+    {
+      "id": "13010012",
+      "cp": "13010",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13011003",
+      "cp": "13011",
+      "priceE10Avg": "1.812",
+      "priceGazoleAvg": "1.723"
+    },
+    {
+      "id": "13011006",
+      "cp": "13011",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13011007",
+      "cp": "13011",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13011012",
+      "cp": "13011",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13011014",
+      "cp": "13011",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13011015",
+      "cp": "13011",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13011016",
+      "cp": "13011",
+      "priceE10Avg": "1.874",
+      "priceGazoleAvg": "1.782"
+    },
+    {
+      "id": "13011017",
+      "cp": "13011",
+      "priceE10Avg": "1.758",
+      "priceGazoleAvg": "1.667"
+    },
+    {
+      "id": "13011018",
+      "cp": "13011",
+      "priceE10Avg": "1.783",
+      "priceGazoleAvg": "1.687"
+    },
+    {
+      "id": "13011019",
+      "cp": "13011",
+      "priceE10Avg": "1.775",
+      "priceGazoleAvg": "1.679"
+    },
+    {
+      "id": "13011020",
+      "cp": "13011",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13011021",
+      "cp": "13011",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13011022",
+      "cp": "13011",
+      "priceE10Avg": "1.765",
+      "priceGazoleAvg": "1.670"
+    },
+    {
+      "id": "13011023",
+      "cp": "13011",
+      "priceE10Avg": "1.817",
+      "priceGazoleAvg": "1.726"
+    },
+    {
+      "id": "13011024",
+      "cp": "13011",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13011025",
+      "cp": "13011",
+      "priceE10Avg": "1.909",
+      "priceGazoleAvg": "1.825"
+    },
+    {
+      "id": "13011026",
+      "cp": "13011",
+      "priceE10Avg": "1.724",
+      "priceGazoleAvg": "1.621"
+    },
+    {
+      "id": "13011027",
+      "cp": "13011",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13012001",
+      "cp": "13012",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13012003",
+      "cp": "13012",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13012012",
+      "cp": "13012",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13012016",
+      "cp": "13012",
+      "priceE10Avg": "1.769",
+      "priceGazoleAvg": "1.671"
+    },
+    {
+      "id": "13012018",
+      "cp": "13012",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13012021",
+      "cp": "13012",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13012022",
+      "cp": "13012",
+      "priceE10Avg": "1.762",
+      "priceGazoleAvg": "1.666"
+    },
+    {
+      "id": "13012023",
+      "cp": "13012",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13012024",
+      "cp": "13012",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.669"
+    },
+    {
+      "id": "13012025",
+      "cp": "13012",
+      "priceE10Avg": "1.803",
+      "priceGazoleAvg": "1.677"
+    },
+    {
+      "id": "13012027",
+      "cp": "13012",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13012028",
+      "cp": "13012",
+      "priceE10Avg": "1.794",
+      "priceGazoleAvg": "1.685"
+    },
+    {
+      "id": "13012029",
+      "cp": "13012",
+      "priceE10Avg": "1.704",
+      "priceGazoleAvg": "1.601"
+    },
+    {
+      "id": "13013002",
+      "cp": "13013",
+      "priceE10Avg": "1.902",
+      "priceGazoleAvg": "1.778"
+    },
+    {
+      "id": "13013003",
+      "cp": "13013",
+      "priceE10Avg": "1.909",
+      "priceGazoleAvg": "1.797"
+    },
+    {
+      "id": "13013004",
+      "cp": "13013",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13013007",
+      "cp": "13013",
+      "priceE10Avg": "1.792",
+      "priceGazoleAvg": "1.745"
+    },
+    {
+      "id": "13013008",
+      "cp": "13013",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13013010",
+      "cp": "13013",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13013011",
+      "cp": "13013",
+      "priceE10Avg": "1.774",
+      "priceGazoleAvg": "1.694"
+    },
+    {
+      "id": "13013012",
+      "cp": "13014",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.755"
+    },
+    {
+      "id": "13013013",
+      "cp": "13013",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13013014",
+      "cp": "13013",
+      "priceE10Avg": "1.909",
+      "priceGazoleAvg": "1.825"
+    },
+    {
+      "id": "13013015",
+      "cp": "13013",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13013016",
+      "cp": "13013",
+      "priceE10Avg": "1.771",
+      "priceGazoleAvg": "1.687"
+    },
+    {
+      "id": "13013017",
+      "cp": "13013",
+      "priceE10Avg": "1.765",
+      "priceGazoleAvg": "1.668"
+    },
+    {
+      "id": "13013018",
+      "cp": "13013",
+      "priceE10Avg": "1.727",
+      "priceGazoleAvg": "1.627"
+    },
+    {
+      "id": "13013019",
+      "cp": "13013",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13014001",
+      "cp": "13014",
+      "priceE10Avg": "1.773",
+      "priceGazoleAvg": "1.674"
+    },
+    {
+      "id": "13014006",
+      "cp": "13014",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13014008",
+      "cp": "13014",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13014010",
+      "cp": "13014",
+      "priceE10Avg": "1.838",
+      "priceGazoleAvg": "1.742"
+    },
+    {
+      "id": "13014011",
+      "cp": "13014",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13014013",
+      "cp": "13014",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13014015",
+      "cp": "13014",
+      "priceE10Avg": "1.908",
+      "priceGazoleAvg": "1.825"
+    },
+    {
+      "id": "13015004",
+      "cp": "13015",
+      "priceE10Avg": "1.767",
+      "priceGazoleAvg": "1.663"
+    },
+    {
+      "id": "13015006",
+      "cp": "13015",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13015011",
+      "cp": "13015",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13015012",
+      "cp": "13015",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13015013",
+      "cp": "13015",
+      "priceE10Avg": "1.909",
+      "priceGazoleAvg": "1.825"
+    },
+    {
+      "id": "13015014",
+      "cp": "13015",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13015015",
+      "cp": "13015",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13015016",
+      "cp": "13015",
+      "priceE10Avg": "1.909",
+      "priceGazoleAvg": "1.825"
+    },
+    {
+      "id": "13015018",
+      "cp": "13015",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13015019",
+      "cp": "13015",
+      "priceE10Avg": "1.762",
+      "priceGazoleAvg": "1.659"
+    },
+    {
+      "id": "13016002",
+      "cp": "13016",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13016005",
+      "cp": "13016",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13016006",
+      "cp": "13016",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13016007",
+      "cp": "13016",
+      "priceE10Avg": "1.845",
+      "priceGazoleAvg": "1.755"
+    },
+    {
+      "id": "13016008",
+      "cp": "13016",
+      "priceE10Avg": "1.759",
+      "priceGazoleAvg": "1.660"
+    },
+    {
+      "id": "13090001",
+      "cp": "13090",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13090006",
+      "cp": "13090",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13090014",
+      "cp": "13090",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13090016",
+      "cp": "13090",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13090017",
+      "cp": "13090",
+      "priceE10Avg": "1.753",
+      "priceGazoleAvg": "1.663"
+    },
+    {
+      "id": "13090018",
+      "cp": "13090",
+      "priceE10Avg": "1.757",
+      "priceGazoleAvg": "1.665"
+    },
+    {
+      "id": "13090019",
+      "cp": "13090",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13090020",
+      "cp": "13090",
+      "priceE10Avg": "1.910",
+      "priceGazoleAvg": "1.815"
+    },
+    {
+      "id": "13090021",
+      "cp": "13090",
+      "priceE10Avg": "1.704",
+      "priceGazoleAvg": "1.611"
+    },
+    {
+      "id": "13097001",
+      "cp": "13090",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13100001",
+      "cp": "13100",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13100002",
+      "cp": "13090",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13100004",
+      "cp": "13290",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13100005",
+      "cp": "13100",
+      "priceE10Avg": "1.758",
+      "priceGazoleAvg": "1.662"
+    },
+    {
+      "id": "13100006",
+      "cp": "13100",
+      "priceE10Avg": "1.762",
+      "priceGazoleAvg": "1.666"
+    },
+    {
+      "id": "13100008",
+      "cp": "13100",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13100009",
+      "cp": "13100",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13100010",
+      "cp": "13100",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13100012",
+      "cp": "13090",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13100013",
+      "cp": "13853",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13100014",
+      "cp": "13100",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13100015",
+      "cp": "13100",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13100016",
+      "cp": "13100",
+      "priceE10Avg": "1.861",
+      "priceGazoleAvg": "1.764"
+    },
+    {
+      "id": "13100017",
+      "cp": "13100",
+      "priceE10Avg": "1.758",
+      "priceGazoleAvg": "1.662"
+    },
+    {
+      "id": "13100018",
+      "cp": "13100",
+      "priceE10Avg": "1.896",
+      "priceGazoleAvg": "1.799"
+    },
+    {
+      "id": "13105001",
+      "cp": "13105",
+      "priceE10Avg": "1.802",
+      "priceGazoleAvg": "1.702"
+    },
+    {
+      "id": "13110001",
+      "cp": "13110",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13110003",
+      "cp": "13110",
+      "priceE10Avg": "1.760",
+      "priceGazoleAvg": "1.661"
+    },
+    {
+      "id": "13110004",
+      "cp": "13110",
+      "priceE10Avg": "1.824",
+      "priceGazoleAvg": "1.722"
+    },
+    {
+      "id": "13110005",
+      "cp": "13110",
+      "priceE10Avg": "1.866",
+      "priceGazoleAvg": "1.759"
+    },
+    {
+      "id": "13110006",
+      "cp": "13110",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13112002",
+      "cp": "13112",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13112003",
+      "cp": "13112",
+      "priceE10Avg": "1.785",
+      "priceGazoleAvg": "1.689"
+    },
+    {
+      "id": "13112005",
+      "cp": "13112",
+      "priceE10Avg": "1.824",
+      "priceGazoleAvg": "1.731"
+    },
+    {
+      "id": "13115001",
+      "cp": "13115",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.843"
+    },
+    {
+      "id": "13118001",
+      "cp": "13118",
+      "priceE10Avg": "1.762",
+      "priceGazoleAvg": "1.665"
+    },
+    {
+      "id": "13120001",
+      "cp": "13120",
+      "priceE10Avg": "1.793",
+      "priceGazoleAvg": "1.688"
+    },
+    {
+      "id": "13120002",
+      "cp": "13120",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13120003",
+      "cp": "13120",
+      "priceE10Avg": "1.783",
+      "priceGazoleAvg": "1.660"
+    },
+    {
+      "id": "13120004",
+      "cp": "13120",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13120005",
+      "cp": "13120",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.831"
+    },
+    {
+      "id": "13120006",
+      "cp": "13120",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13120008",
+      "cp": "13120",
+      "priceE10Avg": "1.853",
+      "priceGazoleAvg": "1.761"
+    },
+    {
+      "id": "13120009",
+      "cp": "13120",
+      "priceE10Avg": "1.871",
+      "priceGazoleAvg": "1.806"
+    },
+    {
+      "id": "13122001",
+      "cp": "13122",
+      "priceE10Avg": "1.883",
+      "priceGazoleAvg": "1.773"
+    },
+    {
+      "id": "13122002",
+      "cp": "13122",
+      "priceE10Avg": "1.790",
+      "priceGazoleAvg": "1.684"
+    },
+    {
+      "id": "13124001",
+      "cp": "13124",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13124002",
+      "cp": "13124",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13124003",
+      "cp": "13124",
+      "priceE10Avg": "1.871",
+      "priceGazoleAvg": "1.779"
+    },
+    {
+      "id": "13124004",
+      "cp": "13124",
+      "priceE10Avg": "1.871",
+      "priceGazoleAvg": "1.779"
+    },
+    {
+      "id": "13127002",
+      "cp": "13127",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13127004",
+      "cp": "13127",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13127005",
+      "cp": "13127",
+      "priceE10Avg": "2.038",
+      "priceGazoleAvg": "1.955"
+    },
+    {
+      "id": "13127006",
+      "cp": "13127",
+      "priceE10Avg": "1.763",
+      "priceGazoleAvg": "1.684"
+    },
+    {
+      "id": "13127007",
+      "cp": "13127",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13127009",
+      "cp": "13127",
+      "priceE10Avg": "1.765",
+      "priceGazoleAvg": "1.691"
+    },
+    {
+      "id": "13127010",
+      "cp": "13127",
+      "priceE10Avg": "1.877",
+      "priceGazoleAvg": "1.733"
+    },
+    {
+      "id": "13127012",
+      "cp": "13127",
+      "priceE10Avg": "1.826",
+      "priceGazoleAvg": "1.706"
+    },
+    {
+      "id": "13127013",
+      "cp": "13127",
+      "priceE10Avg": "1.760",
+      "priceGazoleAvg": "1.679"
+    },
+    {
+      "id": "13130002",
+      "cp": "13130",
+      "priceE10Avg": "1.790",
+      "priceGazoleAvg": "1.689"
+    },
+    {
+      "id": "13130003",
+      "cp": "13130",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13130004",
+      "cp": "13130",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13130005",
+      "cp": "13130",
+      "priceE10Avg": "1.798",
+      "priceGazoleAvg": "1.704"
+    },
+    {
+      "id": "13130006",
+      "cp": "13130",
+      "priceE10Avg": "1.756",
+      "priceGazoleAvg": "1.654"
+    },
+    {
+      "id": "13140001",
+      "cp": "13140",
+      "priceE10Avg": "1.746",
+      "priceGazoleAvg": "1.651"
+    },
+    {
+      "id": "13140002",
+      "cp": "13140",
+      "priceE10Avg": "1.848",
+      "priceGazoleAvg": "1.744"
+    },
+    {
+      "id": "13140005",
+      "cp": "13140",
+      "priceE10Avg": "1.773",
+      "priceGazoleAvg": "1.673"
+    },
+    {
+      "id": "13140008",
+      "cp": "13140",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13140009",
+      "cp": "13140",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13140010",
+      "cp": "13140",
+      "priceE10Avg": "1.753",
+      "priceGazoleAvg": "1.655"
+    },
+    {
+      "id": "13150001",
+      "cp": "13150",
+      "priceE10Avg": "1.777",
+      "priceGazoleAvg": "1.675"
+    },
+    {
+      "id": "13150003",
+      "cp": "13150",
+      "priceE10Avg": "1.771",
+      "priceGazoleAvg": "1.669"
+    },
+    {
+      "id": "13150005",
+      "cp": "13150",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13150006",
+      "cp": "13150",
+      "priceE10Avg": "1.774",
+      "priceGazoleAvg": "1.673"
+    },
+    {
+      "id": "13160001",
+      "cp": "13160",
+      "priceE10Avg": "1.816",
+      "priceGazoleAvg": "1.723"
+    },
+    {
+      "id": "13160002",
+      "cp": "13160",
+      "priceE10Avg": "1.771",
+      "priceGazoleAvg": "1.669"
+    },
+    {
+      "id": "13160004",
+      "cp": "13160",
+      "priceE10Avg": "1.775",
+      "priceGazoleAvg": "1.681"
+    },
+    {
+      "id": "13160005",
+      "cp": "13160",
+      "priceE10Avg": "1.772",
+      "priceGazoleAvg": "1.670"
+    },
+    {
+      "id": "13170003",
+      "cp": "13170",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13170007",
+      "cp": "13170",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.725"
+    },
+    {
+      "id": "13170008",
+      "cp": "13170",
+      "priceE10Avg": "1.854",
+      "priceGazoleAvg": "1.720"
+    },
+    {
+      "id": "13170009",
+      "cp": "13170",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13170010",
+      "cp": "13170",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.748"
+    },
+    {
+      "id": "13170011",
+      "cp": "13170",
+      "priceE10Avg": "1.754",
+      "priceGazoleAvg": "1.658"
+    },
+    {
+      "id": "13170013",
+      "cp": "13170",
+      "priceE10Avg": "1.856",
+      "priceGazoleAvg": "1.756"
+    },
+    {
+      "id": "13180001",
+      "cp": "13180",
+      "priceE10Avg": "2.030",
+      "priceGazoleAvg": "1.941"
+    },
+    {
+      "id": "13180002",
+      "cp": "13180",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.681"
+    },
+    {
+      "id": "13190001",
+      "cp": "13190",
+      "priceE10Avg": "1.869",
+      "priceGazoleAvg": "1.772"
+    },
+    {
+      "id": "13200001",
+      "cp": "13200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13200002",
+      "cp": "13200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13200004",
+      "cp": "13200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13200006",
+      "cp": "13200",
+      "priceE10Avg": "1.745",
+      "priceGazoleAvg": "1.647"
+    },
+    {
+      "id": "13200008",
+      "cp": "13200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13200009",
+      "cp": "13200",
+      "priceE10Avg": "1.791",
+      "priceGazoleAvg": "1.682"
+    },
+    {
+      "id": "13200010",
+      "cp": "13200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13200013",
+      "cp": "13200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.724"
+    },
+    {
+      "id": "13200014",
+      "cp": "13200",
+      "priceE10Avg": "1.933",
+      "priceGazoleAvg": "1.839"
+    },
+    {
+      "id": "13200015",
+      "cp": "13200",
+      "priceE10Avg": "1.867",
+      "priceGazoleAvg": "1.774"
+    },
+    {
+      "id": "13200016",
+      "cp": "13200",
+      "priceE10Avg": "1.754",
+      "priceGazoleAvg": "1.659"
+    },
+    {
+      "id": "13200017",
+      "cp": "13200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13200019",
+      "cp": "13200",
+      "priceE10Avg": "1.817",
+      "priceGazoleAvg": "1.699"
+    },
+    {
+      "id": "13200020",
+      "cp": "13200",
+      "priceE10Avg": "1.754",
+      "priceGazoleAvg": "1.696"
+    },
+    {
+      "id": "13210001",
+      "cp": "13210",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13210002",
+      "cp": "13210",
+      "priceE10Avg": "1.788",
+      "priceGazoleAvg": "1.664"
+    },
+    {
+      "id": "13210003",
+      "cp": "13210",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13210004",
+      "cp": "13210",
+      "priceE10Avg": "1.863",
+      "priceGazoleAvg": "1.753"
+    },
+    {
+      "id": "13220003",
+      "cp": "13220",
+      "priceE10Avg": "1.774",
+      "priceGazoleAvg": "1.675"
+    },
+    {
+      "id": "13220004",
+      "cp": "13220",
+      "priceE10Avg": "1.826",
+      "priceGazoleAvg": "1.722"
+    },
+    {
+      "id": "13230001",
+      "cp": "13230",
+      "priceE10Avg": "1.800",
+      "priceGazoleAvg": "1.696"
+    },
+    {
+      "id": "13230002",
+      "cp": "13230",
+      "priceE10Avg": "1.780",
+      "priceGazoleAvg": "1.680"
+    },
+    {
+      "id": "13230003",
+      "cp": "13230",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13230004",
+      "cp": "13230",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.678"
+    },
+    {
+      "id": "13240002",
+      "cp": "13240",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.706"
+    },
+    {
+      "id": "13260001",
+      "cp": "13260",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13260002",
+      "cp": "13260",
+      "priceE10Avg": "1.821",
+      "priceGazoleAvg": "1.761"
+    },
+    {
+      "id": "13260003",
+      "cp": "13260",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13270001",
+      "cp": "13270",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13270002",
+      "cp": "13270",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13270004",
+      "cp": "13270",
+      "priceE10Avg": "1.755",
+      "priceGazoleAvg": "1.657"
+    },
+    {
+      "id": "13270005",
+      "cp": "13270",
+      "priceE10Avg": "1.780",
+      "priceGazoleAvg": "1.685"
+    },
+    {
+      "id": "13270007",
+      "cp": "13270",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13270008",
+      "cp": "13270",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13270009",
+      "cp": "13270",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13270011",
+      "cp": "13270",
+      "priceE10Avg": "1.754",
+      "priceGazoleAvg": "1.657"
+    },
+    {
+      "id": "13270012",
+      "cp": "13270",
+      "priceE10Avg": "1.754",
+      "priceGazoleAvg": "1.656"
+    },
+    {
+      "id": "13270013",
+      "cp": "13270",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13270014",
+      "cp": "13270",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.832"
+    },
+    {
+      "id": "13300001",
+      "cp": "13300",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13300002",
+      "cp": "13300",
+      "priceE10Avg": "1.856",
+      "priceGazoleAvg": "1.768"
+    },
+    {
+      "id": "13300004",
+      "cp": "13300",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13300005",
+      "cp": "13300",
+      "priceE10Avg": "1.715",
+      "priceGazoleAvg": "1.615"
+    },
+    {
+      "id": "13300006",
+      "cp": "13330",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13300007",
+      "cp": "13300",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13300008",
+      "cp": "13300",
+      "priceE10Avg": "1.728",
+      "priceGazoleAvg": "1.627"
+    },
+    {
+      "id": "13300009",
+      "cp": "13300",
+      "priceE10Avg": "1.773",
+      "priceGazoleAvg": "1.692"
+    },
+    {
+      "id": "13300010",
+      "cp": "13300",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13300011",
+      "cp": "13300",
+      "priceE10Avg": "1.746",
+      "priceGazoleAvg": "1.646"
+    },
+    {
+      "id": "13310001",
+      "cp": "13310",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.696"
+    },
+    {
+      "id": "13310002",
+      "cp": "13310",
+      "priceE10Avg": "1.804",
+      "priceGazoleAvg": "1.697"
+    },
+    {
+      "id": "13320001",
+      "cp": "13320",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13320003",
+      "cp": "13320",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13320004",
+      "cp": "13320",
+      "priceE10Avg": "1.739",
+      "priceGazoleAvg": "1.638"
+    },
+    {
+      "id": "13320005",
+      "cp": "13320",
+      "priceE10Avg": "1.959",
+      "priceGazoleAvg": "1.870"
+    },
+    {
+      "id": "13320006",
+      "cp": "13320",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13320009",
+      "cp": "13320",
+      "priceE10Avg": "1.810",
+      "priceGazoleAvg": "1.706"
+    },
+    {
+      "id": "13320010",
+      "cp": "13320",
+      "priceE10Avg": "1.733",
+      "priceGazoleAvg": "1.634"
+    },
+    {
+      "id": "13320011",
+      "cp": "13320",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13320012",
+      "cp": "13320",
+      "priceE10Avg": "1.836",
+      "priceGazoleAvg": "1.762"
+    },
+    {
+      "id": "13320013",
+      "cp": "13320",
+      "priceE10Avg": "1.847",
+      "priceGazoleAvg": "1.764"
+    },
+    {
+      "id": "13320014",
+      "cp": "13320",
+      "priceE10Avg": "2.013",
+      "priceGazoleAvg": "1.926"
+    },
+    {
+      "id": "13330001",
+      "cp": "13330",
+      "priceE10Avg": "1.731",
+      "priceGazoleAvg": "1.631"
+    },
+    {
+      "id": "13340001",
+      "cp": "13340",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.695"
+    },
+    {
+      "id": "13340004",
+      "cp": "13340",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.698"
+    },
+    {
+      "id": "13340005",
+      "cp": "13340",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.938"
+    },
+    {
+      "id": "13360001",
+      "cp": "13360",
+      "priceE10Avg": "1.779",
+      "priceGazoleAvg": "1.682"
+    },
+    {
+      "id": "13368001",
+      "cp": "13011",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13370003",
+      "cp": "13370",
+      "priceE10Avg": "1.760",
+      "priceGazoleAvg": "1.666"
+    },
+    {
+      "id": "13370005",
+      "cp": "13370",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.811"
+    },
+    {
+      "id": "13370006",
+      "cp": "13370",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13380001",
+      "cp": "13380",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13380002",
+      "cp": "13380",
+      "priceE10Avg": "1.773",
+      "priceGazoleAvg": "1.688"
+    },
+    {
+      "id": "13390001",
+      "cp": "13390",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13390002",
+      "cp": "13390",
+      "priceE10Avg": "1.726",
+      "priceGazoleAvg": "1.623"
+    },
+    {
+      "id": "13400001",
+      "cp": "13783",
+      "priceE10Avg": "1.764",
+      "priceGazoleAvg": "1.677"
+    },
+    {
+      "id": "13400002",
+      "cp": "13400",
+      "priceE10Avg": "1.852",
+      "priceGazoleAvg": "1.762"
+    },
+    {
+      "id": "13400003",
+      "cp": "13400",
+      "priceE10Avg": "1.852",
+      "priceGazoleAvg": "1.762"
+    },
+    {
+      "id": "13400004",
+      "cp": "13400",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13400005",
+      "cp": "13400",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13400007",
+      "cp": "13400",
+      "priceE10Avg": "1.810",
+      "priceGazoleAvg": "1.710"
+    },
+    {
+      "id": "13400009",
+      "cp": "13400",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13400014",
+      "cp": "13400",
+      "priceE10Avg": "1.869",
+      "priceGazoleAvg": "1.775"
+    },
+    {
+      "id": "13400015",
+      "cp": "13400",
+      "priceE10Avg": "1.868",
+      "priceGazoleAvg": "1.776"
+    },
+    {
+      "id": "13400016",
+      "cp": "13400",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13400017",
+      "cp": "13400",
+      "priceE10Avg": "1.711",
+      "priceGazoleAvg": "1.616"
+    },
+    {
+      "id": "13410001",
+      "cp": "13410",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13410002",
+      "cp": "13410",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13410003",
+      "cp": "13410",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13410004",
+      "cp": "13410",
+      "priceE10Avg": "1.726",
+      "priceGazoleAvg": "1.623"
+    },
+    {
+      "id": "13410005",
+      "cp": "13410",
+      "priceE10Avg": "1.689",
+      "priceGazoleAvg": "1.598"
+    },
+    {
+      "id": "13420001",
+      "cp": "13420",
+      "priceE10Avg": "1.806",
+      "priceGazoleAvg": "1.706"
+    },
+    {
+      "id": "13430001",
+      "cp": "13430",
+      "priceE10Avg": "1.796",
+      "priceGazoleAvg": "1.698"
+    },
+    {
+      "id": "13430002",
+      "cp": "13430",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.758"
+    },
+    {
+      "id": "13440002",
+      "cp": "13440",
+      "priceE10Avg": "1.780",
+      "priceGazoleAvg": "1.679"
+    },
+    {
+      "id": "13440003",
+      "cp": "13440",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13440004",
+      "cp": "13440",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13450001",
+      "cp": "13450",
+      "priceE10Avg": "1.746",
+      "priceGazoleAvg": "1.651"
+    },
+    {
+      "id": "13460001",
+      "cp": "13460",
+      "priceE10Avg": "1.875",
+      "priceGazoleAvg": "1.773"
+    },
+    {
+      "id": "13460003",
+      "cp": "13460",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.758"
+    },
+    {
+      "id": "13463001",
+      "cp": "13015",
+      "priceE10Avg": "1.768",
+      "priceGazoleAvg": "1.666"
+    },
+    {
+      "id": "13470001",
+      "cp": "13470",
+      "priceE10Avg": "1.813",
+      "priceGazoleAvg": "1.714"
+    },
+    {
+      "id": "13480001",
+      "cp": "13480",
+      "priceE10Avg": "1.844",
+      "priceGazoleAvg": "1.759"
+    },
+    {
+      "id": "13480002",
+      "cp": "13480",
+      "priceE10Avg": "1.726",
+      "priceGazoleAvg": "1.628"
+    },
+    {
+      "id": "13490001",
+      "cp": "13490",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13500001",
+      "cp": "13500",
+      "priceE10Avg": "1.758",
+      "priceGazoleAvg": "1.661"
+    },
+    {
+      "id": "13500002",
+      "cp": "13500",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13500004",
+      "cp": "13500",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13500005",
+      "cp": "13500",
+      "priceE10Avg": "1.762",
+      "priceGazoleAvg": "1.662"
+    },
+    {
+      "id": "13500006",
+      "cp": "13500",
+      "priceE10Avg": "1.753",
+      "priceGazoleAvg": "1.656"
+    },
+    {
+      "id": "13500007",
+      "cp": "13500",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13500008",
+      "cp": "13500",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13500010",
+      "cp": "13500",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13500011",
+      "cp": "13500",
+      "priceE10Avg": "1.871",
+      "priceGazoleAvg": "1.777"
+    },
+    {
+      "id": "13500012",
+      "cp": "13500",
+      "priceE10Avg": "1.759",
+      "priceGazoleAvg": "1.662"
+    },
+    {
+      "id": "13500013",
+      "cp": "13500",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13500014",
+      "cp": "13500",
+      "priceE10Avg": "1.924",
+      "priceGazoleAvg": "1.791"
+    },
+    {
+      "id": "13510001",
+      "cp": "13510",
+      "priceE10Avg": "1.904",
+      "priceGazoleAvg": "1.797"
+    },
+    {
+      "id": "13510002",
+      "cp": "13510",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13520001",
+      "cp": "13520",
+      "priceE10Avg": "1.914",
+      "priceGazoleAvg": "1.814"
+    },
+    {
+      "id": "13530001",
+      "cp": "13530",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.694"
+    },
+    {
+      "id": "13530002",
+      "cp": "13530",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13530003",
+      "cp": "13530",
+      "priceE10Avg": "1.704",
+      "priceGazoleAvg": "1.615"
+    },
+    {
+      "id": "13545001",
+      "cp": "13546",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13550001",
+      "cp": "13550",
+      "priceE10Avg": "1.852",
+      "priceGazoleAvg": "1.757"
+    },
+    {
+      "id": "13560001",
+      "cp": "13560",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13560002",
+      "cp": "13560",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.791"
+    },
+    {
+      "id": "13560003",
+      "cp": "13560",
+      "priceE10Avg": "1.796",
+      "priceGazoleAvg": "1.715"
+    },
+    {
+      "id": "13560004",
+      "cp": "13560",
+      "priceE10Avg": "1.769",
+      "priceGazoleAvg": "1.682"
+    },
+    {
+      "id": "13560005",
+      "cp": "13560",
+      "priceE10Avg": "1.862",
+      "priceGazoleAvg": "1.765"
+    },
+    {
+      "id": "13570001",
+      "cp": "13570",
+      "priceE10Avg": "1.783",
+      "priceGazoleAvg": "1.681"
+    },
+    {
+      "id": "13580001",
+      "cp": "13580",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13580002",
+      "cp": "13580",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.630"
+    },
+    {
+      "id": "13580003",
+      "cp": "13580",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.791"
+    },
+    {
+      "id": "13590001",
+      "cp": "13590",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13590002",
+      "cp": "13590",
+      "priceE10Avg": "1.863",
+      "priceGazoleAvg": "1.755"
+    },
+    {
+      "id": "13590003",
+      "cp": "13590",
+      "priceE10Avg": "1.837",
+      "priceGazoleAvg": "1.758"
+    },
+    {
+      "id": "13590004",
+      "cp": "13590",
+      "priceE10Avg": "1.723",
+      "priceGazoleAvg": "1.612"
+    },
+    {
+      "id": "13600001",
+      "cp": "13600",
+      "priceE10Avg": "1.829",
+      "priceGazoleAvg": "1.739"
+    },
+    {
+      "id": "13600002",
+      "cp": "13600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13600004",
+      "cp": "13600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13600005",
+      "cp": "13600",
+      "priceE10Avg": "1.782",
+      "priceGazoleAvg": "1.702"
+    },
+    {
+      "id": "13600006",
+      "cp": "13600",
+      "priceE10Avg": "1.831",
+      "priceGazoleAvg": "1.750"
+    },
+    {
+      "id": "13600008",
+      "cp": "13600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13600011",
+      "cp": "13600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13600013",
+      "cp": "13600",
+      "priceE10Avg": "1.909",
+      "priceGazoleAvg": "1.838"
+    },
+    {
+      "id": "13600014",
+      "cp": "13600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13600015",
+      "cp": "13600",
+      "priceE10Avg": "1.769",
+      "priceGazoleAvg": "1.678"
+    },
+    {
+      "id": "13600016",
+      "cp": "13600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13600022",
+      "cp": "13600",
+      "priceE10Avg": "1.909",
+      "priceGazoleAvg": "1.838"
+    },
+    {
+      "id": "13600023",
+      "cp": "13600",
+      "priceE10Avg": "1.761",
+      "priceGazoleAvg": "1.659"
+    },
+    {
+      "id": "13610001",
+      "cp": "13610",
+      "priceE10Avg": "1.877",
+      "priceGazoleAvg": "1.778"
+    },
+    {
+      "id": "13620002",
+      "cp": "13620",
+      "priceE10Avg": "1.916",
+      "priceGazoleAvg": "1.769"
+    },
+    {
+      "id": "13620004",
+      "cp": "13620",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.773"
+    },
+    {
+      "id": "13626001",
+      "cp": "13300",
+      "priceE10Avg": "1.763",
+      "priceGazoleAvg": "1.668"
+    },
+    {
+      "id": "13626002",
+      "cp": "13626",
+      "priceE10Avg": "1.654",
+      "priceGazoleAvg": "1.549"
+    },
+    {
+      "id": "13630001",
+      "cp": "13630",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13630003",
+      "cp": "13630",
+      "priceE10Avg": "1.797",
+      "priceGazoleAvg": "1.681"
+    },
+    {
+      "id": "13630004",
+      "cp": "13630",
+      "priceE10Avg": "1.770",
+      "priceGazoleAvg": "1.665"
+    },
+    {
+      "id": "13640001",
+      "cp": "13640",
+      "priceE10Avg": "1.845",
+      "priceGazoleAvg": "1.769"
+    },
+    {
+      "id": "13650001",
+      "cp": "13650",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13650002",
+      "cp": "13650",
+      "priceE10Avg": "1.844",
+      "priceGazoleAvg": "1.715"
+    },
+    {
+      "id": "13650003",
+      "cp": "13650",
+      "priceE10Avg": "1.980",
+      "priceGazoleAvg": "1.910"
+    },
+    {
+      "id": "13660002",
+      "cp": "13660",
+      "priceE10Avg": "1.789",
+      "priceGazoleAvg": "1.700"
+    },
+    {
+      "id": "13660004",
+      "cp": "13660",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13660005",
+      "cp": "13660",
+      "priceE10Avg": "1.756",
+      "priceGazoleAvg": "1.656"
+    },
+    {
+      "id": "13670001",
+      "cp": "13670",
+      "priceE10Avg": "1.781",
+      "priceGazoleAvg": "1.692"
+    },
+    {
+      "id": "13680001",
+      "cp": "13680",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13680002",
+      "cp": "13680",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13680004",
+      "cp": "13680",
+      "priceE10Avg": "1.811",
+      "priceGazoleAvg": "1.718"
+    },
+    {
+      "id": "13680007",
+      "cp": "13680",
+      "priceE10Avg": "1.957",
+      "priceGazoleAvg": "1.884"
+    },
+    {
+      "id": "13680008",
+      "cp": "13680",
+      "priceE10Avg": "1.924",
+      "priceGazoleAvg": "1.815"
+    },
+    {
+      "id": "13680009",
+      "cp": "13680",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13680010",
+      "cp": "13680",
+      "priceE10Avg": "1.802",
+      "priceGazoleAvg": "1.700"
+    },
+    {
+      "id": "13700001",
+      "cp": "13180",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13700003",
+      "cp": "13700",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13700004",
+      "cp": "13700",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13700005",
+      "cp": "13700",
+      "priceE10Avg": "1.759",
+      "priceGazoleAvg": "1.656"
+    },
+    {
+      "id": "13700006",
+      "cp": "13700",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13700007",
+      "cp": "13700",
+      "priceE10Avg": "1.805",
+      "priceGazoleAvg": "1.701"
+    },
+    {
+      "id": "13700008",
+      "cp": "13700",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13700009",
+      "cp": "13180",
+      "priceE10Avg": "1.939",
+      "priceGazoleAvg": "1.855"
+    },
+    {
+      "id": "13700010",
+      "cp": "13700",
+      "priceE10Avg": "1.843",
+      "priceGazoleAvg": "1.755"
+    },
+    {
+      "id": "13700011",
+      "cp": "13700",
+      "priceE10Avg": "1.757",
+      "priceGazoleAvg": "1.679"
+    },
+    {
+      "id": "13700012",
+      "cp": "13700",
+      "priceE10Avg": "1.783",
+      "priceGazoleAvg": "1.681"
+    },
+    {
+      "id": "13710001",
+      "cp": "13710",
+      "priceE10Avg": "1.827",
+      "priceGazoleAvg": "1.726"
+    },
+    {
+      "id": "13710002",
+      "cp": "13710",
+      "priceE10Avg": "1.768",
+      "priceGazoleAvg": "1.674"
+    },
+    {
+      "id": "13710003",
+      "cp": "13710",
+      "priceE10Avg": "1.876",
+      "priceGazoleAvg": "1.816"
+    },
+    {
+      "id": "13710004",
+      "cp": "13710",
+      "priceE10Avg": "1.793",
+      "priceGazoleAvg": "1.695"
+    },
+    {
+      "id": "13710005",
+      "cp": "13710",
+      "priceE10Avg": "1.794",
+      "priceGazoleAvg": "1.681"
+    },
+    {
+      "id": "13730001",
+      "cp": "13730",
+      "priceE10Avg": "1.806",
+      "priceGazoleAvg": "1.690"
+    },
+    {
+      "id": "13740001",
+      "cp": "13740",
+      "priceE10Avg": "1.864",
+      "priceGazoleAvg": "1.771"
+    },
+    {
+      "id": "13740002",
+      "cp": "13740",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13740003",
+      "cp": "13740",
+      "priceE10Avg": "1.729",
+      "priceGazoleAvg": "1.630"
+    },
+    {
+      "id": "13741001",
+      "cp": "13127",
+      "priceE10Avg": "1.763",
+      "priceGazoleAvg": "1.648"
+    },
+    {
+      "id": "13750003",
+      "cp": "13750",
+      "priceE10Avg": "1.787",
+      "priceGazoleAvg": "1.660"
+    },
+    {
+      "id": "13750004",
+      "cp": "13750",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.757"
+    },
+    {
+      "id": "13750005",
+      "cp": "13750",
+      "priceE10Avg": "1.794",
+      "priceGazoleAvg": "1.757"
+    },
+    {
+      "id": "13750006",
+      "cp": "13760",
+      "priceE10Avg": "1.757",
+      "priceGazoleAvg": "1.664"
+    },
+    {
+      "id": "13751001",
+      "cp": "13170",
+      "priceE10Avg": "1.796",
+      "priceGazoleAvg": "1.721"
+    },
+    {
+      "id": "13751002",
+      "cp": "13751",
+      "priceE10Avg": "1.680",
+      "priceGazoleAvg": "1.579"
+    },
+    {
+      "id": "13770001",
+      "cp": "13770",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13770002",
+      "cp": "13770",
+      "priceE10Avg": "1.753",
+      "priceGazoleAvg": "1.669"
+    },
+    {
+      "id": "13770003",
+      "cp": "13770",
+      "priceE10Avg": "1.901",
+      "priceGazoleAvg": "1.807"
+    },
+    {
+      "id": "13780002",
+      "cp": "13780",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13780005",
+      "cp": "13780",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13780006",
+      "cp": "13780",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13780007",
+      "cp": "13780",
+      "priceE10Avg": "1.820",
+      "priceGazoleAvg": "1.717"
+    },
+    {
+      "id": "13790001",
+      "cp": "13790",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13790003",
+      "cp": "13790",
+      "priceE10Avg": "1.977",
+      "priceGazoleAvg": "1.907"
+    },
+    {
+      "id": "13790004",
+      "cp": "13790",
+      "priceE10Avg": "1.939",
+      "priceGazoleAvg": "1.819"
+    },
+    {
+      "id": "13800001",
+      "cp": "13800",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13800004",
+      "cp": "13800",
+      "priceE10Avg": "1.727",
+      "priceGazoleAvg": "1.631"
+    },
+    {
+      "id": "13800005",
+      "cp": "13800",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13800008",
+      "cp": "13800",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13800009",
+      "cp": "13800",
+      "priceE10Avg": "1.805",
+      "priceGazoleAvg": "1.713"
+    },
+    {
+      "id": "13800010",
+      "cp": "13800",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.767"
+    },
+    {
+      "id": "13800011",
+      "cp": "13800",
+      "priceE10Avg": "1.698",
+      "priceGazoleAvg": "1.599"
+    },
+    {
+      "id": "13850001",
+      "cp": "13850",
+      "priceE10Avg": "1.794",
+      "priceGazoleAvg": "1.696"
+    },
+    {
+      "id": "13860001",
+      "cp": "13860",
+      "priceE10Avg": "1.873",
+      "priceGazoleAvg": "1.713"
+    },
+    {
+      "id": "13870001",
+      "cp": "13870",
+      "priceE10Avg": "1.771",
+      "priceGazoleAvg": "1.672"
+    },
+    {
+      "id": "13870002",
+      "cp": "13870",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.700"
+    },
+    {
+      "id": "13880001",
+      "cp": "13880",
+      "priceE10Avg": "1.789",
+      "priceGazoleAvg": "1.707"
+    },
+    {
+      "id": "13880002",
+      "cp": "13880",
+      "priceE10Avg": "1.812",
+      "priceGazoleAvg": "1.709"
+    },
+    {
+      "id": "13890000",
+      "cp": "13890",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.675"
+    },
+    {
+      "id": "13910001",
+      "cp": "13910",
+      "priceE10Avg": "1.790",
+      "priceGazoleAvg": "1.682"
+    },
+    {
+      "id": "13920003",
+      "cp": "13920",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13920004",
+      "cp": "13920",
+      "priceE10Avg": "1.791",
+      "priceGazoleAvg": "1.692"
+    },
+    {
+      "id": "13920005",
+      "cp": "13920",
+      "priceE10Avg": "1.764",
+      "priceGazoleAvg": "1.666"
+    },
+    {
+      "id": "13920006",
+      "cp": "13920",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13920007",
+      "cp": "13920",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "13920008",
+      "cp": "13920",
+      "priceE10Avg": "1.901",
+      "priceGazoleAvg": "1.702"
+    },
+    {
+      "id": "13990002",
+      "cp": "13990",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.827"
+    },
+    {
+      "id": "62000015",
+      "cp": "06200",
+      "priceE10Avg": "1.910",
+      "priceGazoleAvg": "1.827"
+    },
+    {
+      "id": "83000001",
+      "cp": "83000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83000006",
+      "cp": "83100",
+      "priceE10Avg": "1.774",
+      "priceGazoleAvg": "1.679"
+    },
+    {
+      "id": "83000007",
+      "cp": "83000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83000008",
+      "cp": "83000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83000010",
+      "cp": "83000",
+      "priceE10Avg": "1.859",
+      "priceGazoleAvg": "1.767"
+    },
+    {
+      "id": "83000011",
+      "cp": "83000",
+      "priceE10Avg": "1.762",
+      "priceGazoleAvg": "1.666"
+    },
+    {
+      "id": "83000012",
+      "cp": "83000",
+      "priceE10Avg": "1.762",
+      "priceGazoleAvg": "1.666"
+    },
+    {
+      "id": "83000013",
+      "cp": "83000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83100003",
+      "cp": "83000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83100004",
+      "cp": "83000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83100005",
+      "cp": "83100",
+      "priceE10Avg": "1.859",
+      "priceGazoleAvg": "1.763"
+    },
+    {
+      "id": "83100006",
+      "cp": "83100",
+      "priceE10Avg": "1.839",
+      "priceGazoleAvg": "1.765"
+    },
+    {
+      "id": "83100007",
+      "cp": "83100",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83110001",
+      "cp": "83110",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83110002",
+      "cp": "83110",
+      "priceE10Avg": "1.750",
+      "priceGazoleAvg": "1.659"
+    },
+    {
+      "id": "83110003",
+      "cp": "83110",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83120001",
+      "cp": "83120",
+      "priceE10Avg": "1.771",
+      "priceGazoleAvg": "1.683"
+    },
+    {
+      "id": "83120002",
+      "cp": "83120",
+      "priceE10Avg": "1.791",
+      "priceGazoleAvg": "1.697"
+    },
+    {
+      "id": "83120005",
+      "cp": "83120",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83120006",
+      "cp": "83120",
+      "priceE10Avg": "1.772",
+      "priceGazoleAvg": "1.684"
+    },
+    {
+      "id": "83130001",
+      "cp": "83130",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83130003",
+      "cp": "83130",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.683"
+    },
+    {
+      "id": "83130004",
+      "cp": "83130",
+      "priceE10Avg": "1.783",
+      "priceGazoleAvg": "1.685"
+    },
+    {
+      "id": "83130005",
+      "cp": "83130",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.688"
+    },
+    {
+      "id": "83130007",
+      "cp": "83130",
+      "priceE10Avg": "1.812",
+      "priceGazoleAvg": "1.713"
+    },
+    {
+      "id": "83130008",
+      "cp": "83130",
+      "priceE10Avg": "1.984",
+      "priceGazoleAvg": "1.906"
+    },
+    {
+      "id": "83136004",
+      "cp": "83136",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83136005",
+      "cp": "83136",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.762"
+    },
+    {
+      "id": "83136007",
+      "cp": "83136",
+      "priceE10Avg": "1.858",
+      "priceGazoleAvg": "1.762"
+    },
+    {
+      "id": "83136008",
+      "cp": "83136",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83136009",
+      "cp": "83136",
+      "priceE10Avg": "1.756",
+      "priceGazoleAvg": "1.659"
+    },
+    {
+      "id": "83136012",
+      "cp": "83136",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.762"
+    },
+    {
+      "id": "83140001",
+      "cp": "83140",
+      "priceE10Avg": "1.742",
+      "priceGazoleAvg": "1.646"
+    },
+    {
+      "id": "83140002",
+      "cp": "83140",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83140003",
+      "cp": "83140",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83140005",
+      "cp": "83140",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83140006",
+      "cp": "83140",
+      "priceE10Avg": "1.745",
+      "priceGazoleAvg": "1.648"
+    },
+    {
+      "id": "83140007",
+      "cp": "83140",
+      "priceE10Avg": "1.858",
+      "priceGazoleAvg": "1.756"
+    },
+    {
+      "id": "83140008",
+      "cp": "83140",
+      "priceE10Avg": "1.750",
+      "priceGazoleAvg": "1.654"
+    },
+    {
+      "id": "83140009",
+      "cp": "83140",
+      "priceE10Avg": "1.681",
+      "priceGazoleAvg": "1.581"
+    },
+    {
+      "id": "83147001",
+      "cp": "83136",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83150001",
+      "cp": "83150",
+      "priceE10Avg": "1.741",
+      "priceGazoleAvg": "1.646"
+    },
+    {
+      "id": "83150002",
+      "cp": "83150",
+      "priceE10Avg": "1.757",
+      "priceGazoleAvg": "1.662"
+    },
+    {
+      "id": "83150003",
+      "cp": "83150",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "2.079"
+    },
+    {
+      "id": "83160001",
+      "cp": "83160",
+      "priceE10Avg": "1.780",
+      "priceGazoleAvg": "1.685"
+    },
+    {
+      "id": "83160003",
+      "cp": "83160",
+      "priceE10Avg": "1.770",
+      "priceGazoleAvg": "1.676"
+    },
+    {
+      "id": "83160004",
+      "cp": "83160",
+      "priceE10Avg": "1.837",
+      "priceGazoleAvg": "1.744"
+    },
+    {
+      "id": "83160005",
+      "cp": "83160",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83160008",
+      "cp": "83160",
+      "priceE10Avg": "1.723",
+      "priceGazoleAvg": "1.635"
+    },
+    {
+      "id": "83170001",
+      "cp": "83170",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83170002",
+      "cp": "83170",
+      "priceE10Avg": "1.801",
+      "priceGazoleAvg": "1.711"
+    },
+    {
+      "id": "83170003",
+      "cp": "83170",
+      "priceE10Avg": "1.780",
+      "priceGazoleAvg": "1.677"
+    },
+    {
+      "id": "83170004",
+      "cp": "83170",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83170006",
+      "cp": "83170",
+      "priceE10Avg": "1.848",
+      "priceGazoleAvg": "1.760"
+    },
+    {
+      "id": "83170007",
+      "cp": "83170",
+      "priceE10Avg": "1.750",
+      "priceGazoleAvg": "1.652"
+    },
+    {
+      "id": "83170008",
+      "cp": "83170",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83170009",
+      "cp": "83170",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.736"
+    },
+    {
+      "id": "83170010",
+      "cp": "83170",
+      "priceE10Avg": "1.786",
+      "priceGazoleAvg": "1.685"
+    },
+    {
+      "id": "83170011",
+      "cp": "83170",
+      "priceE10Avg": "2.039",
+      "priceGazoleAvg": "1.960"
+    },
+    {
+      "id": "83170012",
+      "cp": "83170",
+      "priceE10Avg": "1.953",
+      "priceGazoleAvg": "1.873"
+    },
+    {
+      "id": "83170014",
+      "cp": "83170",
+      "priceE10Avg": "1.704",
+      "priceGazoleAvg": "1.617"
+    },
+    {
+      "id": "83190001",
+      "cp": "83190",
+      "priceE10Avg": "1.754",
+      "priceGazoleAvg": "1.656"
+    },
+    {
+      "id": "83190002",
+      "cp": "83190",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83190004",
+      "cp": "83190",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.691"
+    },
+    {
+      "id": "83190005",
+      "cp": "83190",
+      "priceE10Avg": "1.749",
+      "priceGazoleAvg": "1.653"
+    },
+    {
+      "id": "83190006",
+      "cp": "83190",
+      "priceE10Avg": "1.746",
+      "priceGazoleAvg": "1.652"
+    },
+    {
+      "id": "83200002",
+      "cp": "83200",
+      "priceE10Avg": "1.860",
+      "priceGazoleAvg": "1.764"
+    },
+    {
+      "id": "83200003",
+      "cp": "83200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83200004",
+      "cp": "83200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.806"
+    },
+    {
+      "id": "83200006",
+      "cp": "83200",
+      "priceE10Avg": "1.731",
+      "priceGazoleAvg": "1.630"
+    },
+    {
+      "id": "83210001",
+      "cp": "83210",
+      "priceE10Avg": "1.775",
+      "priceGazoleAvg": "1.683"
+    },
+    {
+      "id": "83210002",
+      "cp": "83210",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83210003",
+      "cp": "83210",
+      "priceE10Avg": "1.766",
+      "priceGazoleAvg": "1.668"
+    },
+    {
+      "id": "83210004",
+      "cp": "83210",
+      "priceE10Avg": "1.842",
+      "priceGazoleAvg": "1.729"
+    },
+    {
+      "id": "83210005",
+      "cp": "83210",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83210006",
+      "cp": "83210",
+      "priceE10Avg": "1.776",
+      "priceGazoleAvg": "1.684"
+    },
+    {
+      "id": "83210007",
+      "cp": "83210",
+      "priceE10Avg": "1.693",
+      "priceGazoleAvg": "1.596"
+    },
+    {
+      "id": "83220002",
+      "cp": "83220",
+      "priceE10Avg": "1.784",
+      "priceGazoleAvg": "1.691"
+    },
+    {
+      "id": "83230002",
+      "cp": "83230",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83230003",
+      "cp": "83230",
+      "priceE10Avg": "1.842",
+      "priceGazoleAvg": "1.751"
+    },
+    {
+      "id": "83230006",
+      "cp": "83230",
+      "priceE10Avg": "1.769",
+      "priceGazoleAvg": "1.665"
+    },
+    {
+      "id": "83240001",
+      "cp": "83240",
+      "priceE10Avg": "1.748",
+      "priceGazoleAvg": "1.655"
+    },
+    {
+      "id": "83240006",
+      "cp": "83240",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83240007",
+      "cp": "83240",
+      "priceE10Avg": "1.753",
+      "priceGazoleAvg": "1.646"
+    },
+    {
+      "id": "83250003",
+      "cp": "83250",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83250004",
+      "cp": "83250",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83250007",
+      "cp": "83250",
+      "priceE10Avg": "1.797",
+      "priceGazoleAvg": "1.683"
+    },
+    {
+      "id": "83250008",
+      "cp": "83250",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83250009",
+      "cp": "83250",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83250011",
+      "cp": "83250",
+      "priceE10Avg": "1.820",
+      "priceGazoleAvg": "1.694"
+    },
+    {
+      "id": "83260001",
+      "cp": "83260",
+      "priceE10Avg": "1.746",
+      "priceGazoleAvg": "1.645"
+    },
+    {
+      "id": "83260003",
+      "cp": "83260",
+      "priceE10Avg": "1.841",
+      "priceGazoleAvg": "1.737"
+    },
+    {
+      "id": "83260004",
+      "cp": "83260",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83260005",
+      "cp": "83260",
+      "priceE10Avg": "1.944",
+      "priceGazoleAvg": "1.843"
+    },
+    {
+      "id": "83260006",
+      "cp": "83260",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83260007",
+      "cp": "83260",
+      "priceE10Avg": "1.770",
+      "priceGazoleAvg": "1.665"
+    },
+    {
+      "id": "83270001",
+      "cp": "83270",
+      "priceE10Avg": "1.955",
+      "priceGazoleAvg": "1.861"
+    },
+    {
+      "id": "83270002",
+      "cp": "83270",
+      "priceE10Avg": "1.859",
+      "priceGazoleAvg": "1.802"
+    },
+    {
+      "id": "83270003",
+      "cp": "83270",
+      "priceE10Avg": "1.723",
+      "priceGazoleAvg": "1.621"
+    },
+    {
+      "id": "83300001",
+      "cp": "83300",
+      "priceE10Avg": "1.832",
+      "priceGazoleAvg": "1.728"
+    },
+    {
+      "id": "83300003",
+      "cp": "83300",
+      "priceE10Avg": "1.785",
+      "priceGazoleAvg": "1.674"
+    },
+    {
+      "id": "83300004",
+      "cp": "83300",
+      "priceE10Avg": "1.835",
+      "priceGazoleAvg": "1.729"
+    },
+    {
+      "id": "83300005",
+      "cp": "83300",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83300006",
+      "cp": "83300",
+      "priceE10Avg": "1.807",
+      "priceGazoleAvg": "1.676"
+    },
+    {
+      "id": "83300008",
+      "cp": "83300",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.785"
+    },
+    {
+      "id": "83310004",
+      "cp": "83310",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83310006",
+      "cp": "83310",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.746"
+    },
+    {
+      "id": "83310007",
+      "cp": "83310",
+      "priceE10Avg": "1.750",
+      "priceGazoleAvg": "1.657"
+    },
+    {
+      "id": "83310011",
+      "cp": "83310",
+      "priceE10Avg": "1.764",
+      "priceGazoleAvg": "1.673"
+    },
+    {
+      "id": "83320001",
+      "cp": "83320",
+      "priceE10Avg": "1.835",
+      "priceGazoleAvg": "1.737"
+    },
+    {
+      "id": "83320002",
+      "cp": "83320",
+      "priceE10Avg": "1.708",
+      "priceGazoleAvg": "1.609"
+    },
+    {
+      "id": "83330001",
+      "cp": "83330",
+      "priceE10Avg": "1.862",
+      "priceGazoleAvg": "1.760"
+    },
+    {
+      "id": "83330003",
+      "cp": "83330",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83330004",
+      "cp": "83330",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83330006",
+      "cp": "83330",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83330007",
+      "cp": "83330",
+      "priceE10Avg": "1.733",
+      "priceGazoleAvg": "1.618"
+    },
+    {
+      "id": "83340001",
+      "cp": "83340",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83340002",
+      "cp": "83340",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.654"
+    },
+    {
+      "id": "83340004",
+      "cp": "83340",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83340005",
+      "cp": "83340",
+      "priceE10Avg": "1.760",
+      "priceGazoleAvg": "1.660"
+    },
+    {
+      "id": "83340008",
+      "cp": "83340",
+      "priceE10Avg": "1.785",
+      "priceGazoleAvg": "1.684"
+    },
+    {
+      "id": "83340009",
+      "cp": "83340",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83340010",
+      "cp": "83340",
+      "priceE10Avg": "1.767",
+      "priceGazoleAvg": "1.669"
+    },
+    {
+      "id": "83340011",
+      "cp": "83340",
+      "priceE10Avg": "1.767",
+      "priceGazoleAvg": "1.669"
+    },
+    {
+      "id": "83350001",
+      "cp": "83350",
+      "priceE10Avg": "1.872",
+      "priceGazoleAvg": "1.749"
+    },
+    {
+      "id": "83380001",
+      "cp": "83380",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83380002",
+      "cp": "83380",
+      "priceE10Avg": "1.773",
+      "priceGazoleAvg": "1.678"
+    },
+    {
+      "id": "83390001",
+      "cp": "83390",
+      "priceE10Avg": "1.857",
+      "priceGazoleAvg": "1.753"
+    },
+    {
+      "id": "83390002",
+      "cp": "83390",
+      "priceE10Avg": "1.800",
+      "priceGazoleAvg": "1.701"
+    },
+    {
+      "id": "83390003",
+      "cp": "83390",
+      "priceE10Avg": "1.786",
+      "priceGazoleAvg": "1.690"
+    },
+    {
+      "id": "83390005",
+      "cp": "83390",
+      "priceE10Avg": "1.762",
+      "priceGazoleAvg": "1.660"
+    },
+    {
+      "id": "83400001",
+      "cp": "83400",
+      "priceE10Avg": "1.780",
+      "priceGazoleAvg": "1.728"
+    },
+    {
+      "id": "83400003",
+      "cp": "83400",
+      "priceE10Avg": "1.912",
+      "priceGazoleAvg": "1.778"
+    },
+    {
+      "id": "83400004",
+      "cp": "83400",
+      "priceE10Avg": "1.786",
+      "priceGazoleAvg": "1.670"
+    },
+    {
+      "id": "83400005",
+      "cp": "83400",
+      "priceE10Avg": "1.849",
+      "priceGazoleAvg": "1.764"
+    },
+    {
+      "id": "83400006",
+      "cp": "83400",
+      "priceE10Avg": "1.751",
+      "priceGazoleAvg": "1.655"
+    },
+    {
+      "id": "83400008",
+      "cp": "83400",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83400010",
+      "cp": "83400",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83400011",
+      "cp": "83400",
+      "priceE10Avg": "1.789",
+      "priceGazoleAvg": "1.682"
+    },
+    {
+      "id": "83400012",
+      "cp": "83400",
+      "priceE10Avg": "1.782",
+      "priceGazoleAvg": "1.682"
+    },
+    {
+      "id": "83400013",
+      "cp": "83400",
+      "priceE10Avg": "1.847",
+      "priceGazoleAvg": "1.747"
+    },
+    {
+      "id": "83400015",
+      "cp": "83400",
+      "priceE10Avg": "1.702",
+      "priceGazoleAvg": "1.609"
+    },
+    {
+      "id": "83400017",
+      "cp": "83400",
+      "priceE10Avg": "1.703",
+      "priceGazoleAvg": "1.597"
+    },
+    {
+      "id": "83420001",
+      "cp": "83420",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83420005",
+      "cp": "83420",
+      "priceE10Avg": "1.720",
+      "priceGazoleAvg": "1.679"
+    },
+    {
+      "id": "83440001",
+      "cp": "83440",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83440002",
+      "cp": "83440",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.889"
+    },
+    {
+      "id": "83440003",
+      "cp": "83440",
+      "priceE10Avg": "1.874",
+      "priceGazoleAvg": "1.773"
+    },
+    {
+      "id": "83440004",
+      "cp": "83440",
+      "priceE10Avg": "1.798",
+      "priceGazoleAvg": "1.694"
+    },
+    {
+      "id": "83440005",
+      "cp": "83440",
+      "priceE10Avg": "1.821",
+      "priceGazoleAvg": "1.715"
+    },
+    {
+      "id": "83440006",
+      "cp": "83440",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.717"
+    },
+    {
+      "id": "83460002",
+      "cp": "83460",
+      "priceE10Avg": "1.747",
+      "priceGazoleAvg": "1.644"
+    },
+    {
+      "id": "83460004",
+      "cp": "83460",
+      "priceE10Avg": "1.747",
+      "priceGazoleAvg": "1.644"
+    },
+    {
+      "id": "83470001",
+      "cp": "83470",
+      "priceE10Avg": "1.756",
+      "priceGazoleAvg": "1.655"
+    },
+    {
+      "id": "83470003",
+      "cp": "83470",
+      "priceE10Avg": "1.793",
+      "priceGazoleAvg": "1.688"
+    },
+    {
+      "id": "83470004",
+      "cp": "83470",
+      "priceE10Avg": "1.759",
+      "priceGazoleAvg": "1.660"
+    },
+    {
+      "id": "83470005",
+      "cp": "83470",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83470006",
+      "cp": "83470",
+      "priceE10Avg": "1.765",
+      "priceGazoleAvg": "1.664"
+    },
+    {
+      "id": "83480001",
+      "cp": "83480",
+      "priceE10Avg": "1.791",
+      "priceGazoleAvg": "1.683"
+    },
+    {
+      "id": "83480002",
+      "cp": "83480",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83480003",
+      "cp": "83480",
+      "priceE10Avg": "1.864",
+      "priceGazoleAvg": "1.769"
+    },
+    {
+      "id": "83480005",
+      "cp": "83480",
+      "priceE10Avg": "1.781",
+      "priceGazoleAvg": "1.683"
+    },
+    {
+      "id": "83480006",
+      "cp": "83480",
+      "priceE10Avg": "1.952",
+      "priceGazoleAvg": "1.877"
+    },
+    {
+      "id": "83490001",
+      "cp": "83490",
+      "priceE10Avg": "1.860",
+      "priceGazoleAvg": "1.771"
+    },
+    {
+      "id": "83490002",
+      "cp": "83490",
+      "priceE10Avg": "1.788",
+      "priceGazoleAvg": "1.693"
+    },
+    {
+      "id": "83490003",
+      "cp": "83490",
+      "priceE10Avg": "1.813",
+      "priceGazoleAvg": "1.720"
+    },
+    {
+      "id": "83490004",
+      "cp": "83490",
+      "priceE10Avg": "1.867",
+      "priceGazoleAvg": "1.718"
+    },
+    {
+      "id": "83490005",
+      "cp": "83490",
+      "priceE10Avg": "1.734",
+      "priceGazoleAvg": "1.581"
+    },
+    {
+      "id": "83500001",
+      "cp": "83500",
+      "priceE10Avg": "1.744",
+      "priceGazoleAvg": "1.651"
+    },
+    {
+      "id": "83500004",
+      "cp": "83500",
+      "priceE10Avg": "1.735",
+      "priceGazoleAvg": "1.640"
+    },
+    {
+      "id": "83500005",
+      "cp": "83500",
+      "priceE10Avg": "1.741",
+      "priceGazoleAvg": "1.647"
+    },
+    {
+      "id": "83500007",
+      "cp": "83500",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83500008",
+      "cp": "83500",
+      "priceE10Avg": "1.854",
+      "priceGazoleAvg": "1.753"
+    },
+    {
+      "id": "83500012",
+      "cp": "83500",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83500013",
+      "cp": "83500",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83510001",
+      "cp": "83510",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83510002",
+      "cp": "83510",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83510003",
+      "cp": "83510",
+      "priceE10Avg": "1.752",
+      "priceGazoleAvg": "1.657"
+    },
+    {
+      "id": "83510004",
+      "cp": "83510",
+      "priceE10Avg": "1.881",
+      "priceGazoleAvg": "1.772"
+    },
+    {
+      "id": "83510005",
+      "cp": "83510",
+      "priceE10Avg": "1.684",
+      "priceGazoleAvg": "1.614"
+    },
+    {
+      "id": "83520001",
+      "cp": "83520",
+      "priceE10Avg": "1.878",
+      "priceGazoleAvg": "1.776"
+    },
+    {
+      "id": "83520002",
+      "cp": "83520",
+      "priceE10Avg": "1.814",
+      "priceGazoleAvg": "1.718"
+    },
+    {
+      "id": "83550001",
+      "cp": "83550",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83550002",
+      "cp": "83550",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83550003",
+      "cp": "83550",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83550004",
+      "cp": "83550",
+      "priceE10Avg": "1.868",
+      "priceGazoleAvg": "1.676"
+    },
+    {
+      "id": "83550005",
+      "cp": "83550",
+      "priceE10Avg": "1.971",
+      "priceGazoleAvg": "1.892"
+    },
+    {
+      "id": "83550006",
+      "cp": "83550",
+      "priceE10Avg": "1.904",
+      "priceGazoleAvg": "1.817"
+    },
+    {
+      "id": "83560001",
+      "cp": "83560",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83560002",
+      "cp": "83560",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83560003",
+      "cp": "83560",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.867"
+    },
+    {
+      "id": "83560004",
+      "cp": "83560",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83560005",
+      "cp": "83560",
+      "priceE10Avg": "1.803",
+      "priceGazoleAvg": "1.704"
+    },
+    {
+      "id": "83560006",
+      "cp": "83560",
+      "priceE10Avg": "1.985",
+      "priceGazoleAvg": "1.910"
+    },
+    {
+      "id": "83560007",
+      "cp": "83560",
+      "priceE10Avg": "1.764",
+      "priceGazoleAvg": "1.669"
+    },
+    {
+      "id": "83560008",
+      "cp": "83560",
+      "priceE10Avg": "1.795",
+      "priceGazoleAvg": "1.697"
+    },
+    {
+      "id": "83560010",
+      "cp": "83560",
+      "priceE10Avg": "1.708",
+      "priceGazoleAvg": "1.613"
+    },
+    {
+      "id": "83560011",
+      "cp": "83560",
+      "priceE10Avg": "1.819",
+      "priceGazoleAvg": "1.706"
+    },
+    {
+      "id": "83570001",
+      "cp": "83570",
+      "priceE10Avg": "1.811",
+      "priceGazoleAvg": "1.711"
+    },
+    {
+      "id": "83570002",
+      "cp": "83570",
+      "priceE10Avg": "1.809",
+      "priceGazoleAvg": "1.707"
+    },
+    {
+      "id": "83570003",
+      "cp": "83570",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.753"
+    },
+    {
+      "id": "83570004",
+      "cp": "83570",
+      "priceE10Avg": "1.821",
+      "priceGazoleAvg": "1.733"
+    },
+    {
+      "id": "83580001",
+      "cp": "83580",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83580003",
+      "cp": "83580",
+      "priceE10Avg": "1.832",
+      "priceGazoleAvg": "1.742"
+    },
+    {
+      "id": "83580004",
+      "cp": "83580",
+      "priceE10Avg": "1.727",
+      "priceGazoleAvg": "1.618"
+    },
+    {
+      "id": "83590001",
+      "cp": "83590",
+      "priceE10Avg": "1.794",
+      "priceGazoleAvg": "1.696"
+    },
+    {
+      "id": "83600001",
+      "cp": "83600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83600003",
+      "cp": "83600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83600005",
+      "cp": "83600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83600007",
+      "cp": "83600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83600010",
+      "cp": "83600",
+      "priceE10Avg": "1.850",
+      "priceGazoleAvg": "1.747"
+    },
+    {
+      "id": "83600011",
+      "cp": "83600",
+      "priceE10Avg": "1.891",
+      "priceGazoleAvg": "1.797"
+    },
+    {
+      "id": "83600012",
+      "cp": "83600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83600013",
+      "cp": "83600",
+      "priceE10Avg": "1.910",
+      "priceGazoleAvg": "1.825"
+    },
+    {
+      "id": "83600014",
+      "cp": "83600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83600017",
+      "cp": "83600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83600018",
+      "cp": "83600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83600019",
+      "cp": "83600",
+      "priceE10Avg": "1.889",
+      "priceGazoleAvg": "1.775"
+    },
+    {
+      "id": "83600020",
+      "cp": "83600",
+      "priceE10Avg": "1.865",
+      "priceGazoleAvg": "1.772"
+    },
+    {
+      "id": "83600021",
+      "cp": "83600",
+      "priceE10Avg": "1.798",
+      "priceGazoleAvg": "1.689"
+    },
+    {
+      "id": "83600022",
+      "cp": "83600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83600023",
+      "cp": "83600",
+      "priceE10Avg": "1.859",
+      "priceGazoleAvg": "1.760"
+    },
+    {
+      "id": "83600024",
+      "cp": "83600",
+      "priceE10Avg": "1.812",
+      "priceGazoleAvg": "1.706"
+    },
+    {
+      "id": "83600025",
+      "cp": "83600",
+      "priceE10Avg": "1.855",
+      "priceGazoleAvg": "1.765"
+    },
+    {
+      "id": "83600026",
+      "cp": "83600",
+      "priceE10Avg": "1.802",
+      "priceGazoleAvg": "1.698"
+    },
+    {
+      "id": "83600027",
+      "cp": "83600",
+      "priceE10Avg": "1.733",
+      "priceGazoleAvg": "1.632"
+    },
+    {
+      "id": "83600028",
+      "cp": "83600",
+      "priceE10Avg": "1.716",
+      "priceGazoleAvg": "1.628"
+    },
+    {
+      "id": "83600029",
+      "cp": "83600",
+      "priceE10Avg": "1.767",
+      "priceGazoleAvg": "1.652"
+    },
+    {
+      "id": "83610001",
+      "cp": "83610",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83610002",
+      "cp": "83610",
+      "priceE10Avg": "1.868",
+      "priceGazoleAvg": "1.729"
+    },
+    {
+      "id": "83630001",
+      "cp": "83630",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83630002",
+      "cp": "83630",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.708"
+    },
+    {
+      "id": "83630003",
+      "cp": "83630",
+      "priceE10Avg": "1.802",
+      "priceGazoleAvg": "1.700"
+    },
+    {
+      "id": "83640001",
+      "cp": "83640",
+      "priceE10Avg": "1.743",
+      "priceGazoleAvg": "1.640"
+    },
+    {
+      "id": "83660002",
+      "cp": "83660",
+      "priceE10Avg": "1.805",
+      "priceGazoleAvg": "1.703"
+    },
+    {
+      "id": "83670001",
+      "cp": "83670",
+      "priceE10Avg": "1.846",
+      "priceGazoleAvg": "1.753"
+    },
+    {
+      "id": "83670002",
+      "cp": "83670",
+      "priceE10Avg": "1.788",
+      "priceGazoleAvg": "1.687"
+    },
+    {
+      "id": "83670003",
+      "cp": "83670",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83690002",
+      "cp": "83690",
+      "priceE10Avg": "1.793",
+      "priceGazoleAvg": "1.693"
+    },
+    {
+      "id": "83690003",
+      "cp": "83690",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.804"
+    },
+    {
+      "id": "83690004",
+      "cp": "83690",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83690005",
+      "cp": "83690",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.711"
+    },
+    {
+      "id": "83700003",
+      "cp": "83700",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83700004",
+      "cp": "83700",
+      "priceE10Avg": "1.776",
+      "priceGazoleAvg": "1.673"
+    },
+    {
+      "id": "83700007",
+      "cp": "83700",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83700008",
+      "cp": "83700",
+      "priceE10Avg": "1.717",
+      "priceGazoleAvg": "1.616"
+    },
+    {
+      "id": "83720001",
+      "cp": "83720",
+      "priceE10Avg": "1.782",
+      "priceGazoleAvg": "1.674"
+    },
+    {
+      "id": "83720003",
+      "cp": "83720",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83720005",
+      "cp": "83720",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83780001",
+      "cp": "83780",
+      "priceE10Avg": "1.944",
+      "priceGazoleAvg": "1.747"
+    },
+    {
+      "id": "83780002",
+      "cp": "83300",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.742"
+    },
+    {
+      "id": "83790001",
+      "cp": "83790",
+      "priceE10Avg": "1.776",
+      "priceGazoleAvg": "1.677"
+    },
+    {
+      "id": "83820001",
+      "cp": "83820",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83830002",
+      "cp": "83830",
+      "priceE10Avg": "1.974",
+      "priceGazoleAvg": "1.867"
+    },
+    {
+      "id": "83840001",
+      "cp": "83840",
+      "priceE10Avg": "1.817",
+      "priceGazoleAvg": "1.718"
+    },
+    {
+      "id": "83870001",
+      "cp": "83870",
+      "priceE10Avg": "1.844",
+      "priceGazoleAvg": "1.733"
+    },
+    {
+      "id": "83910001",
+      "cp": "83910",
+      "priceE10Avg": "1.820",
+      "priceGazoleAvg": "1.710"
+    },
+    {
+      "id": "83980001",
+      "cp": "83980",
+      "priceE10Avg": "1.749",
+      "priceGazoleAvg": "1.649"
+    },
+    {
+      "id": "83980002",
+      "cp": "83980",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "83990002",
+      "cp": "83990",
+      "priceE10Avg": "2.119",
+      "priceGazoleAvg": "1.977"
+    },
+    {
+      "id": "84000001",
+      "cp": "84000",
+      "priceE10Avg": "1.754",
+      "priceGazoleAvg": "1.663"
+    },
+    {
+      "id": "84000002",
+      "cp": "84000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84000005",
+      "cp": "84000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84000007",
+      "cp": "84000",
+      "priceE10Avg": "1.834",
+      "priceGazoleAvg": "1.736"
+    },
+    {
+      "id": "84000008",
+      "cp": "84000",
+      "priceE10Avg": "1.764",
+      "priceGazoleAvg": "1.672"
+    },
+    {
+      "id": "84000009",
+      "cp": "84000",
+      "priceE10Avg": "1.751",
+      "priceGazoleAvg": "1.657"
+    },
+    {
+      "id": "84000010",
+      "cp": "84000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84000011",
+      "cp": "84000",
+      "priceE10Avg": "1.886",
+      "priceGazoleAvg": "1.719"
+    },
+    {
+      "id": "84000013",
+      "cp": "84000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84000016",
+      "cp": "84140",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84000017",
+      "cp": "84000",
+      "priceE10Avg": "1.787",
+      "priceGazoleAvg": "1.708"
+    },
+    {
+      "id": "84000018",
+      "cp": "84000",
+      "priceE10Avg": "1.854",
+      "priceGazoleAvg": "1.756"
+    },
+    {
+      "id": "84000019",
+      "cp": "84000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84000020",
+      "cp": "84000",
+      "priceE10Avg": "1.756",
+      "priceGazoleAvg": "1.665"
+    },
+    {
+      "id": "84000021",
+      "cp": "84000",
+      "priceE10Avg": "1.759",
+      "priceGazoleAvg": "1.672"
+    },
+    {
+      "id": "84000022",
+      "cp": "84000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84000023",
+      "cp": "84000",
+      "priceE10Avg": "1.748",
+      "priceGazoleAvg": "1.643"
+    },
+    {
+      "id": "84013001",
+      "cp": "84140",
+      "priceE10Avg": "1.747",
+      "priceGazoleAvg": "1.663"
+    },
+    {
+      "id": "84097001",
+      "cp": "84000",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84100003",
+      "cp": "84100",
+      "priceE10Avg": "1.880",
+      "priceGazoleAvg": "1.811"
+    },
+    {
+      "id": "84100004",
+      "cp": "84100",
+      "priceE10Avg": "1.806",
+      "priceGazoleAvg": "1.709"
+    },
+    {
+      "id": "84100005",
+      "cp": "84100",
+      "priceE10Avg": "1.807",
+      "priceGazoleAvg": "1.709"
+    },
+    {
+      "id": "84100006",
+      "cp": "84100",
+      "priceE10Avg": "1.886",
+      "priceGazoleAvg": "1.773"
+    },
+    {
+      "id": "84100007",
+      "cp": "84100",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84100009",
+      "cp": "84100",
+      "priceE10Avg": "1.873",
+      "priceGazoleAvg": "1.779"
+    },
+    {
+      "id": "84100011",
+      "cp": "84100",
+      "priceE10Avg": "1.763",
+      "priceGazoleAvg": "1.661"
+    },
+    {
+      "id": "84107001",
+      "cp": "84100",
+      "priceE10Avg": "1.816",
+      "priceGazoleAvg": "1.711"
+    },
+    {
+      "id": "84110001",
+      "cp": "84110",
+      "priceE10Avg": "1.762",
+      "priceGazoleAvg": "1.671"
+    },
+    {
+      "id": "84110004",
+      "cp": "84110",
+      "priceE10Avg": "1.760",
+      "priceGazoleAvg": "1.667"
+    },
+    {
+      "id": "84110005",
+      "cp": "84110",
+      "priceE10Avg": "1.756",
+      "priceGazoleAvg": "1.664"
+    },
+    {
+      "id": "84110006",
+      "cp": "84110",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.766"
+    },
+    {
+      "id": "84120001",
+      "cp": "84120",
+      "priceE10Avg": "1.755",
+      "priceGazoleAvg": "1.667"
+    },
+    {
+      "id": "84120004",
+      "cp": "84120",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.765"
+    },
+    {
+      "id": "84120005",
+      "cp": "84120",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84120006",
+      "cp": "84120",
+      "priceE10Avg": "1.792",
+      "priceGazoleAvg": "1.688"
+    },
+    {
+      "id": "84120007",
+      "cp": "84120",
+      "priceE10Avg": "1.755",
+      "priceGazoleAvg": "1.667"
+    },
+    {
+      "id": "84120008",
+      "cp": "84120",
+      "priceE10Avg": "1.872",
+      "priceGazoleAvg": "1.777"
+    },
+    {
+      "id": "84130001",
+      "cp": "84130",
+      "priceE10Avg": "1.791",
+      "priceGazoleAvg": "1.708"
+    },
+    {
+      "id": "84130004",
+      "cp": "84130",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84130005",
+      "cp": "84130",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84130006",
+      "cp": "84130",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84130007",
+      "cp": "84130",
+      "priceE10Avg": "1.775",
+      "priceGazoleAvg": "1.689"
+    },
+    {
+      "id": "84130008",
+      "cp": "84130",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84130010",
+      "cp": "84130",
+      "priceE10Avg": "1.855",
+      "priceGazoleAvg": "1.764"
+    },
+    {
+      "id": "84130011",
+      "cp": "84130",
+      "priceE10Avg": "1.758",
+      "priceGazoleAvg": "1.667"
+    },
+    {
+      "id": "84130012",
+      "cp": "84130",
+      "priceE10Avg": "1.706",
+      "priceGazoleAvg": "1.674"
+    },
+    {
+      "id": "84130013",
+      "cp": "84130",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84140003",
+      "cp": "84140",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84140004",
+      "cp": "84140",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84140006",
+      "cp": "84140",
+      "priceE10Avg": "1.864",
+      "priceGazoleAvg": "1.752"
+    },
+    {
+      "id": "84140007",
+      "cp": "84140",
+      "priceE10Avg": "1.753",
+      "priceGazoleAvg": "1.665"
+    },
+    {
+      "id": "84150001",
+      "cp": "84150",
+      "priceE10Avg": "1.819",
+      "priceGazoleAvg": "1.715"
+    },
+    {
+      "id": "84150002",
+      "cp": "84150",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84160001",
+      "cp": "84160",
+      "priceE10Avg": "1.747",
+      "priceGazoleAvg": "1.651"
+    },
+    {
+      "id": "84160003",
+      "cp": "84160",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.663"
+    },
+    {
+      "id": "84170001",
+      "cp": "84170",
+      "priceE10Avg": "1.836",
+      "priceGazoleAvg": "1.733"
+    },
+    {
+      "id": "84170002",
+      "cp": "84170",
+      "priceE10Avg": "1.863",
+      "priceGazoleAvg": "1.749"
+    },
+    {
+      "id": "84190001",
+      "cp": "84190",
+      "priceE10Avg": "1.887",
+      "priceGazoleAvg": "1.778"
+    },
+    {
+      "id": "84200002",
+      "cp": "84200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84200003",
+      "cp": "84380",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.821"
+    },
+    {
+      "id": "84200004",
+      "cp": "84200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84200006",
+      "cp": "84200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.701"
+    },
+    {
+      "id": "84200008",
+      "cp": "84200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.706"
+    },
+    {
+      "id": "84200009",
+      "cp": "84200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84200010",
+      "cp": "84200",
+      "priceE10Avg": "1.752",
+      "priceGazoleAvg": "1.658"
+    },
+    {
+      "id": "84200011",
+      "cp": "84200",
+      "priceE10Avg": "1.762",
+      "priceGazoleAvg": "1.669"
+    },
+    {
+      "id": "84200012",
+      "cp": "84200",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.697"
+    },
+    {
+      "id": "84210001",
+      "cp": "84210",
+      "priceE10Avg": "1.765",
+      "priceGazoleAvg": "1.666"
+    },
+    {
+      "id": "84210002",
+      "cp": "84210",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84210003",
+      "cp": "84210",
+      "priceE10Avg": "1.851",
+      "priceGazoleAvg": "1.768"
+    },
+    {
+      "id": "84220002",
+      "cp": "84220",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.754"
+    },
+    {
+      "id": "84220003",
+      "cp": "84220",
+      "priceE10Avg": "1.816",
+      "priceGazoleAvg": "1.716"
+    },
+    {
+      "id": "84230001",
+      "cp": "84230",
+      "priceE10Avg": "1.810",
+      "priceGazoleAvg": "1.708"
+    },
+    {
+      "id": "84240001",
+      "cp": "84240",
+      "priceE10Avg": "1.861",
+      "priceGazoleAvg": "1.760"
+    },
+    {
+      "id": "84250001",
+      "cp": "84250",
+      "priceE10Avg": "1.798",
+      "priceGazoleAvg": "1.697"
+    },
+    {
+      "id": "84250002",
+      "cp": "84250",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.839"
+    },
+    {
+      "id": "84260001",
+      "cp": "84260",
+      "priceE10Avg": "1.797",
+      "priceGazoleAvg": "1.681"
+    },
+    {
+      "id": "84270002",
+      "cp": "84270",
+      "priceE10Avg": "1.820",
+      "priceGazoleAvg": "1.722"
+    },
+    {
+      "id": "84290001",
+      "cp": "84290",
+      "priceE10Avg": "1.793",
+      "priceGazoleAvg": "1.695"
+    },
+    {
+      "id": "84300001",
+      "cp": "84300",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84300002",
+      "cp": "84300",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84300003",
+      "cp": "84300",
+      "priceE10Avg": "1.860",
+      "priceGazoleAvg": "1.776"
+    },
+    {
+      "id": "84300006",
+      "cp": "84300",
+      "priceE10Avg": "1.758",
+      "priceGazoleAvg": "1.661"
+    },
+    {
+      "id": "84300009",
+      "cp": "84300",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84300010",
+      "cp": "84300",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84300011",
+      "cp": "84300",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84300013",
+      "cp": "84300",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.771"
+    },
+    {
+      "id": "84301001",
+      "cp": "84300",
+      "priceE10Avg": "1.753",
+      "priceGazoleAvg": "1.663"
+    },
+    {
+      "id": "84310001",
+      "cp": "84310",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84310002",
+      "cp": "84310",
+      "priceE10Avg": "1.761",
+      "priceGazoleAvg": "1.669"
+    },
+    {
+      "id": "84310003",
+      "cp": "84310",
+      "priceE10Avg": "1.820",
+      "priceGazoleAvg": "1.725"
+    },
+    {
+      "id": "84310004",
+      "cp": "84310",
+      "priceE10Avg": "1.961",
+      "priceGazoleAvg": "1.829"
+    },
+    {
+      "id": "84320001",
+      "cp": "84320",
+      "priceE10Avg": "1.785",
+      "priceGazoleAvg": "1.702"
+    },
+    {
+      "id": "84330003",
+      "cp": "84330",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84330004",
+      "cp": "84330",
+      "priceE10Avg": "1.755",
+      "priceGazoleAvg": "1.662"
+    },
+    {
+      "id": "84330005",
+      "cp": "84330",
+      "priceE10Avg": "1.846",
+      "priceGazoleAvg": "1.748"
+    },
+    {
+      "id": "84340002",
+      "cp": "84340",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.767"
+    },
+    {
+      "id": "84350001",
+      "cp": "84350",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84350002",
+      "cp": "84350",
+      "priceE10Avg": "1.794",
+      "priceGazoleAvg": "1.690"
+    },
+    {
+      "id": "84360003",
+      "cp": "84360",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.760"
+    },
+    {
+      "id": "84390001",
+      "cp": "84390",
+      "priceE10Avg": "1.789",
+      "priceGazoleAvg": "1.692"
+    },
+    {
+      "id": "84400001",
+      "cp": "84400",
+      "priceE10Avg": "1.761",
+      "priceGazoleAvg": "1.669"
+    },
+    {
+      "id": "84400003",
+      "cp": "84400",
+      "priceE10Avg": "1.750",
+      "priceGazoleAvg": "1.648"
+    },
+    {
+      "id": "84400004",
+      "cp": "84400",
+      "priceE10Avg": "1.863",
+      "priceGazoleAvg": "1.783"
+    },
+    {
+      "id": "84400006",
+      "cp": "84400",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84400007",
+      "cp": "84400",
+      "priceE10Avg": "1.756",
+      "priceGazoleAvg": "1.655"
+    },
+    {
+      "id": "84410001",
+      "cp": "84410",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84430003",
+      "cp": "84430",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84430004",
+      "cp": "84430",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84430005",
+      "cp": "84430",
+      "priceE10Avg": "1.824",
+      "priceGazoleAvg": "1.711"
+    },
+    {
+      "id": "84470001",
+      "cp": "84470",
+      "priceE10Avg": "1.904",
+      "priceGazoleAvg": "1.782"
+    },
+    {
+      "id": "84500001",
+      "cp": "84500",
+      "priceE10Avg": "1.873",
+      "priceGazoleAvg": "1.772"
+    },
+    {
+      "id": "84500003",
+      "cp": "84500",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.754"
+    },
+    {
+      "id": "84500004",
+      "cp": "84500",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84500005",
+      "cp": "84500",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84500006",
+      "cp": "84500",
+      "priceE10Avg": "1.867",
+      "priceGazoleAvg": "1.774"
+    },
+    {
+      "id": "84500007",
+      "cp": "84500",
+      "priceE10Avg": "1.796",
+      "priceGazoleAvg": "1.696"
+    },
+    {
+      "id": "84507001",
+      "cp": "84500",
+      "priceE10Avg": "1.748",
+      "priceGazoleAvg": "1.649"
+    },
+    {
+      "id": "84510001",
+      "cp": "84510",
+      "priceE10Avg": "1.771",
+      "priceGazoleAvg": "1.681"
+    },
+    {
+      "id": "84550002",
+      "cp": "84550",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84550003",
+      "cp": "84550",
+      "priceE10Avg": "1.809",
+      "priceGazoleAvg": "1.712"
+    },
+    {
+      "id": "84550004",
+      "cp": "84550",
+      "priceE10Avg": "2.052",
+      "priceGazoleAvg": "1.941"
+    },
+    {
+      "id": "84550005",
+      "cp": "84550",
+      "priceE10Avg": "1.893",
+      "priceGazoleAvg": "1.806"
+    },
+    {
+      "id": "84570001",
+      "cp": "84570",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84570002",
+      "cp": "84570",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.810"
+    },
+    {
+      "id": "84600001",
+      "cp": "84600",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84600002",
+      "cp": "84600",
+      "priceE10Avg": "1.805",
+      "priceGazoleAvg": "1.702"
+    },
+    {
+      "id": "84600003",
+      "cp": "84600",
+      "priceE10Avg": "1.796",
+      "priceGazoleAvg": "1.683"
+    },
+    {
+      "id": "84601001",
+      "cp": "84600",
+      "priceE10Avg": "1.732",
+      "priceGazoleAvg": "1.638"
+    },
+    {
+      "id": "84660001",
+      "cp": "84660",
+      "priceE10Avg": null,
+      "priceGazoleAvg": "1.744"
+    },
+    {
+      "id": "84660002",
+      "cp": "84660",
+      "priceE10Avg": "1.771",
+      "priceGazoleAvg": "1.680"
+    },
+    {
+      "id": "84700001",
+      "cp": "84700",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84700002",
+      "cp": "84700",
+      "priceE10Avg": "1.781",
+      "priceGazoleAvg": "1.680"
+    },
+    {
+      "id": "84700003",
+      "cp": "84700",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84700004",
+      "cp": "84700",
+      "priceE10Avg": "1.780",
+      "priceGazoleAvg": "1.680"
+    },
+    {
+      "id": "84700005",
+      "cp": "84700",
+      "priceE10Avg": "1.781",
+      "priceGazoleAvg": "1.680"
+    },
+    {
+      "id": "84700006",
+      "cp": "84700",
+      "priceE10Avg": "1.973",
+      "priceGazoleAvg": "1.895"
+    },
+    {
+      "id": "84700007",
+      "cp": "84700",
+      "priceE10Avg": "1.792",
+      "priceGazoleAvg": "1.697"
+    },
+    {
+      "id": "84740001",
+      "cp": "84740",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84740002",
+      "cp": "84740",
+      "priceE10Avg": "1.870",
+      "priceGazoleAvg": "1.781"
+    },
+    {
+      "id": "84800001",
+      "cp": "84800",
+      "priceE10Avg": "1.781",
+      "priceGazoleAvg": "1.682"
+    },
+    {
+      "id": "84800002",
+      "cp": "84800",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84800003",
+      "cp": "84800",
+      "priceE10Avg": "1.780",
+      "priceGazoleAvg": "1.682"
+    },
+    {
+      "id": "84800004",
+      "cp": "84800",
+      "priceE10Avg": "1.869",
+      "priceGazoleAvg": "1.780"
+    },
+    {
+      "id": "84800005",
+      "cp": "84800",
+      "priceE10Avg": null,
+      "priceGazoleAvg": null
+    },
+    {
+      "id": "84810002",
+      "cp": "84810",
+      "priceE10Avg": "1.795",
+      "priceGazoleAvg": "1.688"
+    },
+    {
+      "id": "84840003",
+      "cp": "84840",
+      "priceE10Avg": "1.808",
+      "priceGazoleAvg": "1.712"
+    },
+    {
+      "id": "84850001",
+      "cp": "84850",
+      "priceE10Avg": "1.804",
+      "priceGazoleAvg": "1.710"
+    },
+    {
+      "id": "84850002",
+      "cp": "84850",
+      "priceE10Avg": "1.781",
+      "priceGazoleAvg": "1.675"
+    },
+    {
+      "id": "84976001",
+      "cp": "84200",
+      "priceE10Avg": "1.757",
+      "priceGazoleAvg": "1.660"
+    }
+  ],
+  "totalPACAStations": 1257,
+  "totalStationsWithoutE10": 104,
+  "stationIdsWithoutE10": [
+    "4100009",
+    "4120002",
+    "4210004",
+    "4260002",
+    "4360001",
+    "4370001",
+    "4500001",
+    "4510003",
+    "4600002",
+    "5100004",
+    "5200007",
+    "5240003",
+    "5240004",
+    "5260002",
+    "5400004",
+    "5500002",
+    "5560002",
+    "5600002",
+    "5700002",
+    "6240004",
+    "6260002",
+    "6296001",
+    "6320004",
+    "6340001",
+    "6340002",
+    "6400005",
+    "6410003",
+    "6420001",
+    "6430001",
+    "6500008",
+    "6530008",
+    "6560001",
+    "6600012",
+    "6610002",
+    "6650002",
+    "6670008",
+    "6670010",
+    "13000003",
+    "13006003",
+    "13008014",
+    "13008018",
+    "13012024",
+    "13013012",
+    "13115001",
+    "13120005",
+    "13170007",
+    "13170010",
+    "13180002",
+    "13200013",
+    "13230004",
+    "13240002",
+    "13270014",
+    "13310001",
+    "13340001",
+    "13340004",
+    "13340005",
+    "13370005",
+    "13430002",
+    "13460003",
+    "13530001",
+    "13560002",
+    "13580002",
+    "13580003",
+    "13620004",
+    "13750004",
+    "13800010",
+    "13870002",
+    "13890000",
+    "13990002",
+    "83130003",
+    "83130005",
+    "83136005",
+    "83136012",
+    "83150003",
+    "83170009",
+    "83190004",
+    "83200004",
+    "83300008",
+    "83310006",
+    "83340002",
+    "83440002",
+    "83440006",
+    "83560003",
+    "83570003",
+    "83630002",
+    "83690003",
+    "83690005",
+    "83780002",
+    "83980002",
+    "84110006",
+    "84120004",
+    "84160003",
+    "84200003",
+    "84200006",
+    "84200008",
+    "84200012",
+    "84220002",
+    "84250002",
+    "84300013",
+    "84340002",
+    "84360003",
+    "84500003",
+    "84570002",
+    "84660001"
+  ]
+}

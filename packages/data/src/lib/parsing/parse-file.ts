@@ -4,6 +4,7 @@ import path from "node:path";
 import saxes from "saxes";
 import { projectRoot } from "../manifest/path.ts";
 
+
 interface StationContent {
   id: string;
   cp: string;
@@ -41,7 +42,7 @@ interface ParseResult {
   stationIdsWithoutE10: Array<string>;
 }
 
-const ALLOWED_CPs = ["04", "05", "06", "13", "83", "84"];
+// const ALLOWED_CPs = ["04", "05", "06", "13", "83", "84"];
 
 const rawDataFilePath = path.join(
   projectRoot,
@@ -52,7 +53,7 @@ const processedDataFilePath = path.join(
   "/src/lib/parsing/fuel-weighted-prices2024.json",
 );
 
-async function parseStation(
+export async function parseStations(
   filePath: string,
   alllowedCps: Array<string>,
 ): Promise<ParseResult> {
@@ -184,23 +185,28 @@ async function parseStation(
   };
 }
 
-async function main() {
-  const fileContent = await parseStation(rawDataFilePath, ALLOWED_CPs);
-  await fsp.writeFile(
-    processedDataFilePath,
-    JSON.stringify(fileContent, null, 2),
-    "utf-8",
-  );
+// __________
 
-  console.log("Total PACA stations: ", fileContent.totalPACAStations);
-  console.log(
-    "Total PACA stations without E10: ",
-    fileContent.totalStationsWithoutE10,
-  );
-  console.log(
-    "Stations PACA IDs without E10: ",
-    fileContent.stationIdsWithoutE10,
-  );
-}
 
-await main().catch(console.error);
+
+// __________
+// async function main() {
+//   const fileContent = await parseStations(rawDataFilePath, ALLOWED_CPs);
+//   await fsp.writeFile(
+//     processedDataFilePath,
+//     JSON.stringify(fileContent, null, 2),
+//     "utf-8",
+//   );
+
+//   console.log("Total PACA stations: ", fileContent.totalPACAStations);
+//   console.log(
+//     "Total PACA stations without E10: ",
+//     fileContent.totalStationsWithoutE10,
+//   );
+//   console.log(
+//     "Stations PACA IDs without E10: ",
+//     fileContent.stationIdsWithoutE10,
+//   );
+// }
+
+// await main().catch(console.error);
