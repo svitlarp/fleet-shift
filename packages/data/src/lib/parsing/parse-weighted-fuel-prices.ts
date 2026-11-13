@@ -1,8 +1,7 @@
-import fsp from "node:fs/promises";
 import fs from "node:fs";
 import path from "node:path";
 import saxes from "saxes";
-import { projectRoot } from "../manifest/path.ts";
+import type { LastFuelPrice } from "./parse-last-fuel-prices.ts";
 
 
 interface StationContent {
@@ -40,22 +39,13 @@ interface ParseResult {
   totalPACAStations: number;
   totalStationsWithoutE10: number;
   stationIdsWithoutE10: Array<string>;
+  endOFYearPrices: LastFuelPrice[];
 }
 
-// const ALLOWED_CPs = ["04", "05", "06", "13", "83", "84"];
-
-const rawDataFilePath = path.join(
-  projectRoot,
-  "/raw/fuel-prices/PrixCarburants_annuel_2024.xml",
-);
-const processedDataFilePath = path.join(
-  projectRoot,
-  "/src/lib/parsing/fuel-weighted-prices2024.json",
-);
-
-export async function parseStations(
+export async function parseWeightedFuelPrices(
   filePath: string,
   alllowedCps: Array<string>,
+  lastFuelPriceData: LastFuelPrice[]
 ): Promise<ParseResult> {
   const parser = new saxes.SaxesParser();
   const stationContent: StationContent[] = [];
@@ -63,9 +53,13 @@ export async function parseStations(
   let totalPACAStations: number = 0;
   let totalStationsWithoutE10: number = 0;
   const stationIdsWithoutE10: Array<string> = [];
-
   const fileName = path.basename(filePath);
   const year = Number(fileName.match(/(\d{4})\.xml$/i)?.[1]);
+  const endOFYearPrices: LastFuelPrice[] = [];
+
+  const previousPricesMap = new Map(
+    lastFuelPriceData.map((station) => [station.stationID, station])
+  );
 
   parser.on("opentag", (tag) => {
     if (tag.name === "pdv") {
@@ -74,11 +68,13 @@ export async function parseStations(
       console.log("id:", id, "cp: ", cp);
 
       if (id && cp && alllowedCps.some((prefix) => cp.startsWith(prefix))) {
+        const previousPrices = previousPricesMap.get(id);
+
         currentStation = {
           id,
           cp,
-          priceE10: null,
-          priceGazole: null,
+          priceE10: previousPrices?.priceE10 ?? null,
+          priceGazole: previousPrices?.priceGazole ?? null,
           priceWeightedE10Sum: 0,
           priceWeightedGazoleSum: 0,
           timestampE10: Date.UTC(year, 0, 1),
@@ -129,6 +125,21 @@ export async function parseStations(
   // Close station
   parser.on("closetag", (tag) => {
     if (tag.name === "pdv" && currentStation) {
+      
+      // Handle price from the last updated date till end of the year 31 Decembre);
+      const yearEnd = Date.UTC(year, 12, 31);
+      const durationE10 = yearEnd - currentStation.timestampE10;
+      if (currentStation.priceE10 !== null && durationE10> 0) {
+        currentStation.priceWeightedE10Sum += currentStation.priceE10 * durationE10;
+        currentStation.totalDurationE10Ms += durationE10;
+      }
+
+      const durationGazole = yearEnd - currentStation.timestampGazole;
+      if (currentStation.priceGazole !== null && durationGazole> 0) {
+        currentStation.priceWeightedGazoleSum += currentStation.priceGazole * durationGazole;
+        currentStation.totalDurationGazoleMs += durationGazole;
+      }
+
       const {
         id,
         cp,
@@ -136,9 +147,21 @@ export async function parseStations(
         priceGazole,
         priceWeightedE10Sum,
         priceWeightedGazoleSum,
+        timestampE10,
+        timestampGazole,
         totalDurationE10Ms,
         totalDurationGazoleMs,
-      } = currentStation;
+      } = currentStation;    
+
+      // Handle prices of the end of hte year to transfer these prices to the beggining of the next year
+      endOFYearPrices.push({
+        stationID: id,
+        cp,
+        priceE10,
+        priceGazole,
+        timestampE10,
+        timestampGazole,
+      });
 
       if (priceE10 === null && priceGazole !== null) {
         totalStationsWithoutE10++;
@@ -149,11 +172,11 @@ export async function parseStations(
         cp,
         priceE10Avg:
           totalDurationE10Ms > 0
-            ? (priceWeightedE10Sum / totalDurationE10Ms).toFixed(3) 
+            ? Number((priceWeightedE10Sum / totalDurationE10Ms).toFixed(3)) 
             : null,
         priceGazoleAvg:
           totalDurationGazoleMs > 0
-            ? (priceWeightedGazoleSum / totalDurationGazoleMs).toFixed(3) 
+            ? Number((priceWeightedGazoleSum / totalDurationGazoleMs).toFixed(3)) 
             : null,
       });
 
@@ -163,7 +186,7 @@ export async function parseStations(
     }
   });
 
-  // Last part: Create Strem -> write chunk of stream, close parser
+  // Last part: Create Stream -> write chunk of stream, close parser
   const stream = fs.createReadStream(filePath, {
     encoding: "utf-8",
   });
@@ -182,31 +205,6 @@ export async function parseStations(
     totalPACAStations,
     totalStationsWithoutE10,
     stationIdsWithoutE10,
+    endOFYearPrices,
   };
 }
-
-// __________
-
-
-
-// __________
-// async function main() {
-//   const fileContent = await parseStations(rawDataFilePath, ALLOWED_CPs);
-//   await fsp.writeFile(
-//     processedDataFilePath,
-//     JSON.stringify(fileContent, null, 2),
-//     "utf-8",
-//   );
-
-//   console.log("Total PACA stations: ", fileContent.totalPACAStations);
-//   console.log(
-//     "Total PACA stations without E10: ",
-//     fileContent.totalStationsWithoutE10,
-//   );
-//   console.log(
-//     "Stations PACA IDs without E10: ",
-//     fileContent.stationIdsWithoutE10,
-//   );
-// }
-
-// await main().catch(console.error);

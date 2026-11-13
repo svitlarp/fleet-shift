@@ -1,0 +1,8434 @@
+[
+  {
+    "stationID": "4000001",
+    "cp": "04000",
+    "priceE10": null,
+    "priceGazole": 945,
+    "timestampE10": null,
+    "timestampGazole": 1451545947000
+  },
+  {
+    "stationID": "4000003",
+    "cp": "04000",
+    "priceE10": 1178,
+    "priceGazole": 931,
+    "timestampE10": 1451405520000,
+    "timestampGazole": 1451405520000
+  },
+  {
+    "stationID": "4000004",
+    "cp": "04000",
+    "priceE10": 1160,
+    "priceGazole": 945,
+    "timestampE10": 1451545946000,
+    "timestampGazole": 1451553176000
+  },
+  {
+    "stationID": "4100001",
+    "cp": "04204",
+    "priceE10": 1229,
+    "priceGazole": 999,
+    "timestampE10": 1449825144000,
+    "timestampGazole": 1450707165000
+  },
+  {
+    "stationID": "4100002",
+    "cp": "04100",
+    "priceE10": 1189,
+    "priceGazole": 962,
+    "timestampE10": 1451542373000,
+    "timestampGazole": 1451542373000
+  },
+  {
+    "stationID": "4100003",
+    "cp": "04100",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "4100007",
+    "cp": "04100",
+    "priceE10": 1189,
+    "priceGazole": 962,
+    "timestampE10": 1451542342000,
+    "timestampGazole": 1451542342000
+  },
+  {
+    "stationID": "4100008",
+    "cp": "04100",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "4100009",
+    "cp": "04100",
+    "priceE10": null,
+    "priceGazole": 999,
+    "timestampE10": null,
+    "timestampGazole": 1450861963000
+  },
+  {
+    "stationID": "4100010",
+    "cp": "04100",
+    "priceE10": 1299,
+    "priceGazole": 1059,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "4100011",
+    "cp": "04100",
+    "priceE10": 1195,
+    "priceGazole": 962,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "4103001",
+    "cp": "04100",
+    "priceE10": 1191,
+    "priceGazole": 968,
+    "timestampE10": 1451538753000,
+    "timestampGazole": 1451538753000
+  },
+  {
+    "stationID": "4120002",
+    "cp": "04120",
+    "priceE10": null,
+    "priceGazole": 1155,
+    "timestampE10": null,
+    "timestampGazole": 1449508328000
+  },
+  {
+    "stationID": "4120003",
+    "cp": "04120",
+    "priceE10": 1265,
+    "priceGazole": 1069,
+    "timestampE10": 1451542345000,
+    "timestampGazole": 1451542345000
+  },
+  {
+    "stationID": "4120004",
+    "cp": "04120",
+    "priceE10": null,
+    "priceGazole": 1159,
+    "timestampE10": null,
+    "timestampGazole": 1450365172000
+  },
+  {
+    "stationID": "4130001",
+    "cp": "04130",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "4130002",
+    "cp": "04130",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "4130003",
+    "cp": "04130",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "4130004",
+    "cp": "04130",
+    "priceE10": 1364,
+    "priceGazole": 1124,
+    "timestampE10": 1451549520000,
+    "timestampGazole": 1451549520000
+  },
+  {
+    "stationID": "4130005",
+    "cp": "04130",
+    "priceE10": 1354,
+    "priceGazole": 1124,
+    "timestampE10": 1451549520000,
+    "timestampGazole": 1451549520000
+  },
+  {
+    "stationID": "4140001",
+    "cp": "04140",
+    "priceE10": null,
+    "priceGazole": 1059,
+    "timestampE10": null,
+    "timestampGazole": 1451585549000
+  },
+  {
+    "stationID": "4160001",
+    "cp": "04160",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "4160002",
+    "cp": "04160",
+    "priceE10": null,
+    "priceGazole": 1119,
+    "timestampE10": null,
+    "timestampGazole": 1450246379000
+  },
+  {
+    "stationID": "4160003",
+    "cp": "04160",
+    "priceE10": null,
+    "priceGazole": 999,
+    "timestampE10": null,
+    "timestampGazole": 1450509170000
+  },
+  {
+    "stationID": "4160004",
+    "cp": "04160",
+    "priceE10": 1219,
+    "priceGazole": 994,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "4170001",
+    "cp": "04170",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "4170002",
+    "cp": "04170",
+    "priceE10": null,
+    "priceGazole": 1280,
+    "timestampE10": null,
+    "timestampGazole": 1441123740000
+  },
+  {
+    "stationID": "4170003",
+    "cp": "04170",
+    "priceE10": 1249,
+    "priceGazole": 1059,
+    "timestampE10": 1450339930000,
+    "timestampGazole": 1450339930000
+  },
+  {
+    "stationID": "4190001",
+    "cp": "04190",
+    "priceE10": null,
+    "priceGazole": 1029,
+    "timestampE10": null,
+    "timestampGazole": 1451581920000
+  },
+  {
+    "stationID": "4200001",
+    "cp": "04200",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "4200003",
+    "cp": "04200",
+    "priceE10": 1219,
+    "priceGazole": 989,
+    "timestampE10": 1451459541000,
+    "timestampGazole": 1451113971000
+  },
+  {
+    "stationID": "4200006",
+    "cp": "04200",
+    "priceE10": 1354,
+    "priceGazole": 1124,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1450501920000
+  },
+  {
+    "stationID": "4200007",
+    "cp": "04200",
+    "priceE10": null,
+    "priceGazole": 1099,
+    "timestampE10": null,
+    "timestampGazole": 1450415523000
+  },
+  {
+    "stationID": "4200008",
+    "cp": "04200",
+    "priceE10": 1269,
+    "priceGazole": 1049,
+    "timestampE10": 1450955555000,
+    "timestampGazole": 1450955555000
+  },
+  {
+    "stationID": "4204001",
+    "cp": "04204",
+    "priceE10": 1199,
+    "priceGazole": 979,
+    "timestampE10": 1450854727000,
+    "timestampGazole": 1451308377000
+  },
+  {
+    "stationID": "4210001",
+    "cp": "04210",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "4210002",
+    "cp": "04210",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "4210003",
+    "cp": "04210",
+    "priceE10": null,
+    "priceGazole": 1008,
+    "timestampE10": null,
+    "timestampGazole": 1450861960000
+  },
+  {
+    "stationID": "4210004",
+    "cp": "04210",
+    "priceE10": null,
+    "priceGazole": 1019,
+    "timestampE10": null,
+    "timestampGazole": 1450861938000
+  },
+  {
+    "stationID": "4240001",
+    "cp": "04240",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "4240002",
+    "cp": "04240",
+    "priceE10": null,
+    "priceGazole": 1059,
+    "timestampE10": null,
+    "timestampGazole": 1450264370000
+  },
+  {
+    "stationID": "4260002",
+    "cp": "04260",
+    "priceE10": null,
+    "priceGazole": 1260,
+    "timestampE10": null,
+    "timestampGazole": 1450696366000
+  },
+  {
+    "stationID": "4300001",
+    "cp": "04300",
+    "priceE10": null,
+    "priceGazole": 999,
+    "timestampE10": null,
+    "timestampGazole": 1451488374000
+  },
+  {
+    "stationID": "4300002",
+    "cp": "04300",
+    "priceE10": 1255,
+    "priceGazole": 999,
+    "timestampE10": 1451275957000,
+    "timestampGazole": 1451275957000
+  },
+  {
+    "stationID": "4300003",
+    "cp": "04300",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "4320001",
+    "cp": "04320",
+    "priceE10": null,
+    "priceGazole": 1140,
+    "timestampE10": null,
+    "timestampGazole": 1448694704000
+  },
+  {
+    "stationID": "4330004",
+    "cp": "04330",
+    "priceE10": null,
+    "priceGazole": 1020,
+    "timestampE10": null,
+    "timestampGazole": 1450879921000
+  },
+  {
+    "stationID": "4360001",
+    "cp": "04360",
+    "priceE10": null,
+    "priceGazole": 1200,
+    "timestampE10": null,
+    "timestampGazole": 1447179100000
+  },
+  {
+    "stationID": "4370001",
+    "cp": "04370",
+    "priceE10": null,
+    "priceGazole": 1440,
+    "timestampE10": null,
+    "timestampGazole": 1438585713000
+  },
+  {
+    "stationID": "4400001",
+    "cp": "04400",
+    "priceE10": 1320,
+    "priceGazole": 1005,
+    "timestampE10": 1451545949000,
+    "timestampGazole": 1450851129000
+  },
+  {
+    "stationID": "4400002",
+    "cp": "04400",
+    "priceE10": null,
+    "priceGazole": 1100,
+    "timestampE10": null,
+    "timestampGazole": 1451581936000
+  },
+  {
+    "stationID": "4400003",
+    "cp": "04400",
+    "priceE10": null,
+    "priceGazole": 1049,
+    "timestampE10": null,
+    "timestampGazole": 1451124762000
+  },
+  {
+    "stationID": "4400004",
+    "cp": "04400",
+    "priceE10": null,
+    "priceGazole": 1049,
+    "timestampE10": null,
+    "timestampGazole": 1451135520000
+  },
+  {
+    "stationID": "4500001",
+    "cp": "04500",
+    "priceE10": null,
+    "priceGazole": 1260,
+    "timestampE10": null,
+    "timestampGazole": 1447751491000
+  },
+  {
+    "stationID": "4500002",
+    "cp": "04500",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "4500003",
+    "cp": "04500",
+    "priceE10": null,
+    "priceGazole": 999,
+    "timestampE10": null,
+    "timestampGazole": 1450285920000
+  },
+  {
+    "stationID": "4510002",
+    "cp": "04510",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "4510003",
+    "cp": "04510",
+    "priceE10": null,
+    "priceGazole": 1010,
+    "timestampE10": null,
+    "timestampGazole": 1450951947000
+  },
+  {
+    "stationID": "4600001",
+    "cp": "04600",
+    "priceE10": null,
+    "priceGazole": 1065,
+    "timestampE10": null,
+    "timestampGazole": 1450674778000
+  },
+  {
+    "stationID": "4700001",
+    "cp": "04700",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "4700002",
+    "cp": "04700",
+    "priceE10": null,
+    "priceGazole": 1029,
+    "timestampE10": null,
+    "timestampGazole": 1451545961000
+  },
+  {
+    "stationID": "4700003",
+    "cp": "04700",
+    "priceE10": null,
+    "priceGazole": 999,
+    "timestampE10": null,
+    "timestampGazole": 1451380355000
+  },
+  {
+    "stationID": "4700004",
+    "cp": "04700",
+    "priceE10": 1265,
+    "priceGazole": 1049,
+    "timestampE10": 1450951921000,
+    "timestampGazole": 1450951921000
+  },
+  {
+    "stationID": "4800001",
+    "cp": "04800",
+    "priceE10": 1309,
+    "priceGazole": 1149,
+    "timestampE10": 1450977173000,
+    "timestampGazole": 1450977173000
+  },
+  {
+    "stationID": "5000001",
+    "cp": "05000",
+    "priceE10": null,
+    "priceGazole": 979,
+    "timestampE10": null,
+    "timestampGazole": 1450789947000
+  },
+  {
+    "stationID": "5000003",
+    "cp": "05000",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "5000005",
+    "cp": "05000",
+    "priceE10": null,
+    "priceGazole": 979,
+    "timestampE10": null,
+    "timestampGazole": 1450786320000
+  },
+  {
+    "stationID": "5000006",
+    "cp": "05000",
+    "priceE10": 1219,
+    "priceGazole": 979,
+    "timestampE10": 1450519930000,
+    "timestampGazole": 1450865539000
+  },
+  {
+    "stationID": "5000008",
+    "cp": "05000",
+    "priceE10": null,
+    "priceGazole": 977,
+    "timestampE10": null,
+    "timestampGazole": 1450948365000
+  },
+  {
+    "stationID": "5000010",
+    "cp": "05000",
+    "priceE10": 1228,
+    "priceGazole": 989,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "5000011",
+    "cp": "05000",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "5000014",
+    "cp": "05000",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "5000016",
+    "cp": "05000",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "5000017",
+    "cp": "05000",
+    "priceE10": 1326,
+    "priceGazole": 1077,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "5000018",
+    "cp": "05000",
+    "priceE10": 1323,
+    "priceGazole": 1077,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "5100001",
+    "cp": "05100",
+    "priceE10": null,
+    "priceGazole": 1189,
+    "timestampE10": null,
+    "timestampGazole": 1445850637000
+  },
+  {
+    "stationID": "5100004",
+    "cp": "05100",
+    "priceE10": null,
+    "priceGazole": 995,
+    "timestampE10": null,
+    "timestampGazole": 1451545926000
+  },
+  {
+    "stationID": "5100005",
+    "cp": "05100",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "5100007",
+    "cp": "05100",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "5100008",
+    "cp": "05100",
+    "priceE10": 1259,
+    "priceGazole": 999,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "5120002",
+    "cp": "05120",
+    "priceE10": null,
+    "priceGazole": 999,
+    "timestampE10": null,
+    "timestampGazole": 1450869161000
+  },
+  {
+    "stationID": "5130001",
+    "cp": "05130",
+    "priceE10": null,
+    "priceGazole": 1299,
+    "timestampE10": null,
+    "timestampGazole": 1434996360000
+  },
+  {
+    "stationID": "5130002",
+    "cp": "05130",
+    "priceE10": 1219,
+    "priceGazole": 979,
+    "timestampE10": 1450789938000,
+    "timestampGazole": 1450789938000
+  },
+  {
+    "stationID": "5130003",
+    "cp": "05130",
+    "priceE10": null,
+    "priceGazole": 999,
+    "timestampE10": null,
+    "timestampGazole": 1450339928000
+  },
+  {
+    "stationID": "5160001",
+    "cp": "05160",
+    "priceE10": null,
+    "priceGazole": 998,
+    "timestampE10": null,
+    "timestampGazole": 1450768344000
+  },
+  {
+    "stationID": "5190001",
+    "cp": "05190",
+    "priceE10": 1239,
+    "priceGazole": 999,
+    "timestampE10": 1450199556000,
+    "timestampGazole": 1450339924000
+  },
+  {
+    "stationID": "5200001",
+    "cp": "05200",
+    "priceE10": 1222,
+    "priceGazole": 992,
+    "timestampE10": 1451117520000,
+    "timestampGazole": 1450775520000
+  },
+  {
+    "stationID": "5200004",
+    "cp": "05200",
+    "priceE10": 1222,
+    "priceGazole": 992,
+    "timestampE10": 1451293944000,
+    "timestampGazole": 1450782728000
+  },
+  {
+    "stationID": "5200005",
+    "cp": "05200",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "5200006",
+    "cp": "05200",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "5200007",
+    "cp": "05200",
+    "priceE10": null,
+    "priceGazole": 1039,
+    "timestampE10": null,
+    "timestampGazole": 1450941121000
+  },
+  {
+    "stationID": "5200008",
+    "cp": "05200",
+    "priceE10": 1329,
+    "priceGazole": 1074,
+    "timestampE10": 1451563963000,
+    "timestampGazole": 1451563963000
+  },
+  {
+    "stationID": "5230003",
+    "cp": "05230",
+    "priceE10": 1227,
+    "priceGazole": 994,
+    "timestampE10": 1451455933000,
+    "timestampGazole": 1451542332000
+  },
+  {
+    "stationID": "5230004",
+    "cp": "05230",
+    "priceE10": null,
+    "priceGazole": 1080,
+    "timestampE10": null,
+    "timestampGazole": 1450861945000
+  },
+  {
+    "stationID": "5230006",
+    "cp": "05230",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "5230007",
+    "cp": "05230",
+    "priceE10": 1229,
+    "priceGazole": 997,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "5240001",
+    "cp": "05240",
+    "priceE10": 1349,
+    "priceGazole": 1069,
+    "timestampE10": 1451545976000,
+    "timestampGazole": 1450851150000
+  },
+  {
+    "stationID": "5240002",
+    "cp": "05240",
+    "priceE10": 1345,
+    "priceGazole": 1055,
+    "timestampE10": 1421247692000,
+    "timestampGazole": 1450937552000
+  },
+  {
+    "stationID": "5260001",
+    "cp": "05260",
+    "priceE10": 1359,
+    "priceGazole": 1109,
+    "timestampE10": 1450764738000,
+    "timestampGazole": 1450764738000
+  },
+  {
+    "stationID": "5300001",
+    "cp": "05300",
+    "priceE10": 1323,
+    "priceGazole": 1126,
+    "timestampE10": 1451585536000,
+    "timestampGazole": 1451585536000
+  },
+  {
+    "stationID": "5300002",
+    "cp": "05300",
+    "priceE10": 1255,
+    "priceGazole": 989,
+    "timestampE10": 1450883535000,
+    "timestampGazole": 1451405548000
+  },
+  {
+    "stationID": "5300003",
+    "cp": "05300",
+    "priceE10": 1229,
+    "priceGazole": 989,
+    "timestampE10": 1450692729000,
+    "timestampGazole": 1450429950000
+  },
+  {
+    "stationID": "5300004",
+    "cp": "05300",
+    "priceE10": null,
+    "priceGazole": 1079,
+    "timestampE10": null,
+    "timestampGazole": 1451459521000
+  },
+  {
+    "stationID": "5350001",
+    "cp": "05350",
+    "priceE10": null,
+    "priceGazole": 1170,
+    "timestampE10": null,
+    "timestampGazole": 1450512766000
+  },
+  {
+    "stationID": "5400001",
+    "cp": "05400",
+    "priceE10": null,
+    "priceGazole": 1250,
+    "timestampE10": null,
+    "timestampGazole": 1440572933000
+  },
+  {
+    "stationID": "5400002",
+    "cp": "05400",
+    "priceE10": 1259,
+    "priceGazole": 999,
+    "timestampE10": 1450890726000,
+    "timestampGazole": 1451380336000
+  },
+  {
+    "stationID": "5500001",
+    "cp": "05500",
+    "priceE10": 1239,
+    "priceGazole": 995,
+    "timestampE10": 1451369521000,
+    "timestampGazole": 1450937556000
+  },
+  {
+    "stationID": "5560001",
+    "cp": "05560",
+    "priceE10": 1309,
+    "priceGazole": 1039,
+    "timestampE10": 1440756493000,
+    "timestampGazole": 1450962755000
+  },
+  {
+    "stationID": "5600002",
+    "cp": "05600",
+    "priceE10": null,
+    "priceGazole": 1019,
+    "timestampE10": null,
+    "timestampGazole": 1450948322000
+  },
+  {
+    "stationID": "5600004",
+    "cp": "05600",
+    "priceE10": null,
+    "priceGazole": 1019,
+    "timestampE10": null,
+    "timestampGazole": 1450948372000
+  },
+  {
+    "stationID": "5600005",
+    "cp": "05600",
+    "priceE10": 1289,
+    "priceGazole": 1039,
+    "timestampE10": 1449659549000,
+    "timestampGazole": 1450948346000
+  },
+  {
+    "stationID": "5600006",
+    "cp": "05600",
+    "priceE10": null,
+    "priceGazole": 1009,
+    "timestampE10": null,
+    "timestampGazole": 1451466755000
+  },
+  {
+    "stationID": "5700001",
+    "cp": "05700",
+    "priceE10": 1259,
+    "priceGazole": 1029,
+    "timestampE10": 1450977120000,
+    "timestampGazole": 1450977120000
+  },
+  {
+    "stationID": "5700002",
+    "cp": "05700",
+    "priceE10": null,
+    "priceGazole": 1119,
+    "timestampE10": null,
+    "timestampGazole": 1450422742000
+  },
+  {
+    "stationID": "6000001",
+    "cp": "06000",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6000005",
+    "cp": "06000",
+    "priceE10": 1309,
+    "priceGazole": 1069,
+    "timestampE10": 1451369520000,
+    "timestampGazole": 1451369520000
+  },
+  {
+    "stationID": "6000006",
+    "cp": "06000",
+    "priceE10": 1309,
+    "priceGazole": 1069,
+    "timestampE10": 1451365920000,
+    "timestampGazole": 1451365920000
+  },
+  {
+    "stationID": "6000007",
+    "cp": "06000",
+    "priceE10": null,
+    "priceGazole": 1059,
+    "timestampE10": null,
+    "timestampGazole": 1450433534000
+  },
+  {
+    "stationID": "6000009",
+    "cp": "06000",
+    "priceE10": null,
+    "priceGazole": 1069,
+    "timestampE10": null,
+    "timestampGazole": 1450437127000
+  },
+  {
+    "stationID": "6000010",
+    "cp": "06300",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6000011",
+    "cp": "06200",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6000012",
+    "cp": "06000",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6000015",
+    "cp": "06000",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6000018",
+    "cp": "06000",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6000021",
+    "cp": "06000",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6000022",
+    "cp": "06000",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6000025",
+    "cp": "06100",
+    "priceE10": 1339,
+    "priceGazole": 1109,
+    "timestampE10": 1450501920000,
+    "timestampGazole": 1450501920000
+  },
+  {
+    "stationID": "6000026",
+    "cp": "06000",
+    "priceE10": 1283,
+    "priceGazole": 1089,
+    "timestampE10": 1451549520000,
+    "timestampGazole": 1451549520000
+  },
+  {
+    "stationID": "6000027",
+    "cp": "06000",
+    "priceE10": 1329,
+    "priceGazole": 1089,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "6000028",
+    "cp": "06000",
+    "priceE10": 1319,
+    "priceGazole": 1079,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "6000029",
+    "cp": "06000",
+    "priceE10": 1219,
+    "priceGazole": 987,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "6100003",
+    "cp": "06100",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6100004",
+    "cp": "06100",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6100005",
+    "cp": "06100",
+    "priceE10": 1319,
+    "priceGazole": 1089,
+    "timestampE10": 1450998720000,
+    "timestampGazole": 1450998720000
+  },
+  {
+    "stationID": "6110001",
+    "cp": "06110",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6110002",
+    "cp": "06110",
+    "priceE10": 1409,
+    "priceGazole": 1049,
+    "timestampE10": 1423281755000,
+    "timestampGazole": 1450944733000
+  },
+  {
+    "stationID": "6110004",
+    "cp": "06110",
+    "priceE10": 1207,
+    "priceGazole": 985,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "6110005",
+    "cp": "06110",
+    "priceE10": 1209,
+    "priceGazole": 995,
+    "timestampE10": 1451459527000,
+    "timestampGazole": 1451545945000
+  },
+  {
+    "stationID": "6110006",
+    "cp": "06110",
+    "priceE10": 1201,
+    "priceGazole": 977,
+    "timestampE10": 1451542334000,
+    "timestampGazole": 1451542334000
+  },
+  {
+    "stationID": "6110007",
+    "cp": "06110",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6110008",
+    "cp": "06110",
+    "priceE10": 1339,
+    "priceGazole": 1099,
+    "timestampE10": 1450768340000,
+    "timestampGazole": 1450768340000
+  },
+  {
+    "stationID": "6110009",
+    "cp": "06110",
+    "priceE10": 1229,
+    "priceGazole": 976,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "6130001",
+    "cp": "06130",
+    "priceE10": null,
+    "priceGazole": 965,
+    "timestampE10": null,
+    "timestampGazole": 1450879974000
+  },
+  {
+    "stationID": "6130002",
+    "cp": "06130",
+    "priceE10": 1302,
+    "priceGazole": 1044,
+    "timestampE10": 1451574745000,
+    "timestampGazole": 1450415575000
+  },
+  {
+    "stationID": "6130003",
+    "cp": "06310",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6130005",
+    "cp": "06130",
+    "priceE10": 1279,
+    "priceGazole": 1049,
+    "timestampE10": 1450851120000,
+    "timestampGazole": 1450851120000
+  },
+  {
+    "stationID": "6130006",
+    "cp": "06130",
+    "priceE10": 1279,
+    "priceGazole": 1044,
+    "timestampE10": 1450847520000,
+    "timestampGazole": 1450847520000
+  },
+  {
+    "stationID": "6130007",
+    "cp": "06130",
+    "priceE10": null,
+    "priceGazole": 964,
+    "timestampE10": null,
+    "timestampGazole": 1450883550000
+  },
+  {
+    "stationID": "6130008",
+    "cp": "06130",
+    "priceE10": 1215,
+    "priceGazole": 969,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "6130009",
+    "cp": "06130",
+    "priceE10": 1279,
+    "priceGazole": 1044,
+    "timestampE10": 1450847520000,
+    "timestampGazole": 1450847520000
+  },
+  {
+    "stationID": "6140001",
+    "cp": "06140",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6140002",
+    "cp": "06140",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6140004",
+    "cp": "06140",
+    "priceE10": 1329,
+    "priceGazole": 1065,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "6140005",
+    "cp": "06140",
+    "priceE10": 1287,
+    "priceGazole": 1027,
+    "timestampE10": 1450689143000,
+    "timestampGazole": 1451286743000
+  },
+  {
+    "stationID": "6150003",
+    "cp": "06150",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6150004",
+    "cp": "06150",
+    "priceE10": 1229,
+    "priceGazole": 976,
+    "timestampE10": 1451549520000,
+    "timestampGazole": 1451549520000
+  },
+  {
+    "stationID": "6150005",
+    "cp": "06150",
+    "priceE10": 1269,
+    "priceGazole": 1095,
+    "timestampE10": 1441782567000,
+    "timestampGazole": 1441782567000
+  },
+  {
+    "stationID": "6150006",
+    "cp": "06150",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6150007",
+    "cp": "06150",
+    "priceE10": null,
+    "priceGazole": 971,
+    "timestampE10": null,
+    "timestampGazole": 1451113972000
+  },
+  {
+    "stationID": "6150008",
+    "cp": "06150",
+    "priceE10": 1229,
+    "priceGazole": 976,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "6150009",
+    "cp": "06150",
+    "priceE10": 1289,
+    "priceGazole": 1129,
+    "timestampE10": 1451596320000,
+    "timestampGazole": 1451596320000
+  },
+  {
+    "stationID": "6156001",
+    "cp": "06150",
+    "priceE10": null,
+    "priceGazole": 974,
+    "timestampE10": null,
+    "timestampGazole": 1450689120000
+  },
+  {
+    "stationID": "6160007",
+    "cp": "06160",
+    "priceE10": null,
+    "priceGazole": 1079,
+    "timestampE10": null,
+    "timestampGazole": 1450962736000
+  },
+  {
+    "stationID": "6190004",
+    "cp": "06190",
+    "priceE10": 1359,
+    "priceGazole": 1099,
+    "timestampE10": 1451556731000,
+    "timestampGazole": 1450415520000
+  },
+  {
+    "stationID": "6190006",
+    "cp": "06190",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6190007",
+    "cp": "06190",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6190008",
+    "cp": "06190",
+    "priceE10": 1315,
+    "priceGazole": 1045,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "6190009",
+    "cp": "06190",
+    "priceE10": 1320,
+    "priceGazole": 1070,
+    "timestampE10": 1451031129000,
+    "timestampGazole": 1451031129000
+  },
+  {
+    "stationID": "6200002",
+    "cp": "06200",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6200005",
+    "cp": "06200",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6200006",
+    "cp": "06200",
+    "priceE10": 1309,
+    "priceGazole": 1069,
+    "timestampE10": 1451369520000,
+    "timestampGazole": 1451369520000
+  },
+  {
+    "stationID": "6200007",
+    "cp": "06000",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6200008",
+    "cp": "06200",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6200009",
+    "cp": "06200",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6200012",
+    "cp": "06200",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6200014",
+    "cp": "06200",
+    "priceE10": 1204,
+    "priceGazole": 974,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "6200017",
+    "cp": "06200",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6200018",
+    "cp": "06200",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6200019",
+    "cp": "06200",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6200021",
+    "cp": "06200",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6200022",
+    "cp": "06200",
+    "priceE10": 1319,
+    "priceGazole": 1079,
+    "timestampE10": 1450329174000,
+    "timestampGazole": 1451452320000
+  },
+  {
+    "stationID": "6200024",
+    "cp": "06200",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6200025",
+    "cp": "06200",
+    "priceE10": 1304,
+    "priceGazole": 1054,
+    "timestampE10": 1451365920000,
+    "timestampGazole": 1451365920000
+  },
+  {
+    "stationID": "6200026",
+    "cp": "06200",
+    "priceE10": 1237,
+    "priceGazole": 989,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "6200027",
+    "cp": "06200",
+    "priceE10": 1204,
+    "priceGazole": 974,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "6200028",
+    "cp": "06200",
+    "priceE10": 1232,
+    "priceGazole": 989,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "6200029",
+    "cp": "06200",
+    "priceE10": 1299,
+    "priceGazole": 1054,
+    "timestampE10": 1451365920000,
+    "timestampGazole": 1451365920000
+  },
+  {
+    "stationID": "6201001",
+    "cp": "06200",
+    "priceE10": 1202,
+    "priceGazole": 967,
+    "timestampE10": 1451545970000,
+    "timestampGazole": 1451545970000
+  },
+  {
+    "stationID": "6201002",
+    "cp": "06200",
+    "priceE10": 1199,
+    "priceGazole": 973,
+    "timestampE10": 1451574769000,
+    "timestampGazole": 1451574769000
+  },
+  {
+    "stationID": "6210001",
+    "cp": "06210",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6210009",
+    "cp": "06210",
+    "priceE10": 1299,
+    "priceGazole": 1049,
+    "timestampE10": 1450847520000,
+    "timestampGazole": 1450847520000
+  },
+  {
+    "stationID": "6211001",
+    "cp": "06210",
+    "priceE10": null,
+    "priceGazole": 974,
+    "timestampE10": null,
+    "timestampGazole": 1450771926000
+  },
+  {
+    "stationID": "6220001",
+    "cp": "06220",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6220003",
+    "cp": "06220",
+    "priceE10": null,
+    "priceGazole": 999,
+    "timestampE10": null,
+    "timestampGazole": 1451286725000
+  },
+  {
+    "stationID": "6220004",
+    "cp": "06220",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6220005",
+    "cp": "06220",
+    "priceE10": 1314,
+    "priceGazole": 1085,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "6230001",
+    "cp": "06230",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6230002",
+    "cp": "06230",
+    "priceE10": 1218,
+    "priceGazole": 985,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "6230003",
+    "cp": "06230",
+    "priceE10": 1340,
+    "priceGazole": 1100,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "6240003",
+    "cp": "06240",
+    "priceE10": 1354,
+    "priceGazole": 1124,
+    "timestampE10": 1451106720000,
+    "timestampGazole": 1450771952000
+  },
+  {
+    "stationID": "6240004",
+    "cp": "06240",
+    "priceE10": null,
+    "priceGazole": 1154,
+    "timestampE10": null,
+    "timestampGazole": 1450159929000
+  },
+  {
+    "stationID": "6250001",
+    "cp": "06250",
+    "priceE10": null,
+    "priceGazole": 974,
+    "timestampE10": null,
+    "timestampGazole": 1451545941000
+  },
+  {
+    "stationID": "6250003",
+    "cp": "06250",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6250004",
+    "cp": "06250",
+    "priceE10": 1375,
+    "priceGazole": 1159,
+    "timestampE10": 1446790305000,
+    "timestampGazole": 1449562372000
+  },
+  {
+    "stationID": "6250005",
+    "cp": "06250",
+    "priceE10": 1289,
+    "priceGazole": 1049,
+    "timestampE10": 1451369520000,
+    "timestampGazole": 1451369520000
+  },
+  {
+    "stationID": "6250006",
+    "cp": "06250",
+    "priceE10": 1389,
+    "priceGazole": 1189,
+    "timestampE10": 1451286774000,
+    "timestampGazole": 1451286774000
+  },
+  {
+    "stationID": "6250008",
+    "cp": "06250",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6250009",
+    "cp": "06250",
+    "priceE10": 1354,
+    "priceGazole": 1124,
+    "timestampE10": 1451549520000,
+    "timestampGazole": 1451549520000
+  },
+  {
+    "stationID": "6250010",
+    "cp": "06250",
+    "priceE10": 1209,
+    "priceGazole": 987,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "6260001",
+    "cp": "06260",
+    "priceE10": 1310,
+    "priceGazole": 1009,
+    "timestampE10": 1451329929000,
+    "timestampGazole": 1451329929000
+  },
+  {
+    "stationID": "6260002",
+    "cp": "06260",
+    "priceE10": null,
+    "priceGazole": 979,
+    "timestampE10": null,
+    "timestampGazole": 1450451542000
+  },
+  {
+    "stationID": "6270001",
+    "cp": "06270",
+    "priceE10": null,
+    "priceGazole": 964,
+    "timestampE10": null,
+    "timestampGazole": 1451373120000
+  },
+  {
+    "stationID": "6270002",
+    "cp": "06270",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6270003",
+    "cp": "06270",
+    "priceE10": 1259,
+    "priceGazole": 999,
+    "timestampE10": 1451283132000,
+    "timestampGazole": 1450419179000
+  },
+  {
+    "stationID": "6281001",
+    "cp": "06200",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6281002",
+    "cp": "06281",
+    "priceE10": 1332,
+    "priceGazole": 1097,
+    "timestampE10": 1451549520000,
+    "timestampGazole": 1451549520000
+  },
+  {
+    "stationID": "6296001",
+    "cp": "06200",
+    "priceE10": null,
+    "priceGazole": 1077,
+    "timestampE10": null,
+    "timestampGazole": 1450419131000
+  },
+  {
+    "stationID": "6300002",
+    "cp": "06300",
+    "priceE10": null,
+    "priceGazole": 1079,
+    "timestampE10": null,
+    "timestampGazole": 1450458736000
+  },
+  {
+    "stationID": "6300003",
+    "cp": "06300",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6300004",
+    "cp": "06300",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6300005",
+    "cp": "06300",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6300008",
+    "cp": "06300",
+    "priceE10": 1211,
+    "priceGazole": 985,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "6300010",
+    "cp": "06300",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6300011",
+    "cp": "06300",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6300012",
+    "cp": "06300",
+    "priceE10": null,
+    "priceGazole": 1120,
+    "timestampE10": null,
+    "timestampGazole": 1450167122000
+  },
+  {
+    "stationID": "6300013",
+    "cp": "06300",
+    "priceE10": null,
+    "priceGazole": 1130,
+    "timestampE10": null,
+    "timestampGazole": 1451369564000
+  },
+  {
+    "stationID": "6300014",
+    "cp": "06300",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6300015",
+    "cp": "06300",
+    "priceE10": 1399,
+    "priceGazole": 1179,
+    "timestampE10": 1450883539000,
+    "timestampGazole": 1450883539000
+  },
+  {
+    "stationID": "6300016",
+    "cp": "06300",
+    "priceE10": 1350,
+    "priceGazole": 1090,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "6300017",
+    "cp": "06300",
+    "priceE10": 1299,
+    "priceGazole": 1089,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "6300018",
+    "cp": "06300",
+    "priceE10": 1219,
+    "priceGazole": 987,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "6310001",
+    "cp": "06310",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6310002",
+    "cp": "06310",
+    "priceE10": 1340,
+    "priceGazole": 1100,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "6320001",
+    "cp": "06320",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6320002",
+    "cp": "06320",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6320003",
+    "cp": "06320",
+    "priceE10": 1364,
+    "priceGazole": 1154,
+    "timestampE10": 1450710720000,
+    "timestampGazole": 1450710720000
+  },
+  {
+    "stationID": "6320004",
+    "cp": "06320",
+    "priceE10": 1500,
+    "priceGazole": 1330,
+    "timestampE10": 1441361360000,
+    "timestampGazole": 1441361360000
+  },
+  {
+    "stationID": "6320005",
+    "cp": "06320",
+    "priceE10": 1357,
+    "priceGazole": 1097,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "6320006",
+    "cp": "06320",
+    "priceE10": 1312,
+    "priceGazole": 1090,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "6330002",
+    "cp": "06330",
+    "priceE10": 1265,
+    "priceGazole": 999,
+    "timestampE10": 1450516364000,
+    "timestampGazole": 1450516364000
+  },
+  {
+    "stationID": "6330003",
+    "cp": "06330",
+    "priceE10": 1292,
+    "priceGazole": 1027,
+    "timestampE10": 1451538776000,
+    "timestampGazole": 1450332770000
+  },
+  {
+    "stationID": "6340001",
+    "cp": "06340",
+    "priceE10": null,
+    "priceGazole": 1050,
+    "timestampE10": null,
+    "timestampGazole": 1450419148000
+  },
+  {
+    "stationID": "6340002",
+    "cp": "06340",
+    "priceE10": null,
+    "priceGazole": 1009,
+    "timestampE10": null,
+    "timestampGazole": 1451459520000
+  },
+  {
+    "stationID": "6345001",
+    "cp": "06340",
+    "priceE10": 1210,
+    "priceGazole": 980,
+    "timestampE10": 1451286772000,
+    "timestampGazole": 1451286772000
+  },
+  {
+    "stationID": "6360001",
+    "cp": "06360",
+    "priceE10": 1480,
+    "priceGazole": 1240,
+    "timestampE10": 1441271397000,
+    "timestampGazole": 1441271397000
+  },
+  {
+    "stationID": "6370001",
+    "cp": "06370",
+    "priceE10": 1229,
+    "priceGazole": 980,
+    "timestampE10": 1451373120000,
+    "timestampGazole": 1451200320000
+  },
+  {
+    "stationID": "6380001",
+    "cp": "06380",
+    "priceE10": null,
+    "priceGazole": 1140,
+    "timestampE10": null,
+    "timestampGazole": 1451535120000
+  },
+  {
+    "stationID": "6390001",
+    "cp": "06390",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6400001",
+    "cp": "06400",
+    "priceE10": 1319,
+    "priceGazole": 1092,
+    "timestampE10": 1451502754000,
+    "timestampGazole": 1450379540000
+  },
+  {
+    "stationID": "6400004",
+    "cp": "06400",
+    "priceE10": 1219,
+    "priceGazole": 1012,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "6400005",
+    "cp": "06400",
+    "priceE10": null,
+    "priceGazole": 1190,
+    "timestampE10": null,
+    "timestampGazole": 1450800730000
+  },
+  {
+    "stationID": "6400006",
+    "cp": "06400",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6400007",
+    "cp": "06600",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6400009",
+    "cp": "06400",
+    "priceE10": 1299,
+    "priceGazole": 1069,
+    "timestampE10": 1451452320000,
+    "timestampGazole": 1451452320000
+  },
+  {
+    "stationID": "6400010",
+    "cp": "06400",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6410003",
+    "cp": "06410",
+    "priceE10": null,
+    "priceGazole": 1059,
+    "timestampE10": null,
+    "timestampGazole": 1451387566000
+  },
+  {
+    "stationID": "6420001",
+    "cp": "06420",
+    "priceE10": null,
+    "priceGazole": 1086,
+    "timestampE10": null,
+    "timestampGazole": 1450523524000
+  },
+  {
+    "stationID": "6430001",
+    "cp": "06430",
+    "priceE10": null,
+    "priceGazole": 1087,
+    "timestampE10": null,
+    "timestampGazole": 1450429932000
+  },
+  {
+    "stationID": "6450001",
+    "cp": "06450",
+    "priceE10": null,
+    "priceGazole": 1115,
+    "timestampE10": null,
+    "timestampGazole": 1451459570000
+  },
+  {
+    "stationID": "6450002",
+    "cp": "06450",
+    "priceE10": 1359,
+    "priceGazole": 1149,
+    "timestampE10": 1449641553000,
+    "timestampGazole": 1449641553000
+  },
+  {
+    "stationID": "6460001",
+    "cp": "06460",
+    "priceE10": null,
+    "priceGazole": 1130,
+    "timestampE10": null,
+    "timestampGazole": 1451308335000
+  },
+  {
+    "stationID": "6480002",
+    "cp": "06480",
+    "priceE10": 1186,
+    "priceGazole": 964,
+    "timestampE10": 1451520720000,
+    "timestampGazole": 1451520720000
+  },
+  {
+    "stationID": "6500001",
+    "cp": "06500",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6500004",
+    "cp": "06500",
+    "priceE10": null,
+    "priceGazole": 1010,
+    "timestampE10": null,
+    "timestampGazole": 1451470365000
+  },
+  {
+    "stationID": "6500005",
+    "cp": "06500",
+    "priceE10": 1305,
+    "priceGazole": 1065,
+    "timestampE10": 1451581920000,
+    "timestampGazole": 1451581920000
+  },
+  {
+    "stationID": "6500007",
+    "cp": "06500",
+    "priceE10": 1349,
+    "priceGazole": 1089,
+    "timestampE10": 1450419120000,
+    "timestampGazole": 1450419120000
+  },
+  {
+    "stationID": "6500008",
+    "cp": "06500",
+    "priceE10": null,
+    "priceGazole": 1110,
+    "timestampE10": null,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "6500009",
+    "cp": "06500",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6510001",
+    "cp": "06510",
+    "priceE10": 1370,
+    "priceGazole": 1120,
+    "timestampE10": 1451499141000,
+    "timestampGazole": 1451499148000
+  },
+  {
+    "stationID": "6510002",
+    "cp": "06510",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6510003",
+    "cp": "06510",
+    "priceE10": 1229,
+    "priceGazole": 976,
+    "timestampE10": 1451571178000,
+    "timestampGazole": 1451571178000
+  },
+  {
+    "stationID": "6520001",
+    "cp": "06520",
+    "priceE10": 1215,
+    "priceGazole": 969,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "6530001",
+    "cp": "06530",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6530002",
+    "cp": "06530",
+    "priceE10": 1268,
+    "priceGazole": 1005,
+    "timestampE10": 1451308374000,
+    "timestampGazole": 1451308367000
+  },
+  {
+    "stationID": "6530003",
+    "cp": "06530",
+    "priceE10": null,
+    "priceGazole": 989,
+    "timestampE10": null,
+    "timestampGazole": 1450455167000
+  },
+  {
+    "stationID": "6530004",
+    "cp": "06530",
+    "priceE10": 1330,
+    "priceGazole": 1080,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "6540001",
+    "cp": "06540",
+    "priceE10": 1322,
+    "priceGazole": 1079,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "6540002",
+    "cp": "06540",
+    "priceE10": null,
+    "priceGazole": 1083,
+    "timestampE10": null,
+    "timestampGazole": 1450379562000
+  },
+  {
+    "stationID": "6550001",
+    "cp": "06550",
+    "priceE10": 1329,
+    "priceGazole": 1099,
+    "timestampE10": 1450206778000,
+    "timestampGazole": 1450206778000
+  },
+  {
+    "stationID": "6550002",
+    "cp": "06550",
+    "priceE10": null,
+    "priceGazole": 999,
+    "timestampE10": null,
+    "timestampGazole": 1450271571000
+  },
+  {
+    "stationID": "6560001",
+    "cp": "06560",
+    "priceE10": null,
+    "priceGazole": 982,
+    "timestampE10": null,
+    "timestampGazole": 1451124766000
+  },
+  {
+    "stationID": "6560003",
+    "cp": "06560",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6560005",
+    "cp": "06560",
+    "priceE10": 1369,
+    "priceGazole": 1099,
+    "timestampE10": 1450721549000,
+    "timestampGazole": 1450721524000
+  },
+  {
+    "stationID": "6580001",
+    "cp": "06580",
+    "priceE10": null,
+    "priceGazole": 1000,
+    "timestampE10": null,
+    "timestampGazole": 1450339965000
+  },
+  {
+    "stationID": "6600001",
+    "cp": "06600",
+    "priceE10": 1223,
+    "priceGazole": 964,
+    "timestampE10": 1451549522000,
+    "timestampGazole": 1451549522000
+  },
+  {
+    "stationID": "6600003",
+    "cp": "06600",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6600006",
+    "cp": "06600",
+    "priceE10": 1309,
+    "priceGazole": 1029,
+    "timestampE10": 1451365920000,
+    "timestampGazole": 1451365920000
+  },
+  {
+    "stationID": "6600007",
+    "cp": "06600",
+    "priceE10": null,
+    "priceGazole": 1089,
+    "timestampE10": null,
+    "timestampGazole": 1450937571000
+  },
+  {
+    "stationID": "6600008",
+    "cp": "06600",
+    "priceE10": 1223,
+    "priceGazole": 973,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "6600009",
+    "cp": "06600",
+    "priceE10": 1223,
+    "priceGazole": 973,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "6600010",
+    "cp": "06600",
+    "priceE10": 1223,
+    "priceGazole": 973,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "6600012",
+    "cp": "06600",
+    "priceE10": null,
+    "priceGazole": 1099,
+    "timestampE10": null,
+    "timestampGazole": 1450336368000
+  },
+  {
+    "stationID": "6600013",
+    "cp": "06600",
+    "priceE10": 1225,
+    "priceGazole": 979,
+    "timestampE10": 1451373146000,
+    "timestampGazole": 1451545973000
+  },
+  {
+    "stationID": "6600014",
+    "cp": "06160",
+    "priceE10": 1225,
+    "priceGazole": 979,
+    "timestampE10": 1451542364000,
+    "timestampGazole": 1451542364000
+  },
+  {
+    "stationID": "6600017",
+    "cp": "06600",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6600018",
+    "cp": "06600",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6600019",
+    "cp": "06600",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6600021",
+    "cp": "06600",
+    "priceE10": null,
+    "priceGazole": 1200,
+    "timestampE10": null,
+    "timestampGazole": 1440742101000
+  },
+  {
+    "stationID": "6600022",
+    "cp": "06600",
+    "priceE10": 1330,
+    "priceGazole": 1080,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "6600023",
+    "cp": "06600",
+    "priceE10": 1330,
+    "priceGazole": 1080,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "6600024",
+    "cp": "06600",
+    "priceE10": 1227,
+    "priceGazole": 976,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "6610001",
+    "cp": "06610",
+    "priceE10": null,
+    "priceGazole": 1190,
+    "timestampE10": null,
+    "timestampGazole": 1450249930000
+  },
+  {
+    "stationID": "6640001",
+    "cp": "06640",
+    "priceE10": 1390,
+    "priceGazole": 1120,
+    "timestampE10": 1450203127000,
+    "timestampGazole": 1451113940000
+  },
+  {
+    "stationID": "6650001",
+    "cp": "06650",
+    "priceE10": 1225,
+    "priceGazole": 979,
+    "timestampE10": 1451106769000,
+    "timestampGazole": 1451106769000
+  },
+  {
+    "stationID": "6650002",
+    "cp": "06650",
+    "priceE10": null,
+    "priceGazole": 1250,
+    "timestampE10": null,
+    "timestampGazole": 1447949496000
+  },
+  {
+    "stationID": "6650003",
+    "cp": "06650",
+    "priceE10": null,
+    "priceGazole": 1290,
+    "timestampE10": null,
+    "timestampGazole": 1442840973000
+  },
+  {
+    "stationID": "6670003",
+    "cp": "06670",
+    "priceE10": null,
+    "priceGazole": 1070,
+    "timestampE10": null,
+    "timestampGazole": 1450336341000
+  },
+  {
+    "stationID": "6670004",
+    "cp": "06670",
+    "priceE10": 1279,
+    "priceGazole": 1049,
+    "timestampE10": 1451581940000,
+    "timestampGazole": 1451581940000
+  },
+  {
+    "stationID": "6670005",
+    "cp": "06670",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6670007",
+    "cp": "06670",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6670008",
+    "cp": "06670",
+    "priceE10": null,
+    "priceGazole": 1156,
+    "timestampE10": null,
+    "timestampGazole": 1450717927000
+  },
+  {
+    "stationID": "6700002",
+    "cp": "06700",
+    "priceE10": 1279,
+    "priceGazole": 1069,
+    "timestampE10": 1451013120000,
+    "timestampGazole": 1451016720000
+  },
+  {
+    "stationID": "6700003",
+    "cp": "06700",
+    "priceE10": null,
+    "priceGazole": 1009,
+    "timestampE10": null,
+    "timestampGazole": 1451049120000
+  },
+  {
+    "stationID": "6700004",
+    "cp": "06700",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6700005",
+    "cp": "06700",
+    "priceE10": 1350,
+    "priceGazole": 1200,
+    "timestampE10": 1448950365000,
+    "timestampGazole": 1448950364000
+  },
+  {
+    "stationID": "6700006",
+    "cp": "06700",
+    "priceE10": 1299,
+    "priceGazole": 1079,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "6750001",
+    "cp": "06750",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6770001",
+    "cp": "06510",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6770002",
+    "cp": "06770",
+    "priceE10": 1204,
+    "priceGazole": 976,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "6800001",
+    "cp": "06800",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6800002",
+    "cp": "06800",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6800004",
+    "cp": "06800",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6800005",
+    "cp": "06800",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6800006",
+    "cp": "06800",
+    "priceE10": 1390,
+    "priceGazole": 1080,
+    "timestampE10": 1441901378000,
+    "timestampGazole": 1451020320000
+  },
+  {
+    "stationID": "6800011",
+    "cp": "06800",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6800014",
+    "cp": "06800",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6800015",
+    "cp": "06800",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6800016",
+    "cp": "06800",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6800017",
+    "cp": "06800",
+    "priceE10": 1302,
+    "priceGazole": 1068,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "6800018",
+    "cp": "06800",
+    "priceE10": 1332,
+    "priceGazole": 1072,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "6800019",
+    "cp": "06800",
+    "priceE10": 1226,
+    "priceGazole": 983,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "6800020",
+    "cp": "06800",
+    "priceE10": 1226,
+    "priceGazole": 983,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "6800021",
+    "cp": "06800",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6800022",
+    "cp": "06800",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "6800023",
+    "cp": "06800",
+    "priceE10": 1259,
+    "priceGazole": 1029,
+    "timestampE10": 1451369520000,
+    "timestampGazole": 1451369520000
+  },
+  {
+    "stationID": "6800024",
+    "cp": "06800",
+    "priceE10": 1289,
+    "priceGazole": 1089,
+    "timestampE10": 1451581946000,
+    "timestampGazole": 1451581946000
+  },
+  {
+    "stationID": "13000001",
+    "cp": "13004",
+    "priceE10": 1215,
+    "priceGazole": 998,
+    "timestampE10": 1451380351000,
+    "timestampGazole": 1450257135000
+  },
+  {
+    "stationID": "13001001",
+    "cp": "13001",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13002003",
+    "cp": "13002",
+    "priceE10": 1266,
+    "priceGazole": 1075,
+    "timestampE10": 1450930347000,
+    "timestampGazole": 1450930331000
+  },
+  {
+    "stationID": "13003001",
+    "cp": "13003",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13003003",
+    "cp": "13003",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13003004",
+    "cp": "13003",
+    "priceE10": 1234,
+    "priceGazole": 992,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13004003",
+    "cp": "13004",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13004004",
+    "cp": "13004",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13004005",
+    "cp": "13004",
+    "priceE10": 1219,
+    "priceGazole": 983,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13005002",
+    "cp": "13005",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13005005",
+    "cp": "13005",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13005009",
+    "cp": "13005",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13005010",
+    "cp": "13005",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13005011",
+    "cp": "13005",
+    "priceE10": 1333,
+    "priceGazole": 1059,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "13005012",
+    "cp": "13005",
+    "priceE10": 1333,
+    "priceGazole": 1049,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "13005013",
+    "cp": "13005",
+    "priceE10": 1219,
+    "priceGazole": 983,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13006002",
+    "cp": "13006",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13006003",
+    "cp": "13006",
+    "priceE10": null,
+    "priceGazole": 1379,
+    "timestampE10": null,
+    "timestampGazole": 1421730117000
+  },
+  {
+    "stationID": "13006004",
+    "cp": "13006",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13006005",
+    "cp": "13006",
+    "priceE10": 1245,
+    "priceGazole": 1065,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13007001",
+    "cp": "13007",
+    "priceE10": 1238,
+    "priceGazole": 990,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "13007002",
+    "cp": "13007",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13007004",
+    "cp": "13007",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13007007",
+    "cp": "13007",
+    "priceE10": null,
+    "priceGazole": 1049,
+    "timestampE10": null,
+    "timestampGazole": 1451027542000
+  },
+  {
+    "stationID": "13008001",
+    "cp": "13008",
+    "priceE10": null,
+    "priceGazole": 989,
+    "timestampE10": null,
+    "timestampGazole": 1451542376000
+  },
+  {
+    "stationID": "13008003",
+    "cp": "13008",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13008004",
+    "cp": "13008",
+    "priceE10": 1249,
+    "priceGazole": 980,
+    "timestampE10": 1451477520000,
+    "timestampGazole": 1451477520000
+  },
+  {
+    "stationID": "13008008",
+    "cp": "13008",
+    "priceE10": null,
+    "priceGazole": 956,
+    "timestampE10": null,
+    "timestampGazole": 1451545976000
+  },
+  {
+    "stationID": "13008011",
+    "cp": "13008",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13008012",
+    "cp": "13008",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13008013",
+    "cp": "13008",
+    "priceE10": null,
+    "priceGazole": 1069,
+    "timestampE10": null,
+    "timestampGazole": 1450289562000
+  },
+  {
+    "stationID": "13008014",
+    "cp": "13008",
+    "priceE10": null,
+    "priceGazole": 1039,
+    "timestampE10": null,
+    "timestampGazole": 1451315576000
+  },
+  {
+    "stationID": "13008015",
+    "cp": "13008",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13008016",
+    "cp": "13008",
+    "priceE10": 1349,
+    "priceGazole": 1075,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13008017",
+    "cp": "13008",
+    "priceE10": 1247,
+    "priceGazole": 979,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13009001",
+    "cp": "13009",
+    "priceE10": null,
+    "priceGazole": 970,
+    "timestampE10": null,
+    "timestampGazole": 1450509169000
+  },
+  {
+    "stationID": "13009002",
+    "cp": "13009",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13009003",
+    "cp": "13009",
+    "priceE10": 1439,
+    "priceGazole": 1049,
+    "timestampE10": 1427774598000,
+    "timestampGazole": 1450933956000
+  },
+  {
+    "stationID": "13009004",
+    "cp": "13009",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13009005",
+    "cp": "13009",
+    "priceE10": 1244,
+    "priceGazole": 982,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "13009006",
+    "cp": "13009",
+    "priceE10": null,
+    "priceGazole": 956,
+    "timestampE10": null,
+    "timestampGazole": 1451455920000
+  },
+  {
+    "stationID": "13009007",
+    "cp": "13009",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13009008",
+    "cp": "13009",
+    "priceE10": 1209,
+    "priceGazole": 979,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13010001",
+    "cp": "13010",
+    "priceE10": 1202,
+    "priceGazole": 972,
+    "timestampE10": 1450861920000,
+    "timestampGazole": 1450861920000
+  },
+  {
+    "stationID": "13010002",
+    "cp": "13009",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13010005",
+    "cp": "13010",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13010007",
+    "cp": "13010",
+    "priceE10": null,
+    "priceGazole": 1039,
+    "timestampE10": null,
+    "timestampGazole": 1450253567000
+  },
+  {
+    "stationID": "13010008",
+    "cp": "13010",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13010009",
+    "cp": "13010",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13010010",
+    "cp": "13010",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13010011",
+    "cp": "13010",
+    "priceE10": 1209,
+    "priceGazole": 975,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13011003",
+    "cp": "13011",
+    "priceE10": null,
+    "priceGazole": 1049,
+    "timestampE10": null,
+    "timestampGazole": 1450501920000
+  },
+  {
+    "stationID": "13011004",
+    "cp": "13011",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13011006",
+    "cp": "13011",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13011007",
+    "cp": "13011",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13011012",
+    "cp": "13011",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13011014",
+    "cp": "13011",
+    "priceE10": 1280,
+    "priceGazole": 1050,
+    "timestampE10": 1451452375000,
+    "timestampGazole": 1451452375000
+  },
+  {
+    "stationID": "13011015",
+    "cp": "13011",
+    "priceE10": 1259,
+    "priceGazole": 999,
+    "timestampE10": 1450861961000,
+    "timestampGazole": 1450861939000
+  },
+  {
+    "stationID": "13011016",
+    "cp": "13011",
+    "priceE10": 1349,
+    "priceGazole": 1099,
+    "timestampE10": 1450249954000,
+    "timestampGazole": 1451549520000
+  },
+  {
+    "stationID": "13011017",
+    "cp": "13011",
+    "priceE10": 1209,
+    "priceGazole": 982,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13011018",
+    "cp": "13011",
+    "priceE10": 1229,
+    "priceGazole": 979,
+    "timestampE10": 1451275925000,
+    "timestampGazole": 1451275925000
+  },
+  {
+    "stationID": "13011019",
+    "cp": "13011",
+    "priceE10": 1323,
+    "priceGazole": 1093,
+    "timestampE10": 1449911534000,
+    "timestampGazole": 1449911534000
+  },
+  {
+    "stationID": "13012001",
+    "cp": "13012",
+    "priceE10": null,
+    "priceGazole": 985,
+    "timestampE10": null,
+    "timestampGazole": 1451369579000
+  },
+  {
+    "stationID": "13012003",
+    "cp": "13012",
+    "priceE10": null,
+    "priceGazole": 997,
+    "timestampE10": null,
+    "timestampGazole": 1450678351000
+  },
+  {
+    "stationID": "13012012",
+    "cp": "13012",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13012013",
+    "cp": "13012",
+    "priceE10": null,
+    "priceGazole": 1069,
+    "timestampE10": null,
+    "timestampGazole": 1450444330000
+  },
+  {
+    "stationID": "13012015",
+    "cp": "13012",
+    "priceE10": 1259,
+    "priceGazole": 978,
+    "timestampE10": 1449828757000,
+    "timestampGazole": 1450692755000
+  },
+  {
+    "stationID": "13012016",
+    "cp": "13012",
+    "priceE10": 1215,
+    "priceGazole": 970,
+    "timestampE10": 1450930326000,
+    "timestampGazole": 1451113938000
+  },
+  {
+    "stationID": "13012018",
+    "cp": "13012",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13012019",
+    "cp": "13012",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13012020",
+    "cp": "13012",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13012021",
+    "cp": "13012",
+    "priceE10": 1279,
+    "priceGazole": 1039,
+    "timestampE10": 1451365920000,
+    "timestampGazole": 1451365920000
+  },
+  {
+    "stationID": "13012022",
+    "cp": "13012",
+    "priceE10": 1217,
+    "priceGazole": 987,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13012023",
+    "cp": "13012",
+    "priceE10": null,
+    "priceGazole": 1190,
+    "timestampE10": null,
+    "timestampGazole": 1450077127000
+  },
+  {
+    "stationID": "13013002",
+    "cp": "13013",
+    "priceE10": 1314,
+    "priceGazole": 1069,
+    "timestampE10": 1451365920000,
+    "timestampGazole": 1451365920000
+  },
+  {
+    "stationID": "13013003",
+    "cp": "13013",
+    "priceE10": 1279,
+    "priceGazole": 1039,
+    "timestampE10": 1451365920000,
+    "timestampGazole": 1451365920000
+  },
+  {
+    "stationID": "13013004",
+    "cp": "13013",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13013007",
+    "cp": "13013",
+    "priceE10": null,
+    "priceGazole": 999,
+    "timestampE10": null,
+    "timestampGazole": 1451545930000
+  },
+  {
+    "stationID": "13013008",
+    "cp": "13013",
+    "priceE10": 1431,
+    "priceGazole": 989,
+    "timestampE10": 1432188343000,
+    "timestampGazole": 1450851120000
+  },
+  {
+    "stationID": "13013010",
+    "cp": "13013",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13013011",
+    "cp": "13013",
+    "priceE10": 1234,
+    "priceGazole": 995,
+    "timestampE10": 1450915927000,
+    "timestampGazole": 1450915926000
+  },
+  {
+    "stationID": "13013012",
+    "cp": "13013",
+    "priceE10": null,
+    "priceGazole": 1099,
+    "timestampE10": null,
+    "timestampGazole": 1449893547000
+  },
+  {
+    "stationID": "13013013",
+    "cp": "13013",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13013014",
+    "cp": "13013",
+    "priceE10": null,
+    "priceGazole": 1049,
+    "timestampE10": null,
+    "timestampGazole": 1450847529000
+  },
+  {
+    "stationID": "13013015",
+    "cp": "13013",
+    "priceE10": 1240,
+    "priceGazole": 990,
+    "timestampE10": 1450372341000,
+    "timestampGazole": 1450372341000
+  },
+  {
+    "stationID": "13013016",
+    "cp": "13013",
+    "priceE10": 1236,
+    "priceGazole": 997,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13013017",
+    "cp": "13013",
+    "priceE10": 1219,
+    "priceGazole": 982,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13014001",
+    "cp": "13014",
+    "priceE10": 1219,
+    "priceGazole": 982,
+    "timestampE10": 1451545923000,
+    "timestampGazole": 1451545922000
+  },
+  {
+    "stationID": "13014006",
+    "cp": "13014",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13014008",
+    "cp": "13014",
+    "priceE10": 1280,
+    "priceGazole": 1050,
+    "timestampE10": 1451236325000,
+    "timestampGazole": 1451236324000
+  },
+  {
+    "stationID": "13014010",
+    "cp": "13014",
+    "priceE10": null,
+    "priceGazole": 1045,
+    "timestampE10": null,
+    "timestampGazole": 1450890747000
+  },
+  {
+    "stationID": "13014011",
+    "cp": "13014",
+    "priceE10": null,
+    "priceGazole": 1099,
+    "timestampE10": null,
+    "timestampGazole": 1450894371000
+  },
+  {
+    "stationID": "13014012",
+    "cp": "13014",
+    "priceE10": 1294,
+    "priceGazole": 1049,
+    "timestampE10": 1450933920000,
+    "timestampGazole": 1450933920000
+  },
+  {
+    "stationID": "13015004",
+    "cp": "13015",
+    "priceE10": 1224,
+    "priceGazole": 969,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "13015006",
+    "cp": "13015",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13015011",
+    "cp": "13015",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13015012",
+    "cp": "13015",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13015013",
+    "cp": "13015",
+    "priceE10": 1250,
+    "priceGazole": 1040,
+    "timestampE10": 1451020328000,
+    "timestampGazole": 1451020328000
+  },
+  {
+    "stationID": "13015014",
+    "cp": "13015",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13015015",
+    "cp": "13015",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13015016",
+    "cp": "13015",
+    "priceE10": 1269,
+    "priceGazole": 1059,
+    "timestampE10": 1450156358000,
+    "timestampGazole": 1450509141000
+  },
+  {
+    "stationID": "13015017",
+    "cp": "13015",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13015018",
+    "cp": "13015",
+    "priceE10": 1219,
+    "priceGazole": 982,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13015019",
+    "cp": "13015",
+    "priceE10": 1219,
+    "priceGazole": 965,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13016002",
+    "cp": "13016",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13016005",
+    "cp": "13016",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13016006",
+    "cp": "13016",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13016007",
+    "cp": "13016",
+    "priceE10": 1320,
+    "priceGazole": 1070,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "13016008",
+    "cp": "13016",
+    "priceE10": 1217,
+    "priceGazole": 965,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13090001",
+    "cp": "13090",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13090006",
+    "cp": "13090",
+    "priceE10": 1299,
+    "priceGazole": 1059,
+    "timestampE10": 1451365920000,
+    "timestampGazole": 1451365920000
+  },
+  {
+    "stationID": "13090007",
+    "cp": "13090",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13090014",
+    "cp": "13090",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13090016",
+    "cp": "13090",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13090017",
+    "cp": "13090",
+    "priceE10": 1213,
+    "priceGazole": 985,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13090018",
+    "cp": "13090",
+    "priceE10": 1222,
+    "priceGazole": 999,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13090019",
+    "cp": "13090",
+    "priceE10": 1309,
+    "priceGazole": 1079,
+    "timestampE10": 1450437147000,
+    "timestampGazole": 1450437146000
+  },
+  {
+    "stationID": "13097001",
+    "cp": "13090",
+    "priceE10": null,
+    "priceGazole": 985,
+    "timestampE10": null,
+    "timestampGazole": 1451113936000
+  },
+  {
+    "stationID": "13100001",
+    "cp": "13100",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13100002",
+    "cp": "13090",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13100003",
+    "cp": "13090",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13100004",
+    "cp": "13290",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13100005",
+    "cp": "13100",
+    "priceE10": 1214,
+    "priceGazole": 985,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "13100006",
+    "cp": "13100",
+    "priceE10": 1217,
+    "priceGazole": 987,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "13100008",
+    "cp": "13100",
+    "priceE10": 1359,
+    "priceGazole": 989,
+    "timestampE10": 1441260569000,
+    "timestampGazole": 1451545948000
+  },
+  {
+    "stationID": "13100009",
+    "cp": "13100",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13100010",
+    "cp": "13100",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13100012",
+    "cp": "13090",
+    "priceE10": 1289,
+    "priceGazole": 1059,
+    "timestampE10": 1450847520000,
+    "timestampGazole": 1450847520000
+  },
+  {
+    "stationID": "13100013",
+    "cp": "13853",
+    "priceE10": 1215,
+    "priceGazole": 989,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13100014",
+    "cp": "13100",
+    "priceE10": 1217,
+    "priceGazole": 987,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13100015",
+    "cp": "13100",
+    "priceE10": 1219,
+    "priceGazole": 985,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13100016",
+    "cp": "13100",
+    "priceE10": 1313,
+    "priceGazole": 1069,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13100017",
+    "cp": "13100",
+    "priceE10": 1216,
+    "priceGazole": 985,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13105001",
+    "cp": "13105",
+    "priceE10": null,
+    "priceGazole": 986,
+    "timestampE10": null,
+    "timestampGazole": 1450426322000
+  },
+  {
+    "stationID": "13110001",
+    "cp": "13110",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13110002",
+    "cp": "13110",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13110003",
+    "cp": "13110",
+    "priceE10": 1198,
+    "priceGazole": 958,
+    "timestampE10": 1451553164000,
+    "timestampGazole": 1451553164000
+  },
+  {
+    "stationID": "13110004",
+    "cp": "13110",
+    "priceE10": null,
+    "priceGazole": 1020,
+    "timestampE10": null,
+    "timestampGazole": 1450505565000
+  },
+  {
+    "stationID": "13110005",
+    "cp": "13110",
+    "priceE10": 1324,
+    "priceGazole": 1073,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13112002",
+    "cp": "13112",
+    "priceE10": null,
+    "priceGazole": 989,
+    "timestampE10": null,
+    "timestampGazole": 1451117536000
+  },
+  {
+    "stationID": "13112003",
+    "cp": "13112",
+    "priceE10": null,
+    "priceGazole": 989,
+    "timestampE10": null,
+    "timestampGazole": 1450941154000
+  },
+  {
+    "stationID": "13112005",
+    "cp": "13112",
+    "priceE10": 1269,
+    "priceGazole": 1019,
+    "timestampE10": 1451369520000,
+    "timestampGazole": 1451369520000
+  },
+  {
+    "stationID": "13115001",
+    "cp": "13115",
+    "priceE10": null,
+    "priceGazole": 1087,
+    "timestampE10": null,
+    "timestampGazole": 1450170765000
+  },
+  {
+    "stationID": "13120001",
+    "cp": "13120",
+    "priceE10": null,
+    "priceGazole": 1019,
+    "timestampE10": null,
+    "timestampGazole": 1451545941000
+  },
+  {
+    "stationID": "13120002",
+    "cp": "13120",
+    "priceE10": 1300,
+    "priceGazole": 1007,
+    "timestampE10": 1451074329000,
+    "timestampGazole": 1451074328000
+  },
+  {
+    "stationID": "13120003",
+    "cp": "13120",
+    "priceE10": 1224,
+    "priceGazole": 978,
+    "timestampE10": 1450422720000,
+    "timestampGazole": 1450422720000
+  },
+  {
+    "stationID": "13120004",
+    "cp": "13120",
+    "priceE10": null,
+    "priceGazole": 1266,
+    "timestampE10": null,
+    "timestampGazole": 1440680909000
+  },
+  {
+    "stationID": "13120005",
+    "cp": "13120",
+    "priceE10": null,
+    "priceGazole": 1049,
+    "timestampE10": null,
+    "timestampGazole": 1450854766000
+  },
+  {
+    "stationID": "13120006",
+    "cp": "13120",
+    "priceE10": null,
+    "priceGazole": 1103,
+    "timestampE10": null,
+    "timestampGazole": 1441627748000
+  },
+  {
+    "stationID": "13122001",
+    "cp": "13122",
+    "priceE10": 1350,
+    "priceGazole": 1007,
+    "timestampE10": 1450851133000,
+    "timestampGazole": 1450851133000
+  },
+  {
+    "stationID": "13122002",
+    "cp": "13122",
+    "priceE10": null,
+    "priceGazole": 999,
+    "timestampE10": null,
+    "timestampGazole": 1450440769000
+  },
+  {
+    "stationID": "13124001",
+    "cp": "13124",
+    "priceE10": 1510,
+    "priceGazole": 1110,
+    "timestampE10": 1423904533000,
+    "timestampGazole": 1451124757000
+  },
+  {
+    "stationID": "13124002",
+    "cp": "13124",
+    "priceE10": 1389,
+    "priceGazole": 1169,
+    "timestampE10": 1451578320000,
+    "timestampGazole": 1451578320000
+  },
+  {
+    "stationID": "13127002",
+    "cp": "13127",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13127004",
+    "cp": "13127",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13127005",
+    "cp": "13127",
+    "priceE10": 1379,
+    "priceGazole": 1159,
+    "timestampE10": 1451553174000,
+    "timestampGazole": 1451553174000
+  },
+  {
+    "stationID": "13127006",
+    "cp": "13127",
+    "priceE10": 1189,
+    "priceGazole": 949,
+    "timestampE10": 1451553157000,
+    "timestampGazole": 1451553157000
+  },
+  {
+    "stationID": "13127007",
+    "cp": "13127",
+    "priceE10": 1289,
+    "priceGazole": 1004,
+    "timestampE10": 1451365920000,
+    "timestampGazole": 1451365920000
+  },
+  {
+    "stationID": "13127009",
+    "cp": "13127",
+    "priceE10": 1217,
+    "priceGazole": 987,
+    "timestampE10": 1451297558000,
+    "timestampGazole": 1450941120000
+  },
+  {
+    "stationID": "13127010",
+    "cp": "13127",
+    "priceE10": 1339,
+    "priceGazole": 1015,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13130002",
+    "cp": "13130",
+    "priceE10": null,
+    "priceGazole": 959,
+    "timestampE10": null,
+    "timestampGazole": 1451459527000
+  },
+  {
+    "stationID": "13130003",
+    "cp": "13130",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13130004",
+    "cp": "13130",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13130005",
+    "cp": "13130",
+    "priceE10": 1499,
+    "priceGazole": 999,
+    "timestampE10": 1432825505000,
+    "timestampGazole": 1450347128000
+  },
+  {
+    "stationID": "13130006",
+    "cp": "13130",
+    "priceE10": 1209,
+    "priceGazole": 962,
+    "timestampE10": 1451473960000,
+    "timestampGazole": 1451473960000
+  },
+  {
+    "stationID": "13140001",
+    "cp": "13140",
+    "priceE10": null,
+    "priceGazole": 992,
+    "timestampE10": null,
+    "timestampGazole": 1450426359000
+  },
+  {
+    "stationID": "13140002",
+    "cp": "13140",
+    "priceE10": null,
+    "priceGazole": 1090,
+    "timestampE10": null,
+    "timestampGazole": 1450451573000
+  },
+  {
+    "stationID": "13140005",
+    "cp": "13140",
+    "priceE10": 1255,
+    "priceGazole": 989,
+    "timestampE10": 1449846720000,
+    "timestampGazole": 1450347124000
+  },
+  {
+    "stationID": "13140008",
+    "cp": "13140",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13140009",
+    "cp": "13140",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13140010",
+    "cp": "13140",
+    "priceE10": 1229,
+    "priceGazole": 992,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13150001",
+    "cp": "13150",
+    "priceE10": 1244,
+    "priceGazole": 995,
+    "timestampE10": 1450941175000,
+    "timestampGazole": 1451373127000
+  },
+  {
+    "stationID": "13150003",
+    "cp": "13150",
+    "priceE10": 1248,
+    "priceGazole": 997,
+    "timestampE10": 1451545976000,
+    "timestampGazole": 1451545976000
+  },
+  {
+    "stationID": "13150005",
+    "cp": "13150",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13150006",
+    "cp": "13150",
+    "priceE10": 1246,
+    "priceGazole": 999,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13160001",
+    "cp": "13160",
+    "priceE10": 1287,
+    "priceGazole": 1048,
+    "timestampE10": 1449846769000,
+    "timestampGazole": 1450422730000
+  },
+  {
+    "stationID": "13160002",
+    "cp": "13160",
+    "priceE10": 1259,
+    "priceGazole": 1009,
+    "timestampE10": 1449900740000,
+    "timestampGazole": 1450509126000
+  },
+  {
+    "stationID": "13160004",
+    "cp": "13160",
+    "priceE10": null,
+    "priceGazole": 1012,
+    "timestampE10": null,
+    "timestampGazole": 1450681947000
+  },
+  {
+    "stationID": "13170003",
+    "cp": "13170",
+    "priceE10": 1259,
+    "priceGazole": 1039,
+    "timestampE10": 1450156320000,
+    "timestampGazole": 1450847520000
+  },
+  {
+    "stationID": "13170007",
+    "cp": "13170",
+    "priceE10": null,
+    "priceGazole": 1059,
+    "timestampE10": null,
+    "timestampGazole": 1450282378000
+  },
+  {
+    "stationID": "13170008",
+    "cp": "13170",
+    "priceE10": 1348,
+    "priceGazole": 1089,
+    "timestampE10": 1448341911000,
+    "timestampGazole": 1450163578000
+  },
+  {
+    "stationID": "13170009",
+    "cp": "13170",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13170010",
+    "cp": "13170",
+    "priceE10": null,
+    "priceGazole": 1049,
+    "timestampE10": null,
+    "timestampGazole": 1450959140000
+  },
+  {
+    "stationID": "13170011",
+    "cp": "13170",
+    "priceE10": 1216,
+    "priceGazole": 949,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13180001",
+    "cp": "13180",
+    "priceE10": 1389,
+    "priceGazole": 1199,
+    "timestampE10": 1451581950000,
+    "timestampGazole": 1451581949000
+  },
+  {
+    "stationID": "13190001",
+    "cp": "13190",
+    "priceE10": 1330,
+    "priceGazole": 1110,
+    "timestampE10": 1451581952000,
+    "timestampGazole": 1451581952000
+  },
+  {
+    "stationID": "13200001",
+    "cp": "13200",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13200002",
+    "cp": "13200",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13200004",
+    "cp": "13200",
+    "priceE10": null,
+    "priceGazole": 1052,
+    "timestampE10": null,
+    "timestampGazole": 1451495571000
+  },
+  {
+    "stationID": "13200006",
+    "cp": "13200",
+    "priceE10": 1199,
+    "priceGazole": 949,
+    "timestampE10": 1451373145000,
+    "timestampGazole": 1451373144000
+  },
+  {
+    "stationID": "13200008",
+    "cp": "13200",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13200009",
+    "cp": "13200",
+    "priceE10": 1209,
+    "priceGazole": 955,
+    "timestampE10": 1450851179000,
+    "timestampGazole": 1451373162000
+  },
+  {
+    "stationID": "13200010",
+    "cp": "13200",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13200013",
+    "cp": "13200",
+    "priceE10": null,
+    "priceGazole": 1056,
+    "timestampE10": null,
+    "timestampGazole": 1451499145000
+  },
+  {
+    "stationID": "13200014",
+    "cp": "13200",
+    "priceE10": 1354,
+    "priceGazole": 1119,
+    "timestampE10": 1451549520000,
+    "timestampGazole": 1451549520000
+  },
+  {
+    "stationID": "13200015",
+    "cp": "13200",
+    "priceE10": 1302,
+    "priceGazole": 1094,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13200016",
+    "cp": "13200",
+    "priceE10": 1209,
+    "priceGazole": 969,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13200017",
+    "cp": "13200",
+    "priceE10": 1299,
+    "priceGazole": 1049,
+    "timestampE10": 1451455920000,
+    "timestampGazole": 1451455920000
+  },
+  {
+    "stationID": "13210001",
+    "cp": "13210",
+    "priceE10": null,
+    "priceGazole": 1180,
+    "timestampE10": null,
+    "timestampGazole": 1451585556000
+  },
+  {
+    "stationID": "13210002",
+    "cp": "13210",
+    "priceE10": 1271,
+    "priceGazole": 1048,
+    "timestampE10": 1451581920000,
+    "timestampGazole": 1451581920000
+  },
+  {
+    "stationID": "13210003",
+    "cp": "13210",
+    "priceE10": null,
+    "priceGazole": 1180,
+    "timestampE10": null,
+    "timestampGazole": 1451581930000
+  },
+  {
+    "stationID": "13220003",
+    "cp": "13220",
+    "priceE10": 1198,
+    "priceGazole": 958,
+    "timestampE10": 1451553177000,
+    "timestampGazole": 1451553177000
+  },
+  {
+    "stationID": "13230001",
+    "cp": "13230",
+    "priceE10": 1280,
+    "priceGazole": 993,
+    "timestampE10": 1449252720000,
+    "timestampGazole": 1450807952000
+  },
+  {
+    "stationID": "13230002",
+    "cp": "13230",
+    "priceE10": 1237,
+    "priceGazole": 981,
+    "timestampE10": 1450807953000,
+    "timestampGazole": 1450807952000
+  },
+  {
+    "stationID": "13230003",
+    "cp": "13230",
+    "priceE10": null,
+    "priceGazole": 1100,
+    "timestampE10": null,
+    "timestampGazole": 1450444324000
+  },
+  {
+    "stationID": "13240001",
+    "cp": "13240",
+    "priceE10": null,
+    "priceGazole": 1001,
+    "timestampE10": null,
+    "timestampGazole": 1450948371000
+  },
+  {
+    "stationID": "13260001",
+    "cp": "13260",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13260002",
+    "cp": "13260",
+    "priceE10": 1319,
+    "priceGazole": 1049,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13270001",
+    "cp": "13270",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13270002",
+    "cp": "13270",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13270004",
+    "cp": "13270",
+    "priceE10": 1201,
+    "priceGazole": 962,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "13270005",
+    "cp": "13270",
+    "priceE10": 1259,
+    "priceGazole": 999,
+    "timestampE10": 1451380372000,
+    "timestampGazole": 1451380372000
+  },
+  {
+    "stationID": "13270007",
+    "cp": "13270",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13270008",
+    "cp": "13270",
+    "priceE10": 1287,
+    "priceGazole": 1037,
+    "timestampE10": 1449612773000,
+    "timestampGazole": 1450422720000
+  },
+  {
+    "stationID": "13270009",
+    "cp": "13270",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13270010",
+    "cp": "13270",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13270011",
+    "cp": "13270",
+    "priceE10": 1203,
+    "priceGazole": 965,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13270012",
+    "cp": "13270",
+    "priceE10": 1203,
+    "priceGazole": 965,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13270013",
+    "cp": "13270",
+    "priceE10": 1204,
+    "priceGazole": 967,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "13300001",
+    "cp": "13300",
+    "priceE10": 1313,
+    "priceGazole": 1135,
+    "timestampE10": 1451585548000,
+    "timestampGazole": 1451585548000
+  },
+  {
+    "stationID": "13300002",
+    "cp": "13300",
+    "priceE10": 1333,
+    "priceGazole": 1136,
+    "timestampE10": 1451581945000,
+    "timestampGazole": 1451581945000
+  },
+  {
+    "stationID": "13300004",
+    "cp": "13300",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13300005",
+    "cp": "13300",
+    "priceE10": 1165,
+    "priceGazole": 936,
+    "timestampE10": 1451463163000,
+    "timestampGazole": 1451290330000
+  },
+  {
+    "stationID": "13300006",
+    "cp": "13330",
+    "priceE10": null,
+    "priceGazole": 1039,
+    "timestampE10": null,
+    "timestampGazole": 1450696337000
+  },
+  {
+    "stationID": "13300007",
+    "cp": "13300",
+    "priceE10": null,
+    "priceGazole": 991,
+    "timestampE10": null,
+    "timestampGazole": 1451549536000
+  },
+  {
+    "stationID": "13300008",
+    "cp": "13300",
+    "priceE10": 1169,
+    "priceGazole": 931,
+    "timestampE10": 1451463158000,
+    "timestampGazole": 1451463157000
+  },
+  {
+    "stationID": "13300009",
+    "cp": "13300",
+    "priceE10": 1219,
+    "priceGazole": 987,
+    "timestampE10": 1451373120000,
+    "timestampGazole": 1451373120000
+  },
+  {
+    "stationID": "13300010",
+    "cp": "13300",
+    "priceE10": 1189,
+    "priceGazole": 949,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13310001",
+    "cp": "13310",
+    "priceE10": null,
+    "priceGazole": 977,
+    "timestampE10": null,
+    "timestampGazole": 1451542320000
+  },
+  {
+    "stationID": "13310002",
+    "cp": "13310",
+    "priceE10": 1239,
+    "priceGazole": 975,
+    "timestampE10": 1451549560000,
+    "timestampGazole": 1451549560000
+  },
+  {
+    "stationID": "13320001",
+    "cp": "13320",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13320003",
+    "cp": "13320",
+    "priceE10": 1300,
+    "priceGazole": 1007,
+    "timestampE10": 1451279573000,
+    "timestampGazole": 1451279573000
+  },
+  {
+    "stationID": "13320004",
+    "cp": "13320",
+    "priceE10": 1195,
+    "priceGazole": 949,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "13320005",
+    "cp": "13320",
+    "priceE10": 1354,
+    "priceGazole": 1154,
+    "timestampE10": 1448388660000,
+    "timestampGazole": 1448388660000
+  },
+  {
+    "stationID": "13320006",
+    "cp": "13320",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13320008",
+    "cp": "13320",
+    "priceE10": 1287,
+    "priceGazole": 1150,
+    "timestampE10": 1420736498000,
+    "timestampGazole": 1420736498000
+  },
+  {
+    "stationID": "13320009",
+    "cp": "13320",
+    "priceE10": 1272,
+    "priceGazole": 984,
+    "timestampE10": 1451398352000,
+    "timestampGazole": 1451553157000
+  },
+  {
+    "stationID": "13320010",
+    "cp": "13320",
+    "priceE10": 1195,
+    "priceGazole": 959,
+    "timestampE10": 1451542360000,
+    "timestampGazole": 1451542360000
+  },
+  {
+    "stationID": "13320011",
+    "cp": "13320",
+    "priceE10": 1364,
+    "priceGazole": 1134,
+    "timestampE10": 1451549520000,
+    "timestampGazole": 1451549520000
+  },
+  {
+    "stationID": "13320012",
+    "cp": "13320",
+    "priceE10": 1293,
+    "priceGazole": 1073,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13340001",
+    "cp": "13340",
+    "priceE10": null,
+    "priceGazole": 968,
+    "timestampE10": null,
+    "timestampGazole": 1450854720000
+  },
+  {
+    "stationID": "13360001",
+    "cp": "13360",
+    "priceE10": 1210,
+    "priceGazole": 969,
+    "timestampE10": 1450977163000,
+    "timestampGazole": 1450977163000
+  },
+  {
+    "stationID": "13368001",
+    "cp": "13011",
+    "priceE10": null,
+    "priceGazole": 979,
+    "timestampE10": null,
+    "timestampGazole": 1450419178000
+  },
+  {
+    "stationID": "13370003",
+    "cp": "13370",
+    "priceE10": 1229,
+    "priceGazole": 989,
+    "timestampE10": 1450509148000,
+    "timestampGazole": 1451545925000
+  },
+  {
+    "stationID": "13370005",
+    "cp": "13370",
+    "priceE10": null,
+    "priceGazole": 1059,
+    "timestampE10": null,
+    "timestampGazole": 1450350722000
+  },
+  {
+    "stationID": "13370006",
+    "cp": "13370",
+    "priceE10": 1229,
+    "priceGazole": 989,
+    "timestampE10": 1450509175000,
+    "timestampGazole": 1451545943000
+  },
+  {
+    "stationID": "13380001",
+    "cp": "13380",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13380002",
+    "cp": "13380",
+    "priceE10": 1234,
+    "priceGazole": 995,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "13390001",
+    "cp": "13390",
+    "priceE10": null,
+    "priceGazole": 985,
+    "timestampE10": null,
+    "timestampGazole": 1451455942000
+  },
+  {
+    "stationID": "13400001",
+    "cp": "13783",
+    "priceE10": null,
+    "priceGazole": 969,
+    "timestampE10": null,
+    "timestampGazole": 1450851168000
+  },
+  {
+    "stationID": "13400002",
+    "cp": "13400",
+    "priceE10": 1303,
+    "priceGazole": 1054,
+    "timestampE10": 1451495558000,
+    "timestampGazole": 1450372337000
+  },
+  {
+    "stationID": "13400003",
+    "cp": "13400",
+    "priceE10": 1309,
+    "priceGazole": 1043,
+    "timestampE10": 1450195976000,
+    "timestampGazole": 1450329135000
+  },
+  {
+    "stationID": "13400004",
+    "cp": "13400",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13400005",
+    "cp": "13400",
+    "priceE10": 1493,
+    "priceGazole": 1268,
+    "timestampE10": 1435738046000,
+    "timestampGazole": 1436342825000
+  },
+  {
+    "stationID": "13400007",
+    "cp": "13400",
+    "priceE10": 1221,
+    "priceGazole": 969,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "13400009",
+    "cp": "13400",
+    "priceE10": null,
+    "priceGazole": 985,
+    "timestampE10": null,
+    "timestampGazole": 1450887169000
+  },
+  {
+    "stationID": "13400014",
+    "cp": "13400",
+    "priceE10": 1328,
+    "priceGazole": 1113,
+    "timestampE10": 1451592720000,
+    "timestampGazole": 1451592720000
+  },
+  {
+    "stationID": "13410001",
+    "cp": "13410",
+    "priceE10": 1260,
+    "priceGazole": 990,
+    "timestampE10": 1450156350000,
+    "timestampGazole": 1450764720000
+  },
+  {
+    "stationID": "13410002",
+    "cp": "13410",
+    "priceE10": null,
+    "priceGazole": 1005,
+    "timestampE10": null,
+    "timestampGazole": 1451286720000
+  },
+  {
+    "stationID": "13420001",
+    "cp": "13420",
+    "priceE10": null,
+    "priceGazole": 1019,
+    "timestampE10": null,
+    "timestampGazole": 1450188755000
+  },
+  {
+    "stationID": "13430001",
+    "cp": "13430",
+    "priceE10": null,
+    "priceGazole": 1018,
+    "timestampE10": null,
+    "timestampGazole": 1451376736000
+  },
+  {
+    "stationID": "13430002",
+    "cp": "13430",
+    "priceE10": null,
+    "priceGazole": 1140,
+    "timestampE10": null,
+    "timestampGazole": 1450195924000
+  },
+  {
+    "stationID": "13440002",
+    "cp": "13440",
+    "priceE10": null,
+    "priceGazole": 985,
+    "timestampE10": null,
+    "timestampGazole": 1451571143000
+  },
+  {
+    "stationID": "13460001",
+    "cp": "13460",
+    "priceE10": null,
+    "priceGazole": 1130,
+    "timestampE10": null,
+    "timestampGazole": 1450714355000
+  },
+  {
+    "stationID": "13460002",
+    "cp": "13460",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13460003",
+    "cp": "13460",
+    "priceE10": null,
+    "priceGazole": 1079,
+    "timestampE10": null,
+    "timestampGazole": 1450887166000
+  },
+  {
+    "stationID": "13463001",
+    "cp": "13015",
+    "priceE10": 1213,
+    "priceGazole": 958,
+    "timestampE10": 1451545920000,
+    "timestampGazole": 1451545979000
+  },
+  {
+    "stationID": "13470001",
+    "cp": "13470",
+    "priceE10": null,
+    "priceGazole": 993,
+    "timestampE10": null,
+    "timestampGazole": 1451311968000
+  },
+  {
+    "stationID": "13480001",
+    "cp": "13480",
+    "priceE10": 1293,
+    "priceGazole": 1053,
+    "timestampE10": 1451542325000,
+    "timestampGazole": 1450332772000
+  },
+  {
+    "stationID": "13480002",
+    "cp": "13480",
+    "priceE10": 1187,
+    "priceGazole": 950,
+    "timestampE10": 1451545937000,
+    "timestampGazole": 1451545937000
+  },
+  {
+    "stationID": "13490001",
+    "cp": "13490",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13500001",
+    "cp": "13500",
+    "priceE10": 1198,
+    "priceGazole": 958,
+    "timestampE10": 1451553144000,
+    "timestampGazole": 1451553144000
+  },
+  {
+    "stationID": "13500002",
+    "cp": "13500",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13500004",
+    "cp": "13500",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13500005",
+    "cp": "13500",
+    "priceE10": 1203,
+    "priceGazole": 967,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "13500006",
+    "cp": "13500",
+    "priceE10": 1220,
+    "priceGazole": 990,
+    "timestampE10": 1451481120000,
+    "timestampGazole": 1451481120000
+  },
+  {
+    "stationID": "13500007",
+    "cp": "13500",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13500008",
+    "cp": "13500",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13500010",
+    "cp": "13500",
+    "priceE10": 1269,
+    "priceGazole": 1029,
+    "timestampE10": 1451365920000,
+    "timestampGazole": 1451365920000
+  },
+  {
+    "stationID": "13500011",
+    "cp": "13500",
+    "priceE10": 1343,
+    "priceGazole": 1103,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13500012",
+    "cp": "13500",
+    "priceE10": 1199,
+    "priceGazole": 964,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13510001",
+    "cp": "13510",
+    "priceE10": 1350,
+    "priceGazole": 1070,
+    "timestampE10": 1451495522000,
+    "timestampGazole": 1451495562000
+  },
+  {
+    "stationID": "13510002",
+    "cp": "13510",
+    "priceE10": 1350,
+    "priceGazole": 1007,
+    "timestampE10": 1451283172000,
+    "timestampGazole": 1451283172000
+  },
+  {
+    "stationID": "13520001",
+    "cp": "13520",
+    "priceE10": null,
+    "priceGazole": 1130,
+    "timestampE10": null,
+    "timestampGazole": 1450725149000
+  },
+  {
+    "stationID": "13530001",
+    "cp": "13530",
+    "priceE10": null,
+    "priceGazole": 995,
+    "timestampE10": null,
+    "timestampGazole": 1451545925000
+  },
+  {
+    "stationID": "13530002",
+    "cp": "13530",
+    "priceE10": null,
+    "priceGazole": 995,
+    "timestampE10": null,
+    "timestampGazole": 1450771945000
+  },
+  {
+    "stationID": "13545001",
+    "cp": "13546",
+    "priceE10": 1213,
+    "priceGazole": 985,
+    "timestampE10": 1451553131000,
+    "timestampGazole": 1451553131000
+  },
+  {
+    "stationID": "13550001",
+    "cp": "13550",
+    "priceE10": 1300,
+    "priceGazole": 1040,
+    "timestampE10": 1451495571000,
+    "timestampGazole": 1450804337000
+  },
+  {
+    "stationID": "13560001",
+    "cp": "13560",
+    "priceE10": 1320,
+    "priceGazole": 1050,
+    "timestampE10": 1450415566000,
+    "timestampGazole": 1450854750000
+  },
+  {
+    "stationID": "13560002",
+    "cp": "13560",
+    "priceE10": null,
+    "priceGazole": 1089,
+    "timestampE10": null,
+    "timestampGazole": 1450347124000
+  },
+  {
+    "stationID": "13560003",
+    "cp": "13560",
+    "priceE10": 1239,
+    "priceGazole": 1069,
+    "timestampE10": 1449591129000,
+    "timestampGazole": 1450275175000
+  },
+  {
+    "stationID": "13560004",
+    "cp": "13560",
+    "priceE10": 1229,
+    "priceGazole": 989,
+    "timestampE10": 1451463145000,
+    "timestampGazole": 1451463145000
+  },
+  {
+    "stationID": "13570001",
+    "cp": "13570",
+    "priceE10": null,
+    "priceGazole": 995,
+    "timestampE10": null,
+    "timestampGazole": 1450793521000
+  },
+  {
+    "stationID": "13580001",
+    "cp": "13580",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13580002",
+    "cp": "13580",
+    "priceE10": null,
+    "priceGazole": 955,
+    "timestampE10": null,
+    "timestampGazole": 1451308335000
+  },
+  {
+    "stationID": "13580003",
+    "cp": "13580",
+    "priceE10": 1269,
+    "priceGazole": 1079,
+    "timestampE10": 1440508090000,
+    "timestampGazole": 1441620592000
+  },
+  {
+    "stationID": "13590001",
+    "cp": "13590",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13590002",
+    "cp": "13590",
+    "priceE10": null,
+    "priceGazole": 995,
+    "timestampE10": null,
+    "timestampGazole": 1451545933000
+  },
+  {
+    "stationID": "13590003",
+    "cp": "13590",
+    "priceE10": 1299,
+    "priceGazole": 1114,
+    "timestampE10": 1450890764000,
+    "timestampGazole": 1450890748000
+  },
+  {
+    "stationID": "13600001",
+    "cp": "13600",
+    "priceE10": null,
+    "priceGazole": 1049,
+    "timestampE10": null,
+    "timestampGazole": 1450948364000
+  },
+  {
+    "stationID": "13600002",
+    "cp": "13600",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13600004",
+    "cp": "13600",
+    "priceE10": null,
+    "priceGazole": 1114,
+    "timestampE10": null,
+    "timestampGazole": 1451326370000
+  },
+  {
+    "stationID": "13600005",
+    "cp": "13600",
+    "priceE10": 1221,
+    "priceGazole": 969,
+    "timestampE10": 1451545966000,
+    "timestampGazole": 1451545966000
+  },
+  {
+    "stationID": "13600006",
+    "cp": "13600",
+    "priceE10": null,
+    "priceGazole": 1045,
+    "timestampE10": null,
+    "timestampGazole": 1450897920000
+  },
+  {
+    "stationID": "13600008",
+    "cp": "13600",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13600011",
+    "cp": "13600",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13600013",
+    "cp": "13600",
+    "priceE10": 1380,
+    "priceGazole": 1130,
+    "timestampE10": 1450761120000,
+    "timestampGazole": 1450761120000
+  },
+  {
+    "stationID": "13600014",
+    "cp": "13600",
+    "priceE10": null,
+    "priceGazole": 985,
+    "timestampE10": null,
+    "timestampGazole": 1451455963000
+  },
+  {
+    "stationID": "13600015",
+    "cp": "13600",
+    "priceE10": 1229,
+    "priceGazole": 982,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13600016",
+    "cp": "13600",
+    "priceE10": 1389,
+    "priceGazole": 1169,
+    "timestampE10": 1450163558000,
+    "timestampGazole": 1450933969000
+  },
+  {
+    "stationID": "13610001",
+    "cp": "13610",
+    "priceE10": 1390,
+    "priceGazole": 1190,
+    "timestampE10": 1450296750000,
+    "timestampGazole": 1450296750000
+  },
+  {
+    "stationID": "13620001",
+    "cp": "13620",
+    "priceE10": null,
+    "priceGazole": 1135,
+    "timestampE10": null,
+    "timestampGazole": 1451585520000
+  },
+  {
+    "stationID": "13620002",
+    "cp": "13620",
+    "priceE10": null,
+    "priceGazole": 1085,
+    "timestampE10": null,
+    "timestampGazole": 1450851175000
+  },
+  {
+    "stationID": "13626001",
+    "cp": "13300",
+    "priceE10": null,
+    "priceGazole": 931,
+    "timestampE10": null,
+    "timestampGazole": 1451463155000
+  },
+  {
+    "stationID": "13630001",
+    "cp": "13630",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13640001",
+    "cp": "13640",
+    "priceE10": 1309,
+    "priceGazole": 1063,
+    "timestampE10": 1450944769000,
+    "timestampGazole": 1450944768000
+  },
+  {
+    "stationID": "13650001",
+    "cp": "13650",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13650002",
+    "cp": "13650",
+    "priceE10": null,
+    "priceGazole": 1036,
+    "timestampE10": null,
+    "timestampGazole": 1451599920000
+  },
+  {
+    "stationID": "13650003",
+    "cp": "13650",
+    "priceE10": 1354,
+    "priceGazole": 1124,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1450501920000
+  },
+  {
+    "stationID": "13660002",
+    "cp": "13660",
+    "priceE10": 1213,
+    "priceGazole": 987,
+    "timestampE10": 1451373120000,
+    "timestampGazole": 1450854720000
+  },
+  {
+    "stationID": "13660004",
+    "cp": "13660",
+    "priceE10": null,
+    "priceGazole": 1129,
+    "timestampE10": null,
+    "timestampGazole": 1441328956000
+  },
+  {
+    "stationID": "13660005",
+    "cp": "13660",
+    "priceE10": 1213,
+    "priceGazole": 965,
+    "timestampE10": 1451286754000,
+    "timestampGazole": 1451286754000
+  },
+  {
+    "stationID": "13670001",
+    "cp": "13670",
+    "priceE10": 1224,
+    "priceGazole": 987,
+    "timestampE10": 1451459520000,
+    "timestampGazole": 1451380324000
+  },
+  {
+    "stationID": "13680001",
+    "cp": "13680",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13680002",
+    "cp": "13680",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13680003",
+    "cp": "13680",
+    "priceE10": null,
+    "priceGazole": 1219,
+    "timestampE10": null,
+    "timestampGazole": 1445325008000
+  },
+  {
+    "stationID": "13680004",
+    "cp": "13680",
+    "priceE10": null,
+    "priceGazole": 999,
+    "timestampE10": null,
+    "timestampGazole": 1450771971000
+  },
+  {
+    "stationID": "13680007",
+    "cp": "13680",
+    "priceE10": 1359,
+    "priceGazole": 1119,
+    "timestampE10": 1451549520000,
+    "timestampGazole": 1451549520000
+  },
+  {
+    "stationID": "13680008",
+    "cp": "13680",
+    "priceE10": 1359,
+    "priceGazole": 1119,
+    "timestampE10": 1451549520000,
+    "timestampGazole": 1451549520000
+  },
+  {
+    "stationID": "13700001",
+    "cp": "13180",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13700003",
+    "cp": "13700",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13700004",
+    "cp": "13700",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13700005",
+    "cp": "13700",
+    "priceE10": 1198,
+    "priceGazole": 989,
+    "timestampE10": 1451581975000,
+    "timestampGazole": 1451581975000
+  },
+  {
+    "stationID": "13700006",
+    "cp": "13700",
+    "priceE10": null,
+    "priceGazole": 1080,
+    "timestampE10": null,
+    "timestampGazole": 1450545172000
+  },
+  {
+    "stationID": "13700007",
+    "cp": "13700",
+    "priceE10": null,
+    "priceGazole": 965,
+    "timestampE10": null,
+    "timestampGazole": 1451290324000
+  },
+  {
+    "stationID": "13700008",
+    "cp": "13700",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13700009",
+    "cp": "13700",
+    "priceE10": 1359,
+    "priceGazole": 1119,
+    "timestampE10": 1451549520000,
+    "timestampGazole": 1451549520000
+  },
+  {
+    "stationID": "13700010",
+    "cp": "13700",
+    "priceE10": 1319,
+    "priceGazole": 1146,
+    "timestampE10": 1447315860000,
+    "timestampGazole": 1447315860000
+  },
+  {
+    "stationID": "13700011",
+    "cp": "13700",
+    "priceE10": 1207,
+    "priceGazole": 962,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "13710001",
+    "cp": "13710",
+    "priceE10": 1266,
+    "priceGazole": 1029,
+    "timestampE10": 1451542348000,
+    "timestampGazole": 1451542348000
+  },
+  {
+    "stationID": "13710002",
+    "cp": "13710",
+    "priceE10": 1214,
+    "priceGazole": 985,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "13710003",
+    "cp": "13710",
+    "priceE10": null,
+    "priceGazole": 1009,
+    "timestampE10": null,
+    "timestampGazole": 1451373155000
+  },
+  {
+    "stationID": "13710004",
+    "cp": "13710",
+    "priceE10": 1259,
+    "priceGazole": 1006,
+    "timestampE10": 1451376749000,
+    "timestampGazole": 1450775558000
+  },
+  {
+    "stationID": "13730001",
+    "cp": "13730",
+    "priceE10": 1355,
+    "priceGazole": 969,
+    "timestampE10": 1423465340000,
+    "timestampGazole": 1451542364000
+  },
+  {
+    "stationID": "13740001",
+    "cp": "13740",
+    "priceE10": 1323,
+    "priceGazole": 1085,
+    "timestampE10": 1451542342000,
+    "timestampGazole": 1450959176000
+  },
+  {
+    "stationID": "13740002",
+    "cp": "13740",
+    "priceE10": null,
+    "priceGazole": 969,
+    "timestampE10": null,
+    "timestampGazole": 1451488336000
+  },
+  {
+    "stationID": "13741001",
+    "cp": "13127",
+    "priceE10": 1251,
+    "priceGazole": 949,
+    "timestampE10": 1441876199000,
+    "timestampGazole": 1451556775000
+  },
+  {
+    "stationID": "13750001",
+    "cp": "13750",
+    "priceE10": null,
+    "priceGazole": 1035,
+    "timestampE10": null,
+    "timestampGazole": 1450883525000
+  },
+  {
+    "stationID": "13750003",
+    "cp": "13750",
+    "priceE10": 1260,
+    "priceGazole": 1030,
+    "timestampE10": 1451585520000,
+    "timestampGazole": 1451585520000
+  },
+  {
+    "stationID": "13750004",
+    "cp": "13750",
+    "priceE10": null,
+    "priceGazole": 1035,
+    "timestampE10": null,
+    "timestampGazole": 1450858322000
+  },
+  {
+    "stationID": "13751001",
+    "cp": "13170",
+    "priceE10": 1296,
+    "priceGazole": 950,
+    "timestampE10": 1421128892000,
+    "timestampGazole": 1451549561000
+  },
+  {
+    "stationID": "13770001",
+    "cp": "13770",
+    "priceE10": 1269,
+    "priceGazole": 1034,
+    "timestampE10": 1451365920000,
+    "timestampGazole": 1451365920000
+  },
+  {
+    "stationID": "13770002",
+    "cp": "13770",
+    "priceE10": 1249,
+    "priceGazole": 1008,
+    "timestampE10": 1450163520000,
+    "timestampGazole": 1450422720000
+  },
+  {
+    "stationID": "13780002",
+    "cp": "13780",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13780003",
+    "cp": "13780",
+    "priceE10": 1309,
+    "priceGazole": 1056,
+    "timestampE10": 1450509147000,
+    "timestampGazole": 1451556744000
+  },
+  {
+    "stationID": "13790001",
+    "cp": "13790",
+    "priceE10": 1354,
+    "priceGazole": 1114,
+    "timestampE10": 1451556765000,
+    "timestampGazole": 1451556765000
+  },
+  {
+    "stationID": "13790003",
+    "cp": "13790",
+    "priceE10": 1359,
+    "priceGazole": 1119,
+    "timestampE10": 1451452320000,
+    "timestampGazole": 1450761120000
+  },
+  {
+    "stationID": "13800001",
+    "cp": "13800",
+    "priceE10": null,
+    "priceGazole": 949,
+    "timestampE10": null,
+    "timestampGazole": 1451542320000
+  },
+  {
+    "stationID": "13800004",
+    "cp": "13800",
+    "priceE10": 1199,
+    "priceGazole": 959,
+    "timestampE10": 1451502720000,
+    "timestampGazole": 1451502720000
+  },
+  {
+    "stationID": "13800005",
+    "cp": "13800",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13800007",
+    "cp": "13800",
+    "priceE10": null,
+    "priceGazole": 1069,
+    "timestampE10": null,
+    "timestampGazole": 1450804343000
+  },
+  {
+    "stationID": "13800008",
+    "cp": "13800",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13800009",
+    "cp": "13800",
+    "priceE10": 1235,
+    "priceGazole": 1009,
+    "timestampE10": 1450120348000,
+    "timestampGazole": 1450343538000
+  },
+  {
+    "stationID": "13850001",
+    "cp": "13850",
+    "priceE10": 1259,
+    "priceGazole": 1006,
+    "timestampE10": 1451376731000,
+    "timestampGazole": 1450771961000
+  },
+  {
+    "stationID": "13870001",
+    "cp": "13870",
+    "priceE10": null,
+    "priceGazole": 987,
+    "timestampE10": null,
+    "timestampGazole": 1451293930000
+  },
+  {
+    "stationID": "13870002",
+    "cp": "13870",
+    "priceE10": null,
+    "priceGazole": 995,
+    "timestampE10": null,
+    "timestampGazole": 1450419144000
+  },
+  {
+    "stationID": "13880001",
+    "cp": "13880",
+    "priceE10": null,
+    "priceGazole": 1189,
+    "timestampE10": null,
+    "timestampGazole": 1440824887000
+  },
+  {
+    "stationID": "13880002",
+    "cp": "13880",
+    "priceE10": null,
+    "priceGazole": 940,
+    "timestampE10": null,
+    "timestampGazole": 1450951967000
+  },
+  {
+    "stationID": "13890000",
+    "cp": "13890",
+    "priceE10": null,
+    "priceGazole": 993,
+    "timestampE10": null,
+    "timestampGazole": 1451545930000
+  },
+  {
+    "stationID": "13920001",
+    "cp": "13920",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13920002",
+    "cp": "13920",
+    "priceE10": null,
+    "priceGazole": 1126,
+    "timestampE10": null,
+    "timestampGazole": 1450293168000
+  },
+  {
+    "stationID": "13920003",
+    "cp": "13920",
+    "priceE10": null,
+    "priceGazole": 1126,
+    "timestampE10": null,
+    "timestampGazole": 1450689130000
+  },
+  {
+    "stationID": "13990001",
+    "cp": "13990",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "13990002",
+    "cp": "13990",
+    "priceE10": null,
+    "priceGazole": 1150,
+    "timestampE10": null,
+    "timestampGazole": 1451542359000
+  },
+  {
+    "stationID": "83000001",
+    "cp": "83000",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83000006",
+    "cp": "83100",
+    "priceE10": 1219,
+    "priceGazole": 980,
+    "timestampE10": 1451542326000,
+    "timestampGazole": 1450336331000
+  },
+  {
+    "stationID": "83000007",
+    "cp": "83000",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83000008",
+    "cp": "83000",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83000010",
+    "cp": "83000",
+    "priceE10": 1309,
+    "priceGazole": 1075,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "83000011",
+    "cp": "83000",
+    "priceE10": 1217,
+    "priceGazole": 977,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "83000012",
+    "cp": "83000",
+    "priceE10": 1217,
+    "priceGazole": 977,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "83100003",
+    "cp": "83000",
+    "priceE10": 1294,
+    "priceGazole": 1069,
+    "timestampE10": 1450847520000,
+    "timestampGazole": 1450847520000
+  },
+  {
+    "stationID": "83100004",
+    "cp": "83000",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83100005",
+    "cp": "83100",
+    "priceE10": 1279,
+    "priceGazole": 1039,
+    "timestampE10": 1450159926000,
+    "timestampGazole": 1451545931000
+  },
+  {
+    "stationID": "83100006",
+    "cp": "83100",
+    "priceE10": 1262,
+    "priceGazole": 1075,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "83110001",
+    "cp": "83110",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83110002",
+    "cp": "83110",
+    "priceE10": 1204,
+    "priceGazole": 965,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "83120001",
+    "cp": "83120",
+    "priceE10": 1250,
+    "priceGazole": 990,
+    "timestampE10": 1450289520000,
+    "timestampGazole": 1450721520000
+  },
+  {
+    "stationID": "83120002",
+    "cp": "83120",
+    "priceE10": 1250,
+    "priceGazole": 990,
+    "timestampE10": 1450289520000,
+    "timestampGazole": 1450721520000
+  },
+  {
+    "stationID": "83120005",
+    "cp": "83120",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83120006",
+    "cp": "83120",
+    "priceE10": 1255,
+    "priceGazole": 996,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "83130001",
+    "cp": "83130",
+    "priceE10": 1354,
+    "priceGazole": 1114,
+    "timestampE10": 1451106720000,
+    "timestampGazole": 1451106720000
+  },
+  {
+    "stationID": "83130003",
+    "cp": "83130",
+    "priceE10": 1254,
+    "priceGazole": 1093,
+    "timestampE10": 1451589120000,
+    "timestampGazole": 1451589120000
+  },
+  {
+    "stationID": "83130004",
+    "cp": "83130",
+    "priceE10": 1227,
+    "priceGazole": 981,
+    "timestampE10": 1451545920000,
+    "timestampGazole": 1451545920000
+  },
+  {
+    "stationID": "83130005",
+    "cp": "83130",
+    "priceE10": null,
+    "priceGazole": 981,
+    "timestampE10": null,
+    "timestampGazole": 1451545920000
+  },
+  {
+    "stationID": "83130006",
+    "cp": "83130",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83136001",
+    "cp": "83136",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83136004",
+    "cp": "83136",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83136005",
+    "cp": "83136",
+    "priceE10": 1490,
+    "priceGazole": 1160,
+    "timestampE10": 1433257605000,
+    "timestampGazole": 1448356298000
+  },
+  {
+    "stationID": "83136007",
+    "cp": "83136",
+    "priceE10": 1319,
+    "priceGazole": 1119,
+    "timestampE10": 1451592728000,
+    "timestampGazole": 1451592728000
+  },
+  {
+    "stationID": "83136008",
+    "cp": "83136",
+    "priceE10": null,
+    "priceGazole": 1098,
+    "timestampE10": null,
+    "timestampGazole": 1451229143000
+  },
+  {
+    "stationID": "83140001",
+    "cp": "83140",
+    "priceE10": 1212,
+    "priceGazole": 959,
+    "timestampE10": 1450512736000,
+    "timestampGazole": 1450512735000
+  },
+  {
+    "stationID": "83140002",
+    "cp": "83140",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83140003",
+    "cp": "83140",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83140005",
+    "cp": "83140",
+    "priceE10": null,
+    "priceGazole": 969,
+    "timestampE10": null,
+    "timestampGazole": 1451545947000
+  },
+  {
+    "stationID": "83140006",
+    "cp": "83140",
+    "priceE10": 1212,
+    "priceGazole": 959,
+    "timestampE10": 1451153536000,
+    "timestampGazole": 1451153536000
+  },
+  {
+    "stationID": "83140007",
+    "cp": "83140",
+    "priceE10": 1315,
+    "priceGazole": 1045,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "83140008",
+    "cp": "83140",
+    "priceE10": 1205,
+    "priceGazole": 959,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "83147001",
+    "cp": "83136",
+    "priceE10": null,
+    "priceGazole": 1007,
+    "timestampE10": null,
+    "timestampGazole": 1450804325000
+  },
+  {
+    "stationID": "83150001",
+    "cp": "83150",
+    "priceE10": null,
+    "priceGazole": 955,
+    "timestampE10": null,
+    "timestampGazole": 1450768371000
+  },
+  {
+    "stationID": "83150002",
+    "cp": "83150",
+    "priceE10": null,
+    "priceGazole": 974,
+    "timestampE10": null,
+    "timestampGazole": 1451545943000
+  },
+  {
+    "stationID": "83160001",
+    "cp": "83160",
+    "priceE10": 1212,
+    "priceGazole": 974,
+    "timestampE10": 1451538733000,
+    "timestampGazole": 1451553120000
+  },
+  {
+    "stationID": "83160003",
+    "cp": "83160",
+    "priceE10": 1226,
+    "priceGazole": 1037,
+    "timestampE10": 1451589151000,
+    "timestampGazole": 1451589151000
+  },
+  {
+    "stationID": "83160004",
+    "cp": "83160",
+    "priceE10": 1319,
+    "priceGazole": 1125,
+    "timestampE10": 1450703520000,
+    "timestampGazole": 1450703520000
+  },
+  {
+    "stationID": "83160005",
+    "cp": "83160",
+    "priceE10": null,
+    "priceGazole": 995,
+    "timestampE10": null,
+    "timestampGazole": 1451113937000
+  },
+  {
+    "stationID": "83170001",
+    "cp": "83170",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83170002",
+    "cp": "83170",
+    "priceE10": null,
+    "priceGazole": 1029,
+    "timestampE10": null,
+    "timestampGazole": 1450933920000
+  },
+  {
+    "stationID": "83170003",
+    "cp": "83170",
+    "priceE10": 1251,
+    "priceGazole": 986,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "83170004",
+    "cp": "83170",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83170006",
+    "cp": "83170",
+    "priceE10": null,
+    "priceGazole": 999,
+    "timestampE10": null,
+    "timestampGazole": 1451549522000
+  },
+  {
+    "stationID": "83170007",
+    "cp": "83170",
+    "priceE10": 1245,
+    "priceGazole": 980,
+    "timestampE10": 1451373125000,
+    "timestampGazole": 1451373125000
+  },
+  {
+    "stationID": "83170008",
+    "cp": "83170",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83170009",
+    "cp": "83170",
+    "priceE10": null,
+    "priceGazole": 1180,
+    "timestampE10": null,
+    "timestampGazole": 1441703368000
+  },
+  {
+    "stationID": "83170010",
+    "cp": "83170",
+    "priceE10": 1246,
+    "priceGazole": 986,
+    "timestampE10": 1451286748000,
+    "timestampGazole": 1451545971000
+  },
+  {
+    "stationID": "83170011",
+    "cp": "83170",
+    "priceE10": 1369,
+    "priceGazole": 1149,
+    "timestampE10": 1450156320000,
+    "timestampGazole": 1450933920000
+  },
+  {
+    "stationID": "83170012",
+    "cp": "83170",
+    "priceE10": 1354,
+    "priceGazole": 1114,
+    "timestampE10": 1451549520000,
+    "timestampGazole": 1451549520000
+  },
+  {
+    "stationID": "83170013",
+    "cp": "83170",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83190001",
+    "cp": "83190",
+    "priceE10": 1175,
+    "priceGazole": 949,
+    "timestampE10": 1451553163000,
+    "timestampGazole": 1451553162000
+  },
+  {
+    "stationID": "83190002",
+    "cp": "83190",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83190004",
+    "cp": "83190",
+    "priceE10": null,
+    "priceGazole": 1015,
+    "timestampE10": null,
+    "timestampGazole": 1450433536000
+  },
+  {
+    "stationID": "83190005",
+    "cp": "83190",
+    "priceE10": 1195,
+    "priceGazole": 955,
+    "timestampE10": 1451549543000,
+    "timestampGazole": 1451585520000
+  },
+  {
+    "stationID": "83190006",
+    "cp": "83190",
+    "priceE10": 1195,
+    "priceGazole": 955,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "83200002",
+    "cp": "83200",
+    "priceE10": null,
+    "priceGazole": 1049,
+    "timestampE10": null,
+    "timestampGazole": 1450116770000
+  },
+  {
+    "stationID": "83200003",
+    "cp": "83200",
+    "priceE10": null,
+    "priceGazole": 969,
+    "timestampE10": null,
+    "timestampGazole": 1451545972000
+  },
+  {
+    "stationID": "83200004",
+    "cp": "83200",
+    "priceE10": null,
+    "priceGazole": 1139,
+    "timestampE10": null,
+    "timestampGazole": 1450793570000
+  },
+  {
+    "stationID": "83210001",
+    "cp": "83210",
+    "priceE10": 1254,
+    "priceGazole": 1059,
+    "timestampE10": 1451589120000,
+    "timestampGazole": 1451589120000
+  },
+  {
+    "stationID": "83210002",
+    "cp": "83210",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83210003",
+    "cp": "83210",
+    "priceE10": 1223,
+    "priceGazole": 978,
+    "timestampE10": 1451560330000,
+    "timestampGazole": 1451560330000
+  },
+  {
+    "stationID": "83210004",
+    "cp": "83210",
+    "priceE10": 1000,
+    "priceGazole": 1089,
+    "timestampE10": 1449835945000,
+    "timestampGazole": 1451574776000
+  },
+  {
+    "stationID": "83210005",
+    "cp": "83210",
+    "priceE10": 1225,
+    "priceGazole": 985,
+    "timestampE10": 1450944720000,
+    "timestampGazole": 1451549520000
+  },
+  {
+    "stationID": "83210006",
+    "cp": "83210",
+    "priceE10": 1254,
+    "priceGazole": 1049,
+    "timestampE10": 1451589120000,
+    "timestampGazole": 1451589120000
+  },
+  {
+    "stationID": "83220001",
+    "cp": "83220",
+    "priceE10": null,
+    "priceGazole": 1390,
+    "timestampE10": null,
+    "timestampGazole": 1449828738000
+  },
+  {
+    "stationID": "83220002",
+    "cp": "83220",
+    "priceE10": 1227,
+    "priceGazole": 986,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "83230002",
+    "cp": "83230",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83230003",
+    "cp": "83230",
+    "priceE10": null,
+    "priceGazole": 1049,
+    "timestampE10": null,
+    "timestampGazole": 1450811520000
+  },
+  {
+    "stationID": "83230006",
+    "cp": "83230",
+    "priceE10": 1204,
+    "priceGazole": 964,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "83240001",
+    "cp": "83240",
+    "priceE10": null,
+    "priceGazole": 1059,
+    "timestampE10": null,
+    "timestampGazole": 1451581945000
+  },
+  {
+    "stationID": "83240006",
+    "cp": "83240",
+    "priceE10": 1255,
+    "priceGazole": 1028,
+    "timestampE10": 1450685533000,
+    "timestampGazole": 1450685533000
+  },
+  {
+    "stationID": "83250003",
+    "cp": "83250",
+    "priceE10": null,
+    "priceGazole": 999,
+    "timestampE10": null,
+    "timestampGazole": 1450422720000
+  },
+  {
+    "stationID": "83250004",
+    "cp": "83250",
+    "priceE10": 1229,
+    "priceGazole": 999,
+    "timestampE10": 1451401928000,
+    "timestampGazole": 1450710736000
+  },
+  {
+    "stationID": "83250007",
+    "cp": "83250",
+    "priceE10": 1227,
+    "priceGazole": 993,
+    "timestampE10": 1451286744000,
+    "timestampGazole": 1451286744000
+  },
+  {
+    "stationID": "83250008",
+    "cp": "83250",
+    "priceE10": 1309,
+    "priceGazole": 1069,
+    "timestampE10": 1450851120000,
+    "timestampGazole": 1450851120000
+  },
+  {
+    "stationID": "83260001",
+    "cp": "83260",
+    "priceE10": null,
+    "priceGazole": 959,
+    "timestampE10": null,
+    "timestampGazole": 1451553155000
+  },
+  {
+    "stationID": "83260003",
+    "cp": "83260",
+    "priceE10": null,
+    "priceGazole": 1099,
+    "timestampE10": null,
+    "timestampGazole": 1450433533000
+  },
+  {
+    "stationID": "83260004",
+    "cp": "83260",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83260005",
+    "cp": "83260",
+    "priceE10": 1339,
+    "priceGazole": 1139,
+    "timestampE10": 1450242720000,
+    "timestampGazole": 1450242720000
+  },
+  {
+    "stationID": "83260006",
+    "cp": "83260",
+    "priceE10": 1197,
+    "priceGazole": 988,
+    "timestampE10": 1450167139000,
+    "timestampGazole": 1450167139000
+  },
+  {
+    "stationID": "83270001",
+    "cp": "83270",
+    "priceE10": 1410,
+    "priceGazole": 1230,
+    "timestampE10": 1448025095000,
+    "timestampGazole": 1448025095000
+  },
+  {
+    "stationID": "83270002",
+    "cp": "83270",
+    "priceE10": 1279,
+    "priceGazole": 969,
+    "timestampE10": 1440738514000,
+    "timestampGazole": 1451459520000
+  },
+  {
+    "stationID": "83300001",
+    "cp": "83300",
+    "priceE10": 1299,
+    "priceGazole": 1025,
+    "timestampE10": 1451549575000,
+    "timestampGazole": 1451549575000
+  },
+  {
+    "stationID": "83300003",
+    "cp": "83300",
+    "priceE10": null,
+    "priceGazole": 957,
+    "timestampE10": null,
+    "timestampGazole": 1451549573000
+  },
+  {
+    "stationID": "83300004",
+    "cp": "83300",
+    "priceE10": null,
+    "priceGazole": 1019,
+    "timestampE10": null,
+    "timestampGazole": 1450415520000
+  },
+  {
+    "stationID": "83300005",
+    "cp": "83300",
+    "priceE10": 1224,
+    "priceGazole": 957,
+    "timestampE10": 1451481120000,
+    "timestampGazole": 1451481120000
+  },
+  {
+    "stationID": "83300006",
+    "cp": "83300",
+    "priceE10": null,
+    "priceGazole": 979,
+    "timestampE10": null,
+    "timestampGazole": 1451380324000
+  },
+  {
+    "stationID": "83300008",
+    "cp": "83300",
+    "priceE10": null,
+    "priceGazole": 1019,
+    "timestampE10": null,
+    "timestampGazole": 1450775545000
+  },
+  {
+    "stationID": "83310004",
+    "cp": "83310",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83310006",
+    "cp": "83310",
+    "priceE10": null,
+    "priceGazole": 1079,
+    "timestampE10": null,
+    "timestampGazole": 1450091520000
+  },
+  {
+    "stationID": "83310007",
+    "cp": "83310",
+    "priceE10": 1228,
+    "priceGazole": 990,
+    "timestampE10": 1450458765000,
+    "timestampGazole": 1450458723000
+  },
+  {
+    "stationID": "83310010",
+    "cp": "83310",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83310011",
+    "cp": "83310",
+    "priceE10": 1229,
+    "priceGazole": 994,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "83320001",
+    "cp": "83320",
+    "priceE10": 1414,
+    "priceGazole": 985,
+    "timestampE10": 1432361147000,
+    "timestampGazole": 1451542373000
+  },
+  {
+    "stationID": "83330001",
+    "cp": "83330",
+    "priceE10": 1314,
+    "priceGazole": 1065,
+    "timestampE10": 1451495522000,
+    "timestampGazole": 1451495522000
+  },
+  {
+    "stationID": "83330003",
+    "cp": "83330",
+    "priceE10": null,
+    "priceGazole": 975,
+    "timestampE10": null,
+    "timestampGazole": 1451466720000
+  },
+  {
+    "stationID": "83330004",
+    "cp": "83330",
+    "priceE10": null,
+    "priceGazole": 1060,
+    "timestampE10": null,
+    "timestampGazole": 1450451579000
+  },
+  {
+    "stationID": "83340001",
+    "cp": "83340",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83340002",
+    "cp": "83340",
+    "priceE10": null,
+    "priceGazole": 962,
+    "timestampE10": null,
+    "timestampGazole": 1450455125000
+  },
+  {
+    "stationID": "83340004",
+    "cp": "83340",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83340005",
+    "cp": "83340",
+    "priceE10": 1225,
+    "priceGazole": 972,
+    "timestampE10": 1451293973000,
+    "timestampGazole": 1451387559000
+  },
+  {
+    "stationID": "83340006",
+    "cp": "83340",
+    "priceE10": null,
+    "priceGazole": 1079,
+    "timestampE10": null,
+    "timestampGazole": 1451369542000
+  },
+  {
+    "stationID": "83340008",
+    "cp": "83340",
+    "priceE10": 1249,
+    "priceGazole": 979,
+    "timestampE10": 1450361548000,
+    "timestampGazole": 1450361548000
+  },
+  {
+    "stationID": "83340009",
+    "cp": "83340",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83340010",
+    "cp": "83340",
+    "priceE10": 1225,
+    "priceGazole": 969,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "83340011",
+    "cp": "83340",
+    "priceE10": 1229,
+    "priceGazole": 969,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "83350001",
+    "cp": "83350",
+    "priceE10": 1340,
+    "priceGazole": 1100,
+    "timestampE10": 1451581951000,
+    "timestampGazole": 1451581951000
+  },
+  {
+    "stationID": "83380001",
+    "cp": "83380",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83380002",
+    "cp": "83380",
+    "priceE10": 1245,
+    "priceGazole": 972,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "83390001",
+    "cp": "83390",
+    "priceE10": 1300,
+    "priceGazole": 1030,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1450876362000
+  },
+  {
+    "stationID": "83390002",
+    "cp": "83390",
+    "priceE10": null,
+    "priceGazole": 995,
+    "timestampE10": null,
+    "timestampGazole": 1451545950000
+  },
+  {
+    "stationID": "83390003",
+    "cp": "83390",
+    "priceE10": 1266,
+    "priceGazole": 1013,
+    "timestampE10": 1451581945000,
+    "timestampGazole": 1451581945000
+  },
+  {
+    "stationID": "83390005",
+    "cp": "83390",
+    "priceE10": null,
+    "priceGazole": 990,
+    "timestampE10": null,
+    "timestampGazole": 1450768359000
+  },
+  {
+    "stationID": "83400001",
+    "cp": "83400",
+    "priceE10": null,
+    "priceGazole": 967,
+    "timestampE10": null,
+    "timestampGazole": 1451542324000
+  },
+  {
+    "stationID": "83400003",
+    "cp": "83400",
+    "priceE10": 1279,
+    "priceGazole": 1044,
+    "timestampE10": 1451455920000,
+    "timestampGazole": 1451455920000
+  },
+  {
+    "stationID": "83400004",
+    "cp": "83400",
+    "priceE10": 1217,
+    "priceGazole": 977,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "83400005",
+    "cp": "83400",
+    "priceE10": 1225,
+    "priceGazole": 985,
+    "timestampE10": 1451545951000,
+    "timestampGazole": 1451545950000
+  },
+  {
+    "stationID": "83400006",
+    "cp": "83400",
+    "priceE10": 1215,
+    "priceGazole": 966,
+    "timestampE10": 1451553148000,
+    "timestampGazole": 1451553148000
+  },
+  {
+    "stationID": "83400008",
+    "cp": "83400",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83400010",
+    "cp": "83400",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83400011",
+    "cp": "83400",
+    "priceE10": 1216,
+    "priceGazole": 984,
+    "timestampE10": 1451553170000,
+    "timestampGazole": 1451553170000
+  },
+  {
+    "stationID": "83400012",
+    "cp": "83400",
+    "priceE10": 1245,
+    "priceGazole": 995,
+    "timestampE10": 1451553152000,
+    "timestampGazole": 1451553152000
+  },
+  {
+    "stationID": "83400013",
+    "cp": "83400",
+    "priceE10": 1299,
+    "priceGazole": 1052,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "83420001",
+    "cp": "83420",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83420004",
+    "cp": "83420",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83420005",
+    "cp": "83420",
+    "priceE10": 1252,
+    "priceGazole": 1096,
+    "timestampE10": 1448838660000,
+    "timestampGazole": 1448838660000
+  },
+  {
+    "stationID": "83440001",
+    "cp": "83440",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83440002",
+    "cp": "83440",
+    "priceE10": null,
+    "priceGazole": 1110,
+    "timestampE10": null,
+    "timestampGazole": 1451344320000
+  },
+  {
+    "stationID": "83440003",
+    "cp": "83440",
+    "priceE10": 1314,
+    "priceGazole": 1063,
+    "timestampE10": 1451542361000,
+    "timestampGazole": 1450847549000
+  },
+  {
+    "stationID": "83440004",
+    "cp": "83440",
+    "priceE10": 1229,
+    "priceGazole": 979,
+    "timestampE10": 1451117546000,
+    "timestampGazole": 1451117545000
+  },
+  {
+    "stationID": "83440005",
+    "cp": "83440",
+    "priceE10": 1269,
+    "priceGazole": 999,
+    "timestampE10": 1451121133000,
+    "timestampGazole": 1451121173000
+  },
+  {
+    "stationID": "83440006",
+    "cp": "83440",
+    "priceE10": null,
+    "priceGazole": 1089,
+    "timestampE10": null,
+    "timestampGazole": 1451599920000
+  },
+  {
+    "stationID": "83460001",
+    "cp": "83460",
+    "priceE10": null,
+    "priceGazole": 1110,
+    "timestampE10": null,
+    "timestampGazole": 1448320314000
+  },
+  {
+    "stationID": "83460002",
+    "cp": "83460",
+    "priceE10": 1209,
+    "priceGazole": 965,
+    "timestampE10": 1451542344000,
+    "timestampGazole": 1451542344000
+  },
+  {
+    "stationID": "83470001",
+    "cp": "83470",
+    "priceE10": null,
+    "priceGazole": 975,
+    "timestampE10": null,
+    "timestampGazole": 1450249932000
+  },
+  {
+    "stationID": "83470003",
+    "cp": "83470",
+    "priceE10": 1229,
+    "priceGazole": 999,
+    "timestampE10": 1449875520000,
+    "timestampGazole": 1450393920000
+  },
+  {
+    "stationID": "83470004",
+    "cp": "83470",
+    "priceE10": 1242,
+    "priceGazole": 982,
+    "timestampE10": 1451549557000,
+    "timestampGazole": 1450858331000
+  },
+  {
+    "stationID": "83470005",
+    "cp": "83470",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83470006",
+    "cp": "83470",
+    "priceE10": 1239,
+    "priceGazole": 982,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "83480001",
+    "cp": "83480",
+    "priceE10": null,
+    "priceGazole": 965,
+    "timestampE10": null,
+    "timestampGazole": 1451531564000
+  },
+  {
+    "stationID": "83480002",
+    "cp": "83480",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83480003",
+    "cp": "83480",
+    "priceE10": 1309,
+    "priceGazole": 1125,
+    "timestampE10": 1451581979000,
+    "timestampGazole": 1451581978000
+  },
+  {
+    "stationID": "83480005",
+    "cp": "83480",
+    "priceE10": 1225,
+    "priceGazole": 965,
+    "timestampE10": 1449904320000,
+    "timestampGazole": 1450249962000
+  },
+  {
+    "stationID": "83480006",
+    "cp": "83480",
+    "priceE10": 1354,
+    "priceGazole": 1114,
+    "timestampE10": 1451549520000,
+    "timestampGazole": 1451549520000
+  },
+  {
+    "stationID": "83490001",
+    "cp": "83490",
+    "priceE10": 1283,
+    "priceGazole": 1048,
+    "timestampE10": 1451459533000,
+    "timestampGazole": 1451459533000
+  },
+  {
+    "stationID": "83490002",
+    "cp": "83490",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83490003",
+    "cp": "83490",
+    "priceE10": null,
+    "priceGazole": 970,
+    "timestampE10": null,
+    "timestampGazole": 1450768320000
+  },
+  {
+    "stationID": "83500001",
+    "cp": "83500",
+    "priceE10": 1175,
+    "priceGazole": 949,
+    "timestampE10": 1451455937000,
+    "timestampGazole": 1451545973000
+  },
+  {
+    "stationID": "83500003",
+    "cp": "83500",
+    "priceE10": null,
+    "priceGazole": 1155,
+    "timestampE10": null,
+    "timestampGazole": 1441735740000
+  },
+  {
+    "stationID": "83500004",
+    "cp": "83500",
+    "priceE10": 1175,
+    "priceGazole": 949,
+    "timestampE10": 1451455944000,
+    "timestampGazole": 1451542345000
+  },
+  {
+    "stationID": "83500005",
+    "cp": "83500",
+    "priceE10": 1175,
+    "priceGazole": 949,
+    "timestampE10": 1451459520000,
+    "timestampGazole": 1451553159000
+  },
+  {
+    "stationID": "83500007",
+    "cp": "83500",
+    "priceE10": null,
+    "priceGazole": 978,
+    "timestampE10": null,
+    "timestampGazole": 1451542367000
+  },
+  {
+    "stationID": "83500008",
+    "cp": "83500",
+    "priceE10": 1337,
+    "priceGazole": 1096,
+    "timestampE10": 1451455949000,
+    "timestampGazole": 1451455949000
+  },
+  {
+    "stationID": "83500012",
+    "cp": "83500",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83500013",
+    "cp": "83500",
+    "priceE10": 1229,
+    "priceGazole": 1066,
+    "timestampE10": 1443996600000,
+    "timestampGazole": 1443996600000
+  },
+  {
+    "stationID": "83510001",
+    "cp": "83510",
+    "priceE10": 1339,
+    "priceGazole": 1075,
+    "timestampE10": 1451545979000,
+    "timestampGazole": 1450426337000
+  },
+  {
+    "stationID": "83510002",
+    "cp": "83510",
+    "priceE10": null,
+    "priceGazole": 979,
+    "timestampE10": null,
+    "timestampGazole": 1451376779000
+  },
+  {
+    "stationID": "83510003",
+    "cp": "83510",
+    "priceE10": 1259,
+    "priceGazole": 1099,
+    "timestampE10": 1446459080000,
+    "timestampGazole": 1446462660000
+  },
+  {
+    "stationID": "83520001",
+    "cp": "83520",
+    "priceE10": 1294,
+    "priceGazole": 1049,
+    "timestampE10": 1450937523000,
+    "timestampGazole": 1450851132000
+  },
+  {
+    "stationID": "83520002",
+    "cp": "83520",
+    "priceE10": null,
+    "priceGazole": 985,
+    "timestampE10": null,
+    "timestampGazole": 1450426371000
+  },
+  {
+    "stationID": "83550001",
+    "cp": "83550",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83550002",
+    "cp": "83550",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83550003",
+    "cp": "83550",
+    "priceE10": 1354,
+    "priceGazole": 1114,
+    "timestampE10": 1451452342000,
+    "timestampGazole": 1451452342000
+  },
+  {
+    "stationID": "83550004",
+    "cp": "83550",
+    "priceE10": null,
+    "priceGazole": 989,
+    "timestampE10": null,
+    "timestampGazole": 1451373136000
+  },
+  {
+    "stationID": "83550005",
+    "cp": "83550",
+    "priceE10": 1354,
+    "priceGazole": 1114,
+    "timestampE10": 1451106720000,
+    "timestampGazole": 1450761120000
+  },
+  {
+    "stationID": "83560001",
+    "cp": "83560",
+    "priceE10": 1380,
+    "priceGazole": 1180,
+    "timestampE10": 1441699788000,
+    "timestampGazole": 1442916540000
+  },
+  {
+    "stationID": "83560002",
+    "cp": "83560",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83560003",
+    "cp": "83560",
+    "priceE10": null,
+    "priceGazole": 1170,
+    "timestampE10": null,
+    "timestampGazole": 1450084348000
+  },
+  {
+    "stationID": "83560004",
+    "cp": "83560",
+    "priceE10": null,
+    "priceGazole": 969,
+    "timestampE10": null,
+    "timestampGazole": 1451574757000
+  },
+  {
+    "stationID": "83560005",
+    "cp": "83560",
+    "priceE10": null,
+    "priceGazole": 1002,
+    "timestampE10": null,
+    "timestampGazole": 1450433535000
+  },
+  {
+    "stationID": "83560006",
+    "cp": "83560",
+    "priceE10": 1375,
+    "priceGazole": 1109,
+    "timestampE10": 1450361560000,
+    "timestampGazole": 1450361560000
+  },
+  {
+    "stationID": "83560007",
+    "cp": "83560",
+    "priceE10": 1199,
+    "priceGazole": 969,
+    "timestampE10": 1451470369000,
+    "timestampGazole": 1451470368000
+  },
+  {
+    "stationID": "83570001",
+    "cp": "83570",
+    "priceE10": 1279,
+    "priceGazole": 999,
+    "timestampE10": 1449735150000,
+    "timestampGazole": 1450249972000
+  },
+  {
+    "stationID": "83570002",
+    "cp": "83570",
+    "priceE10": 1171,
+    "priceGazole": 942,
+    "timestampE10": 1451495571000,
+    "timestampGazole": 1451599920000
+  },
+  {
+    "stationID": "83580001",
+    "cp": "83580",
+    "priceE10": null,
+    "priceGazole": 990,
+    "timestampE10": null,
+    "timestampGazole": 1450527120000
+  },
+  {
+    "stationID": "83580003",
+    "cp": "83580",
+    "priceE10": null,
+    "priceGazole": 1089,
+    "timestampE10": null,
+    "timestampGazole": 1450426320000
+  },
+  {
+    "stationID": "83600001",
+    "cp": "83600",
+    "priceE10": null,
+    "priceGazole": 965,
+    "timestampE10": null,
+    "timestampGazole": 1450332740000
+  },
+  {
+    "stationID": "83600003",
+    "cp": "83600",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83600005",
+    "cp": "83600",
+    "priceE10": 1324,
+    "priceGazole": 1049,
+    "timestampE10": 1451365920000,
+    "timestampGazole": 1451365920000
+  },
+  {
+    "stationID": "83600007",
+    "cp": "83600",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83600010",
+    "cp": "83600",
+    "priceE10": null,
+    "priceGazole": 1049,
+    "timestampE10": null,
+    "timestampGazole": 1451373173000
+  },
+  {
+    "stationID": "83600011",
+    "cp": "83600",
+    "priceE10": null,
+    "priceGazole": 975,
+    "timestampE10": null,
+    "timestampGazole": 1451549532000
+  },
+  {
+    "stationID": "83600012",
+    "cp": "83600",
+    "priceE10": 1455,
+    "priceGazole": 975,
+    "timestampE10": 1428915858000,
+    "timestampGazole": 1451463135000
+  },
+  {
+    "stationID": "83600013",
+    "cp": "83600",
+    "priceE10": 1354,
+    "priceGazole": 1114,
+    "timestampE10": 1450951976000,
+    "timestampGazole": 1450519960000
+  },
+  {
+    "stationID": "83600014",
+    "cp": "83600",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83600015",
+    "cp": "83600",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83600017",
+    "cp": "83600",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83600018",
+    "cp": "83600",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83600019",
+    "cp": "83600",
+    "priceE10": 1315,
+    "priceGazole": 1089,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "83600020",
+    "cp": "83600",
+    "priceE10": 1314,
+    "priceGazole": 1075,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "83600021",
+    "cp": "83600",
+    "priceE10": 1229,
+    "priceGazole": 969,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "83630001",
+    "cp": "83630",
+    "priceE10": 1364,
+    "priceGazole": 1064,
+    "timestampE10": 1450851155000,
+    "timestampGazole": 1450851155000
+  },
+  {
+    "stationID": "83630002",
+    "cp": "83630",
+    "priceE10": null,
+    "priceGazole": 999,
+    "timestampE10": null,
+    "timestampGazole": 1451560320000
+  },
+  {
+    "stationID": "83630003",
+    "cp": "83630",
+    "priceE10": null,
+    "priceGazole": 995,
+    "timestampE10": null,
+    "timestampGazole": 1451495576000
+  },
+  {
+    "stationID": "83640001",
+    "cp": "83640",
+    "priceE10": 1209,
+    "priceGazole": 969,
+    "timestampE10": 1451545924000,
+    "timestampGazole": 1451477520000
+  },
+  {
+    "stationID": "83660002",
+    "cp": "83660",
+    "priceE10": null,
+    "priceGazole": 999,
+    "timestampE10": null,
+    "timestampGazole": 1451286720000
+  },
+  {
+    "stationID": "83670001",
+    "cp": "83670",
+    "priceE10": 1349,
+    "priceGazole": 1094,
+    "timestampE10": 1451329977000,
+    "timestampGazole": 1450811560000
+  },
+  {
+    "stationID": "83670002",
+    "cp": "83670",
+    "priceE10": null,
+    "priceGazole": 999,
+    "timestampE10": null,
+    "timestampGazole": 1450512723000
+  },
+  {
+    "stationID": "83690002",
+    "cp": "83690",
+    "priceE10": 1229,
+    "priceGazole": 979,
+    "timestampE10": 1451290379000,
+    "timestampGazole": 1451290378000
+  },
+  {
+    "stationID": "83690003",
+    "cp": "83690",
+    "priceE10": 1330,
+    "priceGazole": 1007,
+    "timestampE10": 1450249921000,
+    "timestampGazole": 1450249921000
+  },
+  {
+    "stationID": "83690004",
+    "cp": "83690",
+    "priceE10": null,
+    "priceGazole": 1099,
+    "timestampE10": null,
+    "timestampGazole": 1450509175000
+  },
+  {
+    "stationID": "83690005",
+    "cp": "83690",
+    "priceE10": null,
+    "priceGazole": 999,
+    "timestampE10": null,
+    "timestampGazole": 1450703539000
+  },
+  {
+    "stationID": "83700003",
+    "cp": "83700",
+    "priceE10": null,
+    "priceGazole": 975,
+    "timestampE10": null,
+    "timestampGazole": 1450433551000
+  },
+  {
+    "stationID": "83700004",
+    "cp": "83700",
+    "priceE10": 1225,
+    "priceGazole": 965,
+    "timestampE10": 1449904346000,
+    "timestampGazole": 1450249932000
+  },
+  {
+    "stationID": "83700007",
+    "cp": "83700",
+    "priceE10": null,
+    "priceGazole": 1089,
+    "timestampE10": null,
+    "timestampGazole": 1450717968000
+  },
+  {
+    "stationID": "83720001",
+    "cp": "83720",
+    "priceE10": null,
+    "priceGazole": 1017,
+    "timestampE10": null,
+    "timestampGazole": 1451581925000
+  },
+  {
+    "stationID": "83720003",
+    "cp": "83720",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83720004",
+    "cp": "83720",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "83720005",
+    "cp": "83720",
+    "priceE10": 1224,
+    "priceGazole": 965,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "83780001",
+    "cp": "83780",
+    "priceE10": null,
+    "priceGazole": 1050,
+    "timestampE10": null,
+    "timestampGazole": 1451574728000
+  },
+  {
+    "stationID": "83780002",
+    "cp": "83300",
+    "priceE10": null,
+    "priceGazole": 1050,
+    "timestampE10": null,
+    "timestampGazole": 1451459557000
+  },
+  {
+    "stationID": "83820001",
+    "cp": "83820",
+    "priceE10": null,
+    "priceGazole": 1150,
+    "timestampE10": null,
+    "timestampGazole": 1450163527000
+  },
+  {
+    "stationID": "83830002",
+    "cp": "83830",
+    "priceE10": 1349,
+    "priceGazole": 1149,
+    "timestampE10": 1449735132000,
+    "timestampGazole": 1450692778000
+  },
+  {
+    "stationID": "83980001",
+    "cp": "83980",
+    "priceE10": 1194,
+    "priceGazole": 959,
+    "timestampE10": 1450444354000,
+    "timestampGazole": 1451567547000
+  },
+  {
+    "stationID": "83980002",
+    "cp": "83980",
+    "priceE10": null,
+    "priceGazole": 1150,
+    "timestampE10": null,
+    "timestampGazole": 1441008527000
+  },
+  {
+    "stationID": "83990002",
+    "cp": "83990",
+    "priceE10": null,
+    "priceGazole": 1329,
+    "timestampE10": null,
+    "timestampGazole": 1446459111000
+  },
+  {
+    "stationID": "84000001",
+    "cp": "84000",
+    "priceE10": null,
+    "priceGazole": 959,
+    "timestampE10": null,
+    "timestampGazole": 1451283162000
+  },
+  {
+    "stationID": "84000002",
+    "cp": "84000",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84000005",
+    "cp": "84000",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84000007",
+    "cp": "84000",
+    "priceE10": null,
+    "priceGazole": 1049,
+    "timestampE10": null,
+    "timestampGazole": 1450426322000
+  },
+  {
+    "stationID": "84000008",
+    "cp": "84000",
+    "priceE10": 1231,
+    "priceGazole": 963,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "84000009",
+    "cp": "84000",
+    "priceE10": null,
+    "priceGazole": 962,
+    "timestampE10": null,
+    "timestampGazole": 1451545926000
+  },
+  {
+    "stationID": "84000010",
+    "cp": "84000",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84000011",
+    "cp": "84000",
+    "priceE10": 1259,
+    "priceGazole": 999,
+    "timestampE10": 1450973520000,
+    "timestampGazole": 1450973520000
+  },
+  {
+    "stationID": "84000013",
+    "cp": "84000",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84000016",
+    "cp": "84140",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84000017",
+    "cp": "84000",
+    "priceE10": 1217,
+    "priceGazole": 987,
+    "timestampE10": 1450681920000,
+    "timestampGazole": 1451293939000
+  },
+  {
+    "stationID": "84000018",
+    "cp": "84000",
+    "priceE10": 1313,
+    "priceGazole": 1053,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "84000019",
+    "cp": "84000",
+    "priceE10": 1296,
+    "priceGazole": 1119,
+    "timestampE10": 1451592720000,
+    "timestampGazole": 1451592720000
+  },
+  {
+    "stationID": "84000020",
+    "cp": "84000",
+    "priceE10": 1209,
+    "priceGazole": 967,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "84000021",
+    "cp": "84000",
+    "priceE10": 1235,
+    "priceGazole": 969,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "84013001",
+    "cp": "84140",
+    "priceE10": 1219,
+    "priceGazole": 969,
+    "timestampE10": 1451362354000,
+    "timestampGazole": 1450843942000
+  },
+  {
+    "stationID": "84097001",
+    "cp": "84097",
+    "priceE10": null,
+    "priceGazole": 959,
+    "timestampE10": null,
+    "timestampGazole": 1451553157000
+  },
+  {
+    "stationID": "84100003",
+    "cp": "84100",
+    "priceE10": null,
+    "priceGazole": 999,
+    "timestampE10": null,
+    "timestampGazole": 1450937562000
+  },
+  {
+    "stationID": "84100004",
+    "cp": "84100",
+    "priceE10": 1249,
+    "priceGazole": 1002,
+    "timestampE10": 1450944746000,
+    "timestampGazole": 1451549543000
+  },
+  {
+    "stationID": "84100005",
+    "cp": "84100",
+    "priceE10": 1255,
+    "priceGazole": 999,
+    "timestampE10": 1450689132000,
+    "timestampGazole": 1451466759000
+  },
+  {
+    "stationID": "84100006",
+    "cp": "84100",
+    "priceE10": 1339,
+    "priceGazole": 1140,
+    "timestampE10": 1451495567000,
+    "timestampGazole": 1445339425000
+  },
+  {
+    "stationID": "84100007",
+    "cp": "84100",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84100009",
+    "cp": "84100",
+    "priceE10": 1288,
+    "priceGazole": 1062,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "84107001",
+    "cp": "84100",
+    "priceE10": 1297,
+    "priceGazole": 1040,
+    "timestampE10": 1451290328000,
+    "timestampGazole": 1451581967000
+  },
+  {
+    "stationID": "84110001",
+    "cp": "84110",
+    "priceE10": 1216,
+    "priceGazole": 1037,
+    "timestampE10": 1451581947000,
+    "timestampGazole": 1451585520000
+  },
+  {
+    "stationID": "84110002",
+    "cp": "84110",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84110004",
+    "cp": "84110",
+    "priceE10": 1205,
+    "priceGazole": 975,
+    "timestampE10": 1451383927000,
+    "timestampGazole": 1451383927000
+  },
+  {
+    "stationID": "84110005",
+    "cp": "84110",
+    "priceE10": 1205,
+    "priceGazole": 975,
+    "timestampE10": 1451394770000,
+    "timestampGazole": 1451394769000
+  },
+  {
+    "stationID": "84120001",
+    "cp": "84120",
+    "priceE10": 1215,
+    "priceGazole": 979,
+    "timestampE10": 1451549547000,
+    "timestampGazole": 1451549547000
+  },
+  {
+    "stationID": "84120003",
+    "cp": "84120",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84120004",
+    "cp": "84120",
+    "priceE10": null,
+    "priceGazole": 1060,
+    "timestampE10": null,
+    "timestampGazole": 1450959177000
+  },
+  {
+    "stationID": "84120005",
+    "cp": "84120",
+    "priceE10": 1350,
+    "priceGazole": 1150,
+    "timestampE10": 1446541868000,
+    "timestampGazole": 1446541868000
+  },
+  {
+    "stationID": "84120006",
+    "cp": "84120",
+    "priceE10": null,
+    "priceGazole": 982,
+    "timestampE10": null,
+    "timestampGazole": 1451549541000
+  },
+  {
+    "stationID": "84130001",
+    "cp": "84130",
+    "priceE10": 1229,
+    "priceGazole": 969,
+    "timestampE10": 1450854750000,
+    "timestampGazole": 1450768322000
+  },
+  {
+    "stationID": "84130004",
+    "cp": "84130",
+    "priceE10": 1350,
+    "priceGazole": 1156,
+    "timestampE10": 1447751515000,
+    "timestampGazole": 1450167169000
+  },
+  {
+    "stationID": "84130005",
+    "cp": "84130",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84130006",
+    "cp": "84130",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84130007",
+    "cp": "84130",
+    "priceE10": 1255,
+    "priceGazole": 999,
+    "timestampE10": 1450941173000,
+    "timestampGazole": 1450941173000
+  },
+  {
+    "stationID": "84130008",
+    "cp": "84130",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84130009",
+    "cp": "84130",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84130010",
+    "cp": "84130",
+    "priceE10": 1346,
+    "priceGazole": 1119,
+    "timestampE10": 1451592720000,
+    "timestampGazole": 1451592720000
+  },
+  {
+    "stationID": "84130011",
+    "cp": "84130",
+    "priceE10": 1232,
+    "priceGazole": 966,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "84140003",
+    "cp": "84140",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84140004",
+    "cp": "84140",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84140006",
+    "cp": "84140",
+    "priceE10": 1337,
+    "priceGazole": 1064,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "84140007",
+    "cp": "84140",
+    "priceE10": 1219,
+    "priceGazole": 969,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "84150001",
+    "cp": "84150",
+    "priceE10": null,
+    "priceGazole": 989,
+    "timestampE10": null,
+    "timestampGazole": 1450865552000
+  },
+  {
+    "stationID": "84150002",
+    "cp": "84150",
+    "priceE10": null,
+    "priceGazole": 1129,
+    "timestampE10": null,
+    "timestampGazole": 1450545179000
+  },
+  {
+    "stationID": "84160001",
+    "cp": "84160",
+    "priceE10": 1216,
+    "priceGazole": 985,
+    "timestampE10": 1450779152000,
+    "timestampGazole": 1451553120000
+  },
+  {
+    "stationID": "84160003",
+    "cp": "84160",
+    "priceE10": null,
+    "priceGazole": 985,
+    "timestampE10": null,
+    "timestampGazole": 1451211148000
+  },
+  {
+    "stationID": "84170001",
+    "cp": "84170",
+    "priceE10": null,
+    "priceGazole": 1048,
+    "timestampE10": null,
+    "timestampGazole": 1450343554000
+  },
+  {
+    "stationID": "84170002",
+    "cp": "84170",
+    "priceE10": null,
+    "priceGazole": 1060,
+    "timestampE10": null,
+    "timestampGazole": 1450717932000
+  },
+  {
+    "stationID": "84190001",
+    "cp": "84190",
+    "priceE10": null,
+    "priceGazole": 1100,
+    "timestampE10": null,
+    "timestampGazole": 1450890759000
+  },
+  {
+    "stationID": "84200001",
+    "cp": "84200",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84200002",
+    "cp": "84200",
+    "priceE10": 1374,
+    "priceGazole": 1147,
+    "timestampE10": 1450264378000,
+    "timestampGazole": 1450264332000
+  },
+  {
+    "stationID": "84200003",
+    "cp": "84380",
+    "priceE10": null,
+    "priceGazole": 1170,
+    "timestampE10": null,
+    "timestampGazole": 1451499165000
+  },
+  {
+    "stationID": "84200004",
+    "cp": "84200",
+    "priceE10": 1209,
+    "priceGazole": 979,
+    "timestampE10": 1450962742000,
+    "timestampGazole": 1451380374000
+  },
+  {
+    "stationID": "84200006",
+    "cp": "84200",
+    "priceE10": null,
+    "priceGazole": 1019,
+    "timestampE10": null,
+    "timestampGazole": 1450156320000
+  },
+  {
+    "stationID": "84200008",
+    "cp": "84200",
+    "priceE10": null,
+    "priceGazole": 1069,
+    "timestampE10": null,
+    "timestampGazole": 1451203937000
+  },
+  {
+    "stationID": "84200009",
+    "cp": "84200",
+    "priceE10": null,
+    "priceGazole": 1140,
+    "timestampE10": null,
+    "timestampGazole": 1450804374000
+  },
+  {
+    "stationID": "84210001",
+    "cp": "84210",
+    "priceE10": 1237,
+    "priceGazole": 990,
+    "timestampE10": 1451599920000,
+    "timestampGazole": 1451599920000
+  },
+  {
+    "stationID": "84210002",
+    "cp": "84210",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84210003",
+    "cp": "84210",
+    "priceE10": 1339,
+    "priceGazole": 1105,
+    "timestampE10": 1450163553000,
+    "timestampGazole": 1450426349000
+  },
+  {
+    "stationID": "84220002",
+    "cp": "84220",
+    "priceE10": null,
+    "priceGazole": 1070,
+    "timestampE10": null,
+    "timestampGazole": 1450969929000
+  },
+  {
+    "stationID": "84240001",
+    "cp": "84240",
+    "priceE10": 1339,
+    "priceGazole": 1099,
+    "timestampE10": 1451592770000,
+    "timestampGazole": 1451592770000
+  },
+  {
+    "stationID": "84250001",
+    "cp": "84250",
+    "priceE10": 1259,
+    "priceGazole": 999,
+    "timestampE10": 1450941120000,
+    "timestampGazole": 1450941120000
+  },
+  {
+    "stationID": "84260001",
+    "cp": "84260",
+    "priceE10": null,
+    "priceGazole": 989,
+    "timestampE10": null,
+    "timestampGazole": 1450246324000
+  },
+  {
+    "stationID": "84270001",
+    "cp": "84270",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84300001",
+    "cp": "84300",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84300002",
+    "cp": "84300",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84300003",
+    "cp": "84300",
+    "priceE10": 1329,
+    "priceGazole": 1124,
+    "timestampE10": 1451581944000,
+    "timestampGazole": 1451581944000
+  },
+  {
+    "stationID": "84300006",
+    "cp": "84300",
+    "priceE10": 1213,
+    "priceGazole": 965,
+    "timestampE10": 1451373126000,
+    "timestampGazole": 1451373125000
+  },
+  {
+    "stationID": "84300009",
+    "cp": "84300",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84300010",
+    "cp": "84300",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84300011",
+    "cp": "84300",
+    "priceE10": 1216,
+    "priceGazole": 969,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "84301001",
+    "cp": "84300",
+    "priceE10": 1213,
+    "priceGazole": 965,
+    "timestampE10": 1451286720000,
+    "timestampGazole": 1451286720000
+  },
+  {
+    "stationID": "84310001",
+    "cp": "84310",
+    "priceE10": 1369,
+    "priceGazole": 1129,
+    "timestampE10": 1450761120000,
+    "timestampGazole": 1450761120000
+  },
+  {
+    "stationID": "84310002",
+    "cp": "84310",
+    "priceE10": 1239,
+    "priceGazole": 1036,
+    "timestampE10": 1451581945000,
+    "timestampGazole": 1451581975000
+  },
+  {
+    "stationID": "84310003",
+    "cp": "84310",
+    "priceE10": null,
+    "priceGazole": 1080,
+    "timestampE10": null,
+    "timestampGazole": 1450170751000
+  },
+  {
+    "stationID": "84320001",
+    "cp": "84320",
+    "priceE10": 1235,
+    "priceGazole": 985,
+    "timestampE10": 1451556737000,
+    "timestampGazole": 1451556737000
+  },
+  {
+    "stationID": "84330001",
+    "cp": "84300",
+    "priceE10": null,
+    "priceGazole": 999,
+    "timestampE10": null,
+    "timestampGazole": 1451311925000
+  },
+  {
+    "stationID": "84330003",
+    "cp": "84330",
+    "priceE10": null,
+    "priceGazole": 1090,
+    "timestampE10": null,
+    "timestampGazole": 1450199567000
+  },
+  {
+    "stationID": "84340002",
+    "cp": "84340",
+    "priceE10": null,
+    "priceGazole": 1120,
+    "timestampE10": null,
+    "timestampGazole": 1451286729000
+  },
+  {
+    "stationID": "84350001",
+    "cp": "84350",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84350002",
+    "cp": "84350",
+    "priceE10": 1199,
+    "priceGazole": 989,
+    "timestampE10": 1450429929000,
+    "timestampGazole": 1451560335000
+  },
+  {
+    "stationID": "84360003",
+    "cp": "84360",
+    "priceE10": null,
+    "priceGazole": 1140,
+    "timestampE10": null,
+    "timestampGazole": 1450509146000
+  },
+  {
+    "stationID": "84390001",
+    "cp": "84390",
+    "priceE10": null,
+    "priceGazole": 989,
+    "timestampE10": null,
+    "timestampGazole": 1451484750000
+  },
+  {
+    "stationID": "84400001",
+    "cp": "84400",
+    "priceE10": null,
+    "priceGazole": 995,
+    "timestampE10": null,
+    "timestampGazole": 1450854720000
+  },
+  {
+    "stationID": "84400003",
+    "cp": "84400",
+    "priceE10": 1229,
+    "priceGazole": 965,
+    "timestampE10": 1449735144000,
+    "timestampGazole": 1450426367000
+  },
+  {
+    "stationID": "84400004",
+    "cp": "84400",
+    "priceE10": null,
+    "priceGazole": 978,
+    "timestampE10": null,
+    "timestampGazole": 1451466726000
+  },
+  {
+    "stationID": "84400006",
+    "cp": "84400",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84400007",
+    "cp": "84400",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84410001",
+    "cp": "84410",
+    "priceE10": null,
+    "priceGazole": 1177,
+    "timestampE10": null,
+    "timestampGazole": 1448273461000
+  },
+  {
+    "stationID": "84430003",
+    "cp": "84430",
+    "priceE10": null,
+    "priceGazole": 1009,
+    "timestampE10": null,
+    "timestampGazole": 1450865552000
+  },
+  {
+    "stationID": "84470001",
+    "cp": "84470",
+    "priceE10": 1270,
+    "priceGazole": 1020,
+    "timestampE10": 1450365152000,
+    "timestampGazole": 1450365162000
+  },
+  {
+    "stationID": "84500001",
+    "cp": "84500",
+    "priceE10": 1330,
+    "priceGazole": 1090,
+    "timestampE10": 1450775523000,
+    "timestampGazole": 1450775523000
+  },
+  {
+    "stationID": "84500003",
+    "cp": "84500",
+    "priceE10": 1410,
+    "priceGazole": 1120,
+    "timestampE10": 1421906470000,
+    "timestampGazole": 1451286736000
+  },
+  {
+    "stationID": "84500004",
+    "cp": "84500",
+    "priceE10": 1329,
+    "priceGazole": 999,
+    "timestampE10": 1449843138000,
+    "timestampGazole": 1451567551000
+  },
+  {
+    "stationID": "84500005",
+    "cp": "84500",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84500006",
+    "cp": "84500",
+    "priceE10": 1326,
+    "priceGazole": 1077,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "84507001",
+    "cp": "84500",
+    "priceE10": 1229,
+    "priceGazole": 999,
+    "timestampE10": 1451585520000,
+    "timestampGazole": 1451585520000
+  },
+  {
+    "stationID": "84510001",
+    "cp": "84510",
+    "priceE10": 1247,
+    "priceGazole": 982,
+    "timestampE10": 1450710743000,
+    "timestampGazole": 1451373157000
+  },
+  {
+    "stationID": "84550001",
+    "cp": "84550",
+    "priceE10": 1354,
+    "priceGazole": 1114,
+    "timestampE10": 1451556757000,
+    "timestampGazole": 1451556757000
+  },
+  {
+    "stationID": "84550002",
+    "cp": "84550",
+    "priceE10": 1354,
+    "priceGazole": 1154,
+    "timestampE10": 1451297557000,
+    "timestampGazole": 1451297557000
+  },
+  {
+    "stationID": "84570001",
+    "cp": "84570",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84570002",
+    "cp": "84570",
+    "priceE10": null,
+    "priceGazole": 1095,
+    "timestampE10": null,
+    "timestampGazole": 1450253577000
+  },
+  {
+    "stationID": "84600001",
+    "cp": "84600",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84600002",
+    "cp": "84600",
+    "priceE10": 1245,
+    "priceGazole": 992,
+    "timestampE10": 1451560343000,
+    "timestampGazole": 1451560343000
+  },
+  {
+    "stationID": "84601001",
+    "cp": "84600",
+    "priceE10": null,
+    "priceGazole": 969,
+    "timestampE10": null,
+    "timestampGazole": 1450944720000
+  },
+  {
+    "stationID": "84660001",
+    "cp": "84660",
+    "priceE10": null,
+    "priceGazole": 1091,
+    "timestampE10": null,
+    "timestampGazole": 1450257145000
+  },
+  {
+    "stationID": "84660002",
+    "cp": "84660",
+    "priceE10": 1315,
+    "priceGazole": 965,
+    "timestampE10": 1440227303000,
+    "timestampGazole": 1450775572000
+  },
+  {
+    "stationID": "84700001",
+    "cp": "84700",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84700002",
+    "cp": "84700",
+    "priceE10": 1254,
+    "priceGazole": 994,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "84700003",
+    "cp": "84700",
+    "priceE10": 1354,
+    "priceGazole": 1154,
+    "timestampE10": 1450703520000,
+    "timestampGazole": 1450699920000
+  },
+  {
+    "stationID": "84700004",
+    "cp": "84700",
+    "priceE10": 1248,
+    "priceGazole": 990,
+    "timestampE10": 1450167133000,
+    "timestampGazole": 1450426320000
+  },
+  {
+    "stationID": "84700005",
+    "cp": "84700",
+    "priceE10": 1249,
+    "priceGazole": 996,
+    "timestampE10": 1451517120000,
+    "timestampGazole": 1451517120000
+  },
+  {
+    "stationID": "84740001",
+    "cp": "84740",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84740002",
+    "cp": "84740",
+    "priceE10": null,
+    "priceGazole": 1079,
+    "timestampE10": null,
+    "timestampGazole": 1451293928000
+  },
+  {
+    "stationID": "84800001",
+    "cp": "84800",
+    "priceE10": null,
+    "priceGazole": 985,
+    "timestampE10": null,
+    "timestampGazole": 1451560350000
+  },
+  {
+    "stationID": "84800002",
+    "cp": "84800",
+    "priceE10": null,
+    "priceGazole": null,
+    "timestampE10": null,
+    "timestampGazole": null
+  },
+  {
+    "stationID": "84800003",
+    "cp": "84800",
+    "priceE10": null,
+    "priceGazole": 985,
+    "timestampE10": null,
+    "timestampGazole": 1451545976000
+  },
+  {
+    "stationID": "84800004",
+    "cp": "84800",
+    "priceE10": 1339,
+    "priceGazole": 1099,
+    "timestampE10": 1451538720000,
+    "timestampGazole": 1451538720000
+  },
+  {
+    "stationID": "84810002",
+    "cp": "84810",
+    "priceE10": 1259,
+    "priceGazole": 998,
+    "timestampE10": 1451545959000,
+    "timestampGazole": 1451545959000
+  },
+  {
+    "stationID": "84850001",
+    "cp": "84850",
+    "priceE10": 1229,
+    "priceGazole": 989,
+    "timestampE10": 1450419120000,
+    "timestampGazole": 1451455920000
+  },
+  {
+    "stationID": "84976001",
+    "cp": "84200",
+    "priceE10": 1206,
+    "priceGazole": 969,
+    "timestampE10": 1451452353000,
+    "timestampGazole": 1451452352000
+  }
+]
