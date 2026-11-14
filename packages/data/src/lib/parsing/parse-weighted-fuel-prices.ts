@@ -172,11 +172,11 @@ export async function parseWeightedFuelPrices(
         cp,
         priceE10Avg:
           totalDurationE10Ms > 0
-            ? Number((priceWeightedE10Sum / totalDurationE10Ms).toFixed(3)) 
+            ? priceWeightedE10Sum / totalDurationE10Ms 
             : null,
         priceGazoleAvg:
           totalDurationGazoleMs > 0
-            ? Number((priceWeightedGazoleSum / totalDurationGazoleMs).toFixed(3)) 
+            ? priceWeightedGazoleSum / totalDurationGazoleMs 
             : null,
       });
 
