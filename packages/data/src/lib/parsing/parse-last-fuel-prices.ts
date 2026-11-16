@@ -3,7 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { SaxesParser } from "saxes";
 import { projectRoot } from "../manifest/path.ts";
-
+import { normalizePrice } from "../data-normalisation.ts";
 
 const ALLOWED_CPs = ["04", "05", "06", "13", "83", "84"];
 
@@ -21,13 +21,13 @@ interface CurrentStation {
   cp: string;
   priceE10: number | null;
   priceGazole: number | null;
-  timestampE10: number| null;
+  timestampE10: number | null;
   timestampGazole: number | null;
 }
 
 export async function lastFuelPrice(
   filePath: string,
-  alllowedCps: Array<string>
+  alllowedCps: Array<string>,
 ): Promise<LastFuelPrice[]> {
   const parser = new SaxesParser();
   const lastFuelPricesArr: LastFuelPrice[] = [];
@@ -55,7 +55,11 @@ export async function lastFuelPrice(
 
     if (tag.name !== "prix" || !currentStation) return;
     const fuelName = tag.attributes.nom;
-    const price = Number(tag.attributes.valeur);
+    let price = Number(tag.attributes.valeur);
+    // Check if the price is a float number and should be normalised
+    if (!Number.isInteger(price)) {
+      price = normalizePrice(price, 1000);
+    }
     const date = tag.attributes.maj;
     if (!date) return;
     const timestamp = Date.parse(date);
@@ -68,48 +72,49 @@ export async function lastFuelPrice(
       currentStation.priceGazole = price;
       currentStation.timestampGazole = timestamp;
     }
-    });
+  });
 
   parser.on("closetag", (tag) => {
     if (tag.name === "pdv" && currentStation) {
-      const {
-        id,
+      const { id, cp, priceE10, priceGazole, timestampE10, timestampGazole } =
+        currentStation;
+
+      lastFuelPricesArr.push({
+        stationID: id,
         cp,
         priceE10,
         priceGazole,
         timestampE10,
         timestampGazole,
-      } = currentStation;
-
-    lastFuelPricesArr.push({
-      stationID : id,
-      cp,
-      priceE10,
-      priceGazole,
-      timestampE10,
-      timestampGazole,
-    });
-  }});
-  
-    // Last part: Create Stream -> write chunk of stream, close parser
-    const stream = fs.createReadStream (filePath, {
-      encoding: "utf-8",
-    });
-  
-    for await (const chunk of stream) {
-      if (typeof chunk !== "string") {
-        throw new Error("Expected a string chunk");
-      }
-      parser.write(chunk);
+      });
     }
-  
-    parser.close();
-  
-    return lastFuelPricesArr;
+  });
+
+  // Last part: Create Stream -> write chunk of stream, close parser
+  const stream = fs.createReadStream(filePath, {
+    encoding: "utf-8",
+  });
+
+  for await (const chunk of stream) {
+    if (typeof chunk !== "string") {
+      throw new Error("Expected a string chunk");
+    }
+    parser.write(chunk);
+  }
+
+  parser.close();
+
+  return lastFuelPricesArr;
 }
 
-const filePathInput = path.join(projectRoot, "/raw/fuel-prices/entry-point/PrixCarburants_annuel_2015.xml");
-const filePathOutput = path.join(projectRoot, "/parsed/lastFuelPriceFor_2015.json");
+const filePathInput = path.join(
+  projectRoot,
+  "/raw/fuel-prices/entry-point/PrixCarburants_annuel_2015.xml",
+);
+const filePathOutput = path.join(
+  projectRoot,
+  "/parsed/normalisedLastFuelPriceFor_2015.json",
+);
 
 async function main() {
   const fileContent = await lastFuelPrice(filePathInput, ALLOWED_CPs);
@@ -118,7 +123,7 @@ async function main() {
     JSON.stringify(fileContent, null, 2),
     "utf-8",
   );
-  console.log()
+  console.log();
 }
 
 main().catch(console.error);

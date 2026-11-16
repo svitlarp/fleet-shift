@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import saxes from "saxes";
 import type { LastFuelPrice } from "./parse-last-fuel-prices.ts";
-
+import { normalizePrice } from "../data-normalisation.ts";
 
 interface StationContent {
   id: string;
@@ -13,7 +13,7 @@ interface StationContent {
 
 interface CurrentStation {
   // Station ID from XML file
-  id: string;
+  id: string; 
   //  CodePostal - postal code of the Station
   cp: string;
 
@@ -45,7 +45,7 @@ interface ParseResult {
 export async function parseWeightedFuelPrices(
   filePath: string,
   alllowedCps: Array<string>,
-  lastFuelPriceData: LastFuelPrice[]
+  lastFuelPriceData: LastFuelPrice[],
 ): Promise<ParseResult> {
   const parser = new saxes.SaxesParser();
   const stationContent: StationContent[] = [];
@@ -58,7 +58,7 @@ export async function parseWeightedFuelPrices(
   const endOFYearPrices: LastFuelPrice[] = [];
 
   const previousPricesMap = new Map(
-    lastFuelPriceData.map((station) => [station.stationID, station])
+    lastFuelPriceData.map((station) => [station.stationID, station]),
   );
 
   parser.on("opentag", (tag) => {
@@ -68,6 +68,7 @@ export async function parseWeightedFuelPrices(
       console.log("id:", id, "cp: ", cp);
 
       if (id && cp && alllowedCps.some((prefix) => cp.startsWith(prefix))) {
+        // Get the previous station object from lastFuelPriceData by matching stationID with the current XML station id.
         const previousPrices = previousPricesMap.get(id);
 
         currentStation = {
@@ -92,7 +93,11 @@ export async function parseWeightedFuelPrices(
     if (tag.name !== "prix" || !currentStation) return;
 
     const fuelName = tag.attributes.nom;
-    const price = Number(tag.attributes.valeur);
+    let price = Number(tag.attributes.valeur);
+    // Check if the price is a float number and should be normalised
+    if (!Number.isInteger(price)) {
+      price = normalizePrice(price, 1000);
+    }
     const date = tag.attributes.maj;
     if (!date) return;
     const timestamp = Date.parse(date);
@@ -125,18 +130,19 @@ export async function parseWeightedFuelPrices(
   // Close station
   parser.on("closetag", (tag) => {
     if (tag.name === "pdv" && currentStation) {
-      
       // Handle price from the last updated date till end of the year 31 Decembre);
-      const yearEnd = Date.UTC(year, 12, 31);
+      const yearEnd = Date.UTC(year + 1, 0, 1);
       const durationE10 = yearEnd - currentStation.timestampE10;
-      if (currentStation.priceE10 !== null && durationE10> 0) {
-        currentStation.priceWeightedE10Sum += currentStation.priceE10 * durationE10;
+      if (currentStation.priceE10 !== null && durationE10 > 0) {
+        currentStation.priceWeightedE10Sum +=
+          currentStation.priceE10 * durationE10;
         currentStation.totalDurationE10Ms += durationE10;
       }
 
       const durationGazole = yearEnd - currentStation.timestampGazole;
-      if (currentStation.priceGazole !== null && durationGazole> 0) {
-        currentStation.priceWeightedGazoleSum += currentStation.priceGazole * durationGazole;
+      if (currentStation.priceGazole !== null && durationGazole > 0) {
+        currentStation.priceWeightedGazoleSum +=
+          currentStation.priceGazole * durationGazole;
         currentStation.totalDurationGazoleMs += durationGazole;
       }
 
@@ -151,7 +157,7 @@ export async function parseWeightedFuelPrices(
         timestampGazole,
         totalDurationE10Ms,
         totalDurationGazoleMs,
-      } = currentStation;    
+      } = currentStation;
 
       // Handle prices of the end of hte year to transfer these prices to the beggining of the next year
       endOFYearPrices.push({
@@ -172,11 +178,11 @@ export async function parseWeightedFuelPrices(
         cp,
         priceE10Avg:
           totalDurationE10Ms > 0
-            ? priceWeightedE10Sum / totalDurationE10Ms 
+            ? priceWeightedE10Sum / totalDurationE10Ms
             : null,
         priceGazoleAvg:
           totalDurationGazoleMs > 0
-            ? priceWeightedGazoleSum / totalDurationGazoleMs 
+            ? priceWeightedGazoleSum / totalDurationGazoleMs
             : null,
       });
 
