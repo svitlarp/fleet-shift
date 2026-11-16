@@ -1,61 +1,28 @@
 import fs from "node:fs";
 import path from "node:path";
 import saxes from "saxes";
-import type { LastFuelPrice } from "./parse-last-fuel-prices.ts";
 import { normalizePrice } from "../data-normalisation.ts";
-
-interface StationContent {
-  id: string;
-  cp: string;
-  priceE10Avg: number | null;
-  priceGazoleAvg: number | null;
-}
-
-interface CurrentStation {
-  // Station ID from XML file
-  id: string; 
-  //  CodePostal - postal code of the Station
-  cp: string;
-
-  // Last known price for E10 / Gazole
-  priceE10: number | null;
-  priceGazole: number | null;
-
-  // Sum of the products of price and duration
-  priceWeightedE10Sum: number;
-  priceWeightedGazoleSum: number;
-
-  // Timestamp of the last price update
-  timestampE10: number;
-  timestampGazole: number;
-
-  // Sum of the products of all timestamps for E10 / Gazole
-  totalDurationE10Ms: number;
-  totalDurationGazoleMs: number;
-}
-
-interface ParseResult {
-  stations: StationContent[];
-  totalPACAStations: number;
-  totalStationsWithoutE10: number;
-  stationIdsWithoutE10: Array<string>;
-  endOFYearPrices: LastFuelPrice[];
-}
+import type {
+  StationFuelPrices,
+  CurrentStation,
+  ParseResult,
+  StationAvgPrices,
+} from "../../types/parser.ts";
 
 export async function parseWeightedFuelPrices(
   filePath: string,
   alllowedCps: Array<string>,
-  lastFuelPriceData: LastFuelPrice[],
+  lastFuelPriceData: StationFuelPrices[],
 ): Promise<ParseResult> {
   const parser = new saxes.SaxesParser();
-  const stationContent: StationContent[] = [];
+  const stationContent: StationAvgPrices[] = [];
   let currentStation: CurrentStation | null = null;
   let totalPACAStations: number = 0;
   let totalStationsWithoutE10: number = 0;
   const stationIdsWithoutE10: Array<string> = [];
   const fileName = path.basename(filePath);
   const year = Number(fileName.match(/(\d{4})\.xml$/i)?.[1]);
-  const endOFYearPrices: LastFuelPrice[] = [];
+  const endOfYearPrices: StationFuelPrices[] = [];
 
   const previousPricesMap = new Map(
     lastFuelPriceData.map((station) => [station.stationID, station]),
@@ -72,7 +39,7 @@ export async function parseWeightedFuelPrices(
         const previousPrices = previousPricesMap.get(id);
 
         currentStation = {
-          id,
+          stationID: id,
           cp,
           priceE10: previousPrices?.priceE10 ?? null,
           priceGazole: previousPrices?.priceGazole ?? null,
@@ -147,7 +114,7 @@ export async function parseWeightedFuelPrices(
       }
 
       const {
-        id,
+        stationID,
         cp,
         priceE10,
         priceGazole,
@@ -160,8 +127,8 @@ export async function parseWeightedFuelPrices(
       } = currentStation;
 
       // Handle prices of the end of hte year to transfer these prices to the beggining of the next year
-      endOFYearPrices.push({
-        stationID: id,
+      endOfYearPrices.push({
+        stationID,
         cp,
         priceE10,
         priceGazole,
@@ -171,10 +138,10 @@ export async function parseWeightedFuelPrices(
 
       if (priceE10 === null && priceGazole !== null) {
         totalStationsWithoutE10++;
-        stationIdsWithoutE10.push(id);
+        stationIdsWithoutE10.push(stationID);
       }
       stationContent.push({
-        id,
+        stationID,
         cp,
         priceE10Avg:
           totalDurationE10Ms > 0
@@ -211,6 +178,6 @@ export async function parseWeightedFuelPrices(
     totalPACAStations,
     totalStationsWithoutE10,
     stationIdsWithoutE10,
-    endOFYearPrices,
+    endOfYearPrices,
   };
 }

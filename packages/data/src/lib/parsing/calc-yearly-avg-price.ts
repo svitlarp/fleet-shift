@@ -1,33 +1,13 @@
 import path from "node:path";
 import fsp from "node:fs/promises";
 import { projectRoot } from "../manifest/path.ts";
-
-interface FuelStation {
-  stationID: string;
-  cp: string;
-  priceE10Avg: number | null;
-  priceGazoleAvg: number | null;
-}
-
-interface FuelStationsData {
-  stations: FuelStation[];
-}
-
-interface YearlyAvgFuelPrices {
-  priceE10: number;
-  priceGazole: number;
-  countE10: number;
-  countGazole: number;
-  avgE10: number | null;
-  avgGazole: number | null;
-}
-
-interface YearData {
-  year: string;
-  data: YearlyAvgFuelPrices;
-}
-
-type YearlyFuelData = Record<string, YearlyAvgFuelPrices>;
+import type {
+  StationAvgPricesData,
+  YearlyAvgFuelPrices,
+  YearlyFuelData,
+  YearData,
+} from "../../types/parser.ts";
+import { isStationAvgPricesData } from "../../types-guards/station-avg-prices-data.guard.ts";
 
 /**
  * Calculates the average fuel prices for all stations in a yearly data file.
@@ -46,11 +26,14 @@ export async function calcYearlyAvgPrice(filePath: string): Promise<YearData> {
     throw new Error(`Empty file: ${filePath}`);
   }
 
-  const parsedData: FuelStationsData = JSON.parse(data);
+  const parsedData: unknown = JSON.parse(data);
+  if (!isStationAvgPricesData(parsedData)) {
+    throw new Error(`Invalid station average prices data: ${filePath}`);
+  }
 
   const totals: YearlyAvgFuelPrices = {
-    priceE10: 0,
-    priceGazole: 0,
+    sumE10: 0,
+    sumGazole: 0,
     countE10: 0,
     countGazole: 0,
     avgE10: null,
@@ -59,20 +42,20 @@ export async function calcYearlyAvgPrice(filePath: string): Promise<YearData> {
 
   for (const entry of parsedData.stations) {
     if (entry.priceE10Avg !== null) {
-      totals.priceE10 += entry.priceE10Avg;
+      totals.sumE10 += entry.priceE10Avg;
       totals.countE10 += 1;
     }
     if (entry.priceGazoleAvg !== null) {
-      totals.priceGazole += entry.priceGazoleAvg;
+      totals.sumGazole += entry.priceGazoleAvg;
       totals.countGazole += 1;
     }
   }
 
   totals.avgE10 =
-    totals.countE10 > 0 ? totals.priceE10 / totals.countE10 / 1000 : null;
+    totals.countE10 > 0 ? totals.sumE10 / totals.countE10 / 1000 : null;
   totals.avgGazole =
     totals.countGazole > 0
-      ? totals.priceGazole / totals.countGazole / 1000
+      ? totals.sumGazole / totals.countGazole / 1000
       : null;
   console.log(totals);
 

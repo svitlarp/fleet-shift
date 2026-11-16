@@ -4,34 +4,25 @@ import path from "node:path";
 import { SaxesParser } from "saxes";
 import { projectRoot } from "../manifest/path.ts";
 import { normalizePrice } from "../data-normalisation.ts";
+import type { StationFuelPrices } from "../../types/parser.ts";
 
 const ALLOWED_CPs = ["04", "05", "06", "13", "83", "84"];
-
-export interface LastFuelPrice {
-  stationID: string;
-  cp: string;
-  priceE10: number | null;
-  priceGazole: number | null;
-  timestampE10: number | null;
-  timestampGazole: number | null;
-}
-
-interface CurrentStation {
-  id: string;
-  cp: string;
-  priceE10: number | null;
-  priceGazole: number | null;
-  timestampE10: number | null;
-  timestampGazole: number | null;
-}
+const filePathInput = path.join(
+  projectRoot,
+  "/raw/fuel-prices/entry-point/PrixCarburants_annuel_2015.xml",
+);
+const filePathOutput = path.join(
+  projectRoot,
+  "/parsed/lastFuelPriceFor_2015.json",
+);
 
 export async function lastFuelPrice(
   filePath: string,
   alllowedCps: Array<string>,
-): Promise<LastFuelPrice[]> {
+): Promise<StationFuelPrices[]> {
   const parser = new SaxesParser();
-  const lastFuelPricesArr: LastFuelPrice[] = [];
-  let currentStation: CurrentStation | null = null;
+  const lastFuelPricesArr: StationFuelPrices[] = [];
+  let currentStation: StationFuelPrices | null = null;
 
   parser.on("opentag", (tag) => {
     if (tag.name === "pdv") {
@@ -40,7 +31,7 @@ export async function lastFuelPrice(
 
       if (id && cp && alllowedCps.some((prefix) => cp.startsWith(prefix))) {
         currentStation = {
-          id,
+          stationID: id,
           cp,
           priceE10: null,
           priceGazole: null,
@@ -76,17 +67,8 @@ export async function lastFuelPrice(
 
   parser.on("closetag", (tag) => {
     if (tag.name === "pdv" && currentStation) {
-      const { id, cp, priceE10, priceGazole, timestampE10, timestampGazole } =
-        currentStation;
-
-      lastFuelPricesArr.push({
-        stationID: id,
-        cp,
-        priceE10,
-        priceGazole,
-        timestampE10,
-        timestampGazole,
-      });
+      lastFuelPricesArr.push(currentStation);
+      currentStation = null;
     }
   });
 
@@ -107,15 +89,6 @@ export async function lastFuelPrice(
   return lastFuelPricesArr;
 }
 
-const filePathInput = path.join(
-  projectRoot,
-  "/raw/fuel-prices/entry-point/PrixCarburants_annuel_2015.xml",
-);
-const filePathOutput = path.join(
-  projectRoot,
-  "/parsed/normalisedLastFuelPriceFor_2015.json",
-);
-
 async function main() {
   const fileContent = await lastFuelPrice(filePathInput, ALLOWED_CPs);
   await fsp.writeFile(
@@ -123,7 +96,6 @@ async function main() {
     JSON.stringify(fileContent, null, 2),
     "utf-8",
   );
-  console.log();
 }
 
 main().catch(console.error);

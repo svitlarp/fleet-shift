@@ -4,9 +4,13 @@ import { projectRoot } from "../manifest/path.ts";
 import type { FuelManifest } from "../../types/manifest.ts";
 import { parseWeightedFuelPrices } from "./parse-weighted-fuel-prices.ts";
 import { lastFuelPrice } from "./parse-last-fuel-prices.ts";
-import type { LastFuelPrice } from "./parse-last-fuel-prices.ts";
+import type { StationFuelPrices } from "../../types/parser.ts";
 
 const ALLOWED_CPs = ["04", "05", "06", "13", "83", "84"];
+const filePathInput = path.join(
+  projectRoot,
+  "/raw/fuel-prices/entry-point/PrixCarburants_annuel_2015.xml",
+);
 const datasetDir = path.join(projectRoot, "/raw/fuel-prices");
 const outputDir = path.join(projectRoot, "/parsed/fuel-prices");
 
@@ -14,11 +18,7 @@ export async function parseFuelPricesDataset(
   fuelManifestData: FuelManifest[],
 ): Promise<void> {
   // Read fuel prices data from entry point (to have last prices for end of the previous year)
-  const filePathInput = path.join(
-    projectRoot,
-    "/raw/fuel-prices/entry-point/PrixCarburants_annuel_2015.xml",
-  );
-  let previousYearPrices: LastFuelPrice[] = await lastFuelPrice(
+  let previousYearPrices: StationFuelPrices[] = await lastFuelPrice(
     filePathInput,
     ALLOWED_CPs,
   );
@@ -52,7 +52,7 @@ export async function parseFuelPricesDataset(
       "utf-8",
     );
 
-    previousYearPrices = result.endOFYearPrices;
+    previousYearPrices = result.endOfYearPrices;
     console.log(`Created: ${outputFilePath}`);
   }
 }
