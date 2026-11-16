@@ -1,10 +1,11 @@
 import path from "node:path";
 import fsp from "node:fs/promises";
-import { projectRoot } from "../manifest/path.ts";
-import type { FuelManifest } from "../../types/manifest.ts";
-import { parseWeightedFuelPrices } from "./parse-weighted-fuel-prices.ts";
-import { lastFuelPrice } from "./parse-last-fuel-prices.ts";
-import type { StationFuelPrices } from "../../types/parser.ts";
+import { projectRoot } from "../lib/manifest/path.ts";
+import type { FuelManifest } from "../types/manifest.ts";
+import { parseWeightedFuelPrices } from "../lib/parsing/parse-weighted-fuel-prices.ts";
+import { lastFuelPrice } from "../lib/parsing/parse-last-fuel-prices.ts";
+import type { StationFuelPrices } from "../types/parser.ts";
+import { verifyHash } from "../lib/parsing/verify-hash.ts";
 
 const ALLOWED_CPs = ["04", "05", "06", "13", "83", "84"];
 const filePathInput = path.join(
@@ -31,7 +32,7 @@ export async function parseFuelPricesDataset(
     console.log(`Processing ${entry.fileName}`);
     const filePath = path.join(datasetDir, entry.fileName);
 
-    // TODO: verifyHash
+    await verifyHash(filePath, entry.hash);
 
     const result = await parseWeightedFuelPrices(
       filePath,
