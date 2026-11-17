@@ -1,14 +1,11 @@
 import path from "node:path";
 import fsp from "node:fs/promises";
-import { projectRoot } from "../lib/manifest/path.ts";
-import type {
-  YearlyFuelData,
-} from "../types/parser.ts";
+import { dataRoot } from "../config/path.ts";
+import type { YearlyFuelData } from "../types/parser.ts";
 import { calcYearlyAvgPrice } from "../lib/parsing/calc-yearly-avg-price.ts";
 
-
-const dirFuelYearlyPath = path.join(projectRoot, "parsed", "fuel-prices");
-const fileOutputPath = path.join(projectRoot, "parsed", "yearlyAvg.json");
+const dirFuelYearlyPath = path.join(dataRoot, "parsed", "fuel-prices");
+const fileOutputPath = path.join(dataRoot, "parsed", "yearlyAvg.json");
 
 export async function processDirData(dirPath: string): Promise<YearlyFuelData> {
   const yearlyFuelData: YearlyFuelData = {};

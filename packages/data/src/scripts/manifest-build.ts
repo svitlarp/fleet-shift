@@ -1,5 +1,5 @@
 import path from "node:path";
-import { projectRoot } from "../lib/manifest/path.ts";
+import { dataRoot } from "../config/path.ts";
 import { generateManifests } from "../lib/manifest/generateManifests.ts";
 import { writeManifest } from "../lib/manifest/writeManifest.ts";
 import { generateFuelFileManifest } from "../lib/manifest/gen-fuel-file-manifest.ts";
@@ -17,20 +17,20 @@ type AnyManifest = FuelManifest | IRVEManifest | EVCatalogManifest;
 const datasets: DatasetConfig<AnyManifest>[] = [
   {
     name: "fuel",
-    directory: path.join(projectRoot, "raw/fuel-prices"),
-    manifestPath: path.join(projectRoot, "manifests/fuel-manifest.json"),
+    directory: path.join(dataRoot, "raw/fuel-prices"),
+    manifestPath: path.join(dataRoot, "manifests/fuel-manifest.json"),
     generator: generateFuelFileManifest,
   },
   {
     name: "irve",
-    directory: path.join(projectRoot, "raw/irve"),
-    manifestPath: path.join(projectRoot, "manifests/irve-manifest.json"),
+    directory: path.join(dataRoot, "raw/irve"),
+    manifestPath: path.join(dataRoot, "manifests/irve-manifest.json"),
     generator: generateIRVEFileManifest,
   },
   {
     name: "ev-catalog",
-    directory: path.join(projectRoot, "raw/ev-catalog"),
-    manifestPath: path.join(projectRoot, "manifests/ev-catalog-manifest.json"),
+    directory: path.join(dataRoot, "raw/ev-catalog"),
+    manifestPath: path.join(dataRoot, "manifests/ev-catalog-manifest.json"),
     generator: generateEVCatalogFileManifest,
   },
 ];

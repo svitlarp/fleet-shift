@@ -2,17 +2,17 @@ import fsp from "node:fs/promises";
 import fs from "node:fs";
 import path from "node:path";
 import { SaxesParser } from "saxes";
-import { projectRoot } from "../manifest/path.ts";
+import { dataRoot } from "../../config/path.ts";
 import { normalizePrice } from "../data-normalisation.ts";
 import type { StationFuelPrices } from "../../types/parser.ts";
 
 const ALLOWED_CPs = ["04", "05", "06", "13", "83", "84"];
 const filePathInput = path.join(
-  projectRoot,
+  dataRoot,
   "/raw/fuel-prices/entry-point/PrixCarburants_annuel_2015.xml",
 );
 const filePathOutput = path.join(
-  projectRoot,
+  dataRoot,
   "/parsed/lastFuelPriceFor_2015.json",
 );
 
