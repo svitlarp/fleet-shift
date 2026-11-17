@@ -8,10 +8,11 @@ import type {
   ParseResult,
   StationAvgPrices,
 } from "../../types/parser.ts";
+import { PACA_DEPARTMENTS } from "../../config/regions.ts";
 
 export async function parseWeightedFuelPrices(
   filePath: string,
-  alllowedCps: Array<string>,
+  alllowedCps: typeof PACA_DEPARTMENTS,
   lastFuelPriceData: StationFuelPrices[],
 ): Promise<ParseResult> {
   const parser = new saxes.SaxesParser();

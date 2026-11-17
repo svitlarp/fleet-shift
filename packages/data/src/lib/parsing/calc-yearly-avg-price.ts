@@ -1,8 +1,5 @@
 import fsp from "node:fs/promises";
-import type {
-  YearlyAvgFuelPrices,
-  YearData,
-} from "../../types/parser.ts";
+import type { YearlyAvgFuelPrices, YearData } from "../../types/parser.ts";
 import { isStationAvgPricesData } from "../../types-guards/station-avg-prices-data.guard.ts";
 
 /**

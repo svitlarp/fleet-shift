@@ -1,11 +1,11 @@
 import path from "node:path";
 import fsp from "node:fs/promises";
-import { dataRoot } from "../config/path.ts";
+import { paths } from "../config/paths.ts";
 import type { YearlyFuelData } from "../types/parser.ts";
 import { calcYearlyAvgPrice } from "../lib/parsing/calc-yearly-avg-price.ts";
 
-const dirFuelYearlyPath = path.join(dataRoot, "parsed", "fuel-prices");
-const fileOutputPath = path.join(dataRoot, "parsed", "yearlyAvg.json");
+const dirFuelYearlyPath = paths.parsed.fuel;
+const fileOutputPath = paths.processed.fuel; //  path.join(dataRoot, "parsed", "yearlyAvg.json");
 
 export async function processDirData(dirPath: string): Promise<YearlyFuelData> {
   const yearlyFuelData: YearlyFuelData = {};
@@ -34,4 +34,7 @@ export async function main() {
   await fsp.writeFile(fileOutputPath, jsonData, "utf-8");
 }
 
-await main().catch(console.error);
+await main().catch((err: unknown) => {
+  console.error(err);
+  process.exit(1);
+});

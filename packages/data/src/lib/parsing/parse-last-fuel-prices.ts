@@ -1,24 +1,17 @@
 import fsp from "node:fs/promises";
 import fs from "node:fs";
-import path from "node:path";
+import { paths } from "../../config/paths.ts";
+import { PACA_DEPARTMENTS } from "../../config/regions.ts";
 import { SaxesParser } from "saxes";
-import { dataRoot } from "../../config/path.ts";
 import { normalizePrice } from "../data-normalisation.ts";
 import type { StationFuelPrices } from "../../types/parser.ts";
 
-const ALLOWED_CPs = ["04", "05", "06", "13", "83", "84"];
-const filePathInput = path.join(
-  dataRoot,
-  "/raw/fuel-prices/entry-point/PrixCarburants_annuel_2015.xml",
-);
-const filePathOutput = path.join(
-  dataRoot,
-  "/parsed/lastFuelPriceFor_2015.json",
-);
+const filePathInput = paths.raw.fuelEntryPointFile;
+const filePathOutput = paths.parsed.fuelEntryPointFile;
 
 export async function lastFuelPrice(
   filePath: string,
-  alllowedCps: Array<string>,
+  allowedCps: typeof PACA_DEPARTMENTS,
 ): Promise<StationFuelPrices[]> {
   const parser = new SaxesParser();
   const lastFuelPricesArr: StationFuelPrices[] = [];
@@ -29,7 +22,7 @@ export async function lastFuelPrice(
       const id = tag.attributes.id;
       const cp = tag.attributes.cp;
 
-      if (id && cp && alllowedCps.some((prefix) => cp.startsWith(prefix))) {
+      if (id && cp && allowedCps.some((prefix) => cp.startsWith(prefix))) {
         currentStation = {
           stationID: id,
           cp,
@@ -90,7 +83,7 @@ export async function lastFuelPrice(
 }
 
 async function main() {
-  const fileContent = await lastFuelPrice(filePathInput, ALLOWED_CPs);
+  const fileContent = await lastFuelPrice(filePathInput, PACA_DEPARTMENTS);
   await fsp.writeFile(
     filePathOutput,
     JSON.stringify(fileContent, null, 2),
