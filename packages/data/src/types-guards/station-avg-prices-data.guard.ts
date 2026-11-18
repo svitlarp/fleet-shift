@@ -1,4 +1,7 @@
-import { StationAvgPrices, StationAvgPricesData } from "../types/parser.ts";
+import type {
+  StationAvgPrices,
+  StationAvgPricesData,
+} from "../types/parser.ts";
 
 function isStationAvgPrices(data: unknown): data is StationAvgPrices {
   if (typeof data !== "object" || data === null) {

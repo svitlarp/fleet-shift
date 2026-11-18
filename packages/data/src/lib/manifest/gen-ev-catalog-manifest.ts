@@ -21,5 +21,3 @@ export async function generateEVCatalogFileManifest(
     sourceUpdatedAt,
   }));
 }
-
-

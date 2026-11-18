@@ -11,7 +11,7 @@ export async function generateIRVEFileManifest(
   const source = await readJson<IRVESource>(paths.sourceUrls.irve);
   const sourceUpdatedAt = await fetchSourceUpdatedAt(
     source.datasetId,
-    source.resourceId
+    source.resourceId,
   );
 
   return generateFileManifest(filePath, () => ({
@@ -21,5 +21,3 @@ export async function generateIRVEFileManifest(
     sourceUpdatedAt,
   }));
 }
-
-

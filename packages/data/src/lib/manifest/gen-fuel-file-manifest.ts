@@ -20,7 +20,7 @@ export async function generateFuelFileManifest(
 ): Promise<FuelManifest> {
   const urls = await readJson<FuelSourceUrls>(paths.sourceUrls.fuel);
 
-  return generateFileManifest(filePath, async(fileName) => {
+  return generateFileManifest(filePath, async (fileName) => {
     const year = fileName.match(/(\d{4})\.xml$/i)?.[1];
 
     // Check if year could be extracted from the file name
