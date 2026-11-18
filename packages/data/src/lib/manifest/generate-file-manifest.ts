@@ -19,9 +19,9 @@ export async function generateFileManifest<TMetadata extends object>(
   const metadata = await generateMetadata(fileName);
 
   return {
-    fileName,
     ...metadata,
-    downloadedAt: new Date().toISOString(),
+    fileName,
+    generatedAt: new Date().toISOString(),
     sizeBytes: stats.size,
     hash,
   };

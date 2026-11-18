@@ -6,7 +6,7 @@ const ROOT_MARKER = ".data-root";
 function findRoot(startDir: string): string {
   let dir = startDir;
 
-  while (true) {
+  for (;;) {
     if (fs.existsSync(path.join(dir, ROOT_MARKER))) return dir;
     const parent = path.dirname(dir);
 
@@ -17,7 +17,7 @@ function findRoot(startDir: string): string {
   }
 }
 
-function resoleRoot(): string {
+function resolveRoot(): string {
   const fromEnv = process.env.DATA_ROOT?.trim();
 
   if (fromEnv) {
@@ -31,4 +31,4 @@ function resoleRoot(): string {
   return findRoot(import.meta.dirname); // Node >= 20.11
 }
 
-export const dataRoot = resoleRoot();
+export const dataRoot = resolveRoot();

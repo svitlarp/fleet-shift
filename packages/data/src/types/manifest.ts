@@ -11,7 +11,7 @@ export type DatasetConfig<T> = {
 
 export interface BaseManifest {
   fileName: string;
-  downloadedAt: string;
+  generatedAt: string;
   sizeBytes: number;
   hash: string;
 }
