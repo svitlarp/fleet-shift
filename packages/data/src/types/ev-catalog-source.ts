@@ -1,4 +1,5 @@
 export type EVCatalogSource = {
-  sourceUpdatedAt: string;
   sourceURL: string;
+  datasetId: string;
+  resourceId: string;
 };

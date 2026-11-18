@@ -1,9 +1,11 @@
 [
   {
-    "fileName": "ADEME-CarLabelling.csv",
     "sourceURL": "https://www.data.gouv.fr/datasets/ademe-car-labelling",
-    "sourceUpdatedAt": "2026-10-23",
-    "downloadedAt": "2026-11-05T22:31:38.815Z",
+    "datasetId": "ademe-car-labelling",
+    "resourceId": "669a1f00-299f-4c7c-9db2-cd32401e7b25",
+    "sourceUpdatedAt": "2026-10-14T23:00:42+00:00",
+    "fileName": "ADEME-CarLabelling.csv",
+    "generatedAt": "2026-11-18T20:59:10.563Z",
     "sizeBytes": 1133403,
     "hash": "3e1c25363bebcd910327f617a392fb1bceb9f7a027317a03114d93de70136a0b"
   }

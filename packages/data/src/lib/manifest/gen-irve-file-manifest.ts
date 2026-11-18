@@ -1,19 +1,25 @@
-import sourceUrlsJson from "../../../source-urls/irve-source-urls.json" with { type: "json" };
 import type { IRVEManifest } from "../../types/manifest.ts";
 import type { IRVESource } from "../../types/irve-source.ts";
 import { generateFileManifest } from "./generate-file-manifest.ts";
+import { paths } from "../../config/paths.ts";
+import { fetchSourceUpdatedAt } from "../data-gouv.ts";
+import { readJson } from "../read-json.ts";
 
-// TODO: improve sourceUrls type
-const sourceUrls: IRVESource = sourceUrlsJson;
-
-// TODO: improve sourceUpdatedAt variable -> parse CSV file
 export async function generateIRVEFileManifest(
   filePath: string,
 ): Promise<IRVEManifest> {
+  const source = await readJson<IRVESource>(paths.sourceUrls.irve);
+  const sourceUpdatedAt = await fetchSourceUpdatedAt(
+    source.datasetId,
+    source.resourceId
+  );
+
   return generateFileManifest(filePath, () => ({
-    sourceURL: sourceUrls.sourceURL,
-    datasetId: sourceUrls.datasetId,
-    resourceId: sourceUrls.resourceId,
-    sourceUpdatedAt: sourceUrls.sourceUpdatedAt,
+    sourceURL: source.sourceURL,
+    datasetId: source.datasetId,
+    resourceId: source.resourceId,
+    sourceUpdatedAt,
   }));
 }
+
+

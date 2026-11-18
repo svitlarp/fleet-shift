@@ -19,6 +19,7 @@ export interface BaseManifest {
 export interface FuelManifest extends BaseManifest {
   year: FuelYear;
   sourceURL: string;
+  sourceUpdatedAt: string;
 }
 
 export interface IRVEManifest extends BaseManifest {
@@ -30,5 +31,7 @@ export interface IRVEManifest extends BaseManifest {
 
 export interface EVCatalogManifest extends BaseManifest {
   sourceURL: string;
+  datasetId: string;
+  resourceId: string;
   sourceUpdatedAt: string;
 }

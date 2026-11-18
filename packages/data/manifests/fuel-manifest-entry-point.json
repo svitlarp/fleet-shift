@@ -1,8 +1,9 @@
 {
-  "fileName": "PrixCarburants_annuel_2015.xml",
   "year": "2015",
   "sourceURL": "https://donnees.roulez-eco.fr/opendata/annee/2015",
-  "downloadedAt": "2026-11-05T22:00:51.670Z",
-  "sizeBytes": 233788701,
-  "hash": "499b4248828bc35cfd6fa2a467e11b739844c381f1035d037cca3e4fd71d868b"
+  "sourceUpdatedAt": "2024-04-18T09:07:43.000Z",
+  "fileName": "PrixCarburants_annuel_2015.xml",
+  "generatedAt": "2026-11-18T20:58:00.092Z",
+  "sizeBytes": 233788507,
+  "hash": "8a14d762439085549aced572079ff70a334f52981d5165e8dec88351f65f7f6c"
 }

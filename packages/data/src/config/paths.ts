@@ -13,8 +13,7 @@ export const paths = {
     fuel: path.join(rawDir, "fuel-prices"),
     fuelEntryPointFile: path.join(
       rawDir,
-      "fuel-prices",
-      "entry-point",
+      "fuel-entry-point",
       "PrixCarburants_annuel_2015.xml",
     ),
     irve: path.join(rawDir, "irve"),

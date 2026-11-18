@@ -7,7 +7,7 @@ import type { BaseManifest } from "../../types/manifest.ts";
 /**
  * Generates metadata for the given file
  * @param value - Absolute path to the file
- * @returns An object containing metadata for the fuel prices manifest including Hash to verify the integrity of the source file
+ * @returns An object containing metadata including Hash to verify the integrity of the source file
  */
 export async function generateFileManifest<TMetadata extends object>(
   filePath: string,
