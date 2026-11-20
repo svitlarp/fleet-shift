@@ -16,8 +16,12 @@ export const paths = {
       "fuel-entry-point",
       "PrixCarburants_annuel_2015.xml",
     ),
-    irve: path.join(rawDir, "irve"),
-    evCatalog: path.join(rawDir, "ev-catalog"),
+    irve: path.join(
+      rawDir,
+      "irve",
+      "consolidation_transport_irve_statique.csv",
+    ),
+    evCatalog: path.join(rawDir, "ev-catalog", "ADEME-CarLabelling.csv"),
   },
   manifests: {
     fuel: path.join(manifestsDir, "fuel-manifest.json"),
