@@ -1,5 +1,11 @@
 {
+  "name": "fleet-shift",
+  "private": true,
   "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
   "dependencies": {
     "csv-parse": "^7.0.3",
     "fastify": "^5.12.7",
@@ -9,6 +15,7 @@
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@types/node": "^24.19.2",
+    "@vitest/coverage-v8": "^5.1.1",
     "eslint": "^10.13.0",
     "globals": "^17.13.0",
     "prettier": "^3.9.10",
@@ -25,6 +32,11 @@
     "typecheck:web": "tsc --noEmit -p apps/web/tsconfig.json",
     "typecheck:core": "tsc --noEmit -p packages/core/tsconfig.json",
     "typecheck:data": "tsc --noEmit -p packages/data/tsconfig.json",
-    "typecheck": "npm run typecheck:core && npm run typecheck:data"
+    "typecheck": "npm run typecheck:core && npm run typecheck:data && npm run typecheck:api && npm run typecheck:web",
+    "dev": "npm run dev -w @fleetshift/api & npm run dev -w @fleetshift/web",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "db:generate": "npm run db:generate -w @fleetshift/api",
+    "db:migrate": "npm run db:migrate -w @fleetshift/api"
   }
 }

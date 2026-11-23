@@ -1,3 +1,10 @@
 #Ignore artifacts:
 build
 coverage
+dist
+packages/data/raw
+packages/data/parsed
+packages/data/processed
+packages/data/manifests
+apps/api/drizzle
+workdir

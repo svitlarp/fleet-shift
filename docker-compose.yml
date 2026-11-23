@@ -1,0 +1,19 @@
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: fleetshift
+      POSTGRES_PASSWORD: fleetshift
+      POSTGRES_DB: fleetshift
+    ports:
+      - "5433:5432"
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U fleetshift"]
+      interval: 3s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  db-data:
