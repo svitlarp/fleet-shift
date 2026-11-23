@@ -4,9 +4,35 @@ import {
   fuelTypeSchema,
 } from "@fleetshift/core";
 import type { FleetVehicle } from "@fleetshift/core";
-import { ErrorMessage, Field, Form, Formik } from "formik";
+import { Form, Formik } from "formik";
+import {
+  Building2,
+  Calendar,
+  CalendarClock,
+  CarFront,
+  Euro,
+  Fuel,
+  Gauge,
+  Hash,
+  MapPin,
+  Navigation,
+  PlugZap,
+  Route,
+  Save,
+  ShieldCheck,
+  Tag,
+  Users,
+  Wallet,
+  Wrench,
+  X,
+} from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 import { t } from "../../i18n/en.ts";
 import { zodValidate } from "../../lib/zod-formik.ts";
+import { Button } from "../ui/Button.tsx";
+import { Card } from "../ui/Card.tsx";
+import { FormField, FormGrid, SwitchField } from "../ui/FormField.tsx";
+import { FormSelect } from "../ui/FormSelect.tsx";
 
 const EMPTY_VEHICLE = {
   id: "",
@@ -32,30 +58,54 @@ const EMPTY_VEHICLE = {
   payloadKg: null,
 } satisfies FleetVehicle;
 
-const TEXT_FIELDS = ["id", "make", "model", "baseCommune"] as const;
-const NUMBER_FIELDS = [
-  "year",
-  "seats",
-  "annualKm",
-  "maxDailyKm",
-  "litersPer100Km",
-  "purchasePriceEur",
-  "leaseMonthlyEur",
-  "maintenanceEurPerYear",
-  "insuranceEurPerYear",
-  "baseLat",
-  "baseLon",
-] as const;
+const TEXT_FIELDS: {
+  name: "id" | "make" | "model" | "baseCommune";
+  icon: LucideIcon;
+}[] = [
+  { name: "id", icon: Hash },
+  { name: "make", icon: Building2 },
+  { name: "model", icon: Tag },
+  { name: "baseCommune", icon: MapPin },
+];
+
+const NUMBER_FIELDS: {
+  name: Exclude<
+    keyof typeof t.vehicleFields,
+    | "id"
+    | "make"
+    | "model"
+    | "baseCommune"
+    | "bodyType"
+    | "fuelType"
+    | "leaseEndDate"
+    | "hasDepotCharging"
+  >;
+  icon: LucideIcon;
+}[] = [
+  { name: "year", icon: Calendar },
+  { name: "seats", icon: Users },
+  { name: "annualKm", icon: Route },
+  { name: "maxDailyKm", icon: Gauge },
+  { name: "litersPer100Km", icon: Fuel },
+  { name: "purchasePriceEur", icon: Euro },
+  { name: "leaseMonthlyEur", icon: Wallet },
+  { name: "maintenanceEurPerYear", icon: Wrench },
+  { name: "insuranceEurPerYear", icon: ShieldCheck },
+  { name: "baseLat", icon: Navigation },
+  { name: "baseLon", icon: Navigation },
+];
+
+const toOptions = (values: readonly string[]) =>
+  values.map((value) => ({
+    value,
+    label: value.charAt(0).toUpperCase() + value.slice(1),
+  }));
 
 interface VehicleFormProps {
   vehicle: FleetVehicle | null;
   isSaving: boolean;
   onSubmit: (vehicle: FleetVehicle) => Promise<void>;
   onCancel: () => void;
-}
-
-function FieldError({ name }: { name: string }) {
-  return <ErrorMessage name={name} component="span" className="field-error" />;
 }
 
 export function VehicleForm({
@@ -71,60 +121,70 @@ export function VehicleForm({
       validate={zodValidate<FleetVehicle>(fleetVehicleSchema)}
       onSubmit={(values) => onSubmit(fleetVehicleSchema.parse(values))}
     >
-      <Form className="card" noValidate>
-        <div className="form-grid">
-          {TEXT_FIELDS.map((name) => (
-            <label className="field" key={name}>
-              {t.vehicleFields[name]}
-              <Field name={name} type="text" />
-              <FieldError name={name} />
-            </label>
-          ))}
-          <label className="field">
-            {t.vehicleFields.bodyType}
-            <Field name="bodyType" as="select">
-              {bodyTypeSchema.options.map((o) => (
-                <option key={o} value={o}>
-                  {o}
-                </option>
-              ))}
-            </Field>
-          </label>
-          <label className="field">
-            {t.vehicleFields.fuelType}
-            <Field name="fuelType" as="select">
-              {fuelTypeSchema.options.map((o) => (
-                <option key={o} value={o}>
-                  {o}
-                </option>
-              ))}
-            </Field>
-          </label>
-          {NUMBER_FIELDS.map((name) => (
-            <label className="field" key={name}>
-              {t.vehicleFields[name]}
-              <Field name={name} type="number" step="any" />
-              <FieldError name={name} />
-            </label>
-          ))}
-          <label className="field">
-            {t.vehicleFields.leaseEndDate}
-            <Field name="leaseEndDate" type="date" />
-            <FieldError name="leaseEndDate" />
-          </label>
-          <label className="field field-check">
-            <Field name="hasDepotCharging" type="checkbox" />
-            {t.vehicleFields.hasDepotCharging}
-          </label>
-        </div>
-        <div className="actions" style={{ marginTop: 16 }}>
-          <button className="btn btn-primary" type="submit" disabled={isSaving}>
-            {t.common.save}
-          </button>
-          <button className="btn" type="button" onClick={onCancel}>
-            {t.common.cancel}
-          </button>
-        </div>
+      <Form noValidate>
+        <Card>
+          <FormGrid>
+            {TEXT_FIELDS.map(({ name, icon }) => (
+              <FormField
+                key={name}
+                name={name}
+                label={t.vehicleFields[name]}
+                icon={icon}
+              />
+            ))}
+            <FormSelect
+              name="bodyType"
+              label={t.vehicleFields.bodyType}
+              icon={CarFront}
+              options={toOptions(bodyTypeSchema.options)}
+            />
+            <FormSelect
+              name="fuelType"
+              label={t.vehicleFields.fuelType}
+              icon={Fuel}
+              options={toOptions(fuelTypeSchema.options)}
+            />
+            {NUMBER_FIELDS.map(({ name, icon }) => (
+              <FormField
+                key={name}
+                name={name}
+                type="number"
+                label={t.vehicleFields[name]}
+                icon={icon}
+              />
+            ))}
+            <FormField
+              name="leaseEndDate"
+              type="date"
+              label={t.vehicleFields.leaseEndDate}
+              icon={CalendarClock}
+            />
+            <SwitchField
+              name="hasDepotCharging"
+              label={t.vehicleFields.hasDepotCharging}
+              icon={PlugZap}
+            />
+          </FormGrid>
+          <div
+            style={{
+              display: "flex",
+              gap: "var(--space-2)",
+              marginTop: "var(--space-4)",
+            }}
+          >
+            <Button
+              variant="primary"
+              type="submit"
+              icon={Save}
+              disabled={isSaving}
+            >
+              {t.common.save}
+            </Button>
+            <Button icon={X} onClick={onCancel}>
+              {t.common.cancel}
+            </Button>
+          </div>
+        </Card>
       </Form>
     </Formik>
   );

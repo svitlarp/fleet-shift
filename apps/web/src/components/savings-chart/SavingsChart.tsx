@@ -10,6 +10,7 @@ import {
 } from "recharts";
 import { t } from "../../i18n/en.ts";
 import { formatEur } from "../../lib/format.ts";
+import css from "./SavingsChart.module.css";
 
 export interface SavingsPoint {
   label: string;
@@ -70,12 +71,12 @@ function SavingsTooltip({ active, payload }: TooltipProps) {
   const point = payload?.[0]?.payload;
   if (!active || !point) return null;
   return (
-    <div className="card" style={{ margin: 0, padding: "8px 12px" }}>
+    <div className={css.tooltip}>
       <strong>{point.label}</strong>
       <div>
         {t.results.median}: {formatEur(point.medianEur)}
       </div>
-      <div className="muted">
+      <div className={css.muted}>
         {t.results.range}: {formatEur(point.range[0])} to{" "}
         {formatEur(point.range[1])}
       </div>
@@ -93,7 +94,7 @@ export function SavingsChart({ points }: { points: SavingsPoint[] }) {
   const positive = points.filter((p) => p.medianEur > 0).length;
   const axisTick = { fill: "var(--text-secondary)", fontSize: 12 };
   return (
-    <figure style={{ margin: 0 }}>
+    <figure className={css.figure}>
       <div
         role="img"
         aria-label={`${t.results.chartTitle}. ${t.results.chartSummary(positive, points.length)}`}
@@ -135,7 +136,7 @@ export function SavingsChart({ points }: { points: SavingsPoint[] }) {
           </BarChart>
         </ResponsiveContainer>
       </div>
-      <figcaption className="muted">
+      <figcaption className={css.caption}>
         {t.results.chartHint} {t.results.chartSummary(positive, points.length)}
       </figcaption>
     </figure>

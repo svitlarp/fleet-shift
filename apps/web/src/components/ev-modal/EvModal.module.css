@@ -1,0 +1,152 @@
+.dialog {
+  width: min(760px, calc(100vw - 24px));
+  max-height: calc(100dvh - 24px);
+  padding: 0;
+  overflow: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: var(--shadow-lg);
+  animation: dialog-in var(--motion-base) var(--ease);
+}
+
+.dialog::backdrop {
+  background: var(--overlay);
+  animation: backdrop-in var(--motion-base) var(--ease);
+}
+
+.panel {
+  position: relative;
+  display: grid;
+  gap: var(--space-3);
+  padding: var(--space-5);
+}
+
+.close {
+  position: absolute;
+  z-index: 1;
+  top: var(--space-6);
+  right: var(--space-6);
+  width: var(--control-height);
+  padding: 0;
+  border-radius: 50%;
+  background: var(--surface-raised);
+  box-shadow: var(--shadow-sm);
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  background: var(--surface-muted);
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.credit {
+  color: var(--text-secondary);
+  font-size: 12px;
+}
+
+.credit a {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.price {
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.comparison {
+  padding: var(--space-4);
+  border-radius: var(--radius-md);
+  background: var(--accent-soft);
+}
+
+.comparison h3,
+.sectionTitle {
+  margin-bottom: var(--space-2);
+  font-size: var(--font-md);
+}
+
+.comparisonGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: var(--space-3);
+  margin: 0;
+}
+
+.comparisonGrid dt {
+  color: var(--text-secondary);
+  font-size: 12px;
+}
+
+.comparisonGrid dd {
+  margin: 0;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.specs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--space-1) var(--space-5);
+  margin: 0;
+}
+
+.spec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+  padding: var(--space-2) 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.spec dt {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--text-secondary);
+  font-size: var(--font-sm);
+}
+
+.spec dd {
+  margin: 0;
+  font-weight: 600;
+  text-align: right;
+}
+
+.missing {
+  color: var(--text-secondary);
+  font-weight: 400 !important;
+}
+
+@keyframes dialog-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.98);
+  }
+}
+
+@keyframes backdrop-in {
+  from {
+    opacity: 0;
+  }
+}

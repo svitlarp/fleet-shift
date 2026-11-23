@@ -1,0 +1,52 @@
+.wrap {
+  position: relative;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: var(--space-2) 7px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.table th {
+  color: var(--text-secondary);
+  font-size: var(--font-sm);
+  font-weight: 600;
+}
+
+.table tbody tr {
+  transition: background-color var(--motion-fast) var(--ease);
+}
+
+.table tbody tr:hover {
+  background: var(--surface-muted);
+}
+
+.table .num {
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.table .wrapCell {
+  min-width: 130px;
+  white-space: normal;
+}
+
+.muted {
+  color: var(--text-secondary);
+  font-size: var(--font-sm);
+}
+
+.vehicle {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}

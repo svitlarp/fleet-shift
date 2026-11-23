@@ -1,27 +1,61 @@
 .header {
+  position: sticky;
+  z-index: 10;
+  top: 0;
   background: var(--surface);
   border-bottom: 1px solid var(--border);
 }
+
 .nav {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: var(--space-6);
   max-width: 1200px;
   margin: 0 auto;
-  padding: 14px 16px;
+  padding: var(--space-3) var(--space-4);
 }
+
 .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
   color: var(--accent-text);
   font-size: 20px;
   font-weight: 700;
   text-decoration: none;
 }
+
+.logoIcon {
+  transition: transform var(--motion-base) var(--ease);
+}
+
+.logo:hover .logoIcon {
+  transform: rotate(-12deg) scale(1.08);
+}
+
 .link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
   color: var(--text-secondary);
   text-decoration: none;
+  transition: color var(--motion-fast) var(--ease);
 }
+
+.link:hover {
+  color: var(--text);
+}
+
 .main {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 24px 16px 64px;
+  padding: var(--space-6) var(--space-4) 64px;
+  animation: page-in var(--motion-base) var(--ease);
+}
+
+@keyframes page-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
 }

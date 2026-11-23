@@ -1,5 +1,7 @@
 import type {
   Assumptions,
+  EvModel,
+  EvPhoto,
   FleetAnalysis,
   FleetRowIssue,
   FleetVehicle,
@@ -12,6 +14,22 @@ export interface FleetSummary {
   name: string;
   createdAt: string;
   vehicleCount: number;
+}
+
+export interface FleetListItem extends FleetSummary {
+  latestAnalysis: {
+    createdAt: string;
+    replaceCount: number;
+    medianSavingsEur: number;
+  } | null;
+}
+
+export interface EvDetails {
+  ev: EvModel;
+  photo: EvPhoto | null;
+  seatsAssumed: number;
+  batteryKwh: number | null;
+  source: { name: string; url: string; sourceUpdatedAt: string };
 }
 
 export interface FleetDetail extends FleetSummary {
@@ -36,7 +54,7 @@ export const fleetApi = createApi({
   baseQuery: axiosBaseQuery,
   tagTypes: ["Fleets", "Fleet", "Analysis"],
   endpoints: (build) => ({
-    getFleets: build.query<FleetSummary[], void>({
+    getFleets: build.query<FleetListItem[], void>({
       query: () => ({ url: "/fleets" }),
       providesTags: ["Fleets"],
     }),
@@ -120,12 +138,15 @@ export const fleetApi = createApi({
       },
       providesTags: (_result, _error, id) => [{ type: "Analysis", id }],
     }),
+    getEvDetails: build.query<EvDetails, string>({
+      query: (evId) => ({ url: `/catalog/${encodeURIComponent(evId)}` }),
+    }),
     runAnalysis: build.mutation<SavedAnalysis, string>({
       query: (fleetId) => ({
         url: `/fleets/${fleetId}/analyses`,
         method: "POST",
       }),
-      invalidatesTags: (_r, _e, id) => [{ type: "Analysis", id }],
+      invalidatesTags: (_r, _e, id) => ["Fleets", { type: "Analysis", id }],
     }),
   }),
 });
@@ -136,6 +157,7 @@ export const {
   useDeleteFleetMutation,
   useDeleteVehicleMutation,
   useGetFleetQuery,
+  useGetEvDetailsQuery,
   useGetFleetsQuery,
   useGetLatestAnalysisQuery,
   useImportFleetMutation,

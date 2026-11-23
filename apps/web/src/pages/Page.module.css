@@ -1,0 +1,127 @@
+.head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin-bottom: var(--space-5);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.muted {
+  color: var(--text-secondary);
+}
+
+.sectionTitle {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+}
+
+.hero {
+  display: grid;
+  gap: var(--space-3);
+  padding: var(--space-2);
+}
+
+.fleetGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+  gap: var(--space-4);
+}
+
+.emptyState {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-2);
+  padding: var(--space-8) var(--space-4);
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+.errorList {
+  margin: 0;
+  padding-left: var(--space-5);
+}
+
+.fileInput {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.uploadLabel:focus-within {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--space-3);
+  margin-bottom: var(--space-5);
+}
+
+.stat {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  transition:
+    box-shadow var(--motion-base) var(--ease),
+    transform var(--motion-base) var(--ease);
+}
+
+.stat:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+
+.statIcon {
+  display: inline-flex;
+  flex: none;
+  padding: var(--space-2);
+  border-radius: var(--radius-md);
+  background: var(--accent-soft);
+  color: var(--accent-text);
+}
+
+.statValue {
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-variant-numeric: tabular-nums;
+}
+
+.statLabel {
+  color: var(--text-secondary);
+  font-size: var(--font-sm);
+}
+
+.note {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+  color: var(--text-secondary);
+  font-size: var(--font-sm);
+}
+
+.note svg {
+  flex: none;
+  margin-top: 2px;
+}

@@ -1,3 +1,4 @@
+import { CarFront, Zap } from "lucide-react";
 import { lazy, Suspense } from "react";
 import { NavLink, Route, Routes } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
@@ -26,9 +27,11 @@ export function App() {
       <header className={css.header}>
         <nav className={css.nav}>
           <NavLink to="/" className={css.logo}>
+            <Zap className={css.logoIcon} size={20} aria-hidden="true" />
             {t.appName}
           </NavLink>
           <NavLink to="/" className={css.link}>
+            <CarFront size={16} aria-hidden="true" />
             {t.nav.fleets}
           </NavLink>
         </nav>

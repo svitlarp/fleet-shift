@@ -4,7 +4,8 @@ import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
 import "react-toastify/dist/ReactToastify.css";
 import { App } from "./App.tsx";
-import "./index.css";
+import "./styles/tokens.css";
+import "./styles/base.css";
 import { store } from "./redux/store.ts";
 
 const root = document.getElementById("root");

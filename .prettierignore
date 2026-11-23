@@ -6,5 +6,6 @@ packages/data/raw
 packages/data/parsed
 packages/data/processed
 packages/data/manifests
+apps/web/public/cars
 apps/api/drizzle
 workdir
