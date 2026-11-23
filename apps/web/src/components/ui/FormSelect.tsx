@@ -3,6 +3,7 @@ import { useField } from "formik";
 import { Check, ChevronDown } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { useId } from "react";
+import { InfoTip } from "./InfoTip.tsx";
 import formCss from "./Form.module.css";
 import css from "./FormSelect.module.css";
 
@@ -16,6 +17,7 @@ interface FormSelectProps {
   label: string;
   icon: LucideIcon;
   options: readonly SelectOption[];
+  hint?: string;
 }
 
 export function FormSelect({
@@ -23,13 +25,17 @@ export function FormSelect({
   label,
   icon: Icon,
   options,
+  hint,
 }: FormSelectProps) {
   const [field, , helpers] = useField<string>(name);
   const labelId = useId();
   return (
     <div className={formCss.field}>
-      <span className={formCss.label} id={labelId}>
-        {label}
+      <span className={formCss.labelRow}>
+        <span className={formCss.label} id={labelId}>
+          {label}
+        </span>
+        {hint && <InfoTip label={label} text={hint} />}
       </span>
       <RadixSelect.Root
         value={field.value}

@@ -120,9 +120,11 @@ describe("buildActionSummary", () => {
       ]),
       (id) => id.toUpperCase(),
     );
-    expect(text).toContain("Replace 2 vehicles in 2028 for");
-    expect(text).toContain("starting with BIG to PEUGEOT e-208");
-    expect(text).toContain("keep 1 on combustion, review 1 after 2028");
+    expect(text).toContain("Replace 2 vehicles in 2028.");
+    expect(text).toContain(
+      "Start with the BIG and switch it to a PEUGEOT e-208",
+    );
+    expect(text).toContain("keep 1 as they are, check 1 again after 2028");
   });
 
   it("is honest when nothing pays back", () => {
@@ -130,7 +132,7 @@ describe("buildActionSummary", () => {
       analysis([entry("a", "not_profitable")]),
       (id) => id,
     );
-    expect(text).toContain("No replacement pays back");
-    expect(text).toContain("keep 1 on combustion");
+    expect(text).toContain("None of these vehicles would save money");
+    expect(text).toContain("keep 1 as they are");
   });
 });

@@ -65,8 +65,9 @@ const CHARGING_FIELDS: { name: NumericField; icon: LucideIcon }[] = [
 ];
 
 const RISK_OPTIONS = [
-  { value: "balanced", label: t.assumptions.options.balanced },
   { value: "cautious", label: t.assumptions.options.cautious },
+  { value: "balanced", label: t.assumptions.options.balanced },
+  { value: "risky", label: t.assumptions.options.risky },
 ];
 
 const FINANCING_OPTIONS = [
@@ -114,6 +115,7 @@ export function AssumptionsPage() {
       type="number"
       label={t.assumptions.fields[name]}
       icon={icon}
+      hint={t.assumptions.hints[name]}
     />
   );
 
@@ -148,12 +150,14 @@ export function AssumptionsPage() {
                   name="riskMode"
                   label={t.assumptions.fields.riskMode}
                   icon={Scale}
+                  hint={t.assumptions.hints.riskMode}
                   options={RISK_OPTIONS}
                 />
                 <FormSelect
                   name="financingMode"
                   label={t.assumptions.fields.financingMode}
                   icon={Wallet}
+                  hint={t.assumptions.hints.financingMode}
                   options={FINANCING_OPTIONS}
                 />
               </FormGrid>

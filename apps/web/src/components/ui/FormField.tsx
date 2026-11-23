@@ -1,5 +1,7 @@
 import { ErrorMessage, Field } from "formik";
 import type { LucideIcon } from "lucide-react";
+import { useId } from "react";
+import { InfoTip } from "./InfoTip.tsx";
 import css from "./Form.module.css";
 
 interface FormFieldProps {
@@ -7,6 +9,7 @@ interface FormFieldProps {
   label: string;
   icon: LucideIcon;
   type?: "text" | "number" | "date";
+  hint?: string;
 }
 
 export function FormField({
@@ -14,13 +17,21 @@ export function FormField({
   label,
   icon: Icon,
   type = "text",
+  hint,
 }: FormFieldProps) {
+  const inputId = useId();
   return (
-    <label className={css.field}>
-      <span className={css.label}>{label}</span>
+    <div className={css.field}>
+      <span className={css.labelRow}>
+        <label className={css.label} htmlFor={inputId}>
+          {label}
+        </label>
+        {hint && <InfoTip label={label} text={hint} />}
+      </span>
       <span className={css.control}>
         <Icon className={css.icon} size={16} aria-hidden="true" />
         <Field
+          id={inputId}
           className={css.input}
           name={name}
           type={type}
@@ -28,7 +39,7 @@ export function FormField({
         />
       </span>
       <ErrorMessage name={name} component="span" className={css.error} />
-    </label>
+    </div>
   );
 }
 
@@ -36,7 +47,7 @@ export function SwitchField({
   name,
   label,
   icon: Icon,
-}: Omit<FormFieldProps, "type">) {
+}: Pick<FormFieldProps, "name" | "label" | "icon">) {
   return (
     <label className={css.switchField}>
       <Field className={css.switchInput} name={name} type="checkbox" />
