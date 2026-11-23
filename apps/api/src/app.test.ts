@@ -32,6 +32,7 @@ const reference: ReferenceData = {
   catalog: [
     {
       id: "ev1",
+      modelKey: "peugeot-208",
       brand: "PEUGEOT",
       model: "208",
       variant: "e-208",
@@ -42,6 +43,10 @@ const reference: ReferenceData = {
       kwhPer100Km: 15,
       rangeKm: 350,
       massKg: 1500,
+      group: null,
+      fiscalPower: 4,
+      emptyWeightKg: 1455,
+      urbanRangeKm: null,
     },
   ],
   catalogSource: {

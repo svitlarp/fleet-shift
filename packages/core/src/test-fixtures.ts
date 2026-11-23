@@ -36,6 +36,7 @@ export const vehicleFixture = (
 
 export const evFixture = (overrides: Partial<EvModel> = {}): EvModel => ({
   id: "ev1",
+  modelKey: "peugeot-208",
   brand: "PEUGEOT",
   model: "208",
   variant: "e-208",
@@ -46,6 +47,10 @@ export const evFixture = (overrides: Partial<EvModel> = {}): EvModel => ({
   kwhPer100Km: 15,
   rangeKm: 350,
   massKg: 1500,
+  group: "STELLANTIS",
+  fiscalPower: 4,
+  emptyWeightKg: 1455,
+  urbanRangeKm: 450,
   ...overrides,
 });
 

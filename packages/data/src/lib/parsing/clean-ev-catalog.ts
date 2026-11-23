@@ -17,6 +17,14 @@ export function toNumberOrNull(value: string | undefined): number | null {
   return Number.isFinite(n) ? n : null;
 }
 
+/** Repairs UTF-8 text that the source stored as Latin-1, and collapses spacing. */
+export function cleanText(value: string): string {
+  const repaired = /[ÃÂ]/.test(value)
+    ? Buffer.from(value, "latin1").toString("utf8")
+    : value;
+  return repaired.replace(/[\s\u00a0]+/g, " ").trim();
+}
+
 function positiveValues(...values: (number | null)[]): number[] {
   return values.filter((v): v is number => v !== null && v > 0);
 }
@@ -38,7 +46,7 @@ function slug(value: string): string {
 export function toCatalogVehicle(row: CSVRow): CatalogVehicle | null {
   const brand = row.Marque?.trim();
   const model = row["Modèle"]?.trim();
-  const variant = row["Description Commerciale"]?.trim();
+  const variant = cleanText(row["Description Commerciale"] ?? "");
   const bodyType = row.Carrosserie?.trim();
   const priceEur = toNumberOrNull(row["Prix véhicule"]);
   const ranges = positiveValues(
@@ -54,6 +62,10 @@ export function toCatalogVehicle(row: CSVRow): CatalogVehicle | null {
   if (priceEur === null || priceEur <= 0) return null;
   if (ranges.length === 0 || consumptionsWhPerKm.length === 0) return null;
 
+  const urbanRanges = positiveValues(
+    toNumberOrNull(row["Autonomie elec urbain Min"]),
+    toNumberOrNull(row["Autonomie elec urbain Max"]),
+  );
   const rangeKm = Math.min(...ranges);
   const kwhPer100Km = Number(
     (Math.max(...consumptionsWhPerKm) / 10).toFixed(2),
@@ -74,6 +86,7 @@ export function toCatalogVehicle(row: CSVRow): CatalogVehicle | null {
 
   return {
     id: `${slug(`${brand}-${variant}`)}-${shortHash}`,
+    modelKey: slug(`${brand}-${model}`),
     brand,
     model,
     variant,
@@ -84,6 +97,10 @@ export function toCatalogVehicle(row: CSVRow): CatalogVehicle | null {
     kwhPer100Km,
     rangeKm,
     massKg: toNumberOrNull(row["Masse OM Max"]),
+    group: row.Groupe?.trim() || null,
+    fiscalPower: toNumberOrNull(row["Puissance fiscale"]),
+    emptyWeightKg: toNumberOrNull(row["Poids à vide"]),
+    urbanRangeKm: urbanRanges.length > 0 ? Math.min(...urbanRanges) : null,
   };
 }
 

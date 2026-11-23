@@ -8,6 +8,7 @@
   "vehicles": [
     {
       "id": "audi-e-tron-gt-quattro-476ch-51caeb",
+      "modelKey": "audi-e-tron-gt",
       "brand": "AUDI",
       "model": "E-TRON GT",
       "variant": "e-tron GT quattro (476ch)",
@@ -17,10 +18,15 @@
       "powerKw": 140,
       "kwhPer100Km": 24.53,
       "rangeKm": 396,
-      "massKg": 2350
+      "massKg": 2350,
+      "group": "VGF",
+      "fiscalPower": 10,
+      "emptyWeightKg": 2275,
+      "urbanRangeKm": 506.3
     },
     {
       "id": "audi-rs-e-tron-gt-quattro-598ch-a3e0f8",
+      "modelKey": "audi-e-tron-gt",
       "brand": "AUDI",
       "model": "E-TRON GT",
       "variant": "RS e-tron GT quattro (598ch)",
@@ -30,10 +36,15 @@
       "powerKw": 142,
       "kwhPer100Km": 23.9,
       "rangeKm": 409,
-      "massKg": 2420
+      "massKg": 2420,
+      "group": "VGF",
+      "fiscalPower": 10,
+      "emptyWeightKg": 2345,
+      "urbanRangeKm": 509
     },
     {
       "id": "b-m-w-ix-m60-f14205",
+      "modelKey": "b-m-w-ix",
       "brand": "B.M.W.",
       "model": "IX",
       "variant": "iX M60",
@@ -43,10 +54,15 @@
       "powerKw": 140,
       "kwhPer100Km": 25.24,
       "rangeKm": 486,
-      "massKg": 2659
+      "massKg": 2659,
+      "group": "AUTRES",
+      "fiscalPower": 10,
+      "emptyWeightKg": 2584,
+      "urbanRangeKm": 560.5
     },
     {
       "id": "b-m-w-ix-xdrive40-142baf",
+      "modelKey": "b-m-w-ix",
       "brand": "B.M.W.",
       "model": "IX",
       "variant": "iX xDrive40",
@@ -56,10 +72,15 @@
       "powerKw": 102,
       "kwhPer100Km": 25.13,
       "rangeKm": 326,
-      "massKg": 2440
+      "massKg": 2440,
+      "group": "AUTRES",
+      "fiscalPower": 7,
+      "emptyWeightKg": 2365,
+      "urbanRangeKm": 390.4
     },
     {
       "id": "b-m-w-ix-xdrive50-40c4bb",
+      "modelKey": "b-m-w-ix",
       "brand": "B.M.W.",
       "model": "IX",
       "variant": "iX xDrive50",
@@ -69,10 +90,15 @@
       "powerKw": 140,
       "kwhPer100Km": 25.68,
       "rangeKm": 483,
-      "massKg": 2585
+      "massKg": 2585,
+      "group": "AUTRES",
+      "fiscalPower": 10,
+      "emptyWeightKg": 2510,
+      "urbanRangeKm": 579
     },
     {
       "id": "b-m-w-ix3-cf6784",
+      "modelKey": "b-m-w-ix3",
       "brand": "B.M.W.",
       "model": "IX3",
       "variant": "iX3",
@@ -82,10 +108,15 @@
       "powerKw": 80,
       "kwhPer100Km": 19.4,
       "rangeKm": 441,
-      "massKg": 2255
+      "massKg": 2255,
+      "group": "AUTRES",
+      "fiscalPower": 6,
+      "emptyWeightKg": 2180,
+      "urbanRangeKm": 583.5
     },
     {
       "id": "citroen-e-berlingo-m-57kw-883b70",
+      "modelKey": "citroen-berlingo",
       "brand": "CITROEN",
       "model": "BERLINGO",
       "variant": "e-BERLINGO M (57Kw)",
@@ -95,10 +126,15 @@
       "powerKw": 57,
       "kwhPer100Km": 22.7,
       "rangeKm": 245,
-      "massKg": 1739
+      "massKg": 1739,
+      "group": "STELLANTIS",
+      "fiscalPower": 4,
+      "emptyWeightKg": 1664,
+      "urbanRangeKm": 346.1
     },
     {
       "id": "citroen-e-berlingo-xl-57kw-b9ff81",
+      "modelKey": "citroen-berlingo",
       "brand": "CITROEN",
       "model": "BERLINGO",
       "variant": "e-BERLINGO XL (57Kw)",
@@ -108,10 +144,15 @@
       "powerKw": 57,
       "kwhPer100Km": 22.7,
       "rangeKm": 245,
-      "massKg": 1813
+      "massKg": 1813,
+      "group": "STELLANTIS",
+      "fiscalPower": 4,
+      "emptyWeightKg": 1738,
+      "urbanRangeKm": 346.1
     },
     {
       "id": "citroen-e-c4-57kw-f5f7e8",
+      "modelKey": "citroen-c4",
       "brand": "CITROEN",
       "model": "C4",
       "variant": "e-C4 (57Kw)",
@@ -121,10 +162,15 @@
       "powerKw": 57,
       "kwhPer100Km": 16.67,
       "rangeKm": 324,
-      "massKg": 1636
+      "massKg": 1636,
+      "group": "STELLANTIS",
+      "fiscalPower": 4,
+      "emptyWeightKg": 1561,
+      "urbanRangeKm": 454.3
     },
     {
       "id": "citroen-e-c4-x-57kw-10b70d",
+      "modelKey": "citroen-c4-x",
       "brand": "CITROEN",
       "model": "C4 X",
       "variant": "e-C4 X (57Kw)",
@@ -134,10 +180,15 @@
       "powerKw": 57,
       "kwhPer100Km": 16.67,
       "rangeKm": 324,
-      "massKg": 1659
+      "massKg": 1659,
+      "group": "STELLANTIS",
+      "fiscalPower": 4,
+      "emptyWeightKg": 1584,
+      "urbanRangeKm": 454.3
     },
     {
       "id": "citroen-e-space-tourer-m-57kw-65b357",
+      "modelKey": "citroen-space-tourer",
       "brand": "CITROEN",
       "model": "SPACE TOURER",
       "variant": "e-SPACE TOURER M (57Kw)",
@@ -147,10 +198,15 @@
       "powerKw": 57,
       "kwhPer100Km": 29.49,
       "rangeKm": 285,
-      "massKg": 2131
+      "massKg": 2131,
+      "group": "STELLANTIS",
+      "fiscalPower": 4,
+      "emptyWeightKg": 2056,
+      "urbanRangeKm": 377
     },
     {
       "id": "citroen-e-space-tourer-xl-57kw-48af45",
+      "modelKey": "citroen-space-tourer",
       "brand": "CITROEN",
       "model": "SPACE TOURER",
       "variant": "e-SPACE TOURER XL (57Kw)",
@@ -160,10 +216,15 @@
       "powerKw": 57,
       "kwhPer100Km": 29.49,
       "rangeKm": 285,
-      "massKg": 2389
+      "massKg": 2389,
+      "group": "STELLANTIS",
+      "fiscalPower": 4,
+      "emptyWeightKg": 2314,
+      "urbanRangeKm": 377
     },
     {
       "id": "dacia-spring-19kw-7aed16",
+      "modelKey": "dacia-spring",
       "brand": "DACIA",
       "model": "SPRING",
       "variant": "SPRING (19Kw)",
@@ -173,10 +234,15 @@
       "powerKw": 18.6,
       "kwhPer100Km": 13.9,
       "rangeKm": 230,
-      "massKg": 1045
+      "massKg": 1045,
+      "group": "RENAULT",
+      "fiscalPower": 2,
+      "emptyWeightKg": 937,
+      "urbanRangeKm": 314
     },
     {
       "id": "ds-3-crossback-e-tense-57kw-22e9f3",
+      "modelKey": "ds-3-crossback",
       "brand": "DS",
       "model": "3 CROSSBACK",
       "variant": "3 CROSSBACK E-TENSE (57Kw)",
@@ -186,10 +252,15 @@
       "powerKw": 57,
       "kwhPer100Km": 17,
       "rangeKm": 311,
-      "massKg": 1598
+      "massKg": 1598,
+      "group": "STELLANTIS",
+      "fiscalPower": 4,
+      "emptyWeightKg": 1523,
+      "urbanRangeKm": 430.8
     },
     {
       "id": "ds-3-crossback-e-tense-57kw-ea03c8",
+      "modelKey": "ds-3-crossback",
       "brand": "DS",
       "model": "3 CROSSBACK",
       "variant": "3 CROSSBACK E-TENSE (57Kw)",
@@ -199,75 +270,105 @@
       "powerKw": 57,
       "kwhPer100Km": 16.67,
       "rangeKm": 324,
-      "massKg": 1598
+      "massKg": 1598,
+      "group": "STELLANTIS",
+      "fiscalPower": 4,
+      "emptyWeightKg": 1523,
+      "urbanRangeKm": 454.3
     },
     {
-      "id": "fiat-500e-3-1-a-lectrique-42-kwh-969c5c",
+      "id": "fiat-500e-3-1-electrique-42-kwh-06f6bf",
+      "modelKey": "fiat-500",
       "brand": "FIAT",
       "model": "500",
-      "variant": "500e 3+1 Ã©lectrique 42 kWh",
+      "variant": "500e 3+1 électrique 42 kWh",
       "bodyType": "BERLINE",
       "segment": "ECONOMIQUE",
       "priceEur": 32267,
       "powerKw": 43,
       "kwhPer100Km": 15.58,
       "rangeKm": 282,
-      "massKg": 1400
+      "massKg": 1400,
+      "group": "STELLANTIS",
+      "fiscalPower": 3,
+      "emptyWeightKg": 1325,
+      "urbanRangeKm": 401.9
     },
     {
-      "id": "fiat-500e-berline-a-lectrique-23-8-kwh-32c218",
+      "id": "fiat-500e-berline-electrique-23-8-kwh-788dc1",
+      "modelKey": "fiat-500",
       "brand": "FIAT",
       "model": "500",
-      "variant": "500e berline Ã©lectrique 23.8 kWh",
+      "variant": "500e berline électrique 23.8 kWh",
       "bodyType": "BERLINE",
       "segment": "ECONOMIQUE",
       "priceEur": 32700,
       "powerKw": 43,
       "kwhPer100Km": 13,
       "rangeKm": 189.6,
-      "massKg": 1255
+      "massKg": 1255,
+      "group": "STELLANTIS",
+      "fiscalPower": 3,
+      "emptyWeightKg": 1180,
+      "urbanRangeKm": 257.3
     },
     {
-      "id": "fiat-500e-berline-a-lectrique-42-kwh-858ddc",
+      "id": "fiat-500e-berline-electrique-42-kwh-b9aeab",
+      "modelKey": "fiat-500",
       "brand": "FIAT",
       "model": "500",
-      "variant": "500e berline Ã©lectrique 42 kWh",
+      "variant": "500e berline électrique 42 kWh",
       "bodyType": "BERLINE",
       "segment": "ECONOMIQUE",
       "priceEur": 34400,
       "powerKw": 43,
       "kwhPer100Km": 15.58,
       "rangeKm": 282,
-      "massKg": 1365
+      "massKg": 1365,
+      "group": "STELLANTIS",
+      "fiscalPower": 3,
+      "emptyWeightKg": 1290,
+      "urbanRangeKm": 401.9
     },
     {
-      "id": "fiat-500e-cabriolet-a-lectrique-23-8-kwh-e7eb43",
+      "id": "fiat-500e-cabriolet-electrique-23-8-kwh-c7aa2a",
+      "modelKey": "fiat-500",
       "brand": "FIAT",
       "model": "500",
-      "variant": "500e cabriolet Ã©lectrique 23.8 kWh",
+      "variant": "500e cabriolet électrique 23.8 kWh",
       "bodyType": "BERLINE",
       "segment": "ECONOMIQUE",
       "priceEur": 32267,
       "powerKw": 43,
       "kwhPer100Km": 13,
       "rangeKm": 189.6,
-      "massKg": 1281
+      "massKg": 1281,
+      "group": "STELLANTIS",
+      "fiscalPower": 3,
+      "emptyWeightKg": 1206,
+      "urbanRangeKm": 257.3
     },
     {
-      "id": "fiat-500e-cabriolet-a-lectrique-42-kwh-d87d9e",
+      "id": "fiat-500e-cabriolet-electrique-42-kwh-7687f8",
+      "modelKey": "fiat-500",
       "brand": "FIAT",
       "model": "500",
-      "variant": "500e cabriolet Ã©lectrique 42 kWh",
+      "variant": "500e cabriolet électrique 42 kWh",
       "bodyType": "BERLINE",
       "segment": "ECONOMIQUE",
       "priceEur": 32267,
       "powerKw": 43,
       "kwhPer100Km": 15.58,
       "rangeKm": 282,
-      "massKg": 1405
+      "massKg": 1405,
+      "group": "STELLANTIS",
+      "fiscalPower": 3,
+      "emptyWeightKg": 1330,
+      "urbanRangeKm": 401.9
     },
     {
       "id": "honda-e-60kw-0264ad",
+      "modelKey": "honda-e",
       "brand": "HONDA",
       "model": "E",
       "variant": "E (60Kw)",
@@ -277,10 +378,15 @@
       "powerKw": 60,
       "kwhPer100Km": 17.19,
       "rangeKm": 222,
-      "massKg": 1602
+      "massKg": 1602,
+      "group": "AUTRES",
+      "fiscalPower": 4,
+      "emptyWeightKg": 1520,
+      "urbanRangeKm": 312.8
     },
     {
       "id": "honda-e-60kw-c2826b",
+      "modelKey": "honda-e",
       "brand": "HONDA",
       "model": "E",
       "variant": "E (60Kw)",
@@ -290,140 +396,195 @@
       "powerKw": 60,
       "kwhPer100Km": 18.64,
       "rangeKm": 199.3,
-      "massKg": 1618
+      "massKg": 1618,
+      "group": "AUTRES",
+      "fiscalPower": 4,
+      "emptyWeightKg": 1520,
+      "urbanRangeKm": 267.6
     },
     {
-      "id": "kia-e-niro-moteur-a-lectrique-136ch-7414eb",
+      "id": "kia-e-niro-moteur-electrique-136ch-add308",
+      "modelKey": "kia-niro",
       "brand": "KIA",
       "model": "NIRO",
-      "variant": "e-NIRO Moteur Ã©lectrique (136ch)",
+      "variant": "e-NIRO Moteur électrique (136ch)",
       "bodyType": "TS TERRAINS/CHEMINS",
       "segment": "MOYENNE INFERIEURE",
       "priceEur": 39890,
       "powerKw": 27.3,
       "kwhPer100Km": 15.3,
       "rangeKm": 289,
-      "massKg": 1667
+      "massKg": 1667,
+      "group": "HYUNDAI",
+      "fiscalPower": 3,
+      "emptyWeightKg": 1592,
+      "urbanRangeKm": 405
     },
     {
-      "id": "kia-e-niro-moteur-a-lectrique-204ch-b62e9f",
+      "id": "kia-e-niro-moteur-electrique-204ch-3b621d",
+      "modelKey": "kia-niro",
       "brand": "KIA",
       "model": "NIRO",
-      "variant": "e-NIRO Moteur Ã©lectrique (204ch)",
+      "variant": "e-NIRO Moteur électrique (204ch)",
       "bodyType": "TS TERRAINS/CHEMINS",
       "segment": "MOYENNE INFERIEURE",
       "priceEur": 46323,
       "powerKw": 29,
       "kwhPer100Km": 15.9,
       "rangeKm": 455,
-      "massKg": 1812
+      "massKg": 1812,
+      "group": "HYUNDAI",
+      "fiscalPower": 3,
+      "emptyWeightKg": 1737,
+      "urbanRangeKm": 615
     },
     {
-      "id": "kia-e-soul-moteur-a-lectrique-204ch-800ee5",
+      "id": "kia-e-soul-moteur-electrique-204ch-f379af",
+      "modelKey": "kia-soul",
       "brand": "KIA",
       "model": "SOUL",
-      "variant": "e-Soul Moteur Ã©lectrique (204ch)",
+      "variant": "e-Soul Moteur électrique (204ch)",
       "bodyType": "MINISPACE",
       "segment": "INFERIEURE",
       "priceEur": 40947,
       "powerKw": 29,
       "kwhPer100Km": 15.7,
       "rangeKm": 452,
-      "massKg": 1757
+      "massKg": 1757,
+      "group": "HYUNDAI",
+      "fiscalPower": 3,
+      "emptyWeightKg": 1682,
+      "urbanRangeKm": 648
     },
     {
-      "id": "kia-ev6-moteur-a-lectrique-125kw-170ch-1815b8",
+      "id": "kia-ev6-moteur-electrique-125kw-170ch-97b75b",
+      "modelKey": "kia-ev6",
       "brand": "KIA",
       "model": "EV6",
-      "variant": "EV6 Moteur Ã©lectrique 125kW (170ch)",
+      "variant": "EV6 Moteur électrique 125kW (170ch)",
       "bodyType": "TS TERRAINS/CHEMINS",
       "segment": "MOYENNE SUPERIEURE",
       "priceEur": 51857,
       "powerKw": 42,
       "kwhPer100Km": 16.6,
       "rangeKm": 394,
-      "massKg": 1875
+      "massKg": 1875,
+      "group": "HYUNDAI",
+      "fiscalPower": 3,
+      "emptyWeightKg": 1800,
+      "urbanRangeKm": 578
     },
     {
-      "id": "kia-ev6-moteur-a-lectrique-168kw-229ch-e9b402",
+      "id": "kia-ev6-moteur-electrique-168kw-229ch-1c432f",
+      "modelKey": "kia-ev6",
       "brand": "KIA",
       "model": "EV6",
-      "variant": "EV6 Moteur Ã©lectrique 168kW (229ch)",
+      "variant": "EV6 Moteur électrique 168kW (229ch)",
       "bodyType": "TS TERRAINS/CHEMINS",
       "segment": "MOYENNE SUPERIEURE",
       "priceEur": 56130,
       "powerKw": 56,
       "kwhPer100Km": 16.5,
       "rangeKm": 528,
-      "massKg": 1985
+      "massKg": 1985,
+      "group": "HYUNDAI",
+      "fiscalPower": 4,
+      "emptyWeightKg": 1910,
+      "urbanRangeKm": 740
     },
     {
-      "id": "kia-ev6-moteur-a-lectrique-168kw-229ch-pack-style-1496a6",
+      "id": "kia-ev6-moteur-electrique-168kw-229ch-pack-style-ea3e62",
+      "modelKey": "kia-ev6",
       "brand": "KIA",
       "model": "EV6",
-      "variant": "EV6 Moteur Ã©lectrique 168kW (229ch) - Pack Style",
+      "variant": "EV6 Moteur électrique 168kW (229ch) - Pack Style",
       "bodyType": "TS TERRAINS/CHEMINS",
       "segment": "MOYENNE SUPERIEURE",
       "priceEur": 56130,
       "powerKw": 56,
       "kwhPer100Km": 17.2,
       "rangeKm": 504,
-      "massKg": 1985
+      "massKg": 1985,
+      "group": "HYUNDAI",
+      "fiscalPower": 4,
+      "emptyWeightKg": 1910,
+      "urbanRangeKm": 687
     },
     {
-      "id": "kia-ev6-moteur-a-lectrique-239kw-325ch-ca6d71",
+      "id": "kia-ev6-moteur-electrique-239kw-325ch-0bf87b",
+      "modelKey": "kia-ev6",
       "brand": "KIA",
       "model": "EV6",
-      "variant": "EV6 Moteur Ã©lectrique 239kW (325ch)",
+      "variant": "EV6 Moteur électrique 239kW (325ch)",
       "bodyType": "TS TERRAINS/CHEMINS",
       "segment": "MOYENNE SUPERIEURE",
       "priceEur": 60130,
       "powerKw": 81,
       "kwhPer100Km": 17.2,
       "rangeKm": 506,
-      "massKg": 2090
+      "massKg": 2090,
+      "group": "HYUNDAI",
+      "fiscalPower": 6,
+      "emptyWeightKg": 2015,
+      "urbanRangeKm": 670
     },
     {
-      "id": "kia-ev6-moteur-a-lectrique-239kw-325ch-pack-style-6c1176",
+      "id": "kia-ev6-moteur-electrique-239kw-325ch-pack-style-2d1d50",
+      "modelKey": "kia-ev6",
       "brand": "KIA",
       "model": "EV6",
-      "variant": "EV6 Moteur Ã©lectrique 239kW (325ch) - Pack Style",
+      "variant": "EV6 Moteur électrique 239kW (325ch) - Pack Style",
       "bodyType": "TS TERRAINS/CHEMINS",
       "segment": "MOYENNE SUPERIEURE",
       "priceEur": 60130,
       "powerKw": 81,
       "kwhPer100Km": 18,
       "rangeKm": 484,
-      "massKg": 2090
+      "massKg": 2090,
+      "group": "HYUNDAI",
+      "fiscalPower": 6,
+      "emptyWeightKg": 2015,
+      "urbanRangeKm": 630
     },
     {
-      "id": "kia-ev6-moteur-a-lectrique-430kw-585ch-e042cb",
+      "id": "kia-ev6-moteur-electrique-430kw-585ch-cc847c",
+      "modelKey": "kia-ev6",
       "brand": "KIA",
       "model": "EV6",
-      "variant": "EV6 Moteur Ã©lectrique 430kW (585ch)",
+      "variant": "EV6 Moteur électrique 430kW (585ch)",
       "bodyType": "TS TERRAINS/CHEMINS",
       "segment": "MOYENNE SUPERIEURE",
       "priceEur": 67690,
       "powerKw": 143,
       "kwhPer100Km": 20.6,
       "rangeKm": 424,
-      "massKg": 2200
+      "massKg": 2200,
+      "group": "HYUNDAI",
+      "fiscalPower": 11,
+      "emptyWeightKg": 2125,
+      "urbanRangeKm": 546
     },
     {
-      "id": "kia-niro-ev-moteur-a-lectrique-204ch-604948",
+      "id": "kia-niro-ev-moteur-electrique-204ch-66564e",
+      "modelKey": "kia-niro",
       "brand": "KIA",
       "model": "NIRO",
-      "variant": "Niro EV Moteur Ã©lectrique (204ch)",
+      "variant": "Niro EV Moteur électrique (204ch)",
       "bodyType": "TS TERRAINS/CHEMINS",
       "segment": "MOYENNE INFERIEURE",
       "priceEur": 46990,
       "powerKw": 50,
       "kwhPer100Km": 16.2,
       "rangeKm": 460,
-      "massKg": 1757
+      "massKg": 1757,
+      "group": "HYUNDAI",
+      "fiscalPower": 4,
+      "emptyWeightKg": 1682,
+      "urbanRangeKm": 604
     },
     {
       "id": "m-g-marvel-r-2wd-fa2571",
+      "modelKey": "m-g-marvel",
       "brand": "M.G.",
       "model": "MARVEL",
       "variant": "MARVEL R 2WD",
@@ -433,10 +594,15 @@
       "powerKw": 65,
       "kwhPer100Km": 19.41,
       "rangeKm": 402,
-      "massKg": 1885
+      "massKg": 1885,
+      "group": "AUTRES",
+      "fiscalPower": 5,
+      "emptyWeightKg": 1810,
+      "urbanRangeKm": 526
     },
     {
       "id": "m-g-marvel-r-4wd-6435b5",
+      "modelKey": "m-g-marvel",
       "brand": "M.G.",
       "model": "MARVEL",
       "variant": "MARVEL R 4WD",
@@ -446,10 +612,15 @@
       "powerKw": 105,
       "kwhPer100Km": 20.9,
       "rangeKm": 370,
-      "massKg": 1995
+      "massKg": 1995,
+      "group": "AUTRES",
+      "fiscalPower": 7,
+      "emptyWeightKg": 1920,
+      "urbanRangeKm": 469
     },
     {
       "id": "mazda-mx-30-e-skyactiv-145ch-433696",
+      "modelKey": "mazda-mx-30",
       "brand": "MAZDA",
       "model": "MX-30",
       "variant": "MX-30 e-SKYACTIV (145ch)",
@@ -459,10 +630,15 @@
       "powerKw": 80.9,
       "kwhPer100Km": 17.9,
       "rangeKm": 200,
-      "massKg": 1720
+      "massKg": 1720,
+      "group": "AUTRES",
+      "fiscalPower": 6,
+      "emptyWeightKg": 1645,
+      "urbanRangeKm": 265
     },
     {
       "id": "mercedes-eqa-250-9afe47",
+      "modelKey": "mercedes-eqa-250",
       "brand": "MERCEDES",
       "model": "EQA 250",
       "variant": "EQA 250+",
@@ -472,10 +648,15 @@
       "powerKw": 95,
       "kwhPer100Km": 19.6,
       "rangeKm": 409,
-      "massKg": 2045
+      "massKg": 2045,
+      "group": "AUTRES",
+      "fiscalPower": 7,
+      "emptyWeightKg": 1970,
+      "urbanRangeKm": 530.3
     },
     {
       "id": "mercedes-eqa-350-4matic-3587d5",
+      "modelKey": "mercedes-eqa-350",
       "brand": "MERCEDES",
       "model": "EQA 350",
       "variant": "EQA 350 4MATIC",
@@ -485,10 +666,15 @@
       "powerKw": 139,
       "kwhPer100Km": 21,
       "rangeKm": 360,
-      "massKg": 2105
+      "massKg": 2105,
+      "group": "AUTRES",
+      "fiscalPower": 10,
+      "emptyWeightKg": 2030,
+      "urbanRangeKm": 436.1
     },
     {
       "id": "mercedes-eqb-350-4matic-49ede8",
+      "modelKey": "mercedes-eqb-350",
       "brand": "MERCEDES",
       "model": "EQB 350",
       "variant": "EQB 350 4MATIC",
@@ -498,10 +684,15 @@
       "powerKw": 139,
       "kwhPer100Km": 21,
       "rangeKm": 360,
-      "massKg": 2175
+      "massKg": 2175,
+      "group": "AUTRES",
+      "fiscalPower": 10,
+      "emptyWeightKg": 2100,
+      "urbanRangeKm": 436.1
     },
     {
       "id": "mini-mini-cooper-se-hatch-3p-f56-e3e685",
+      "modelKey": "mini-mini",
       "brand": "MINI",
       "model": "MINI",
       "variant": "MINI Cooper SE Hatch 3P (F56)",
@@ -511,36 +702,51 @@
       "powerKw": 75,
       "kwhPer100Km": 18.1,
       "rangeKm": 196,
-      "massKg": 1440
+      "massKg": 1440,
+      "group": "B.M.W.",
+      "fiscalPower": 5,
+      "emptyWeightKg": 1365,
+      "urbanRangeKm": 254.4
     },
     {
-      "id": "nissan-63kwha-engagea-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-3e50d5",
+      "id": "nissan-63kwh-engage-cfb76d",
+      "modelKey": "nissan-ariya",
       "brand": "NISSAN",
       "model": "ARIYA",
-      "variant": "63kWhÂ  ENGAGEÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â",
+      "variant": "63kWh ENGAGE",
       "bodyType": "TS TERRAINS/CHEMINS",
       "segment": "LUXE",
       "priceEur": 53100,
       "powerKw": 45,
       "kwhPer100Km": 17.1,
       "rangeKm": 414,
-      "massKg": 1980
+      "massKg": 1980,
+      "group": "NISSAN",
+      "fiscalPower": 3,
+      "emptyWeightKg": 1905,
+      "urbanRangeKm": 523
     },
     {
-      "id": "nissan-87kwha-engagea-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-fba059",
+      "id": "nissan-87kwh-engage-1edd2f",
+      "modelKey": "nissan-ariya",
       "brand": "NISSAN",
       "model": "ARIYA",
-      "variant": "87kWhÂ ENGAGEÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â",
+      "variant": "87kWh ENGAGE",
       "bodyType": "TS TERRAINS/CHEMINS",
       "segment": "LUXE",
       "priceEur": 53100,
       "powerKw": 45,
       "kwhPer100Km": 17.3,
       "rangeKm": 544,
-      "massKg": 2121
+      "massKg": 2121,
+      "group": "NISSAN",
+      "fiscalPower": 3,
+      "emptyWeightKg": 2046,
+      "urbanRangeKm": 683
     },
     {
       "id": "nissan-leaf-40kwh-d925b9",
+      "modelKey": "nissan-leaf",
       "brand": "NISSAN",
       "model": "LEAF",
       "variant": "LEAF 40kWh",
@@ -550,10 +756,15 @@
       "powerKw": 90,
       "kwhPer100Km": 15.3,
       "rangeKm": 287,
-      "massKg": 1580
+      "massKg": 1580,
+      "group": "NISSAN",
+      "fiscalPower": 6,
+      "emptyWeightKg": 1505,
+      "urbanRangeKm": 397
     },
     {
       "id": "nissan-leaf-62kwh-5a8eb7",
+      "modelKey": "nissan-leaf",
       "brand": "NISSAN",
       "model": "LEAF",
       "variant": "LEAF 62kWh",
@@ -563,10 +774,15 @@
       "powerKw": 90,
       "kwhPer100Km": 16,
       "rangeKm": 410,
-      "massKg": 1756
+      "massKg": 1756,
+      "group": "NISSAN",
+      "fiscalPower": 6,
+      "emptyWeightKg": 1681,
+      "urbanRangeKm": 558
     },
     {
       "id": "opel-corsa-e-57kw-1d60e5",
+      "modelKey": "opel-corsa",
       "brand": "OPEL",
       "model": "CORSA",
       "variant": "CORSA-E (57Kw)",
@@ -576,10 +792,15 @@
       "powerKw": 57,
       "kwhPer100Km": 17.25,
       "rangeKm": 331,
-      "massKg": 1530
+      "massKg": 1530,
+      "group": "STELLANTIS",
+      "fiscalPower": 4,
+      "emptyWeightKg": 1455,
+      "urbanRangeKm": 445.6
     },
     {
       "id": "opel-corsa-e-57kw-9c39db",
+      "modelKey": "opel-corsa",
       "brand": "OPEL",
       "model": "CORSA",
       "variant": "CORSA-E (57Kw)",
@@ -589,10 +810,15 @@
       "powerKw": 57,
       "kwhPer100Km": 16.15,
       "rangeKm": 346,
-      "massKg": 1530
+      "massKg": 1530,
+      "group": "STELLANTIS",
+      "fiscalPower": 4,
+      "emptyWeightKg": 1455,
+      "urbanRangeKm": 475.7
     },
     {
       "id": "opel-mokka-e-57kw-ad3f60",
+      "modelKey": "opel-mokka",
       "brand": "OPEL",
       "model": "MOKKA",
       "variant": "MOKKA-E (57Kw)",
@@ -602,10 +828,15 @@
       "powerKw": 57,
       "kwhPer100Km": 17,
       "rangeKm": 311,
-      "massKg": 1598
+      "massKg": 1598,
+      "group": "STELLANTIS",
+      "fiscalPower": 4,
+      "emptyWeightKg": 1523,
+      "urbanRangeKm": 425.7
     },
     {
       "id": "opel-mokka-e-57kw-efc5aa",
+      "modelKey": "opel-mokka",
       "brand": "OPEL",
       "model": "MOKKA",
       "variant": "MOKKA-E (57Kw)",
@@ -615,10 +846,15 @@
       "powerKw": 57,
       "kwhPer100Km": 16.67,
       "rangeKm": 324,
-      "massKg": 1598
+      "massKg": 1598,
+      "group": "STELLANTIS",
+      "fiscalPower": 4,
+      "emptyWeightKg": 1523,
+      "urbanRangeKm": 448
     },
     {
       "id": "peugeot-e-2008-57kw-5154b3",
+      "modelKey": "peugeot-2008",
       "brand": "PEUGEOT",
       "model": "2008",
       "variant": "e-2008 (57Kw)",
@@ -628,10 +864,15 @@
       "powerKw": 57,
       "kwhPer100Km": 16.67,
       "rangeKm": 324,
-      "massKg": 1623
+      "massKg": 1623,
+      "group": "AUTRES",
+      "fiscalPower": 4,
+      "emptyWeightKg": 1548,
+      "urbanRangeKm": 448
     },
     {
       "id": "peugeot-e-2008-57kw-7e4e1c",
+      "modelKey": "peugeot-2008",
       "brand": "PEUGEOT",
       "model": "2008",
       "variant": "e-2008 (57Kw)",
@@ -641,10 +882,15 @@
       "powerKw": 57,
       "kwhPer100Km": 17,
       "rangeKm": 311,
-      "massKg": 1623
+      "massKg": 1623,
+      "group": "AUTRES",
+      "fiscalPower": 4,
+      "emptyWeightKg": 1548,
+      "urbanRangeKm": 425.7
     },
     {
       "id": "peugeot-e-208-57kw-4dcc49",
+      "modelKey": "peugeot-208",
       "brand": "PEUGEOT",
       "model": "208",
       "variant": "e-208 (57Kw)",
@@ -654,10 +900,15 @@
       "powerKw": 57,
       "kwhPer100Km": 16.15,
       "rangeKm": 346,
-      "massKg": 1530
+      "massKg": 1530,
+      "group": "AUTRES",
+      "fiscalPower": 4,
+      "emptyWeightKg": 1455,
+      "urbanRangeKm": 475.7
     },
     {
       "id": "peugeot-e-208-57kw-d908e5",
+      "modelKey": "peugeot-208",
       "brand": "PEUGEOT",
       "model": "208",
       "variant": "e-208 (57Kw)",
@@ -667,10 +918,15 @@
       "powerKw": 57,
       "kwhPer100Km": 17.25,
       "rangeKm": 331,
-      "massKg": 1530
+      "massKg": 1530,
+      "group": "AUTRES",
+      "fiscalPower": 4,
+      "emptyWeightKg": 1455,
+      "urbanRangeKm": 445.6
     },
     {
       "id": "peugeot-e-rifter-standard-57kw-f40b79",
+      "modelKey": "peugeot-rifter",
       "brand": "PEUGEOT",
       "model": "RIFTER",
       "variant": "e-RIFTER Standard (57Kw)",
@@ -680,10 +936,15 @@
       "powerKw": 57,
       "kwhPer100Km": 22.7,
       "rangeKm": 245,
-      "massKg": 1765
+      "massKg": 1765,
+      "group": "AUTRES",
+      "fiscalPower": 4,
+      "emptyWeightKg": 1690,
+      "urbanRangeKm": 346.1
     },
     {
       "id": "peugeot-e-traveller-long-57kw-1d14d0",
+      "modelKey": "peugeot-traveller",
       "brand": "PEUGEOT",
       "model": "TRAVELLER",
       "variant": "e-TRAVELLER Long (57Kw)",
@@ -693,10 +954,15 @@
       "powerKw": 57,
       "kwhPer100Km": 29.49,
       "rangeKm": 285,
-      "massKg": 2167
+      "massKg": 2167,
+      "group": "AUTRES",
+      "fiscalPower": 4,
+      "emptyWeightKg": 2092,
+      "urbanRangeKm": 377
     },
     {
       "id": "peugeot-e-traveller-standard-57kw-96b038",
+      "modelKey": "peugeot-traveller",
       "brand": "PEUGEOT",
       "model": "TRAVELLER",
       "variant": "e-TRAVELLER Standard (57Kw)",
@@ -706,10 +972,15 @@
       "powerKw": 57,
       "kwhPer100Km": 29.49,
       "rangeKm": 285,
-      "massKg": 2140
+      "massKg": 2140,
+      "group": "AUTRES",
+      "fiscalPower": 4,
+      "emptyWeightKg": 2065,
+      "urbanRangeKm": 377
     },
     {
       "id": "porsche-taycan-4-cross-turismo-dbabc9",
+      "modelKey": "porsche-taycan",
       "brand": "PORSCHE",
       "model": "TAYCAN",
       "variant": "TAYCAN 4 CROSS TURISMO",
@@ -719,10 +990,15 @@
       "powerKw": 140,
       "kwhPer100Km": 27.5,
       "rangeKm": 371,
-      "massKg": 2320
+      "massKg": 2320,
+      "group": "VGF",
+      "fiscalPower": 10,
+      "emptyWeightKg": 2245,
+      "urbanRangeKm": 453
     },
     {
       "id": "porsche-taycan-4s-cross-turismo-c67923",
+      "modelKey": "porsche-taycan",
       "brand": "PORSCHE",
       "model": "TAYCAN",
       "variant": "TAYCAN 4S CROSS TURISMO",
@@ -732,10 +1008,15 @@
       "powerKw": 140,
       "kwhPer100Km": 27.4,
       "rangeKm": 371,
-      "massKg": 2320
+      "massKg": 2320,
+      "group": "VGF",
+      "fiscalPower": 10,
+      "emptyWeightKg": 2245,
+      "urbanRangeKm": 455
     },
     {
       "id": "porsche-taycan-4s-e898bc",
+      "modelKey": "porsche-taycan",
       "brand": "PORSCHE",
       "model": "TAYCAN",
       "variant": "TAYCAN 4S",
@@ -745,10 +1026,15 @@
       "powerKw": 140,
       "kwhPer100Km": 27,
       "rangeKm": 370,
-      "massKg": 2295
+      "massKg": 2295,
+      "group": "VGF",
+      "fiscalPower": 10,
+      "emptyWeightKg": 2220,
+      "urbanRangeKm": 422
     },
     {
       "id": "porsche-taycan-4s-sport-turismo-5200d9",
+      "modelKey": "porsche-taycan",
       "brand": "PORSCHE",
       "model": "TAYCAN",
       "variant": "TAYCAN 4S SPORT TURISMO",
@@ -758,10 +1044,15 @@
       "powerKw": 140,
       "kwhPer100Km": 25.3,
       "rangeKm": 404,
-      "massKg": 2325
+      "massKg": 2325,
+      "group": "VGF",
+      "fiscalPower": 10,
+      "emptyWeightKg": 2250,
+      "urbanRangeKm": 510
     },
     {
       "id": "porsche-taycan-4s-sport-turismo-5a51f3",
+      "modelKey": "porsche-taycan",
       "brand": "PORSCHE",
       "model": "TAYCAN",
       "variant": "TAYCAN 4S SPORT TURISMO",
@@ -771,10 +1062,15 @@
       "powerKw": 113,
       "kwhPer100Km": 25.1,
       "rangeKm": 347,
-      "massKg": 2245
+      "massKg": 2245,
+      "group": "VGF",
+      "fiscalPower": 8,
+      "emptyWeightKg": 2170,
+      "urbanRangeKm": 444
     },
     {
       "id": "porsche-taycan-ab4665",
+      "modelKey": "porsche-taycan",
       "brand": "PORSCHE",
       "model": "TAYCAN",
       "variant": "TAYCAN",
@@ -784,10 +1080,15 @@
       "powerKw": 120,
       "kwhPer100Km": 26,
       "rangeKm": 394,
-      "massKg": 2205
+      "massKg": 2205,
+      "group": "VGF",
+      "fiscalPower": 9,
+      "emptyWeightKg": 2130,
+      "urbanRangeKm": 456
     },
     {
       "id": "porsche-taycan-gts-2693a4",
+      "modelKey": "porsche-taycan",
       "brand": "PORSCHE",
       "model": "TAYCAN",
       "variant": "TAYCAN GTS",
@@ -797,10 +1098,15 @@
       "powerKw": 142,
       "kwhPer100Km": 24.3,
       "rangeKm": 418,
-      "massKg": 2370
+      "massKg": 2370,
+      "group": "VGF",
+      "fiscalPower": 10,
+      "emptyWeightKg": 2295,
+      "urbanRangeKm": 518
     },
     {
       "id": "porsche-taycan-sport-turismo-ec4e83",
+      "modelKey": "porsche-taycan",
       "brand": "PORSCHE",
       "model": "TAYCAN",
       "variant": "TAYCAN SPORT TURISMO",
@@ -810,10 +1116,15 @@
       "powerKw": 120,
       "kwhPer100Km": 24.9,
       "rangeKm": 410,
-      "massKg": 2235
+      "massKg": 2235,
+      "group": "VGF",
+      "fiscalPower": 9,
+      "emptyWeightKg": 2160,
+      "urbanRangeKm": 491
     },
     {
       "id": "porsche-taycan-turbo-cross-turismo-ccd698",
+      "modelKey": "porsche-taycan",
       "brand": "PORSCHE",
       "model": "TAYCAN",
       "variant": "TAYCAN TURBO CROSS TURISMO",
@@ -823,10 +1134,15 @@
       "powerKw": 142,
       "kwhPer100Km": 26.8,
       "rangeKm": 379,
-      "massKg": 2395
+      "massKg": 2395,
+      "group": "VGF",
+      "fiscalPower": 10,
+      "emptyWeightKg": 2320,
+      "urbanRangeKm": 428
     },
     {
       "id": "porsche-taycan-turbo-s-bf2d43",
+      "modelKey": "porsche-taycan",
       "brand": "PORSCHE",
       "model": "TAYCAN",
       "variant": "TAYCAN TURBO S",
@@ -836,10 +1152,15 @@
       "powerKw": 142,
       "kwhPer100Km": 26.3,
       "rangeKm": 375,
-      "massKg": 2370
+      "massKg": 2370,
+      "group": "VGF",
+      "fiscalPower": 10,
+      "emptyWeightKg": 2295,
+      "urbanRangeKm": 420
     },
     {
       "id": "porsche-taycan-turbo-s-cross-turismo-2cce67",
+      "modelKey": "porsche-taycan",
       "brand": "PORSCHE",
       "model": "TAYCAN",
       "variant": "TAYCAN TURBO S CROSS TURISMO",
@@ -849,10 +1170,15 @@
       "powerKw": 142,
       "kwhPer100Km": 27.4,
       "rangeKm": 372,
-      "massKg": 2395
+      "massKg": 2395,
+      "group": "VGF",
+      "fiscalPower": 10,
+      "emptyWeightKg": 2320,
+      "urbanRangeKm": 452
     },
     {
       "id": "porsche-taycan-turbo-s-sport-turismo-123deb",
+      "modelKey": "porsche-taycan",
       "brand": "PORSCHE",
       "model": "TAYCAN",
       "variant": "TAYCAN TURBO S SPORT TURISMO",
@@ -862,10 +1188,15 @@
       "powerKw": 142,
       "kwhPer100Km": 24.5,
       "rangeKm": 420,
-      "massKg": 2400
+      "massKg": 2400,
+      "group": "VGF",
+      "fiscalPower": 10,
+      "emptyWeightKg": 2325,
+      "urbanRangeKm": 512
     },
     {
       "id": "renault-megane-55kw-4663a9",
+      "modelKey": "renault-megane",
       "brand": "RENAULT",
       "model": "MEGANE",
       "variant": "MEGANE (55Kw)",
@@ -875,10 +1206,15 @@
       "powerKw": 55,
       "kwhPer100Km": 17.27,
       "rangeKm": 395,
-      "massKg": 1700
+      "massKg": 1700,
+      "group": "RENAULT",
+      "fiscalPower": 4,
+      "emptyWeightKg": 1625,
+      "urbanRangeKm": 495.2
     },
     {
       "id": "renault-megane-55kw-8c046d",
+      "modelKey": "renault-megane",
       "brand": "RENAULT",
       "model": "MEGANE",
       "variant": "MEGANE (55Kw)",
@@ -888,10 +1224,15 @@
       "powerKw": 55,
       "kwhPer100Km": 17.27,
       "rangeKm": 273,
-      "massKg": 1588
+      "massKg": 1588,
+      "group": "RENAULT",
+      "fiscalPower": 4,
+      "emptyWeightKg": 1513,
+      "urbanRangeKm": 369.5
     },
     {
       "id": "renault-megane-55kw-cadd7c",
+      "modelKey": "renault-megane",
       "brand": "RENAULT",
       "model": "MEGANE",
       "variant": "MEGANE (55Kw)",
@@ -901,10 +1242,15 @@
       "powerKw": 55,
       "kwhPer100Km": 17.27,
       "rangeKm": 395,
-      "massKg": 1699
+      "massKg": 1699,
+      "group": "RENAULT",
+      "fiscalPower": 4,
+      "emptyWeightKg": 1624,
+      "urbanRangeKm": 495.2
     },
     {
       "id": "renault-megane-55kw-d92433",
+      "modelKey": "renault-megane",
       "brand": "RENAULT",
       "model": "MEGANE",
       "variant": "MEGANE (55Kw)",
@@ -914,10 +1260,15 @@
       "powerKw": 55,
       "kwhPer100Km": 17.27,
       "rangeKm": 395,
-      "massKg": 1711
+      "massKg": 1711,
+      "group": "RENAULT",
+      "fiscalPower": 4,
+      "emptyWeightKg": 1636,
+      "urbanRangeKm": 495.2
     },
     {
       "id": "renault-twingo-31kw-123550",
+      "modelKey": "renault-twingo",
       "brand": "RENAULT",
       "model": "TWINGO",
       "variant": "TWINGO (31Kw)",
@@ -927,10 +1278,15 @@
       "powerKw": 31,
       "kwhPer100Km": 15.59,
       "rangeKm": 178,
-      "massKg": 1186
+      "massKg": 1186,
+      "group": "RENAULT",
+      "fiscalPower": 3,
+      "emptyWeightKg": 1111,
+      "urbanRangeKm": 250.5
     },
     {
       "id": "renault-zoe-51kw-8fcef4",
+      "modelKey": "renault-zoe",
       "brand": "RENAULT",
       "model": "ZOE",
       "variant": "ZOE (51Kw)",
@@ -940,10 +1296,15 @@
       "powerKw": 51,
       "kwhPer100Km": 18.99,
       "rangeKm": 342,
-      "massKg": 1577
+      "massKg": 1577,
+      "group": "RENAULT",
+      "fiscalPower": 4,
+      "emptyWeightKg": 1502,
+      "urbanRangeKm": 465.8
     },
     {
       "id": "subaru-ev-160-kw-awd-luxury-my23-8c7c11",
+      "modelKey": "subaru-solterra",
       "brand": "SUBARU",
       "model": "SOLTERRA",
       "variant": "EV 160 kW AWD LUXURY (MY23)",
@@ -953,10 +1314,15 @@
       "powerKw": 118,
       "kwhPer100Km": 18.11,
       "rangeKm": 411,
-      "massKg": 2110
+      "massKg": 2110,
+      "group": "AUTRES",
+      "fiscalPower": 8,
+      "emptyWeightKg": 2035,
+      "urbanRangeKm": 542.3
     },
     {
       "id": "tesla-model-3-153kw-487861",
+      "modelKey": "tesla-model-3",
       "brand": "TESLA",
       "model": "MODEL 3",
       "variant": "MODEL 3 (153Kw)",
@@ -966,10 +1332,15 @@
       "powerKw": 153,
       "kwhPer100Km": 14.7,
       "rangeKm": 602,
-      "massKg": 1919
+      "massKg": 1919,
+      "group": "AUTRES",
+      "fiscalPower": 11,
+      "emptyWeightKg": 1844,
+      "urbanRangeKm": 727
     },
     {
       "id": "tesla-model-3-88kw-01dd8d",
+      "modelKey": "tesla-model-3",
       "brand": "TESLA",
       "model": "MODEL 3",
       "variant": "MODEL 3 (88Kw)",
@@ -979,7 +1350,11 @@
       "powerKw": 88,
       "kwhPer100Km": 14.4,
       "rangeKm": 491,
-      "massKg": 1835
+      "massKg": 1835,
+      "group": "AUTRES",
+      "fiscalPower": 6,
+      "emptyWeightKg": 1760,
+      "urbanRangeKm": 603
     }
   ]
 }
