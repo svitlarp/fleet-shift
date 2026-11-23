@@ -1,6 +1,6 @@
 import {
   assumptionsSchema,
-  DEFAULT_ASSUMPTIONS,
+  defaultAssumptionsForFleet,
   fleetVehicleSchema,
   normalizeFleetRow,
   validateFleet,
@@ -40,7 +40,7 @@ export const fleetsPlugin: FastifyPluginCallbackZod<FleetsOptions> = (
     const fleet = await repository.createFleet(
       name,
       vehicles,
-      DEFAULT_ASSUMPTIONS,
+      defaultAssumptionsForFleet(vehicles),
     );
     return { fleet, warnings };
   };

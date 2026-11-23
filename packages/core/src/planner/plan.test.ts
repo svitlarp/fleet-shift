@@ -109,4 +109,42 @@ describe("buildPlan", () => {
       )?.decision,
     ).toBe("not_profitable");
   });
+
+  it("accepts a long shot only in risky mode", () => {
+    const longShot = candidate("shot", {
+      savings: {
+        medianEur: -200,
+        p10Eur: -900,
+        p90Eur: 700,
+        paybackShare: 0.4,
+        cvar10Eur: -1100,
+      },
+    });
+    const decide = (riskMode: "cautious" | "balanced" | "risky") =>
+      decisionOf(
+        buildPlan([longShot], assumptionsFixture({ riskMode })),
+        "shot",
+      )?.decision;
+    expect(decide("cautious")).toBe("not_profitable");
+    expect(decide("balanced")).toBe("not_profitable");
+    expect(decide("risky")).toBe("replace");
+  });
+
+  it("still rejects risky picks below the payback floor", () => {
+    const poor = candidate("poor", {
+      savings: {
+        medianEur: -500,
+        p10Eur: -900,
+        p90Eur: 50,
+        paybackShare: 0.2,
+        cvar10Eur: -1100,
+      },
+    });
+    expect(
+      decisionOf(
+        buildPlan([poor], assumptionsFixture({ riskMode: "risky" })),
+        "poor",
+      )?.decision,
+    ).toBe("not_profitable");
+  });
 });

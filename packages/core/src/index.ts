@@ -2,6 +2,7 @@ export * from "./analysis/analyze-fleet.ts";
 export * from "./config/assumptions.ts";
 export * from "./domain/provenance.ts";
 export * from "./domain/schemas.ts";
+export * from "./fleet/default-assumptions.ts";
 export * from "./fleet/normalize-fleet.ts";
 export * from "./fleet/validate-fleet.ts";
 export * from "./geo/haversine.ts";
