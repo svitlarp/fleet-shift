@@ -31,4 +31,9 @@ export default defineConfig([
       },
     },
   },
+  {
+    // RTK Query models endpoints without an argument as `void`.
+    files: ["apps/web/src/api/fleet-api.ts"],
+    rules: { "@typescript-eslint/no-invalid-void-type": "off" },
+  },
 ]);
