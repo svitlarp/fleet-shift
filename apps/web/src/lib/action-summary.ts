@@ -48,7 +48,9 @@ export function buildActionSummary(
   const best = result.vehicles
     .find((v) => v.vehicleId === top.vehicleId)
     ?.candidates.find((c) => c.ev.id === top.evId);
-  const evName = best ? `${best.ev.brand} ${best.ev.variant}` : "the best EV";
+  const evName = best
+    ? `${best.ev.brand} ${best.ev.variant}`
+    : t.summary.fallbackEv;
   return `${t.summary.replace(
     replaced.length,
     activeYears,
