@@ -1,6 +1,22 @@
 import type { FleetVehicle } from "@fleetshift/core";
+import {
+  BarChart3,
+  CalendarClock,
+  Check,
+  Fuel,
+  Gauge,
+  MapPin,
+  Minus,
+  Pencil,
+  PlugZap,
+  Plus,
+  Route,
+  SlidersHorizontal,
+  Trash2,
+} from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 import { useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 import type { ApiQueryError } from "../api/axios-base-query.ts";
 import {
@@ -9,11 +25,36 @@ import {
   useGetFleetQuery,
   useUpdateVehicleMutation,
 } from "../api/fleet-api.ts";
+import { BrandLogo } from "../components/brand-logo/BrandLogo.tsx";
 import { Loader } from "../components/loader/Loader.tsx";
+import { Badge } from "../components/ui/Badge.tsx";
+import { Button, ButtonLink } from "../components/ui/Button.tsx";
+import { Card } from "../components/ui/Card.tsx";
+import tableCss from "../components/ui/Table.module.css";
 import { VehicleForm } from "../components/vehicle-form/VehicleForm.tsx";
 import { t } from "../i18n/en.ts";
+import css from "./Page.module.css";
 
 type Editing = { mode: "add" } | { mode: "edit"; vehicle: FleetVehicle } | null;
+
+function HeaderCell({
+  icon: Icon,
+  label,
+  numeric = false,
+}: {
+  icon: LucideIcon;
+  label: string;
+  numeric?: boolean;
+}) {
+  return (
+    <th className={numeric ? tableCss.num : undefined}>
+      <span style={{ display: "inline-flex", alignItems: "center", gap: 4 }}>
+        <Icon size={13} aria-hidden="true" />
+        {label}
+      </span>
+    </th>
+  );
+}
 
 export function FleetPage() {
   const { fleetId = "" } = useParams();
@@ -56,24 +97,23 @@ export function FleetPage() {
 
   return (
     <>
-      <div className="page-head">
+      <div className={css.head}>
         <h1>{fleet.data.name}</h1>
-        <div className="actions">
-          <button
-            className="btn"
-            type="button"
+        <div className={css.actions}>
+          <Button
+            icon={Plus}
             onClick={() => {
               setEditing({ mode: "add" });
             }}
           >
             {t.fleet.addVehicle}
-          </button>
-          <Link className="btn" to="assumptions">
+          </Button>
+          <ButtonLink icon={SlidersHorizontal} to="assumptions">
             {t.fleet.assumptions}
-          </Link>
-          <Link className="btn btn-primary" to="results">
+          </ButtonLink>
+          <ButtonLink variant="primary" icon={BarChart3} to="results">
             {t.fleet.results}
-          </Link>
+          </ButtonLink>
         </div>
       </div>
 
@@ -88,17 +128,17 @@ export function FleetPage() {
         />
       )}
 
-      <section className="card table-wrap">
-        <table>
+      <Card className={tableCss.wrap}>
+        <table className={tableCss.table}>
           <thead>
             <tr>
               <th>{t.fleet.vehicle}</th>
-              <th>{t.fleet.fuel}</th>
-              <th className="num">{t.fleet.annualKm}</th>
-              <th className="num">{t.fleet.maxDailyKm}</th>
-              <th>{t.fleet.leaseEnd}</th>
-              <th>{t.fleet.base}</th>
-              <th>{t.fleet.depot}</th>
+              <HeaderCell icon={Fuel} label={t.fleet.fuel} />
+              <HeaderCell icon={Route} label={t.fleet.annualKm} numeric />
+              <HeaderCell icon={Gauge} label={t.fleet.maxDailyKm} numeric />
+              <HeaderCell icon={CalendarClock} label={t.fleet.leaseEnd} />
+              <HeaderCell icon={MapPin} label={t.fleet.base} />
+              <HeaderCell icon={PlugZap} label={t.fleet.depot} />
               <th>{t.fleet.actions}</th>
             </tr>
           </thead>
@@ -106,42 +146,60 @@ export function FleetPage() {
             {fleet.data.vehicles.map((v) => (
               <tr key={v.id}>
                 <td>
-                  {v.make} {v.model}
-                  <div className="muted">{v.id}</div>
+                  <span className={tableCss.vehicle}>
+                    <BrandLogo brand={v.make} />
+                    <span>
+                      {v.make} {v.model}
+                      <span
+                        className={tableCss.muted}
+                        style={{ display: "block" }}
+                      >
+                        {v.id}
+                      </span>
+                    </span>
+                  </span>
                 </td>
-                <td>{v.fuelType}</td>
-                <td className="num">{v.annualKm.toLocaleString("en-GB")}</td>
-                <td className="num">{v.maxDailyKm}</td>
+                <td>
+                  <Badge icon={Fuel}>{v.fuelType}</Badge>
+                </td>
+                <td className={tableCss.num}>
+                  {v.annualKm.toLocaleString("en-GB")}
+                </td>
+                <td className={tableCss.num}>{v.maxDailyKm}</td>
                 <td>{v.leaseEndDate}</td>
                 <td>{v.baseCommune}</td>
-                <td>{v.hasDepotCharging ? t.fleet.yes : t.fleet.no}</td>
                 <td>
-                  <div className="actions">
-                    <button
-                      className="btn"
-                      type="button"
+                  {v.hasDepotCharging ? (
+                    <Badge tone="good" icon={Check}>
+                      {t.fleet.yes}
+                    </Badge>
+                  ) : (
+                    <Badge icon={Minus}>{t.fleet.no}</Badge>
+                  )}
+                </td>
+                <td>
+                  <div className={css.actions}>
+                    <Button
+                      variant="ghost"
+                      icon={Pencil}
                       aria-label={`${t.common.edit} ${v.id}`}
                       onClick={() => {
                         setEditing({ mode: "edit", vehicle: v });
                       }}
-                    >
-                      {t.common.edit}
-                    </button>
-                    <button
-                      className="btn"
-                      type="button"
+                    />
+                    <Button
+                      variant="ghost"
+                      icon={Trash2}
                       aria-label={`${t.common.delete} ${v.id}`}
                       onClick={() => void handleDelete(v.id)}
-                    >
-                      {t.common.delete}
-                    </button>
+                    />
                   </div>
                 </td>
               </tr>
             ))}
           </tbody>
         </table>
-      </section>
+      </Card>
     </>
   );
 }

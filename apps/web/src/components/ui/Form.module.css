@@ -1,0 +1,117 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--space-4);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  min-width: 0;
+}
+
+.label {
+  font-size: var(--font-sm);
+  font-weight: 600;
+}
+
+.control {
+  position: relative;
+  display: block;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: var(--space-3);
+  color: var(--text-secondary);
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: color var(--motion-fast) var(--ease);
+}
+
+.control:focus-within .icon {
+  color: var(--accent-text);
+}
+
+.input {
+  width: 100%;
+  height: var(--control-height);
+  padding: 0 var(--space-3) 0 36px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface-raised);
+  color: var(--text);
+  transition:
+    border-color var(--motion-fast) var(--ease),
+    box-shadow var(--motion-fast) var(--ease);
+}
+
+.input:hover {
+  border-color: var(--border-strong);
+}
+
+.input:focus {
+  border-color: var(--accent);
+  outline: none;
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+.error {
+  color: var(--bad-text);
+  font-size: var(--font-sm);
+}
+
+.switchField {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  align-self: end;
+  gap: var(--space-2);
+  min-height: var(--control-height);
+  font-size: var(--font-sm);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.switchInput {
+  position: absolute;
+  opacity: 0;
+}
+
+.switchTrack {
+  position: relative;
+  flex: none;
+  width: 36px;
+  height: 20px;
+  border-radius: var(--radius-full);
+  background: var(--border-strong);
+  transition: background-color var(--motion-base) var(--ease);
+}
+
+.switchTrack::after {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--surface-raised);
+  box-shadow: var(--shadow-sm);
+  content: "";
+  transition: transform var(--motion-base) var(--ease);
+}
+
+.switchInput:checked + .switchTrack {
+  background: var(--accent);
+}
+
+.switchInput:checked + .switchTrack::after {
+  transform: translateX(16px);
+}
+
+.switchInput:focus-visible + .switchTrack {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}

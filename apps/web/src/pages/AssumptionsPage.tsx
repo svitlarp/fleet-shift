@@ -1,7 +1,29 @@
 import { assumptionsSchema } from "@fleetshift/core";
 import type { Assumptions } from "@fleetshift/core";
-import { ErrorMessage, Field, Form, Formik } from "formik";
-import { Link, useNavigate, useParams } from "react-router-dom";
+import { Form, Formik } from "formik";
+import {
+  ArrowLeft,
+  BatteryCharging,
+  CalendarDays,
+  CarFront,
+  Euro,
+  Factory,
+  Gauge,
+  Landmark,
+  Leaf,
+  Percent,
+  Play,
+  PlugZap,
+  Scale,
+  ShieldAlert,
+  Snowflake,
+  TrendingDown,
+  Wallet,
+  Wrench,
+  Zap,
+} from "lucide-react";
+import type { LucideIcon } from "lucide-react";
+import { useNavigate, useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 import type { ApiQueryError } from "../api/axios-base-query.ts";
 import {
@@ -10,41 +32,47 @@ import {
   useSaveAssumptionsMutation,
 } from "../api/fleet-api.ts";
 import { Loader } from "../components/loader/Loader.tsx";
+import { Button, ButtonLink } from "../components/ui/Button.tsx";
+import { Card } from "../components/ui/Card.tsx";
+import { FormField, FormGrid } from "../components/ui/FormField.tsx";
+import { FormSelect } from "../components/ui/FormSelect.tsx";
 import { t } from "../i18n/en.ts";
 import { zodValidate } from "../lib/zod-formik.ts";
+import css from "./Page.module.css";
 
 type NumericField = keyof typeof t.assumptions.fields &
   {
     [K in keyof Assumptions]: Assumptions[K] extends number ? K : never;
   }[keyof Assumptions];
 
-const COST_FIELDS: NumericField[] = [
-  "discountRate",
-  "leaseAnnualRate",
-  "evResidualShare",
-  "iceResidualShare",
-  "evMaintenanceFactor",
-];
-const CHARGING_FIELDS: NumericField[] = [
-  "depotTariffEurPerKwh",
-  "publicAcTariffEurPerKwh",
-  "publicDcTariffEurPerKwh",
-  "depotChargingShare",
-  "publicFastShare",
-  "winterRangeFactor",
-  "rangeReserve",
-  "realWorldConsumptionFactor",
+const COST_FIELDS: { name: NumericField; icon: LucideIcon }[] = [
+  { name: "discountRate", icon: Percent },
+  { name: "leaseAnnualRate", icon: Landmark },
+  { name: "evResidualShare", icon: TrendingDown },
+  { name: "iceResidualShare", icon: Factory },
+  { name: "evMaintenanceFactor", icon: Wrench },
 ];
 
-function NumberField({ name }: { name: NumericField }) {
-  return (
-    <label className="field">
-      {t.assumptions.fields[name]}
-      <Field name={name} type="number" step="any" />
-      <ErrorMessage name={name} component="span" className="field-error" />
-    </label>
-  );
-}
+const CHARGING_FIELDS: { name: NumericField; icon: LucideIcon }[] = [
+  { name: "depotTariffEurPerKwh", icon: PlugZap },
+  { name: "publicAcTariffEurPerKwh", icon: BatteryCharging },
+  { name: "publicDcTariffEurPerKwh", icon: Zap },
+  { name: "depotChargingShare", icon: Percent },
+  { name: "publicFastShare", icon: Gauge },
+  { name: "winterRangeFactor", icon: Snowflake },
+  { name: "rangeReserve", icon: ShieldAlert },
+  { name: "realWorldConsumptionFactor", icon: Leaf },
+];
+
+const RISK_OPTIONS = [
+  { value: "balanced", label: t.assumptions.options.balanced },
+  { value: "cautious", label: t.assumptions.options.cautious },
+];
+
+const FINANCING_OPTIONS = [
+  { value: "lease", label: t.assumptions.options.lease },
+  { value: "purchase", label: t.assumptions.options.purchase },
+];
 
 export function AssumptionsPage() {
   const { fleetId = "" } = useParams();
@@ -73,16 +101,32 @@ export function AssumptionsPage() {
     }
   };
 
+  const renderField = ({
+    name,
+    icon,
+  }: {
+    name: NumericField;
+    icon: LucideIcon;
+  }) => (
+    <FormField
+      key={name}
+      name={name}
+      type="number"
+      label={t.assumptions.fields[name]}
+      icon={icon}
+    />
+  );
+
   return (
     <>
-      <div className="page-head">
+      <div className={css.head}>
         <div>
           <h1>{t.assumptions.title}</h1>
-          <p className="muted">{t.assumptions.note}</p>
+          <p className={css.muted}>{t.assumptions.note}</p>
         </div>
-        <Link className="btn" to={`/fleets/${fleetId}`}>
+        <ButtonLink icon={ArrowLeft} to={`/fleets/${fleetId}`}>
           {fleet.data.name}
-        </Link>
+        </ButtonLink>
       </div>
       <Formik<Assumptions>
         initialValues={fleet.data.assumptions}
@@ -92,56 +136,50 @@ export function AssumptionsPage() {
       >
         {({ isSubmitting }) => (
           <Form noValidate>
-            <section className="card">
-              <h2>{t.assumptions.budgets}</h2>
-              <div className="form-grid">
-                <NumberField name="budget2027Eur" />
-                <NumberField name="budget2028Eur" />
-                <label className="field">
-                  {t.assumptions.fields.riskMode}
-                  <Field name="riskMode" as="select">
-                    <option value="balanced">
-                      {t.assumptions.options.balanced}
-                    </option>
-                    <option value="cautious">
-                      {t.assumptions.options.cautious}
-                    </option>
-                  </Field>
-                </label>
-                <label className="field">
-                  {t.assumptions.fields.financingMode}
-                  <Field name="financingMode" as="select">
-                    <option value="lease">{t.assumptions.options.lease}</option>
-                    <option value="purchase">
-                      {t.assumptions.options.purchase}
-                    </option>
-                  </Field>
-                </label>
-              </div>
-            </section>
-            <section className="card">
-              <h2>{t.assumptions.costs}</h2>
-              <div className="form-grid">
-                {COST_FIELDS.map((name) => (
-                  <NumberField key={name} name={name} />
-                ))}
-              </div>
-            </section>
-            <section className="card">
-              <h2>{t.assumptions.charging}</h2>
-              <div className="form-grid">
-                {CHARGING_FIELDS.map((name) => (
-                  <NumberField key={name} name={name} />
-                ))}
-              </div>
-            </section>
-            <button
-              className="btn btn-primary"
+            <Card>
+              <h2 className={css.sectionTitle}>
+                <CalendarDays size={18} aria-hidden="true" />
+                {t.assumptions.budgets}
+              </h2>
+              <FormGrid>
+                {renderField({ name: "budget2027Eur", icon: Euro })}
+                {renderField({ name: "budget2028Eur", icon: Euro })}
+                <FormSelect
+                  name="riskMode"
+                  label={t.assumptions.fields.riskMode}
+                  icon={Scale}
+                  options={RISK_OPTIONS}
+                />
+                <FormSelect
+                  name="financingMode"
+                  label={t.assumptions.fields.financingMode}
+                  icon={Wallet}
+                  options={FINANCING_OPTIONS}
+                />
+              </FormGrid>
+            </Card>
+            <Card>
+              <h2 className={css.sectionTitle}>
+                <CarFront size={18} aria-hidden="true" />
+                {t.assumptions.costs}
+              </h2>
+              <FormGrid>{COST_FIELDS.map(renderField)}</FormGrid>
+            </Card>
+            <Card>
+              <h2 className={css.sectionTitle}>
+                <PlugZap size={18} aria-hidden="true" />
+                {t.assumptions.charging}
+              </h2>
+              <FormGrid>{CHARGING_FIELDS.map(renderField)}</FormGrid>
+            </Card>
+            <Button
+              variant="primary"
               type="submit"
+              icon={Play}
               disabled={isSubmitting}
             >
               {t.assumptions.runAnalysis}
-            </button>
+            </Button>
           </Form>
         )}
       </Formik>

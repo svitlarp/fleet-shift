@@ -1,10 +1,19 @@
-import type {
-  CostComponentId,
-  PlanDecision,
-  VehicleAnalysis,
-} from "@fleetshift/core";
-import { Fragment, useMemo, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import type { FleetAnalysis } from "@fleetshift/core";
+import {
+  CalendarDays,
+  CircleAlert,
+  Info,
+  ListChecks,
+  PiggyBank,
+  Play,
+  RefreshCw,
+  SlidersHorizontal,
+  TableProperties,
+  TrendingUp,
+} from "lucide-react";
+import type { LucideIcon } from "lucide-react";
+import { useCallback, useMemo } from "react";
+import { Link, useParams, useSearchParams } from "react-router-dom";
 import { toast } from "react-toastify";
 import type { ApiQueryError } from "../api/axios-base-query.ts";
 import {
@@ -12,116 +21,116 @@ import {
   useGetLatestAnalysisQuery,
   useRunAnalysisMutation,
 } from "../api/fleet-api.ts";
+import { ActionSummary } from "../components/action-summary/ActionSummary.tsx";
+import { DecisionsTable } from "../components/decisions-table/DecisionsTable.tsx";
+import { EvModal } from "../components/ev-modal/EvModal.tsx";
 import { Loader } from "../components/loader/Loader.tsx";
-import { ProvenanceBadge } from "../components/provenance-badge/ProvenanceBadge.tsx";
 import { SavingsChart } from "../components/savings-chart/SavingsChart.tsx";
+import { Button, ButtonLink } from "../components/ui/Button.tsx";
+import { Card } from "../components/ui/Card.tsx";
 import { t } from "../i18n/en.ts";
-import { formatEur, formatPercent } from "../lib/format.ts";
+import { buildActionSummary } from "../lib/action-summary.ts";
+import { formatEur } from "../lib/format.ts";
+import type { DecisionRow } from "../lib/sort-decisions.ts";
+import css from "./Page.module.css";
 
-const DECISION_BADGE: Record<PlanDecision, string> = {
-  replace: "badge badge-good",
-  over_budget: "badge badge-warn",
-  not_profitable: "badge badge-bad",
-  no_suitable_ev: "badge badge-bad",
-  outside_horizon: "badge",
-};
-
-function VehicleDetails({ analysis }: { analysis: VehicleAnalysis }) {
-  const rejected = Object.entries(analysis.rejections)
-    .map(
-      ([reason, count]) =>
-        `${t.rejectionLabels[reason as keyof typeof t.rejectionLabels]}: ${String(count)}`,
-    )
-    .join(", ");
-  const componentIds = Object.keys(
-    analysis.baselineTco.breakdown,
-  ) as CostComponentId[];
+function Stat({
+  icon: Icon,
+  value,
+  label,
+}: {
+  icon: LucideIcon;
+  value: string;
+  label: string;
+}) {
   return (
-    <div style={{ padding: "8px 0" }}>
-      <p className="muted">
-        {t.results.charging(
-          analysis.charging.stationsInRadius,
-          analysis.charging.fastStationsInRadius,
-        )}
-        {rejected && ` · ${rejected}`}
-      </p>
-      <table>
-        <thead>
-          <tr>
-            <th>{t.results.top3}</th>
-            <th className="num">{t.results.tco}</th>
-            {componentIds.map((id) => (
-              <th className="num" key={id}>
-                {t.components[id]}{" "}
-                <ProvenanceBadge
-                  source={analysis.baselineTco.provenance[id] ?? "assumption"}
-                />
-              </th>
-            ))}
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>{t.results.baseline}</td>
-            <td className="num">{formatEur(analysis.baselineTco.totalEur)}</td>
-            {componentIds.map((id) => (
-              <td className="num" key={id}>
-                {formatEur(analysis.baselineTco.breakdown[id] ?? 0)}
-              </td>
-            ))}
-          </tr>
-          {analysis.candidates.map((c) => (
-            <tr key={c.ev.id}>
-              <td>
-                {c.ev.brand} {c.ev.variant}
-              </td>
-              <td className="num">{formatEur(c.tco.totalEur)}</td>
-              {componentIds.map((id) => (
-                <td className="num" key={id}>
-                  {formatEur(c.tco.breakdown[id] ?? 0)}
-                </td>
-              ))}
-            </tr>
-          ))}
-        </tbody>
-      </table>
+    <div className={css.stat}>
+      <span className={css.statIcon}>
+        <Icon size={18} aria-hidden="true" />
+      </span>
+      <div>
+        <strong className={css.statValue}>{value}</strong>
+        <span className={css.statLabel}>{label}</span>
+      </div>
     </div>
   );
 }
 
+/** Saved analyses from before the ADEME baseline have no baseline price. */
+const isCurrentAnalysis = (result: FleetAnalysis): boolean =>
+  result.vehicles.every(
+    (v) => (v as { baselinePrice?: unknown }).baselinePrice,
+  );
+
 export function ResultsPage() {
   const { fleetId = "" } = useParams();
+  const [searchParams, setSearchParams] = useSearchParams();
   const fleet = useGetFleetQuery(fleetId);
   const analysis = useGetLatestAnalysisQuery(fleetId);
   const [runAnalysis, runState] = useRunAnalysisMutation();
-  const [expandedId, setExpandedId] = useState<string | null>(null);
-  const result = analysis.data?.result;
+  const saved = analysis.data?.result;
+  const result = saved && isCurrentAnalysis(saved) ? saved : undefined;
+  const isStale = saved !== undefined && result === undefined;
 
-  const names = useMemo(
-    () =>
-      new Map(
-        fleet.data?.vehicles.map((v) => [v.id, `${v.make} ${v.model}`]) ?? [],
-      ),
-    [fleet.data],
+  const vehicles = fleet.data?.vehicles;
+  const nameOf = useCallback(
+    (id: string) => {
+      const v = vehicles?.find((item) => item.id === id);
+      return v ? `${v.make} ${v.model}` : id;
+    },
+    [vehicles],
   );
+
+  const rows = useMemo<DecisionRow[]>(
+    () =>
+      (result?.plan.entries ?? []).map((entry) => {
+        const best = result?.vehicles.find(
+          (v) => v.vehicleId === entry.vehicleId,
+        )?.candidates[0];
+        return {
+          vehicleId: entry.vehicleId,
+          vehicleName: nameOf(entry.vehicleId),
+          make: vehicles?.find((v) => v.id === entry.vehicleId)?.make ?? "",
+          evId: best?.ev.id ?? null,
+          evBrand: best?.ev.brand ?? null,
+          evName: best?.ev.variant ?? null,
+          decision: entry.decision,
+          year: entry.year,
+          medianEur: best?.savings.medianEur ?? null,
+          p10Eur: best?.savings.p10Eur ?? null,
+          p90Eur: best?.savings.p90Eur ?? null,
+          paybackShare: best?.savings.paybackShare ?? null,
+          cvar10Eur: best?.savings.cvar10Eur ?? null,
+        };
+      }),
+    [result, nameOf, vehicles],
+  );
+
   const chartPoints = useMemo(
     () =>
-      (result?.vehicles ?? [])
-        .flatMap((v) => {
-          const best = v.candidates[0];
-          if (!best) return [];
-          return {
-            label: `${v.vehicleId} ${names.get(v.vehicleId)?.split(" ")[0] ?? ""}`,
-            range: [best.savings.p10Eur, best.savings.p90Eur] as [
-              number,
-              number,
-            ],
-            medianEur: best.savings.medianEur,
-          };
-        })
+      rows
+        .flatMap((row) =>
+          row.medianEur !== null && row.p10Eur !== null && row.p90Eur !== null
+            ? {
+                label: `${row.vehicleId} ${row.make}`,
+                range: [row.p10Eur, row.p90Eur] as [number, number],
+                medianEur: row.medianEur,
+              }
+            : [],
+        )
         .sort((a, b) => b.medianEur - a.medianEur),
-    [result, names],
+    [rows],
   );
+
+  const openEv = useCallback(
+    (evId: string, vehicleId: string) => {
+      setSearchParams({ ev: evId, vehicle: vehicleId });
+    },
+    [setSearchParams],
+  );
+  const closeEv = useCallback(() => {
+    setSearchParams({}, { replace: true });
+  }, [setSearchParams]);
 
   const handleRun = async () => {
     try {
@@ -138,144 +147,113 @@ export function ResultsPage() {
 
   const replaced =
     result?.plan.entries.filter((e) => e.decision === "replace").length ?? 0;
+  const openEvId = searchParams.get("ev");
+  const openVehicleId = searchParams.get("vehicle");
+  const openCandidate =
+    result?.vehicles
+      .find((v) => v.vehicleId === openVehicleId)
+      ?.candidates.find((c) => c.ev.id === openEvId) ?? null;
 
   return (
     <>
-      <div className="page-head">
+      <div className={css.head}>
         <div>
           <h1>{t.results.title}</h1>
           <Link to={`/fleets/${fleetId}`}>{fleet.data.name}</Link>
         </div>
-        <div className="actions">
-          <Link className="btn" to={`/fleets/${fleetId}/assumptions`}>
+        <div className={css.actions}>
+          <ButtonLink
+            icon={SlidersHorizontal}
+            to={`/fleets/${fleetId}/assumptions`}
+          >
             {t.results.edit}
-          </Link>
-          <button
-            className="btn btn-primary"
-            type="button"
+          </ButtonLink>
+          <Button
+            variant="primary"
+            icon={result ? RefreshCw : Play}
             disabled={runState.isLoading}
             onClick={() => void handleRun()}
           >
             {result ? t.results.rerun : t.results.run}
-          </button>
+          </Button>
         </div>
       </div>
 
       {runState.isLoading && <Loader />}
-      {!result && !runState.isLoading && (
-        <p className="card muted">{t.results.empty}</p>
+      {isStale && !runState.isLoading && (
+        <Card role="status">
+          <p className={css.note}>
+            <CircleAlert size={16} aria-hidden="true" />
+            {t.results.stale}
+          </p>
+        </Card>
+      )}
+      {!saved && !runState.isLoading && (
+        <Card>
+          <p className={css.muted}>{t.results.empty}</p>
+        </Card>
       )}
 
       {result && (
         <>
-          <div className="stats">
-            <div className="stat">
-              <strong>
-                {replaced} / {result.vehicles.length}
-              </strong>
-              {t.results.toReplace}
-            </div>
-            <div className="stat">
-              <strong>{formatEur(result.plan.totalMedianSavingsEur)}</strong>
-              {t.results.savings}
-            </div>
+          <ActionSummary text={buildActionSummary(result, nameOf)} />
+
+          <div className={css.stats}>
+            <Stat
+              icon={ListChecks}
+              value={`${String(replaced)} / ${String(result.vehicles.length)}`}
+              label={t.results.toReplace}
+            />
+            <Stat
+              icon={PiggyBank}
+              value={formatEur(result.plan.totalMedianSavingsEur)}
+              label={t.results.savings}
+            />
             {result.plan.years.map((y) => (
-              <div className="stat" key={y.year}>
-                <strong>{y.vehicleIds.length}</strong>
-                {y.year}: {formatEur(y.spentEur)} / {formatEur(y.budgetEur)}{" "}
-                {t.results.spent}
-              </div>
+              <Stat
+                key={y.year}
+                icon={CalendarDays}
+                value={String(y.vehicleIds.length)}
+                label={`${String(y.year)}: ${formatEur(y.spentEur)} / ${formatEur(y.budgetEur)} ${t.results.spent}`}
+              />
             ))}
           </div>
 
-          <p className="card muted">{t.results.limits}</p>
-
-          <section className="card">
-            <h2>{t.results.chartTitle}</h2>
+          <Card>
+            <h2 className={css.sectionTitle}>
+              <TrendingUp size={18} aria-hidden="true" />
+              {t.results.chartTitle}
+            </h2>
             <SavingsChart points={chartPoints} />
-          </section>
+          </Card>
 
-          <section className="card table-wrap">
-            <h2>{t.results.decisions}</h2>
-            <table>
-              <thead>
-                <tr>
-                  <th>{t.results.vehicle}</th>
-                  <th>{t.results.bestEv}</th>
-                  <th>{t.results.decision}</th>
-                  <th>{t.results.year}</th>
-                  <th className="num">{t.results.median}</th>
-                  <th className="num">{t.results.range}</th>
-                  <th className="num">{t.results.payback}</th>
-                  <th className="num">{t.results.cvar}</th>
-                  <th>{t.results.details}</th>
-                </tr>
-              </thead>
-              <tbody>
-                {result.plan.entries.map((entry) => {
-                  const vehicle = result.vehicles.find(
-                    (v) => v.vehicleId === entry.vehicleId,
-                  );
-                  const best = vehicle?.candidates[0];
-                  const isOpen = expandedId === entry.vehicleId;
-                  return (
-                    <Fragment key={entry.vehicleId}>
-                      <tr>
-                        <td className="wrap-cell">
-                          {names.get(entry.vehicleId) ?? entry.vehicleId}
-                          <div className="muted">{entry.vehicleId}</div>
-                        </td>
-                        <td className="wrap-cell">
-                          {best ? `${best.ev.brand} ${best.ev.variant}` : "-"}
-                        </td>
-                        <td>
-                          <span className={DECISION_BADGE[entry.decision]}>
-                            {t.decisionLabels[entry.decision]}
-                          </span>
-                        </td>
-                        <td>{entry.year ?? "-"}</td>
-                        <td className="num">
-                          {best ? formatEur(best.savings.medianEur) : "-"}
-                        </td>
-                        <td className="num">
-                          {best
-                            ? `${formatEur(best.savings.p10Eur)} to ${formatEur(best.savings.p90Eur)}`
-                            : "-"}
-                        </td>
-                        <td className="num">
-                          {best
-                            ? formatPercent(best.savings.paybackShare)
-                            : "-"}
-                        </td>
-                        <td className="num">
-                          {best ? formatEur(best.savings.cvar10Eur) : "-"}
-                        </td>
-                        <td>
-                          <button
-                            className="btn"
-                            type="button"
-                            aria-expanded={isOpen}
-                            onClick={() => {
-                              setExpandedId(isOpen ? null : entry.vehicleId);
-                            }}
-                          >
-                            {t.results.details}
-                          </button>
-                        </td>
-                      </tr>
-                      {isOpen && vehicle && (
-                        <tr>
-                          <td colSpan={9}>
-                            <VehicleDetails analysis={vehicle} />
-                          </td>
-                        </tr>
-                      )}
-                    </Fragment>
-                  );
-                })}
-              </tbody>
-            </table>
-          </section>
+          <Card>
+            <h2 className={css.sectionTitle}>
+              <TableProperties size={18} aria-hidden="true" />
+              {t.results.decisions}
+            </h2>
+            <DecisionsTable
+              rows={rows}
+              analyses={result.vehicles}
+              onOpenEv={openEv}
+            />
+          </Card>
+
+          <p className={css.note}>
+            <Info size={14} aria-hidden="true" />
+            {t.results.limits}
+          </p>
+
+          {openEvId && (
+            <EvModal
+              key={openEvId}
+              evId={openEvId}
+              vehicleLabel={openVehicleId ? nameOf(openVehicleId) : null}
+              candidate={openCandidate}
+              winterRangeFactor={result.assumptions.winterRangeFactor}
+              onClose={closeEv}
+            />
+          )}
         </>
       )}
     </>
