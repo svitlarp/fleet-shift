@@ -1,1 +1,322 @@
-{}
+{
+  "audi-e-tron-gt": {
+    "photo": {
+      "file": "audi-e-tron-gt.jpg",
+      "title": "File:Audi e-tron GT 1X7A0297.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Audi_e-tron_GT_1X7A0297.jpg"
+    }
+  },
+  "b-m-w-ix": {
+    "photo": {
+      "file": "b-m-w-ix.jpg",
+      "title": "File:BMW iX xDrive 40 CRI 12 2021 2742.jpg",
+      "author": "Mariordo (Mario Roberto Durán Ortiz)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BMW_iX_xDrive_40_CRI_12_2021_2742.jpg"
+    }
+  },
+  "b-m-w-ix3": {
+    "photo": {
+      "file": "b-m-w-ix3.jpg",
+      "title": "File:BMW iX3 G08 FL DSC 9318.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BMW_iX3_G08_FL_DSC_9318.jpg"
+    }
+  },
+  "citroen-berlingo": {
+    "photo": {
+      "file": "citroen-berlingo.jpg",
+      "title": "File:Citroen e-Berlingo Auto Zuerich 2021 IMG 0097.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Citroen_e-Berlingo_Auto_Zuerich_2021_IMG_0097.jpg"
+    }
+  },
+  "citroen-c4": {
+    "photo": {
+      "file": "citroen-c4.jpg",
+      "title": "File:Citroen e-C4 IMG 5788.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Citroen_e-C4_IMG_5788.jpg"
+    }
+  },
+  "citroen-c4-x": {
+    "photo": {
+      "file": "citroen-c4-x.jpg",
+      "title": "File:Citroën e-C4 X Automesse Ludwigsburg 2023 1X7A0016.jpg",
+      "author": "Alexander-93",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_e-C4_X_Automesse_Ludwigsburg_2023_1X7A0016.jpg"
+    }
+  },
+  "citroen-space-tourer": {
+    "photo": {
+      "file": "citroen-space-tourer.jpg",
+      "title": "File:Citroen e-Spacetourer Classic-Gala 2021 1X7A0113.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Citroen_e-Spacetourer_Classic-Gala_2021_1X7A0113.jpg"
+    }
+  },
+  "dacia-spring": {
+    "photo": {
+      "file": "dacia-spring.jpg",
+      "title": "File:Dacia Spring IAA 2021 1X7A0215.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dacia_Spring_IAA_2021_1X7A0215.jpg"
+    }
+  },
+  "ds-3-crossback": {
+    "photo": {
+      "file": "ds-3-crossback.jpg",
+      "title": "File:DS 3 Crossback E-Tense IMG 9617.jpg",
+      "author": "Alexander-93",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:DS_3_Crossback_E-Tense_IMG_9617.jpg"
+    }
+  },
+  "fiat-500": {
+    "photo": {
+      "file": "fiat-500.jpg",
+      "title": "File:Fiat 500e (2020) Auto Zuerich 2021 IMG 0604.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fiat_500e_(2020)_Auto_Zuerich_2021_IMG_0604.jpg"
+    }
+  },
+  "honda-e": {
+    "photo": {
+      "file": "honda-e.jpg",
+      "title": "File:Honda e (48787715022).jpg",
+      "author": "Rutger van der Maar from Leiden, The Netherlands",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Honda_e_(48787715022).jpg"
+    }
+  },
+  "kia-ev6": {
+    "photo": {
+      "file": "kia-ev6.jpg",
+      "title": "File:Kia EV6 Automesse Ludwigsburg 2022 1X7A5931.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kia_EV6_Automesse_Ludwigsburg_2022_1X7A5931.jpg"
+    }
+  },
+  "kia-niro": {
+    "photo": {
+      "file": "kia-niro.jpg",
+      "title": "File:Kia e-Niro (DE; 2018).jpg",
+      "author": "Jakub CA",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kia_e-Niro_(DE;_2018).jpg"
+    }
+  },
+  "kia-soul": {
+    "photo": {
+      "file": "kia-soul.jpg",
+      "title": "File:Kia e-Soul 1X7A0310.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kia_e-Soul_1X7A0310.jpg"
+    }
+  },
+  "m-g-marvel": {
+    "photo": {
+      "file": "m-g-marvel.jpg",
+      "title": "File:MG Marvel R 1X7A0401.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MG_Marvel_R_1X7A0401.jpg"
+    }
+  },
+  "mazda-mx-30": {
+    "photo": {
+      "file": "mazda-mx-30.jpg",
+      "title": "File:Mazda MX-30 EV 1X7A0376.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mazda_MX-30_EV_1X7A0376.jpg"
+    }
+  },
+  "mercedes-eqb-350": {
+    "photo": {
+      "file": "mercedes-eqb-350.jpg",
+      "title": "File:MERCEDES-EQ EQB China.jpg",
+      "author": "Dinkun Chen",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MERCEDES-EQ_EQB_China.jpg"
+    }
+  },
+  "mini-mini": {
+    "photo": {
+      "file": "mini-mini.jpg",
+      "title": "File:Mini F56 Hatch Cooper SE Electric MINI Yours Enigmatic Black Metallic (1).jpg",
+      "author": "Damian B Oh",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mini_F56_Hatch_Cooper_SE_Electric_MINI_Yours_Enigmatic_Black_Metallic_(1).jpg"
+    }
+  },
+  "nissan-ariya": {
+    "photo": {
+      "file": "nissan-ariya.jpg",
+      "title": "File:Nissan Ariya 1X7A6907.jpg",
+      "author": "Alexander-93",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nissan_Ariya_1X7A6907.jpg"
+    }
+  },
+  "nissan-leaf": {
+    "photo": {
+      "file": "nissan-leaf.jpg",
+      "title": "File:Nissan Leaf (ZE1) DSC 7096.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nissan_Leaf_(ZE1)_DSC_7096.jpg"
+    }
+  },
+  "opel-corsa": {
+    "photo": {
+      "file": "opel-corsa.jpg",
+      "title": "File:Opel Corsa-e DSC 8540.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Opel_Corsa-e_DSC_8540.jpg"
+    }
+  },
+  "opel-mokka": {
+    "photo": {
+      "file": "opel-mokka.jpg",
+      "title": "File:Opel Mokka e im Emsland (2022).jpg",
+      "author": "JoachimKohler-HB",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Opel_Mokka_e_im_Emsland_(2022).jpg"
+    }
+  },
+  "peugeot-2008": {
+    "photo": {
+      "file": "peugeot-2008.jpg",
+      "title": "File:Peugeot e-2008 Automesse Ludwigsburg 2022 1X7A5981.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peugeot_e-2008_Automesse_Ludwigsburg_2022_1X7A5981.jpg"
+    }
+  },
+  "peugeot-208": {
+    "photo": {
+      "file": "peugeot-208.jpg",
+      "title": "File:Peugeot e-208 facelift 1X7A2502.jpg",
+      "author": "Alexander-93",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peugeot_e-208_facelift_1X7A2502.jpg"
+    }
+  },
+  "peugeot-rifter": {
+    "photo": {
+      "file": "peugeot-rifter.jpg",
+      "title": "File:Peugeot e-Rifter Leonberg 2022 1X7A0472.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peugeot_e-Rifter_Leonberg_2022_1X7A0472.jpg"
+    }
+  },
+  "peugeot-traveller": {
+    "photo": {
+      "file": "peugeot-traveller.jpg",
+      "title": "File:Peugeot e-Traveller 1X7A0084.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peugeot_e-Traveller_1X7A0084.jpg"
+    }
+  },
+  "porsche-taycan": {
+    "photo": {
+      "file": "porsche-taycan.jpg",
+      "title": "File:Porsche Taycan Cross Turismo 4S IMG 7870.jpg",
+      "author": "Alexander-93",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Porsche_Taycan_Cross_Turismo_4S_IMG_7870.jpg"
+    }
+  },
+  "renault-megane": {
+    "photo": {
+      "file": "renault-megane.jpg",
+      "title": "File:Renault Megane E-Tech IAA 2021 1X7A0209.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Renault_Megane_E-Tech_IAA_2021_1X7A0209.jpg"
+    }
+  },
+  "renault-twingo": {
+    "photo": {
+      "file": "renault-twingo.jpg",
+      "title": "File:Renault Twingo Z.E. IMG 4003.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Renault_Twingo_Z.E._IMG_4003.jpg"
+    }
+  },
+  "renault-zoe": {
+    "photo": {
+      "file": "renault-zoe.jpg",
+      "title": "File:2018 Renault ZOE.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2018_Renault_ZOE.jpg"
+    }
+  },
+  "subaru-solterra": {
+    "photo": {
+      "file": "subaru-solterra.jpg",
+      "title": "File:Subaru Solterra 1X7A2482.jpg",
+      "author": "Alexander-93",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Subaru_Solterra_1X7A2482.jpg"
+    }
+  },
+  "tesla-model-3": {
+    "photo": {
+      "file": "tesla-model-3.jpg",
+      "title": "File:Tesla Model 3 (2023) Autofrühling Ulm IMG 9282.jpg",
+      "author": "Alexander-93",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tesla_Model_3_(2023)_Autofr%C3%BChling_Ulm_IMG_9282.jpg"
+    }
+  }
+}

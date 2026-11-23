@@ -192,7 +192,7 @@ export const en = {
   decisionLabels: {
     replace: "Replace",
     over_budget: "Over budget",
-    not_profitable: "Keep ICE: no saving",
+    not_profitable: "Keep ICE for now",
     no_suitable_ev: "No suitable EV",
     outside_horizon: "Lease ends after 2028",
   },

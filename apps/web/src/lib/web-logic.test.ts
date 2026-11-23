@@ -120,7 +120,7 @@ describe("buildActionSummary", () => {
       ]),
       (id) => id.toUpperCase(),
     );
-    expect(text).toContain("Replace 2 vehicles in 2028 (2)");
+    expect(text).toContain("Replace 2 vehicles in 2028 for");
     expect(text).toContain("starting with BIG to PEUGEOT e-208");
     expect(text).toContain("keep 1 on combustion, review 1 after 2028");
   });
