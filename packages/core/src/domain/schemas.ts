@@ -81,6 +81,22 @@ export const iceReferenceEntrySchema = z.object({
   rowCount: z.number().int().positive(),
 });
 
+export const evPhotoSchema = z.object({
+  file: z.string().regex(/^[a-z0-9-]+\.jpg$/),
+  title: z.string().min(1),
+  author: z.string().min(1),
+  license: z.string().min(1),
+  licenseUrl: z.url().nullable(),
+  sourceUrl: z.url(),
+});
+
+export const evModelDetailsSchema = z.record(
+  z.string(),
+  z.object({ photo: evPhotoSchema.nullable() }),
+);
+
+export type EvPhoto = z.infer<typeof evPhotoSchema>;
+export type EvModelDetails = z.infer<typeof evModelDetailsSchema>;
 export type IceReferenceEntry = z.infer<typeof iceReferenceEntrySchema>;
 export type FuelType = z.infer<typeof fuelTypeSchema>;
 export type BodyType = z.infer<typeof bodyTypeSchema>;

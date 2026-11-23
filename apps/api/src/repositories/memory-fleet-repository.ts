@@ -6,8 +6,8 @@ import type {
 } from "@fleetshift/core";
 import type {
   FleetDetail,
+  FleetListItem,
   FleetRepository,
-  FleetSummary,
   SavedAnalysis,
 } from "./fleet-repository.ts";
 
@@ -16,15 +16,27 @@ export class MemoryFleetRepository implements FleetRepository {
   private readonly fleets = new Map<string, FleetDetail>();
   private readonly analyses = new Map<string, SavedAnalysis>();
 
-  listFleets(): Promise<FleetSummary[]> {
+  listFleets(): Promise<FleetListItem[]> {
     return Promise.resolve(
       [...this.fleets.values()].map(
-        ({ id, name, createdAt, vehicles }): FleetSummary => ({
-          id,
-          name,
-          createdAt,
-          vehicleCount: vehicles.length,
-        }),
+        ({ id, name, createdAt, vehicles }): FleetListItem => {
+          const saved = this.analyses.get(id);
+          return {
+            id,
+            name,
+            createdAt,
+            vehicleCount: vehicles.length,
+            latestAnalysis: saved
+              ? {
+                  createdAt: saved.createdAt,
+                  replaceCount: saved.result.plan.entries.filter(
+                    (e) => e.decision === "replace",
+                  ).length,
+                  medianSavingsEur: saved.result.plan.totalMedianSavingsEur,
+                }
+              : null,
+          };
+        },
       ),
     );
   }

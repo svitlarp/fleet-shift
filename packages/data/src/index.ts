@@ -2,6 +2,7 @@ import fs from "node:fs";
 import { z } from "zod";
 import {
   chargingStationSchema,
+  evModelDetailsSchema,
   evModelSchema,
   fuelYearPriceSchema,
   iceReferenceEntrySchema,
@@ -9,6 +10,7 @@ import {
 import type {
   ChargingStation,
   EvModel,
+  EvModelDetails,
   FuelYearPrice,
   IceReferenceEntry,
 } from "@fleetshift/core";
@@ -64,6 +66,10 @@ export function getIceReference(): IceReferenceEntry[] {
   return z
     .array(iceReferenceEntrySchema)
     .parse(readJsonFile(paths.processed.iceReference));
+}
+
+export function getEvModelDetails(): EvModelDetails {
+  return evModelDetailsSchema.parse(readJsonFile(paths.catalog.evModelDetails));
 }
 
 export function getDemoFleetRows(): unknown[] {

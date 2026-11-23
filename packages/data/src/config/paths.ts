@@ -35,6 +35,9 @@ export const paths = {
     irve: path.join(parsedDir, "irve"),
     evCatalog: path.join(parsedDir, "ev-catalog"),
   },
+  catalog: {
+    evModelDetails: path.join(dataRoot, "catalog", "ev-model-details.json"),
+  },
   demo: {
     estateAgencyFleet: path.join(dataRoot, "demo", "fleet-estate-agency.json"),
   },

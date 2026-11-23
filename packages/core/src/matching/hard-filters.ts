@@ -23,6 +23,12 @@ export function assumedSeats(
   return DEFAULT_SEATS_BY_BODY[ev.bodyType] ?? 5;
 }
 
+/** Battery size when ADEME states it in the variant name, otherwise null. */
+export function batteryKwhFromVariant(variant: string): number | null {
+  const match = /(\d+(?:[.,]\d+)?)\s*kWh/i.exec(variant);
+  return match?.[1] ? Number(match[1].replace(",", ".")) : null;
+}
+
 export function requiredWltpRangeKm(
   maxDailyKm: number,
   access: Pick<ChargingAccess, "hasReliableCharging">,
