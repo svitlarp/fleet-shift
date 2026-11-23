@@ -4,6 +4,7 @@ import type {
   EvModel,
   FleetVehicle,
   FuelYearPrice,
+  IceReferenceEntry,
 } from "../domain/schemas.ts";
 import { assessChargingAccess } from "../matching/charging-access.ts";
 import type { ChargingAccess } from "../matching/charging-access.ts";
@@ -19,6 +20,8 @@ import {
 import { summarizeSavings } from "../scenarios/metrics.ts";
 import type { SavingsMetrics } from "../scenarios/metrics.ts";
 import { createRng, hashString } from "../scenarios/rng.ts";
+import { resolveBaselinePrice } from "../tco/baseline-price.ts";
+import type { BaselinePrice } from "../tco/baseline-price.ts";
 import { evMonthlyLeaseEur } from "../tco/components/financing.ts";
 import { computeTco } from "../tco/engine.ts";
 import type { TcoContext, TcoResult } from "../tco/types.ts";
@@ -35,6 +38,7 @@ export interface EvCandidateResult {
 
 export interface VehicleAnalysis {
   vehicleId: string;
+  baselinePrice: BaselinePrice;
   baselineTco: TcoResult;
   charging: ChargingAccess;
   candidates: EvCandidateResult[];
@@ -53,6 +57,7 @@ export interface AnalyzeFleetInput {
   catalog: readonly EvModel[];
   stations: readonly ChargingStation[];
   fuelHistory: readonly FuelYearPrice[];
+  iceReference: readonly IceReferenceEntry[];
   assumptions: Assumptions;
 }
 
@@ -83,12 +88,18 @@ function analyzeVehicle(
   input: AnalyzeFleetInput,
   volatility: FleetAnalysis["fuelVolatility"],
 ): VehicleAnalysis {
-  const { assumptions, catalog, stations, fuelHistory } = input;
+  const { assumptions, catalog, stations, fuelHistory, iceReference } = input;
   const fuelPriceEurPerLitre = latestFuelPrice(fuelHistory, vehicle.fuelType);
   if (fuelPriceEurPerLitre === null) {
     throw new RangeError("Fuel price history is empty");
   }
-  const ctx: TcoContext = { vehicle, assumptions, fuelPriceEurPerLitre };
+  const baselinePrice = resolveBaselinePrice(vehicle, iceReference);
+  const ctx: TcoContext = {
+    vehicle,
+    assumptions,
+    fuelPriceEurPerLitre,
+    baselinePriceEur: baselinePrice.priceEur,
+  };
   const charging = assessChargingAccess(vehicle, stations, assumptions);
   const baselineTco = computeTco({ kind: "baseline" }, ctx);
   const rejections: VehicleAnalysis["rejections"] = {};
@@ -135,6 +146,7 @@ function analyzeVehicle(
 
   return {
     vehicleId: vehicle.id,
+    baselinePrice,
     baselineTco,
     charging,
     candidates,

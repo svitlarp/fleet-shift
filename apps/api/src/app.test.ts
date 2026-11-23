@@ -64,6 +64,7 @@ const reference: ReferenceData = {
     { year: 2024, dieselEurPerLitre: 1.7, petrolEurPerLitre: 1.8 },
     { year: 2025, dieselEurPerLitre: 1.6, petrolEurPerLitre: 1.7 },
   ],
+  iceReference: [],
   demoFleetRows: fleetVehicles,
 };
 

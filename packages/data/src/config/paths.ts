@@ -42,6 +42,7 @@ export const paths = {
     fuel: path.join(processedDir, "fuel-prices-paca-annual.json"),
     irve: path.join(processedDir, "irve-paca-stations.json"),
     evCatalog: path.join(processedDir, "ev-catalog.json"),
+    iceReference: path.join(processedDir, "ice-reference.json"),
   },
   sourceUrls: {
     fuel: path.join(sourceUrlsDir, "fuel-source-urls.json"),

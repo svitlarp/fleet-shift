@@ -28,6 +28,7 @@ const input = (
   ],
   stations: [stationFixture()],
   fuelHistory: fuelHistoryFixture,
+  iceReference: [],
   assumptions: assumptionsFixture({ scenarioCount: 100 }),
   ...overrides,
 });
@@ -99,7 +100,12 @@ describe("analyzeFleet", () => {
     const result = analyzeFleet(input({ vehicles: [vehicle], assumptions }));
     const direct = computeTco(
       { kind: "baseline" },
-      { vehicle, assumptions, fuelPriceEurPerLitre: 1.6 },
+      {
+        vehicle,
+        assumptions,
+        fuelPriceEurPerLitre: 1.6,
+        baselinePriceEur: vehicle.purchasePriceEur,
+      },
     );
     expect(result.vehicles[0]?.baselineTco.totalEur).toBe(direct.totalEur);
   });

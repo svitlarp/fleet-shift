@@ -30,10 +30,21 @@ export function evMonthlyLeaseEur(
   );
 }
 
+/** The baseline uses the same annuity as EVs, so both are priced like-for-like. */
+export function baselineMonthlyLeaseEur(
+  ctx: Pick<TcoContext, "assumptions" | "baselinePriceEur">,
+): number {
+  const a = ctx.assumptions;
+  return monthlyLeaseEur(
+    ctx.baselinePriceEur,
+    ctx.baselinePriceEur * a.iceResidualShare,
+    a.leaseAnnualRate,
+    a.evLeaseMonths,
+  );
+}
+
 function optionPriceEur(option: TcoOption, ctx: TcoContext): number {
-  return option.kind === "ev"
-    ? option.ev.priceEur
-    : ctx.vehicle.purchasePriceEur;
+  return option.kind === "ev" ? option.ev.priceEur : ctx.baselinePriceEur;
 }
 
 export const financingComponent: TcoComponent = {
@@ -50,7 +61,7 @@ export const financingComponent: TcoComponent = {
     const monthly =
       option.kind === "ev"
         ? evMonthlyLeaseEur(option.ev.priceEur, ctx)
-        : ctx.vehicle.leaseMonthlyEur;
+        : baselineMonthlyLeaseEur(ctx);
     return [0, ...Array<number>(HORIZON_YEARS).fill(monthly * 12)];
   },
 };

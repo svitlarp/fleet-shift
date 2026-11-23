@@ -13,12 +13,17 @@ import type { TcoComponent, TcoContext } from "./types.ts";
 const ctx = (
   vehicle = vehicleFixture(),
   assumptions = assumptionsFixture(),
-): TcoContext => ({ vehicle, assumptions, fuelPriceEurPerLitre: 1.6 });
+): TcoContext => ({
+  vehicle,
+  assumptions,
+  fuelPriceEurPerLitre: 1.6,
+  baselinePriceEur: 25_000,
+});
 
 describe("computeTco golden cases", () => {
   it("matches the hand calculation for an ICE baseline lease", () => {
     const tco = computeTco({ kind: "baseline" }, ctx());
-    expect(Math.abs(tco.totalEur - 31162.756317)).toBeLessThan(1);
+    expect(Math.abs(tco.totalEur - 32484.155374)).toBeLessThan(1);
   });
 
   it("matches the hand calculation for a leased EV on public charging", () => {
