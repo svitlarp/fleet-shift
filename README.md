@@ -31,22 +31,23 @@ assumption.
 
 ## Project structure
 
-```
-apps/web        React interface
-apps/api        Fastify API and PostgreSQL persistence
-packages/core   calculation engine: matching, TCO, scenarios, planner
-packages/data   open-data pipelines, processed datasets, synthetic demo fleet
-```
+data/
+
+raw/ - original data from open government data sources provided under an open licence
+
+manifest/ - metadata about the data sources and raw files, including their provenance and integrity information.
+
+processed/ - processed data ready to be used by the FleetShift application.
 
 ## Data sources
 
 | Dataset                               | Used for                                           |
 | ------------------------------------- | -------------------------------------------------- |
-| Prix des carburants (data.gouv.fr)    | fuel price history (2016-2025 years) and scenarios |
+| Prix des carburants (data.gouv.fr)    | fuel price history (2015-2025 years) and scenarios |
 | IRVE charging stations (data.gouv.fr) | charging coverage around each base                 |
-| ADEME Car Labelling (data.gouv.fr)    | EV catalogue: price, WLTP range, consumption       |
+| OpenEV Data / EEA CO₂                 | EV catalogue: battery, WLTP range, consumption     |
 
-Raw downloads are stored under `packages/data/raw/` and are not committed.
+Raw downloads are stored under `data/raw/` and are not committed.
 
 **-> Fuel Price Data**
 
@@ -61,22 +62,20 @@ Licence: Licence Ouverte / Open Licence 2.0
 
 TypeScript everywhere, npm workspaces.
 
-| Package         | Contents                                                         |
-| --------------- | ---------------------------------------------------------------- |
-| `apps/web`      | React + Vite, Redux Toolkit + RTK Query, Formik + zod, Recharts  |
-| `apps/api`      | Fastify + zod, Drizzle ORM, PostgreSQL                           |
-| `packages/core` | pure calculation: suitability, chargers, TCO, scenarios, planner |
-| `packages/data` | scripts for the open datasets                                    |
+| Package         | Contents                                                               |
+| --------------- | ---------------------------------------------------------------------- |
+| `apps/web`      | React + Vite, TanStack Query, React Hook Form + zod, Recharts, Leaflet |
+| `apps/api`      | Fastify + zod, Drizzle ORM, PostgreSQL, Playwright (PDF)               |
+| `packages/core` | pure calculation: suitability, chargers, TCO, scenarios, planner       |
+| `packages/data` | scripts for the open datasets                                          |
 
 ## Getting started
 
-Requirements: Node.js 24, npm 10+, Docker (for PostgreSQL).
+Requirements: Node.js 20+, npm 10+, Docker (for PostgreSQL).
 
 ```bash
 npm install
-cp .env.example .env
 docker compose up -d db
-npm run db:migrate
 npm run dev
 ```
 
@@ -87,14 +86,12 @@ npm run lint            # ESLint
 npm run format          # Prettier --write
 npm run typecheck       # tsc --noEmit in all packages
 npm test                # Vitest
-npm run db:generate     # create a migration from the schema
-npm run db:migrate      # apply migrations
 npm run test:coverage   # Vitest with coverage thresholds (70 %)
 ```
 
 ## Status
 
-The core flow works: fleet import, EV matching, simplified 5-year TCO, scenarios, yearly plan and results page. The charging map, PDF report, end-to-end tests, deployment and backtest are still to come.
+Early development. The 6-week build starts on 2026-10-26;
 
 ## Scope
 
