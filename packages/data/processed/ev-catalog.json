@@ -9,9 +9,14 @@
     "segment": "INFERIEURE",
     "priceEur": 38510,
     "powerKw": 80.9,
+    "consoElecMin": null,
+    "consoElecMax": 179,
+    "kwhPer100km": null,
+    "autonomieMax": 200,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "200,000"
+    "co2GkmMax": null
   },
   {
     "id": 2,
@@ -23,9 +28,14 @@
     "segment": "INFERIEURE",
     "priceEur": 38150,
     "powerKw": 57,
+    "consoElecMin": 186.7,
+    "consoElecMax": 227,
+    "kwhPer100km": 22.7,
+    "autonomieMax": 245,
+    "autonomieMin": 293,
+    "rangeKm": 245,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "245,000"
+    "co2GkmMax": null
   },
   {
     "id": 3,
@@ -37,9 +47,14 @@
     "segment": "INFERIEURE",
     "priceEur": 37600,
     "powerKw": 57,
+    "consoElecMin": 149.8,
+    "consoElecMax": 161.5,
+    "kwhPer100km": 16.15,
+    "autonomieMax": 346,
+    "autonomieMin": 373,
+    "rangeKm": 346,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "346,000"
+    "co2GkmMax": null
   },
   {
     "id": 4,
@@ -51,9 +66,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 43632,
     "powerKw": 55,
+    "consoElecMin": 146.1,
+    "consoElecMax": 172.7,
+    "kwhPer100km": 17.27,
+    "autonomieMax": 395,
+    "autonomieMin": 486,
+    "rangeKm": 395,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "395,000"
+    "co2GkmMax": null
   },
   {
     "id": 5,
@@ -65,9 +85,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 35060,
     "powerKw": 60,
+    "consoElecMin": 174.6,
+    "consoElecMax": 186.4,
+    "kwhPer100km": 18.64,
+    "autonomieMax": 199.3,
+    "autonomieMin": 214.5,
+    "rangeKm": 199.3,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "199,300"
+    "co2GkmMax": null
   },
   {
     "id": 6,
@@ -79,9 +104,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 35167,
     "powerKw": 51,
+    "consoElecMin": 158.9,
+    "consoElecMax": 189.9,
+    "kwhPer100km": 18.99,
+    "autonomieMax": 342,
+    "autonomieMin": 402,
+    "rangeKm": 342,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "342,000"
+    "co2GkmMax": null
   },
   {
     "id": 7,
@@ -93,9 +123,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 39770,
     "powerKw": 90,
+    "consoElecMin": 147,
+    "consoElecMax": 160,
+    "kwhPer100km": 16,
+    "autonomieMax": 410,
+    "autonomieMin": 449,
+    "rangeKm": 410,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "410,000"
+    "co2GkmMax": null
   },
   {
     "id": 8,
@@ -107,9 +142,14 @@
     "segment": "INFERIEURE",
     "priceEur": 40947,
     "powerKw": 29,
+    "consoElecMin": null,
+    "consoElecMax": 157,
+    "kwhPer100km": null,
+    "autonomieMax": 452,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "452,000"
+    "co2GkmMax": null
   },
   {
     "id": 9,
@@ -121,9 +161,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 52450,
     "powerKw": 57,
+    "consoElecMin": 246.8,
+    "consoElecMax": 294.9,
+    "kwhPer100km": 29.49,
+    "autonomieMax": 285,
+    "autonomieMin": 339,
+    "rangeKm": 285,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "285,000"
+    "co2GkmMax": null
   },
   {
     "id": 10,
@@ -135,9 +180,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 38925,
     "powerKw": 57,
+    "consoElecMin": 143.4,
+    "consoElecMax": 166.7,
+    "kwhPer100km": 16.67,
+    "autonomieMax": 324,
+    "autonomieMin": 374,
+    "rangeKm": 324,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "324,000"
+    "co2GkmMax": null
   },
   {
     "id": 11,
@@ -149,9 +199,14 @@
     "segment": "LUXE",
     "priceEur": 53490,
     "powerKw": 88,
+    "consoElecMin": null,
+    "consoElecMax": 144,
+    "kwhPer100km": null,
+    "autonomieMax": 491,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "491,000"
+    "co2GkmMax": null
   },
   {
     "id": 12,
@@ -163,9 +218,14 @@
     "segment": "MOYENNE SUPERIEURE",
     "priceEur": 64700,
     "powerKw": 139,
+    "consoElecMin": 167,
+    "consoElecMax": 210,
+    "kwhPer100km": 21,
+    "autonomieMax": 360,
+    "autonomieMin": 453,
+    "rangeKm": 360,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "360,000"
+    "co2GkmMax": null
   },
   {
     "id": 13,
@@ -177,9 +237,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 32267,
     "powerKw": 43,
+    "consoElecMin": null,
+    "consoElecMax": 130,
+    "kwhPer100km": null,
+    "autonomieMax": 189.6,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "189,600"
+    "co2GkmMax": null
   },
   {
     "id": 14,
@@ -191,9 +256,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 52450,
     "powerKw": 57,
+    "consoElecMin": 246.8,
+    "consoElecMax": 294.9,
+    "kwhPer100km": 29.49,
+    "autonomieMax": 285,
+    "autonomieMin": 339,
+    "rangeKm": 285,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "285,000"
+    "co2GkmMax": null
   },
   {
     "id": 15,
@@ -205,9 +275,14 @@
     "segment": "INFERIEURE",
     "priceEur": 40300,
     "powerKw": 57,
+    "consoElecMin": 145,
+    "consoElecMax": 170,
+    "kwhPer100km": 17,
+    "autonomieMax": 311,
+    "autonomieMin": 363,
+    "rangeKm": 311,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "311,000"
+    "co2GkmMax": null
   },
   {
     "id": 16,
@@ -219,9 +294,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 25950,
     "powerKw": 31,
+    "consoElecMin": 150.9,
+    "consoElecMax": 155.9,
+    "kwhPer100km": 15.59,
+    "autonomieMax": 178,
+    "autonomieMin": 190,
+    "rangeKm": 178,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "178,000"
+    "co2GkmMax": null
   },
   {
     "id": 17,
@@ -233,9 +313,14 @@
     "segment": "INFERIEURE",
     "priceEur": 41467,
     "powerKw": 57,
+    "consoElecMin": 143.4,
+    "consoElecMax": 166.7,
+    "kwhPer100km": 16.67,
+    "autonomieMax": 324,
+    "autonomieMin": 374,
+    "rangeKm": 324,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "324,000"
+    "co2GkmMax": null
   },
   {
     "id": 18,
@@ -247,9 +332,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 39890,
     "powerKw": 27.3,
+    "consoElecMin": null,
+    "consoElecMax": 153,
+    "kwhPer100km": null,
+    "autonomieMax": 289,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "289,000"
+    "co2GkmMax": null
   },
   {
     "id": 19,
@@ -261,9 +351,14 @@
     "segment": "LUXE",
     "priceEur": 165454,
     "powerKw": 142,
+    "consoElecMin": 223,
+    "consoElecMax": 263,
+    "kwhPer100km": 26.3,
+    "autonomieMax": 375,
+    "autonomieMin": 456,
+    "rangeKm": 375,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "375,000"
+    "co2GkmMax": null
   },
   {
     "id": 20,
@@ -275,9 +370,14 @@
     "segment": "LUXE",
     "priceEur": 53490,
     "powerKw": 88,
+    "consoElecMin": null,
+    "consoElecMax": 144,
+    "kwhPer100km": null,
+    "autonomieMax": 491,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "491,000"
+    "co2GkmMax": null
   },
   {
     "id": 21,
@@ -289,9 +389,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 52450,
     "powerKw": 57,
+    "consoElecMin": 246.8,
+    "consoElecMax": 294.9,
+    "kwhPer100km": 29.49,
+    "autonomieMax": 285,
+    "autonomieMin": 339,
+    "rangeKm": 285,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "285,000"
+    "co2GkmMax": null
   },
   {
     "id": 22,
@@ -303,9 +408,14 @@
     "segment": "MOYENNE SUPERIEURE",
     "priceEur": 67690,
     "powerKw": 143,
+    "consoElecMin": null,
+    "consoElecMax": 206,
+    "kwhPer100km": null,
+    "autonomieMax": 424,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "424,000"
+    "co2GkmMax": null
   },
   {
     "id": 23,
@@ -317,9 +427,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 43632,
     "powerKw": 55,
+    "consoElecMin": 146.1,
+    "consoElecMax": 172.7,
+    "kwhPer100km": 17.27,
+    "autonomieMax": 395,
+    "autonomieMin": 486,
+    "rangeKm": 395,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "395,000"
+    "co2GkmMax": null
   },
   {
     "id": 24,
@@ -331,9 +446,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 32267,
     "powerKw": 43,
+    "consoElecMin": 133.2,
+    "consoElecMax": 155.8,
+    "kwhPer100km": 15.58,
+    "autonomieMax": 282,
+    "autonomieMin": 337,
+    "rangeKm": 282,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "282,000"
+    "co2GkmMax": null
   },
   {
     "id": 25,
@@ -345,9 +465,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 46990,
     "powerKw": 50,
+    "consoElecMin": null,
+    "consoElecMax": 162,
+    "kwhPer100km": null,
+    "autonomieMax": 460,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "460,000"
+    "co2GkmMax": null
   },
   {
     "id": 26,
@@ -359,9 +484,14 @@
     "segment": "MOYENNE SUPERIEURE",
     "priceEur": 60130,
     "powerKw": 81,
+    "consoElecMin": null,
+    "consoElecMax": 172,
+    "kwhPer100km": null,
+    "autonomieMax": 506,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "506,000"
+    "co2GkmMax": null
   },
   {
     "id": 27,
@@ -373,9 +503,14 @@
     "segment": "LUXE",
     "priceEur": 62490,
     "powerKw": 153,
+    "consoElecMin": null,
+    "consoElecMax": 147,
+    "kwhPer100km": null,
+    "autonomieMax": 602,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "602,000"
+    "co2GkmMax": null
   },
   {
     "id": 28,
@@ -387,9 +522,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 20550,
     "powerKw": 18.6,
+    "consoElecMin": null,
+    "consoElecMax": 139,
+    "kwhPer100km": null,
+    "autonomieMax": 230,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "230,000"
+    "co2GkmMax": null
   },
   {
     "id": 29,
@@ -401,9 +541,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 45000,
     "powerKw": 65,
+    "consoElecMin": null,
+    "consoElecMax": 194.1,
+    "kwhPer100km": null,
+    "autonomieMax": 402,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "402,000"
+    "co2GkmMax": null
   },
   {
     "id": 30,
@@ -415,9 +560,14 @@
     "segment": "INFERIEURE",
     "priceEur": 41467,
     "powerKw": 57,
+    "consoElecMin": 143.4,
+    "consoElecMax": 166.7,
+    "kwhPer100km": 16.67,
+    "autonomieMax": 324,
+    "autonomieMin": 374,
+    "rangeKm": 324,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "324,000"
+    "co2GkmMax": null
   },
   {
     "id": 31,
@@ -429,9 +579,14 @@
     "segment": "LUXE",
     "priceEur": 74000,
     "powerKw": 80,
+    "consoElecMin": 185,
+    "consoElecMax": 194,
+    "kwhPer100km": 19.4,
+    "autonomieMax": 441,
+    "autonomieMin": 462,
+    "rangeKm": 441,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "441,000"
+    "co2GkmMax": null
   },
   {
     "id": 32,
@@ -443,9 +598,14 @@
     "segment": "INFERIEURE",
     "priceEur": 37560,
     "powerKw": 75,
+    "consoElecMin": 152,
+    "consoElecMax": 181,
+    "kwhPer100km": 18.1,
+    "autonomieMax": 196,
+    "autonomieMin": 234,
+    "rangeKm": 196,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "196,000"
+    "co2GkmMax": null
   },
   {
     "id": 33,
@@ -457,9 +617,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 32267,
     "powerKw": 43,
+    "consoElecMin": null,
+    "consoElecMax": 130,
+    "kwhPer100km": null,
+    "autonomieMax": 189.6,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "189,600"
+    "co2GkmMax": null
   },
   {
     "id": 34,
@@ -471,9 +636,14 @@
     "segment": "INFERIEURE",
     "priceEur": 36128,
     "powerKw": 57,
+    "consoElecMin": 149.8,
+    "consoElecMax": 161.5,
+    "kwhPer100km": 16.15,
+    "autonomieMax": 346,
+    "autonomieMin": 373,
+    "rangeKm": 346,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "346,000"
+    "co2GkmMax": null
   },
   {
     "id": 35,
@@ -485,9 +655,14 @@
     "segment": "INFERIEURE",
     "priceEur": 44533,
     "powerKw": 57,
+    "consoElecMin": 145,
+    "consoElecMax": 170,
+    "kwhPer100km": 17,
+    "autonomieMax": 311,
+    "autonomieMin": 363,
+    "rangeKm": 311,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "311,000"
+    "co2GkmMax": null
   },
   {
     "id": 36,
@@ -499,9 +674,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 46323,
     "powerKw": 29,
+    "consoElecMin": null,
+    "consoElecMax": 159,
+    "kwhPer100km": null,
+    "autonomieMax": 455,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "455,000"
+    "co2GkmMax": null
   },
   {
     "id": 37,
@@ -513,9 +693,14 @@
     "segment": "INFERIEURE",
     "priceEur": 36128,
     "powerKw": 57,
+    "consoElecMin": 149.8,
+    "consoElecMax": 161.5,
+    "kwhPer100km": 16.15,
+    "autonomieMax": 346,
+    "autonomieMin": 373,
+    "rangeKm": 346,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "346,000"
+    "co2GkmMax": null
   },
   {
     "id": 38,
@@ -527,9 +712,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 38925,
     "powerKw": 57,
+    "consoElecMin": 143.4,
+    "consoElecMax": 166.7,
+    "kwhPer100km": 16.67,
+    "autonomieMax": 324,
+    "autonomieMin": 374,
+    "rangeKm": 324,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "324,000"
+    "co2GkmMax": null
   },
   {
     "id": 39,
@@ -541,9 +731,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 34400,
     "powerKw": 43,
+    "consoElecMin": 133.2,
+    "consoElecMax": 155.8,
+    "kwhPer100km": 15.58,
+    "autonomieMax": 282,
+    "autonomieMin": 337,
+    "rangeKm": 282,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "282,000"
+    "co2GkmMax": null
   },
   {
     "id": 40,
@@ -555,9 +750,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 51450,
     "powerKw": 57,
+    "consoElecMin": 246.8,
+    "consoElecMax": 294.9,
+    "kwhPer100km": 29.49,
+    "autonomieMax": 285,
+    "autonomieMin": 339,
+    "rangeKm": 285,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "285,000"
+    "co2GkmMax": null
   },
   {
     "id": 41,
@@ -569,9 +769,14 @@
     "segment": "INFERIEURE",
     "priceEur": 40947,
     "powerKw": 29,
+    "consoElecMin": null,
+    "consoElecMax": 157,
+    "kwhPer100km": null,
+    "autonomieMax": 452,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "452,000"
+    "co2GkmMax": null
   },
   {
     "id": 42,
@@ -583,9 +788,14 @@
     "segment": "LUXE",
     "priceEur": 118130,
     "powerKw": 140,
+    "consoElecMin": 189,
+    "consoElecMax": 253,
+    "kwhPer100km": 25.3,
+    "autonomieMax": 404,
+    "autonomieMin": 545,
+    "rangeKm": 404,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "404,000"
+    "co2GkmMax": null
   },
   {
     "id": 43,
@@ -597,9 +807,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 34400,
     "powerKw": 43,
+    "consoElecMin": 133.2,
+    "consoElecMax": 155.8,
+    "kwhPer100km": 15.58,
+    "autonomieMax": 282,
+    "autonomieMin": 337,
+    "rangeKm": 282,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "282,000"
+    "co2GkmMax": null
   },
   {
     "id": 44,
@@ -611,9 +826,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 51450,
     "powerKw": 57,
+    "consoElecMin": 246.8,
+    "consoElecMax": 294.9,
+    "kwhPer100km": 29.49,
+    "autonomieMax": 285,
+    "autonomieMin": 339,
+    "rangeKm": 285,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "285,000"
+    "co2GkmMax": null
   },
   {
     "id": 45,
@@ -625,9 +845,14 @@
     "segment": "MOYENNE SUPERIEURE",
     "priceEur": 55500,
     "powerKw": 118,
+    "consoElecMin": 158.5,
+    "consoElecMax": 181.1,
+    "kwhPer100km": 18.11,
+    "autonomieMax": 411,
+    "autonomieMin": 470,
+    "rangeKm": 411,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "411,000"
+    "co2GkmMax": null
   },
   {
     "id": 46,
@@ -639,9 +864,14 @@
     "segment": "LUXE",
     "priceEur": 93607,
     "powerKw": 102,
+    "consoElecMin": 193.1,
+    "consoElecMax": 251.3,
+    "kwhPer100km": 25.13,
+    "autonomieMax": 326,
+    "autonomieMin": 426,
+    "rangeKm": 326,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "326,000"
+    "co2GkmMax": null
   },
   {
     "id": 47,
@@ -653,9 +883,14 @@
     "segment": "LUXE",
     "priceEur": 151885,
     "powerKw": 142,
+    "consoElecMin": 229,
+    "consoElecMax": 274,
+    "kwhPer100km": 27.4,
+    "autonomieMax": 372,
+    "autonomieMin": 442,
+    "rangeKm": 372,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "372,000"
+    "co2GkmMax": null
   },
   {
     "id": 48,
@@ -667,9 +902,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 25950,
     "powerKw": 31,
+    "consoElecMin": 150.9,
+    "consoElecMax": 155.9,
+    "kwhPer100km": 15.59,
+    "autonomieMax": 178,
+    "autonomieMin": 190,
+    "rangeKm": 178,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "178,000"
+    "co2GkmMax": null
   },
   {
     "id": 49,
@@ -681,9 +921,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 39770,
     "powerKw": 90,
+    "consoElecMin": 146,
+    "consoElecMax": 153,
+    "kwhPer100km": 15.3,
+    "autonomieMax": 287,
+    "autonomieMin": 300,
+    "rangeKm": 287,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "287,000"
+    "co2GkmMax": null
   },
   {
     "id": 50,
@@ -695,9 +940,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 32267,
     "powerKw": 43,
+    "consoElecMin": 133.2,
+    "consoElecMax": 155.8,
+    "kwhPer100km": 15.58,
+    "autonomieMax": 282,
+    "autonomieMin": 337,
+    "rangeKm": 282,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "282,000"
+    "co2GkmMax": null
   },
   {
     "id": 51,
@@ -709,9 +959,14 @@
     "segment": "LUXE",
     "priceEur": 53100,
     "powerKw": 45,
+    "consoElecMin": 155,
+    "consoElecMax": 173,
+    "kwhPer100km": 17.3,
+    "autonomieMax": 544,
+    "autonomieMin": 608,
+    "rangeKm": 544,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "544,000"
+    "co2GkmMax": null
   },
   {
     "id": 52,
@@ -723,9 +978,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 20550,
     "powerKw": 18.6,
+    "consoElecMin": null,
+    "consoElecMax": 139,
+    "kwhPer100km": null,
+    "autonomieMax": 230,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "230,000"
+    "co2GkmMax": null
   },
   {
     "id": 53,
@@ -737,9 +997,14 @@
     "segment": "INFERIEURE",
     "priceEur": 40300,
     "powerKw": 57,
+    "consoElecMin": 143.4,
+    "consoElecMax": 166.7,
+    "kwhPer100km": 16.67,
+    "autonomieMax": 324,
+    "autonomieMin": 374,
+    "rangeKm": 324,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "324,000"
+    "co2GkmMax": null
   },
   {
     "id": 54,
@@ -751,9 +1016,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 25950,
     "powerKw": 31,
+    "consoElecMin": 150.9,
+    "consoElecMax": 155.9,
+    "kwhPer100km": 15.59,
+    "autonomieMax": 178,
+    "autonomieMin": 190,
+    "rangeKm": 178,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "178,000"
+    "co2GkmMax": null
   },
   {
     "id": 55,
@@ -765,9 +1035,14 @@
     "segment": "LUXE",
     "priceEur": 109129,
     "powerKw": 140,
+    "consoElecMin": 218,
+    "consoElecMax": 274,
+    "kwhPer100km": 27.4,
+    "autonomieMax": 371,
+    "autonomieMin": 465,
+    "rangeKm": 371,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "371,000"
+    "co2GkmMax": null
   },
   {
     "id": 56,
@@ -779,9 +1054,14 @@
     "segment": "INFERIEURE",
     "priceEur": 37560,
     "powerKw": 75,
+    "consoElecMin": 152,
+    "consoElecMax": 181,
+    "kwhPer100km": 18.1,
+    "autonomieMax": 196,
+    "autonomieMin": 234,
+    "rangeKm": 196,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "196,000"
+    "co2GkmMax": null
   },
   {
     "id": 57,
@@ -793,9 +1073,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 45000,
     "powerKw": 105,
+    "consoElecMin": null,
+    "consoElecMax": 209,
+    "kwhPer100km": null,
+    "autonomieMax": 370,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "370,000"
+    "co2GkmMax": null
   },
   {
     "id": 58,
@@ -807,9 +1092,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 32267,
     "powerKw": 43,
+    "consoElecMin": 133.2,
+    "consoElecMax": 155.8,
+    "kwhPer100km": 15.58,
+    "autonomieMax": 282,
+    "autonomieMin": 337,
+    "rangeKm": 282,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "282,000"
+    "co2GkmMax": null
   },
   {
     "id": 59,
@@ -821,9 +1111,14 @@
     "segment": "INFERIEURE",
     "priceEur": 36128,
     "powerKw": 57,
+    "consoElecMin": 152.2,
+    "consoElecMax": 172.5,
+    "kwhPer100km": 17.25,
+    "autonomieMax": 331,
+    "autonomieMin": 362,
+    "rangeKm": 331,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "331,000"
+    "co2GkmMax": null
   },
   {
     "id": 60,
@@ -835,9 +1130,14 @@
     "segment": "INFERIEURE",
     "priceEur": 44533,
     "powerKw": 57,
+    "consoElecMin": 143.4,
+    "consoElecMax": 166.7,
+    "kwhPer100km": 16.67,
+    "autonomieMax": 324,
+    "autonomieMin": 374,
+    "rangeKm": 324,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "324,000"
+    "co2GkmMax": null
   },
   {
     "id": 61,
@@ -849,9 +1149,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 25950,
     "powerKw": 31,
+    "consoElecMin": 150.9,
+    "consoElecMax": 155.9,
+    "kwhPer100km": 15.59,
+    "autonomieMax": 178,
+    "autonomieMin": 190,
+    "rangeKm": 178,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "178,000"
+    "co2GkmMax": null
   },
   {
     "id": 62,
@@ -863,9 +1168,14 @@
     "segment": "MOYENNE SUPERIEURE",
     "priceEur": 51857,
     "powerKw": 42,
+    "consoElecMin": null,
+    "consoElecMax": 166,
+    "kwhPer100km": null,
+    "autonomieMax": 394,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "394,000"
+    "co2GkmMax": null
   },
   {
     "id": 63,
@@ -877,9 +1187,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 45000,
     "powerKw": 65,
+    "consoElecMin": null,
+    "consoElecMax": 194.1,
+    "kwhPer100km": null,
+    "autonomieMax": 402,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "402,000"
+    "co2GkmMax": null
   },
   {
     "id": 64,
@@ -891,9 +1206,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 38925,
     "powerKw": 57,
+    "consoElecMin": 143.4,
+    "consoElecMax": 166.7,
+    "kwhPer100km": 16.67,
+    "autonomieMax": 324,
+    "autonomieMin": 374,
+    "rangeKm": 324,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "324,000"
+    "co2GkmMax": null
   },
   {
     "id": 65,
@@ -905,9 +1225,14 @@
     "segment": "LUXE",
     "priceEur": 139150,
     "powerKw": 140,
+    "consoElecMin": 216.9,
+    "consoElecMax": 252.4,
+    "kwhPer100km": 25.24,
+    "autonomieMax": 486,
+    "autonomieMin": 567,
+    "rangeKm": 486,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "486,000"
+    "co2GkmMax": null
   },
   {
     "id": 66,
@@ -919,9 +1244,14 @@
     "segment": "INFERIEURE",
     "priceEur": 44533,
     "powerKw": 57,
+    "consoElecMin": 143.4,
+    "consoElecMax": 166.7,
+    "kwhPer100km": 16.67,
+    "autonomieMax": 324,
+    "autonomieMin": 374,
+    "rangeKm": 324,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "324,000"
+    "co2GkmMax": null
   },
   {
     "id": 67,
@@ -933,9 +1263,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 52450,
     "powerKw": 57,
+    "consoElecMin": 246.8,
+    "consoElecMax": 294.9,
+    "kwhPer100km": 29.49,
+    "autonomieMax": 285,
+    "autonomieMin": 339,
+    "rangeKm": 285,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "285,000"
+    "co2GkmMax": null
   },
   {
     "id": 68,
@@ -947,9 +1282,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 43632,
     "powerKw": 55,
+    "consoElecMin": 146.1,
+    "consoElecMax": 172.7,
+    "kwhPer100km": 17.27,
+    "autonomieMax": 395,
+    "autonomieMin": 486,
+    "rangeKm": 395,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "395,000"
+    "co2GkmMax": null
   },
   {
     "id": 69,
@@ -961,9 +1301,14 @@
     "segment": "LUXE",
     "priceEur": 68150,
     "powerKw": 139,
+    "consoElecMin": 167,
+    "consoElecMax": 210,
+    "kwhPer100km": 21,
+    "autonomieMax": 360,
+    "autonomieMin": 453,
+    "rangeKm": 360,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "360,000"
+    "co2GkmMax": null
   },
   {
     "id": 70,
@@ -975,9 +1320,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 32700,
     "powerKw": 43,
+    "consoElecMin": null,
+    "consoElecMax": 130,
+    "kwhPer100km": null,
+    "autonomieMax": 189.6,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "189,600"
+    "co2GkmMax": null
   },
   {
     "id": 71,
@@ -989,9 +1339,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 41950,
     "powerKw": 55,
+    "consoElecMin": 146.1,
+    "consoElecMax": 172.7,
+    "kwhPer100km": 17.27,
+    "autonomieMax": 395,
+    "autonomieMin": 486,
+    "rangeKm": 395,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "395,000"
+    "co2GkmMax": null
   },
   {
     "id": 72,
@@ -1003,9 +1358,14 @@
     "segment": "INFERIEURE",
     "priceEur": 41467,
     "powerKw": 57,
+    "consoElecMin": 145,
+    "consoElecMax": 170,
+    "kwhPer100km": 17,
+    "autonomieMax": 311,
+    "autonomieMin": 363,
+    "rangeKm": 311,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "311,000"
+    "co2GkmMax": null
   },
   {
     "id": 73,
@@ -1017,9 +1377,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 38100,
     "powerKw": 55,
+    "consoElecMin": 147.7,
+    "consoElecMax": 172.7,
+    "kwhPer100km": 17.27,
+    "autonomieMax": 273,
+    "autonomieMin": 310,
+    "rangeKm": 273,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "273,000"
+    "co2GkmMax": null
   },
   {
     "id": 74,
@@ -1031,9 +1396,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 51450,
     "powerKw": 57,
+    "consoElecMin": 246.8,
+    "consoElecMax": 294.9,
+    "kwhPer100km": 29.49,
+    "autonomieMax": 285,
+    "autonomieMin": 339,
+    "rangeKm": 285,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "285,000"
+    "co2GkmMax": null
   },
   {
     "id": 75,
@@ -1045,9 +1415,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 38100,
     "powerKw": 55,
+    "consoElecMin": 146.1,
+    "consoElecMax": 172.7,
+    "kwhPer100km": 17.27,
+    "autonomieMax": 395,
+    "autonomieMin": 486,
+    "rangeKm": 395,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "395,000"
+    "co2GkmMax": null
   },
   {
     "id": 76,
@@ -1059,9 +1434,14 @@
     "segment": "INFERIEURE",
     "priceEur": 40300,
     "powerKw": 57,
+    "consoElecMin": 143.4,
+    "consoElecMax": 166.7,
+    "kwhPer100km": 16.67,
+    "autonomieMax": 324,
+    "autonomieMin": 374,
+    "rangeKm": 324,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "324,000"
+    "co2GkmMax": null
   },
   {
     "id": 77,
@@ -1073,9 +1453,14 @@
     "segment": "LUXE",
     "priceEur": 115230,
     "powerKw": 140,
+    "consoElecMin": 197.3,
+    "consoElecMax": 256.8,
+    "kwhPer100km": 25.68,
+    "autonomieMax": 483,
+    "autonomieMin": 632,
+    "rangeKm": 483,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "483,000"
+    "co2GkmMax": null
   },
   {
     "id": 78,
@@ -1087,9 +1472,14 @@
     "segment": "LUXE",
     "priceEur": 93941,
     "powerKw": 120,
+    "consoElecMin": 187,
+    "consoElecMax": 249,
+    "kwhPer100km": 24.9,
+    "autonomieMax": 410,
+    "autonomieMin": 541,
+    "rangeKm": 410,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "410,000"
+    "co2GkmMax": null
   },
   {
     "id": 79,
@@ -1101,9 +1491,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 46323,
     "powerKw": 29,
+    "consoElecMin": null,
+    "consoElecMax": 159,
+    "kwhPer100km": null,
+    "autonomieMax": 455,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "455,000"
+    "co2GkmMax": null
   },
   {
     "id": 80,
@@ -1115,9 +1510,14 @@
     "segment": "MOYENNE SUPERIEURE",
     "priceEur": 56130,
     "powerKw": 56,
+    "consoElecMin": null,
+    "consoElecMax": 172,
+    "kwhPer100km": null,
+    "autonomieMax": 504,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "504,000"
+    "co2GkmMax": null
   },
   {
     "id": 81,
@@ -1129,9 +1529,14 @@
     "segment": "INFERIEURE",
     "priceEur": 39150,
     "powerKw": 57,
+    "consoElecMin": 186.7,
+    "consoElecMax": 227,
+    "kwhPer100km": 22.7,
+    "autonomieMax": 245,
+    "autonomieMin": 293,
+    "rangeKm": 245,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "245,000"
+    "co2GkmMax": null
   },
   {
     "id": 82,
@@ -1143,9 +1548,14 @@
     "segment": "MOYENNE SUPERIEURE",
     "priceEur": 64700,
     "powerKw": 95,
+    "consoElecMin": 146,
+    "consoElecMax": 196,
+    "kwhPer100km": 19.6,
+    "autonomieMax": 409,
+    "autonomieMin": 551,
+    "rangeKm": 409,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "409,000"
+    "co2GkmMax": null
   },
   {
     "id": 83,
@@ -1157,9 +1567,14 @@
     "segment": "INFERIEURE",
     "priceEur": 37600,
     "powerKw": 57,
+    "consoElecMin": 152.2,
+    "consoElecMax": 172.5,
+    "kwhPer100km": 17.25,
+    "autonomieMax": 331,
+    "autonomieMin": 362,
+    "rangeKm": 331,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "331,000"
+    "co2GkmMax": null
   },
   {
     "id": 84,
@@ -1171,9 +1586,14 @@
     "segment": "LUXE",
     "priceEur": 115350,
     "powerKw": 142,
+    "consoElecMin": 193.3,
+    "consoElecMax": 239,
+    "kwhPer100km": 23.9,
+    "autonomieMax": 409,
+    "autonomieMin": 506,
+    "rangeKm": 409,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "409,000"
+    "co2GkmMax": null
   },
   {
     "id": 85,
@@ -1185,9 +1605,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 35060,
     "powerKw": 60,
+    "consoElecMin": null,
+    "consoElecMax": 171.9,
+    "kwhPer100km": null,
+    "autonomieMax": 222,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "222,000"
+    "co2GkmMax": null
   },
   {
     "id": 86,
@@ -1199,9 +1624,14 @@
     "segment": "INFERIEURE",
     "priceEur": 38510,
     "powerKw": 80.9,
+    "consoElecMin": null,
+    "consoElecMax": 179,
+    "kwhPer100km": null,
+    "autonomieMax": 200,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "200,000"
+    "co2GkmMax": null
   },
   {
     "id": 87,
@@ -1213,9 +1643,14 @@
     "segment": "INFERIEURE",
     "priceEur": 42050,
     "powerKw": 57,
+    "consoElecMin": 186.7,
+    "consoElecMax": 227,
+    "kwhPer100km": 22.7,
+    "autonomieMax": 245,
+    "autonomieMin": 293,
+    "rangeKm": 245,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "245,000"
+    "co2GkmMax": null
   },
   {
     "id": 88,
@@ -1227,9 +1662,14 @@
     "segment": "LUXE",
     "priceEur": 115350,
     "powerKw": 140,
+    "consoElecMin": 189.5,
+    "consoElecMax": 245.3,
+    "kwhPer100km": 24.53,
+    "autonomieMax": 396,
+    "autonomieMin": 516,
+    "rangeKm": 396,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "396,000"
+    "co2GkmMax": null
   },
   {
     "id": 89,
@@ -1241,9 +1681,14 @@
     "segment": "INFERIEURE",
     "priceEur": 36128,
     "powerKw": 57,
+    "consoElecMin": 149.8,
+    "consoElecMax": 161.5,
+    "kwhPer100km": 16.15,
+    "autonomieMax": 346,
+    "autonomieMin": 373,
+    "rangeKm": 346,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "346,000"
+    "co2GkmMax": null
   },
   {
     "id": 90,
@@ -1255,9 +1700,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 38100,
     "powerKw": 55,
+    "consoElecMin": 147.7,
+    "consoElecMax": 172.7,
+    "kwhPer100km": 17.27,
+    "autonomieMax": 273,
+    "autonomieMin": 310,
+    "rangeKm": 273,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "273,000"
+    "co2GkmMax": null
   },
   {
     "id": 91,
@@ -1269,9 +1719,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 35167,
     "powerKw": 51,
+    "consoElecMin": 158.9,
+    "consoElecMax": 189.9,
+    "kwhPer100km": 18.99,
+    "autonomieMax": 342,
+    "autonomieMin": 402,
+    "rangeKm": 342,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "342,000"
+    "co2GkmMax": null
   },
   {
     "id": 92,
@@ -1283,9 +1738,14 @@
     "segment": "INFERIEURE",
     "priceEur": 44533,
     "powerKw": 57,
+    "consoElecMin": 145,
+    "consoElecMax": 170,
+    "kwhPer100km": 17,
+    "autonomieMax": 311,
+    "autonomieMin": 363,
+    "rangeKm": 311,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "311,000"
+    "co2GkmMax": null
   },
   {
     "id": 93,
@@ -1297,9 +1757,14 @@
     "segment": "LUXE",
     "priceEur": 151885,
     "powerKw": 140,
+    "consoElecMin": 200,
+    "consoElecMax": 270,
+    "kwhPer100km": 27,
+    "autonomieMax": 370,
+    "autonomieMin": 499,
+    "rangeKm": 370,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "370,000"
+    "co2GkmMax": null
   },
   {
     "id": 94,
@@ -1311,9 +1776,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 43632,
     "powerKw": 55,
+    "consoElecMin": 146.1,
+    "consoElecMax": 172.7,
+    "kwhPer100km": 17.27,
+    "autonomieMax": 395,
+    "autonomieMin": 486,
+    "rangeKm": 395,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "395,000"
+    "co2GkmMax": null
   },
   {
     "id": 95,
@@ -1325,9 +1795,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 46990,
     "powerKw": 50,
+    "consoElecMin": null,
+    "consoElecMax": 162,
+    "kwhPer100km": null,
+    "autonomieMax": 460,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "460,000"
+    "co2GkmMax": null
   },
   {
     "id": 96,
@@ -1339,9 +1814,14 @@
     "segment": "INFERIEURE",
     "priceEur": 39150,
     "powerKw": 57,
+    "consoElecMin": 186.7,
+    "consoElecMax": 227,
+    "kwhPer100km": 22.7,
+    "autonomieMax": 245,
+    "autonomieMin": 293,
+    "rangeKm": 245,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "245,000"
+    "co2GkmMax": null
   },
   {
     "id": 97,
@@ -1353,9 +1833,14 @@
     "segment": "INFERIEURE",
     "priceEur": 41467,
     "powerKw": 57,
+    "consoElecMin": 145,
+    "consoElecMax": 170,
+    "kwhPer100km": 17,
+    "autonomieMax": 311,
+    "autonomieMin": 363,
+    "rangeKm": 311,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "311,000"
+    "co2GkmMax": null
   },
   {
     "id": 98,
@@ -1367,9 +1852,14 @@
     "segment": "INFERIEURE",
     "priceEur": 42050,
     "powerKw": 57,
+    "consoElecMin": 186.7,
+    "consoElecMax": 227,
+    "kwhPer100km": 22.7,
+    "autonomieMax": 245,
+    "autonomieMin": 293,
+    "rangeKm": 245,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "245,000"
+    "co2GkmMax": null
   },
   {
     "id": 99,
@@ -1381,9 +1871,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 35167,
     "powerKw": 51,
+    "consoElecMin": 158.9,
+    "consoElecMax": 189.9,
+    "kwhPer100km": 18.99,
+    "autonomieMax": 342,
+    "autonomieMin": 402,
+    "rangeKm": 342,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "342,000"
+    "co2GkmMax": null
   },
   {
     "id": 100,
@@ -1395,9 +1890,14 @@
     "segment": "LUXE",
     "priceEur": 111602,
     "powerKw": 113,
+    "consoElecMin": 188,
+    "consoElecMax": 251,
+    "kwhPer100km": 25.1,
+    "autonomieMax": 347,
+    "autonomieMin": 472,
+    "rangeKm": 347,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "347,000"
+    "co2GkmMax": null
   },
   {
     "id": 101,
@@ -1409,9 +1909,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 25950,
     "powerKw": 31,
+    "consoElecMin": 150.9,
+    "consoElecMax": 155.9,
+    "kwhPer100km": 15.59,
+    "autonomieMax": 178,
+    "autonomieMin": 190,
+    "rangeKm": 178,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "178,000"
+    "co2GkmMax": null
   },
   {
     "id": 102,
@@ -1423,9 +1928,14 @@
     "segment": "LUXE",
     "priceEur": 151885,
     "powerKw": 142,
+    "consoElecMin": 217,
+    "consoElecMax": 268,
+    "kwhPer100km": 26.8,
+    "autonomieMax": 379,
+    "autonomieMin": 468,
+    "rangeKm": 379,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "379,000"
+    "co2GkmMax": null
   },
   {
     "id": 103,
@@ -1437,9 +1947,14 @@
     "segment": "LUXE",
     "priceEur": 93607,
     "powerKw": 102,
+    "consoElecMin": 193.1,
+    "consoElecMax": 251.3,
+    "kwhPer100km": 25.13,
+    "autonomieMax": 326,
+    "autonomieMin": 426,
+    "rangeKm": 326,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "326,000"
+    "co2GkmMax": null
   },
   {
     "id": 104,
@@ -1451,9 +1966,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 32700,
     "powerKw": 43,
+    "consoElecMin": null,
+    "consoElecMax": 130,
+    "kwhPer100km": null,
+    "autonomieMax": 189.6,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "189,600"
+    "co2GkmMax": null
   },
   {
     "id": 105,
@@ -1465,9 +1985,14 @@
     "segment": "LUXE",
     "priceEur": 151885,
     "powerKw": 140,
+    "consoElecMin": 216,
+    "consoElecMax": 275,
+    "kwhPer100km": 27.5,
+    "autonomieMax": 371,
+    "autonomieMin": 469,
+    "rangeKm": 371,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "371,000"
+    "co2GkmMax": null
   },
   {
     "id": 106,
@@ -1479,9 +2004,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 39770,
     "powerKw": 90,
+    "consoElecMin": 146,
+    "consoElecMax": 153,
+    "kwhPer100km": 15.3,
+    "autonomieMax": 287,
+    "autonomieMin": 300,
+    "rangeKm": 287,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "287,000"
+    "co2GkmMax": null
   },
   {
     "id": 107,
@@ -1493,9 +2023,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 51450,
     "powerKw": 57,
+    "consoElecMin": 246.8,
+    "consoElecMax": 294.9,
+    "kwhPer100km": 29.49,
+    "autonomieMax": 285,
+    "autonomieMin": 339,
+    "rangeKm": 285,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "285,000"
+    "co2GkmMax": null
   },
   {
     "id": 108,
@@ -1507,9 +2042,14 @@
     "segment": "INFERIEURE",
     "priceEur": 38150,
     "powerKw": 57,
+    "consoElecMin": 186.7,
+    "consoElecMax": 227,
+    "kwhPer100km": 22.7,
+    "autonomieMax": 245,
+    "autonomieMin": 293,
+    "rangeKm": 245,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "245,000"
+    "co2GkmMax": null
   },
   {
     "id": 109,
@@ -1521,9 +2061,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 52450,
     "powerKw": 57,
+    "consoElecMin": 246.8,
+    "consoElecMax": 294.9,
+    "kwhPer100km": 29.49,
+    "autonomieMax": 285,
+    "autonomieMin": 339,
+    "rangeKm": 285,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "285,000"
+    "co2GkmMax": null
   },
   {
     "id": 110,
@@ -1535,9 +2080,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 25950,
     "powerKw": 31,
+    "consoElecMin": 150.9,
+    "consoElecMax": 155.9,
+    "kwhPer100km": 15.59,
+    "autonomieMax": 178,
+    "autonomieMin": 190,
+    "rangeKm": 178,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "178,000"
+    "co2GkmMax": null
   },
   {
     "id": 111,
@@ -1549,9 +2099,14 @@
     "segment": "MOYENNE SUPERIEURE",
     "priceEur": 60130,
     "powerKw": 81,
+    "consoElecMin": null,
+    "consoElecMax": 180,
+    "kwhPer100km": null,
+    "autonomieMax": 484,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "484,000"
+    "co2GkmMax": null
   },
   {
     "id": 112,
@@ -1563,9 +2118,14 @@
     "segment": "LUXE",
     "priceEur": 96827,
     "powerKw": 120,
+    "consoElecMin": 197,
+    "consoElecMax": 260,
+    "kwhPer100km": 26,
+    "autonomieMax": 394,
+    "autonomieMin": 520,
+    "rangeKm": 394,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "394,000"
+    "co2GkmMax": null
   },
   {
     "id": 113,
@@ -1577,9 +2137,14 @@
     "segment": "LUXE",
     "priceEur": 151885,
     "powerKw": 142,
+    "consoElecMin": 206,
+    "consoElecMax": 245,
+    "kwhPer100km": 24.5,
+    "autonomieMax": 420,
+    "autonomieMin": 493,
+    "rangeKm": 420,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "420,000"
+    "co2GkmMax": null
   },
   {
     "id": 114,
@@ -1591,9 +2156,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 38100,
     "powerKw": 55,
+    "consoElecMin": 147.7,
+    "consoElecMax": 172.7,
+    "kwhPer100km": 17.27,
+    "autonomieMax": 273,
+    "autonomieMin": 310,
+    "rangeKm": 273,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "273,000"
+    "co2GkmMax": null
   },
   {
     "id": 115,
@@ -1605,9 +2175,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 35060,
     "powerKw": 60,
+    "consoElecMin": null,
+    "consoElecMax": 171.9,
+    "kwhPer100km": null,
+    "autonomieMax": 222,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "222,000"
+    "co2GkmMax": null
   },
   {
     "id": 116,
@@ -1619,9 +2194,14 @@
     "segment": "INFERIEURE",
     "priceEur": 40300,
     "powerKw": 57,
+    "consoElecMin": 145,
+    "consoElecMax": 170,
+    "kwhPer100km": 17,
+    "autonomieMax": 311,
+    "autonomieMin": 363,
+    "rangeKm": 311,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "311,000"
+    "co2GkmMax": null
   },
   {
     "id": 117,
@@ -1633,9 +2213,14 @@
     "segment": "LUXE",
     "priceEur": 151885,
     "powerKw": 140,
+    "consoElecMin": 200,
+    "consoElecMax": 270,
+    "kwhPer100km": 27,
+    "autonomieMax": 370,
+    "autonomieMin": 499,
+    "rangeKm": 370,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "370,000"
+    "co2GkmMax": null
   },
   {
     "id": 118,
@@ -1647,9 +2232,14 @@
     "segment": "INFERIEURE",
     "priceEur": 37600,
     "powerKw": 57,
+    "consoElecMin": 152.2,
+    "consoElecMax": 172.5,
+    "kwhPer100km": 17.25,
+    "autonomieMax": 331,
+    "autonomieMin": 362,
+    "rangeKm": 331,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "331,000"
+    "co2GkmMax": null
   },
   {
     "id": 119,
@@ -1661,9 +2251,14 @@
     "segment": "INFERIEURE",
     "priceEur": 37600,
     "powerKw": 57,
+    "consoElecMin": 149.8,
+    "consoElecMax": 161.5,
+    "kwhPer100km": 16.15,
+    "autonomieMax": 346,
+    "autonomieMin": 373,
+    "rangeKm": 346,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "346,000"
+    "co2GkmMax": null
   },
   {
     "id": 120,
@@ -1675,9 +2270,14 @@
     "segment": "LUXE",
     "priceEur": 53100,
     "powerKw": 45,
+    "consoElecMin": 152,
+    "consoElecMax": 171,
+    "kwhPer100km": 17.1,
+    "autonomieMax": 414,
+    "autonomieMin": 464,
+    "rangeKm": 414,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "414,000"
+    "co2GkmMax": null
   },
   {
     "id": 121,
@@ -1689,9 +2289,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 35167,
     "powerKw": 51,
+    "consoElecMin": 158.9,
+    "consoElecMax": 189.9,
+    "kwhPer100km": 18.99,
+    "autonomieMax": 342,
+    "autonomieMin": 402,
+    "rangeKm": 342,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "342,000"
+    "co2GkmMax": null
   },
   {
     "id": 122,
@@ -1703,9 +2308,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 32267,
     "powerKw": 43,
+    "consoElecMin": 133.2,
+    "consoElecMax": 155.8,
+    "kwhPer100km": 15.58,
+    "autonomieMax": 282,
+    "autonomieMin": 337,
+    "rangeKm": 282,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "282,000"
+    "co2GkmMax": null
   },
   {
     "id": 123,
@@ -1717,9 +2327,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 39770,
     "powerKw": 90,
+    "consoElecMin": 147,
+    "consoElecMax": 160,
+    "kwhPer100km": 16,
+    "autonomieMax": 410,
+    "autonomieMin": 449,
+    "rangeKm": 410,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "410,000"
+    "co2GkmMax": null
   },
   {
     "id": 124,
@@ -1731,9 +2346,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 38100,
     "powerKw": 55,
+    "consoElecMin": 147.7,
+    "consoElecMax": 172.7,
+    "kwhPer100km": 17.27,
+    "autonomieMax": 273,
+    "autonomieMin": 310,
+    "rangeKm": 273,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "273,000"
+    "co2GkmMax": null
   },
   {
     "id": 125,
@@ -1745,9 +2365,14 @@
     "segment": "INFERIEURE",
     "priceEur": 36128,
     "powerKw": 57,
+    "consoElecMin": 152.2,
+    "consoElecMax": 172.5,
+    "kwhPer100km": 17.25,
+    "autonomieMax": 331,
+    "autonomieMin": 362,
+    "rangeKm": 331,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "331,000"
+    "co2GkmMax": null
   },
   {
     "id": 126,
@@ -1759,9 +2384,14 @@
     "segment": "INFERIEURE",
     "priceEur": 36128,
     "powerKw": 57,
+    "consoElecMin": 149.8,
+    "consoElecMax": 161.5,
+    "kwhPer100km": 16.15,
+    "autonomieMax": 346,
+    "autonomieMin": 373,
+    "rangeKm": 346,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "346,000"
+    "co2GkmMax": null
   },
   {
     "id": 127,
@@ -1773,9 +2403,14 @@
     "segment": "LUXE",
     "priceEur": 165454,
     "powerKw": 142,
+    "consoElecMin": 193,
+    "consoElecMax": 243,
+    "kwhPer100km": 24.3,
+    "autonomieMax": 418,
+    "autonomieMin": 526,
+    "rangeKm": 418,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "418,000"
+    "co2GkmMax": null
   },
   {
     "id": 128,
@@ -1787,9 +2422,14 @@
     "segment": "MOYENNE SUPERIEURE",
     "priceEur": 56130,
     "powerKw": 56,
+    "consoElecMin": null,
+    "consoElecMax": 165,
+    "kwhPer100km": null,
+    "autonomieMax": 528,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "528,000"
+    "co2GkmMax": null
   },
   {
     "id": 129,
@@ -1801,9 +2441,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 45000,
     "powerKw": 105,
+    "consoElecMin": null,
+    "consoElecMax": 209,
+    "kwhPer100km": null,
+    "autonomieMax": 370,
+    "autonomieMin": null,
+    "rangeKm": null,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "370,000"
+    "co2GkmMax": null
   },
   {
     "id": 130,
@@ -1815,9 +2460,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 38100,
     "powerKw": 55,
+    "consoElecMin": 146.1,
+    "consoElecMax": 172.7,
+    "kwhPer100km": 17.27,
+    "autonomieMax": 395,
+    "autonomieMin": 486,
+    "rangeKm": 395,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "395,000"
+    "co2GkmMax": null
   },
   {
     "id": 131,
@@ -1829,9 +2479,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 38925,
     "powerKw": 57,
+    "consoElecMin": 143.4,
+    "consoElecMax": 166.7,
+    "kwhPer100km": 16.67,
+    "autonomieMax": 324,
+    "autonomieMin": 374,
+    "rangeKm": 324,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "324,000"
+    "co2GkmMax": null
   },
   {
     "id": 132,
@@ -1843,9 +2498,14 @@
     "segment": "MOYENNE INFERIEURE",
     "priceEur": 37000,
     "powerKw": 57,
+    "consoElecMin": 143.4,
+    "consoElecMax": 166.7,
+    "kwhPer100km": 16.67,
+    "autonomieMax": 324,
+    "autonomieMin": 374,
+    "rangeKm": 324,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "324,000"
+    "co2GkmMax": null
   },
   {
     "id": 133,
@@ -1857,9 +2517,14 @@
     "segment": "ECONOMIQUE",
     "priceEur": 41950,
     "powerKw": 55,
+    "consoElecMin": 146.1,
+    "consoElecMax": 172.7,
+    "kwhPer100km": 17.27,
+    "autonomieMax": 395,
+    "autonomieMin": 486,
+    "rangeKm": 395,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "395,000"
+    "co2GkmMax": null
   },
   {
     "id": 134,
@@ -1871,8 +2536,13 @@
     "segment": "ECONOMIQUE",
     "priceEur": 35060,
     "powerKw": 60,
+    "consoElecMin": 174.6,
+    "consoElecMax": 186.4,
+    "kwhPer100km": 18.64,
+    "autonomieMax": 199.3,
+    "autonomieMin": 214.5,
+    "rangeKm": 199.3,
     "co2GkmMin": null,
-    "co2GkmMax": null,
-    "autonomie": "199,300"
+    "co2GkmMax": null
   }
 ]

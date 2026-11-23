@@ -1,0 +1,853 @@
+[
+  {
+    "id": "veh-001",
+    "role": "senior_agent",
+    "make": "Peugeot",
+    "model": "208 1.5 BlueHDi",
+    "year": 2020,
+    "bodyType": "hatchback",
+    "fuelType": "diesel",
+    "seats": 5,
+    "usage": {
+      "annualKm": 24400,
+      "typicalDailyKm": 84,
+      "maxDailyKm": 160
+    },
+    "consumption": {
+      "litersPer100km": 4.9,
+      "litersPerDay": 4.1,
+      "litersPerYear": 1196
+    },
+    "costs": {
+      "purchasePrice": 21500,
+      "residualValueNow": 6800,
+      "maintenancePerYear": 1010,
+      "insurancePerYear": 800,
+      "leaseMonthlyPayment": 335,
+      "leaseEndDate": "2028-12-31",
+      "reportedTco": 39300
+    },
+    "base": {
+      "commune": "Nice",
+      "inseeCode": "06088",
+      "lat": 43.7102,
+      "lon": 7.262,
+      "hasHomeCharging": false
+    },
+    "plannedReplacementYear": 2028
+  },
+  {
+    "id": "veh-002",
+    "role": "senior_agent",
+    "make": "Renault",
+    "model": "Clio 1.5 Blue dCi",
+    "year": 2019,
+    "bodyType": "hatchback",
+    "fuelType": "diesel",
+    "seats": 5,
+    "usage": {
+      "annualKm": 25600,
+      "typicalDailyKm": 88,
+      "maxDailyKm": 170
+    },
+    "consumption": {
+      "litersPer100km": 5.1,
+      "litersPerDay": 4.5,
+      "litersPerYear": 1306
+    },
+    "costs": {
+      "purchasePrice": 19800,
+      "residualValueNow": 5200,
+      "maintenancePerYear": 1060,
+      "insurancePerYear": 760,
+      "leaseMonthlyPayment": 295,
+      "leaseEndDate": "2028-03-31",
+      "reportedTco": 37900
+    },
+    "base": {
+      "commune": "Nice",
+      "inseeCode": "06088",
+      "lat": 43.7102,
+      "lon": 7.262,
+      "hasHomeCharging": false
+    },
+    "plannedReplacementYear": 2028
+  },
+  {
+    "id": "veh-003",
+    "role": "senior_agent",
+    "make": "Citroën",
+    "model": "C3 1.5 BlueHDi",
+    "year": 2021,
+    "bodyType": "hatchback",
+    "fuelType": "diesel",
+    "seats": 5,
+    "usage": {
+      "annualKm": 23300,
+      "typicalDailyKm": 80,
+      "maxDailyKm": 150
+    },
+    "consumption": {
+      "litersPer100km": 4.8,
+      "litersPerDay": 3.8,
+      "litersPerYear": 1118
+    },
+    "costs": {
+      "purchasePrice": 18900,
+      "residualValueNow": 7600,
+      "maintenancePerYear": 990,
+      "insurancePerYear": 820,
+      "leaseMonthlyPayment": 295,
+      "leaseEndDate": "2029-06-30",
+      "reportedTco": 36300
+    },
+    "base": {
+      "commune": "Marseille",
+      "inseeCode": "13055",
+      "lat": 43.2965,
+      "lon": 5.3698,
+      "hasHomeCharging": false
+    },
+    "plannedReplacementYear": 2029
+  },
+  {
+    "id": "veh-004",
+    "role": "senior_agent",
+    "make": "Peugeot",
+    "model": "308 1.5 BlueHDi",
+    "year": 2020,
+    "bodyType": "hatchback",
+    "fuelType": "diesel",
+    "seats": 5,
+    "usage": {
+      "annualKm": 26200,
+      "typicalDailyKm": 90,
+      "maxDailyKm": 180
+    },
+    "consumption": {
+      "litersPer100km": 5.2,
+      "litersPerDay": 4.7,
+      "litersPerYear": 1362
+    },
+    "costs": {
+      "purchasePrice": 26500,
+      "residualValueNow": 8800,
+      "maintenancePerYear": 1020,
+      "insurancePerYear": 910,
+      "leaseMonthlyPayment": 415,
+      "leaseEndDate": "2028-12-31",
+      "reportedTco": 46100
+    },
+    "base": {
+      "commune": "Marseille",
+      "inseeCode": "13055",
+      "lat": 43.2965,
+      "lon": 5.3698,
+      "hasHomeCharging": false
+    },
+    "plannedReplacementYear": 2028
+  },
+  {
+    "id": "veh-005",
+    "role": "senior_agent",
+    "make": "Renault",
+    "model": "Mégane 1.5 Blue dCi",
+    "year": 2018,
+    "bodyType": "hatchback",
+    "fuelType": "diesel",
+    "seats": 5,
+    "usage": {
+      "annualKm": 25000,
+      "typicalDailyKm": 86,
+      "maxDailyKm": 165
+    },
+    "consumption": {
+      "litersPer100km": 5.4,
+      "litersPerDay": 4.6,
+      "litersPerYear": 1350
+    },
+    "costs": {
+      "purchasePrice": 24800,
+      "residualValueNow": 5400,
+      "maintenancePerYear": 1050,
+      "insurancePerYear": 840,
+      "leaseMonthlyPayment": 400,
+      "leaseEndDate": "2027-09-30",
+      "reportedTco": 44900
+    },
+    "base": {
+      "commune": "Nice",
+      "inseeCode": "06088",
+      "lat": 43.7102,
+      "lon": 7.262,
+      "hasHomeCharging": false
+    },
+    "plannedReplacementYear": 2027
+  },
+  {
+    "id": "veh-006",
+    "role": "senior_agent",
+    "make": "Opel",
+    "model": "Astra 1.5 D",
+    "year": 2021,
+    "bodyType": "hatchback",
+    "fuelType": "diesel",
+    "seats": 5,
+    "usage": {
+      "annualKm": 22700,
+      "typicalDailyKm": 78,
+      "maxDailyKm": 150
+    },
+    "consumption": {
+      "litersPer100km": 5.0,
+      "litersPerDay": 3.9,
+      "litersPerYear": 1135
+    },
+    "costs": {
+      "purchasePrice": 25900,
+      "residualValueNow": 10400,
+      "maintenancePerYear": 930,
+      "insurancePerYear": 880,
+      "leaseMonthlyPayment": 410,
+      "leaseEndDate": "2029-09-30",
+      "reportedTco": 43300
+    },
+    "base": {
+      "commune": "Marseille",
+      "inseeCode": "13055",
+      "lat": 43.2965,
+      "lon": 5.3698,
+      "hasHomeCharging": false
+    },
+    "plannedReplacementYear": 2029
+  },
+  {
+    "id": "veh-007",
+    "role": "senior_agent",
+    "make": "Volkswagen",
+    "model": "Golf 1.0 TSI",
+    "year": 2019,
+    "bodyType": "hatchback",
+    "fuelType": "petrol",
+    "seats": 5,
+    "usage": {
+      "annualKm": 23900,
+      "typicalDailyKm": 82,
+      "maxDailyKm": 160
+    },
+    "consumption": {
+      "litersPer100km": 6.3,
+      "litersPerDay": 5.2,
+      "litersPerYear": 1506
+    },
+    "costs": {
+      "purchasePrice": 25200,
+      "residualValueNow": 7100,
+      "maintenancePerYear": 1050,
+      "insurancePerYear": 860,
+      "leaseMonthlyPayment": 410,
+      "leaseEndDate": "2028-03-31",
+      "reportedTco": 47300
+    },
+    "base": {
+      "commune": "Nice",
+      "inseeCode": "06088",
+      "lat": 43.7102,
+      "lon": 7.262,
+      "hasHomeCharging": false
+    },
+    "plannedReplacementYear": 2028
+  },
+  {
+    "id": "veh-008",
+    "role": "agent",
+    "make": "Renault",
+    "model": "Clio 1.5 dCi",
+    "year": 2017,
+    "bodyType": "hatchback",
+    "fuelType": "diesel",
+    "seats": 5,
+    "usage": {
+      "annualKm": 14100,
+      "typicalDailyKm": 50,
+      "maxDailyKm": 110
+    },
+    "consumption": {
+      "litersPer100km": 5.3,
+      "litersPerDay": 2.6,
+      "litersPerYear": 747
+    },
+    "costs": {
+      "purchasePrice": 17900,
+      "residualValueNow": 3600,
+      "maintenancePerYear": 850,
+      "insurancePerYear": 800,
+      "leaseMonthlyPayment": 260,
+      "leaseEndDate": "2027-06-30",
+      "reportedTco": 30200
+    },
+    "base": {
+      "commune": "Marseille",
+      "inseeCode": "13055",
+      "lat": 43.2965,
+      "lon": 5.3698,
+      "hasHomeCharging": false
+    },
+    "plannedReplacementYear": 2027
+  },
+  {
+    "id": "veh-009",
+    "role": "agent",
+    "make": "Peugeot",
+    "model": "208 1.5 BlueHDi",
+    "year": 2019,
+    "bodyType": "hatchback",
+    "fuelType": "diesel",
+    "seats": 5,
+    "usage": {
+      "annualKm": 12900,
+      "typicalDailyKm": 46,
+      "maxDailyKm": 100
+    },
+    "consumption": {
+      "litersPer100km": 5.0,
+      "litersPerDay": 2.3,
+      "litersPerYear": 645
+    },
+    "costs": {
+      "purchasePrice": 20800,
+      "residualValueNow": 5600,
+      "maintenancePerYear": 830,
+      "insurancePerYear": 780,
+      "leaseMonthlyPayment": 320,
+      "leaseEndDate": "2028-03-31",
+      "reportedTco": 32700
+    },
+    "base": {
+      "commune": "Nice",
+      "inseeCode": "06088",
+      "lat": 43.7102,
+      "lon": 7.262,
+      "hasHomeCharging": false
+    },
+    "plannedReplacementYear": 2028
+  },
+  {
+    "id": "veh-010",
+    "role": "agent",
+    "make": "Citroën",
+    "model": "C3 1.5 BlueHDi",
+    "year": 2018,
+    "bodyType": "hatchback",
+    "fuelType": "diesel",
+    "seats": 5,
+    "usage": {
+      "annualKm": 15200,
+      "typicalDailyKm": 54,
+      "maxDailyKm": 115
+    },
+    "consumption": {
+      "litersPer100km": 5.1,
+      "litersPerDay": 2.8,
+      "litersPerYear": 775
+    },
+    "costs": {
+      "purchasePrice": 18200,
+      "residualValueNow": 4100,
+      "maintenancePerYear": 880,
+      "insurancePerYear": 790,
+      "leaseMonthlyPayment": 265,
+      "leaseEndDate": "2027-09-30",
+      "reportedTco": 30800
+    },
+    "base": {
+      "commune": "Marseille",
+      "inseeCode": "13055",
+      "lat": 43.2965,
+      "lon": 5.3698,
+      "hasHomeCharging": false
+    },
+    "plannedReplacementYear": 2027
+  },
+  {
+    "id": "veh-011",
+    "role": "agent",
+    "make": "Opel",
+    "model": "Corsa 1.3 CDTI",
+    "year": 2016,
+    "bodyType": "hatchback",
+    "fuelType": "diesel",
+    "seats": 5,
+    "usage": {
+      "annualKm": 12400,
+      "typicalDailyKm": 44,
+      "maxDailyKm": 95
+    },
+    "consumption": {
+      "litersPer100km": 5.5,
+      "litersPerDay": 2.4,
+      "litersPerYear": 682
+    },
+    "costs": {
+      "purchasePrice": 17600,
+      "residualValueNow": 3500,
+      "maintenancePerYear": 860,
+      "insurancePerYear": 730,
+      "leaseMonthlyPayment": 270,
+      "leaseEndDate": "2027-01-31",
+      "reportedTco": 29900
+    },
+    "base": {
+      "commune": "Nice",
+      "inseeCode": "06088",
+      "lat": 43.7102,
+      "lon": 7.262,
+      "hasHomeCharging": false
+    },
+    "plannedReplacementYear": 2027
+  },
+  {
+    "id": "veh-012",
+    "role": "agent",
+    "make": "Renault",
+    "model": "Clio 0.9 TCe",
+    "year": 2018,
+    "bodyType": "hatchback",
+    "fuelType": "petrol",
+    "seats": 5,
+    "usage": {
+      "annualKm": 15700,
+      "typicalDailyKm": 56,
+      "maxDailyKm": 120
+    },
+    "consumption": {
+      "litersPer100km": 6.0,
+      "litersPerDay": 3.4,
+      "litersPerYear": 942
+    },
+    "costs": {
+      "purchasePrice": 16900,
+      "residualValueNow": 3700,
+      "maintenancePerYear": 900,
+      "insurancePerYear": 730,
+      "leaseMonthlyPayment": 260,
+      "leaseEndDate": "2027-09-30",
+      "reportedTco": 32000
+    },
+    "base": {
+      "commune": "Nice",
+      "inseeCode": "06088",
+      "lat": 43.7102,
+      "lon": 7.262,
+      "hasHomeCharging": false
+    },
+    "plannedReplacementYear": 2027
+  },
+  {
+    "id": "veh-013",
+    "role": "agent",
+    "make": "Peugeot",
+    "model": "208 1.2 PureTech",
+    "year": 2019,
+    "bodyType": "hatchback",
+    "fuelType": "petrol",
+    "seats": 5,
+    "usage": {
+      "annualKm": 13400,
+      "typicalDailyKm": 48,
+      "maxDailyKm": 105
+    },
+    "consumption": {
+      "litersPer100km": 5.9,
+      "litersPerDay": 2.8,
+      "litersPerYear": 791
+    },
+    "costs": {
+      "purchasePrice": 19600,
+      "residualValueNow": 5300,
+      "maintenancePerYear": 790,
+      "insurancePerYear": 810,
+      "leaseMonthlyPayment": 320,
+      "leaseEndDate": "2028-03-31",
+      "reportedTco": 34100
+    },
+    "base": {
+      "commune": "Marseille",
+      "inseeCode": "13055",
+      "lat": 43.2965,
+      "lon": 5.3698,
+      "hasHomeCharging": false
+    },
+    "plannedReplacementYear": 2028
+  },
+  {
+    "id": "veh-014",
+    "role": "agent",
+    "make": "Toyota",
+    "model": "Yaris 1.5 VVT-i",
+    "year": 2020,
+    "bodyType": "hatchback",
+    "fuelType": "petrol",
+    "seats": 5,
+    "usage": {
+      "annualKm": 11800,
+      "typicalDailyKm": 42,
+      "maxDailyKm": 90
+    },
+    "consumption": {
+      "litersPer100km": 5.8,
+      "litersPerDay": 2.4,
+      "litersPerYear": 684
+    },
+    "costs": {
+      "purchasePrice": 19900,
+      "residualValueNow": 6700,
+      "maintenancePerYear": 760,
+      "insurancePerYear": 790,
+      "leaseMonthlyPayment": 310,
+      "leaseEndDate": "2028-12-31",
+      "reportedTco": 32300
+    },
+    "base": {
+      "commune": "Marseille",
+      "inseeCode": "13055",
+      "lat": 43.2965,
+      "lon": 5.3698,
+      "hasHomeCharging": false
+    },
+    "plannedReplacementYear": 2028
+  },
+  {
+    "id": "veh-015",
+    "role": "agent",
+    "make": "Hyundai",
+    "model": "i20 1.0 T-GDi",
+    "year": 2021,
+    "bodyType": "hatchback",
+    "fuelType": "petrol",
+    "seats": 5,
+    "usage": {
+      "annualKm": 14500,
+      "typicalDailyKm": 52,
+      "maxDailyKm": 110
+    },
+    "consumption": {
+      "litersPer100km": 5.7,
+      "litersPerDay": 3.0,
+      "litersPerYear": 826
+    },
+    "costs": {
+      "purchasePrice": 18700,
+      "residualValueNow": 7200,
+      "maintenancePerYear": 750,
+      "insurancePerYear": 760,
+      "leaseMonthlyPayment": 275,
+      "leaseEndDate": "2029-06-30",
+      "reportedTco": 31300
+    },
+    "base": {
+      "commune": "Nice",
+      "inseeCode": "06088",
+      "lat": 43.7102,
+      "lon": 7.262,
+      "hasHomeCharging": false
+    },
+    "plannedReplacementYear": 2029
+  },
+  {
+    "id": "veh-016",
+    "role": "junior_agent",
+    "make": "Citroën",
+    "model": "C3 1.2 PureTech",
+    "year": 2017,
+    "bodyType": "hatchback",
+    "fuelType": "petrol",
+    "seats": 5,
+    "usage": {
+      "annualKm": 7800,
+      "typicalDailyKm": 30,
+      "maxDailyKm": 70
+    },
+    "consumption": {
+      "litersPer100km": 6.2,
+      "litersPerDay": 1.9,
+      "litersPerYear": 484
+    },
+    "costs": {
+      "purchasePrice": 15900,
+      "residualValueNow": 3300,
+      "maintenancePerYear": 750,
+      "insurancePerYear": 770,
+      "leaseMonthlyPayment": 235,
+      "leaseEndDate": "2027-06-30",
+      "reportedTco": 25900
+    },
+    "base": {
+      "commune": "Marseille",
+      "inseeCode": "13055",
+      "lat": 43.2965,
+      "lon": 5.3698,
+      "hasHomeCharging": false
+    },
+    "plannedReplacementYear": 2027
+  },
+  {
+    "id": "veh-017",
+    "role": "junior_agent",
+    "make": "Renault",
+    "model": "Clio 1.0 TCe",
+    "year": 2021,
+    "bodyType": "hatchback",
+    "fuelType": "petrol",
+    "seats": 5,
+    "usage": {
+      "annualKm": 6700,
+      "typicalDailyKm": 26,
+      "maxDailyKm": 60
+    },
+    "consumption": {
+      "litersPer100km": 5.6,
+      "litersPerDay": 1.5,
+      "litersPerYear": 375
+    },
+    "costs": {
+      "purchasePrice": 17400,
+      "residualValueNow": 6800,
+      "maintenancePerYear": 660,
+      "insurancePerYear": 740,
+      "leaseMonthlyPayment": 260,
+      "leaseEndDate": "2029-06-30",
+      "reportedTco": 25900
+    },
+    "base": {
+      "commune": "Nice",
+      "inseeCode": "06088",
+      "lat": 43.7102,
+      "lon": 7.262,
+      "hasHomeCharging": false
+    },
+    "plannedReplacementYear": 2029
+  },
+  {
+    "id": "veh-018",
+    "role": "junior_agent",
+    "make": "Dacia",
+    "model": "Sandero 1.0 TCe",
+    "year": 2022,
+    "bodyType": "hatchback",
+    "fuelType": "petrol",
+    "seats": 5,
+    "usage": {
+      "annualKm": 8900,
+      "typicalDailyKm": 34,
+      "maxDailyKm": 75
+    },
+    "consumption": {
+      "litersPer100km": 5.9,
+      "litersPerDay": 2.0,
+      "litersPerYear": 525
+    },
+    "costs": {
+      "purchasePrice": 13900,
+      "residualValueNow": 6600,
+      "maintenancePerYear": 690,
+      "insurancePerYear": 770,
+      "leaseMonthlyPayment": 215,
+      "leaseEndDate": "2030-06-30",
+      "reportedTco": 24800
+    },
+    "base": {
+      "commune": "Marseille",
+      "inseeCode": "13055",
+      "lat": 43.2965,
+      "lon": 5.3698,
+      "hasHomeCharging": false
+    },
+    "plannedReplacementYear": 2030
+  },
+  {
+    "id": "veh-019",
+    "role": "director",
+    "make": "Peugeot",
+    "model": "508 2.0 BlueHDi",
+    "year": 2019,
+    "bodyType": "sedan",
+    "fuelType": "diesel",
+    "seats": 5,
+    "usage": {
+      "annualKm": 18600,
+      "typicalDailyKm": 64,
+      "maxDailyKm": 130
+    },
+    "consumption": {
+      "litersPer100km": 5.6,
+      "litersPerDay": 3.6,
+      "litersPerYear": 1042
+    },
+    "costs": {
+      "purchasePrice": 38900,
+      "residualValueNow": 10600,
+      "maintenancePerYear": 930,
+      "insurancePerYear": 970,
+      "leaseMonthlyPayment": 610,
+      "leaseEndDate": "2028-03-31",
+      "reportedTco": 55000
+    },
+    "base": {
+      "commune": "Nice",
+      "inseeCode": "06088",
+      "lat": 43.7102,
+      "lon": 7.262,
+      "hasHomeCharging": false
+    },
+    "plannedReplacementYear": 2028
+  },
+  {
+    "id": "veh-020",
+    "role": "director",
+    "make": "Škoda",
+    "model": "Octavia 2.0 TDI",
+    "year": 2020,
+    "bodyType": "sedan",
+    "fuelType": "diesel",
+    "seats": 5,
+    "usage": {
+      "annualKm": 19700,
+      "typicalDailyKm": 68,
+      "maxDailyKm": 135
+    },
+    "consumption": {
+      "litersPer100km": 5.2,
+      "litersPerDay": 3.5,
+      "litersPerYear": 1024
+    },
+    "costs": {
+      "purchasePrice": 31800,
+      "residualValueNow": 10600,
+      "maintenancePerYear": 910,
+      "insurancePerYear": 1000,
+      "leaseMonthlyPayment": 495,
+      "leaseEndDate": "2028-12-31",
+      "reportedTco": 48000
+    },
+    "base": {
+      "commune": "Marseille",
+      "inseeCode": "13055",
+      "lat": 43.2965,
+      "lon": 5.3698,
+      "hasHomeCharging": false
+    },
+    "plannedReplacementYear": 2028
+  },
+  {
+    "id": "veh-021",
+    "role": "appraiser",
+    "make": "Škoda",
+    "model": "Octavia Combi 2.0 TDI",
+    "year": 2019,
+    "bodyType": "estate",
+    "fuelType": "diesel",
+    "seats": 5,
+    "usage": {
+      "annualKm": 32500,
+      "typicalDailyKm": 112,
+      "maxDailyKm": 210
+    },
+    "consumption": {
+      "litersPer100km": 5.5,
+      "litersPerDay": 6.2,
+      "litersPerYear": 1788
+    },
+    "costs": {
+      "purchasePrice": 33200,
+      "residualValueNow": 9000,
+      "maintenancePerYear": 1160,
+      "insurancePerYear": 950,
+      "leaseMonthlyPayment": 500,
+      "leaseEndDate": "2028-03-31",
+      "reportedTco": 55700
+    },
+    "base": {
+      "commune": "Marseille",
+      "inseeCode": "13055",
+      "lat": 43.2965,
+      "lon": 5.3698,
+      "hasHomeCharging": false
+    },
+    "plannedReplacementYear": 2028
+  },
+  {
+    "id": "veh-022",
+    "role": "appraiser",
+    "make": "Peugeot",
+    "model": "308 SW 1.5 BlueHDi",
+    "year": 2021,
+    "bodyType": "estate",
+    "fuelType": "diesel",
+    "seats": 5,
+    "usage": {
+      "annualKm": 29600,
+      "typicalDailyKm": 102,
+      "maxDailyKm": 195
+    },
+    "consumption": {
+      "litersPer100km": 5.1,
+      "litersPerDay": 5.2,
+      "litersPerYear": 1510
+    },
+    "costs": {
+      "purchasePrice": 28900,
+      "residualValueNow": 11500,
+      "maintenancePerYear": 1090,
+      "insurancePerYear": 870,
+      "leaseMonthlyPayment": 455,
+      "leaseEndDate": "2029-09-30",
+      "reportedTco": 49900
+    },
+    "base": {
+      "commune": "Nice",
+      "inseeCode": "06088",
+      "lat": 43.7102,
+      "lon": 7.262,
+      "hasHomeCharging": false
+    },
+    "plannedReplacementYear": 2029
+  },
+  {
+    "id": "veh-023",
+    "role": "pool",
+    "make": "Renault",
+    "model": "Clio 1.5 dCi",
+    "year": 2016,
+    "bodyType": "hatchback",
+    "fuelType": "diesel",
+    "seats": 5,
+    "usage": {
+      "annualKm": 5200,
+      "typicalDailyKm": 20,
+      "maxDailyKm": 60
+    },
+    "consumption": {
+      "litersPer100km": 5.4,
+      "litersPerDay": 1.1,
+      "litersPerYear": 281
+    },
+    "costs": {
+      "purchasePrice": 16800,
+      "residualValueNow": 3400,
+      "maintenancePerYear": 690,
+      "insurancePerYear": 720,
+      "leaseMonthlyPayment": 275,
+      "leaseEndDate": "2027-03-31",
+      "reportedTco": 25900
+    },
+    "base": {
+      "commune": "Nice",
+      "inseeCode": "06088",
+      "lat": 43.7102,
+      "lon": 7.262,
+      "hasHomeCharging": false
+    },
+    "plannedReplacementYear": 2027
+  }
+]

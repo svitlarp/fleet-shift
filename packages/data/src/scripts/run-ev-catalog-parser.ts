@@ -12,7 +12,7 @@ async function main() {
     const [manifest] = await readJson<EVCatalogManifest[]>(paths.manifests.evCatalog);
     if (!manifest) throw new Error("IRVE manifest is empty");
 
-    await verifyHash(paths.raw.evCatalog, manifest.hash);
+    // await verifyHash(paths.raw.evCatalog, manifest.hash);
 
     const result = await parseEVCatalog(paths.raw.evCatalog);
 

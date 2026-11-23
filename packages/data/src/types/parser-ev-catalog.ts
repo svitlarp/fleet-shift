@@ -10,9 +10,14 @@ export interface Vehicle {
   segment: string | null;
   priceEur: number | null;
   powerKw: number | null;
+  consoElecMin: number | null;
+  consoElecMax: number | null;
+  kwhPer100km: number | null;
+  autonomieMax: number | null;
+  autonomieMin: number | null;
+  rangeKm: number | null;
   co2GkmMin: number | null;
   co2GkmMax: number | null;
-  autonomie: string | null;
 }
 
 export type EVCatalog = Vehicle[];
