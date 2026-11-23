@@ -11,7 +11,7 @@ async function main() {
   const [manifest] = await readJson<IRVEManifest[]>(paths.manifests.irve);
   if (!manifest) throw new Error("IRVE manifest is empty");
 
-    await verifyHash(paths.raw.irve, manifest.hash);
+  await verifyHash(paths.raw.irve, manifest.hash);
 
   const result = await parseIRVE(paths.raw.irve, PACA_DEPARTMENTS);
 

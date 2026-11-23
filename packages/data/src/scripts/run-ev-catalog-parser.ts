@@ -5,28 +5,38 @@ import { parseEVCatalog } from "../lib/parsing/parse-ev-catalog.ts";
 import { verifyHash } from "../lib/parsing/verify-hash.ts";
 import { readJson } from "../lib/read-json.ts";
 import type { EVCatalogManifest } from "../types/manifest.ts";
-
-
+import type { EVCatalog } from "../types/parser-ev-catalog.ts";
 
 async function main() {
-    const [manifest] = await readJson<EVCatalogManifest[]>(paths.manifests.evCatalog);
-    if (!manifest) throw new Error("IRVE manifest is empty");
+  const [manifest] = await readJson<EVCatalogManifest[]>(
+    paths.manifests.evCatalog,
+  );
+  if (!manifest) throw new Error("EV catalog manifest is empty");
 
-    // await verifyHash(paths.raw.evCatalog, manifest.hash);
+  await verifyHash(paths.raw.evCatalog, manifest.hash);
 
-    const result = await parseEVCatalog(paths.raw.evCatalog);
+  const { vehicles, stats } = await parseEVCatalog(paths.raw.evCatalog);
+  console.log("EV catalog:", { ...stats, kept: vehicles.length });
 
-    await fs.mkdir(path.dirname(paths.processed.evCatalog), { recursive: true });
-    await fs.writeFile(
+  const catalog: EVCatalog = {
+    source: {
+      name: "ADEME Car Labelling",
+      url: manifest.sourceURL,
+      sourceUpdatedAt: manifest.sourceUpdatedAt,
+      hash: manifest.hash,
+    },
+    vehicles,
+  };
+
+  await fs.mkdir(path.dirname(paths.processed.evCatalog), { recursive: true });
+  await fs.writeFile(
     paths.processed.evCatalog,
-    JSON.stringify(result, null, 2),
+    `${JSON.stringify(catalog, null, 2)}\n`,
     "utf-8",
-    );
+  );
 }
 
 await main().catch((err: unknown) => {
   console.error(err);
   process.exit(1);
 });
-
-

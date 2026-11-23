@@ -6,6 +6,7 @@ import {
   columnsNameIRVESchema,
   columnsNameIRVEConsolidation,
 } from "./columns-name-irve-schema.ts";
+import { isInPacaBounds, normalizePowerKw } from "./irve-normalisation.ts";
 
 const ALL_COLUMNS = [
   ...columnsNameIRVESchema,
@@ -61,6 +62,7 @@ interface StationData {
   commissionedDate: string | null;
   declaredChargingPoints: number | null;
   chargingPointIds: Set<string>;
+  maxPowerKw: number | null;
 }
 
 export async function parseIRVE(
@@ -128,15 +130,21 @@ export async function parseIRVE(
         commissionedDate: field(row, "date_mise_en_service") || null,
         declaredChargingPoints: toIntOrNull(field(row, "nbre_pdc")),
         chargingPointIds: new Set(),
+        maxPowerKw: null,
       };
       stations.set(id, station);
     }
 
     const pdcId = field(row, "id_pdc_itinerance");
     if (pdcId) station.chargingPointIds.add(pdcId);
+
+    const powerKw = normalizePowerKw(field(row, "puissance_nominale"));
+    if (powerKw !== null) {
+      station.maxPowerKw = Math.max(station.maxPowerKw ?? 0, powerKw);
+    }
   }
 
-  const evStations: EVStation[] = [...stations.entries()]
+  const allStations: EVStation[] = [...stations.entries()]
     .map(([id, s]) => ({
       id,
       name: s.name,
@@ -148,16 +156,23 @@ export async function parseIRVE(
       commissionedDate: s.commissionedDate,
       chargingPoints: s.chargingPointIds.size,
       declaredChargingPoints: s.declaredChargingPoints,
+      maxPowerKw: s.maxPowerKw,
     }))
     .sort((a, b) => a.id.localeCompare(b.id));
 
-  const withoutCoords = evStations.filter((s) => s.longitude === null).length;
+  const evStations = allStations.filter((s) =>
+    isInPacaBounds(s.latitude, s.longitude),
+  );
+  const withoutCoords = allStations.filter((s) => s.longitude === null).length;
   console.log(`Stations in PACA: ${String(evStations.length)}`);
   console.log(
     `Rows with unexpected length (skipped): ${String(rowsBadLength)}`,
   );
   console.log(`Rows skipped (no INSEE code): ${String(rowsWithoutInsee)}`);
   console.log(`Stations without coordinates: ${String(withoutCoords)}`);
+  console.log(
+    `Stations outside PACA bounds (dropped): ${String(allStations.length - evStations.length)}`,
+  );
   console.log("Consolidation status values:", Object.fromEntries(statusCounts));
 
   return { evStations, totalevStationsPACA: evStations.length };
