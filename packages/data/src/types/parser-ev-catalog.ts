@@ -1,5 +1,6 @@
 export interface CatalogVehicle {
   id: string;
+  modelKey: string;
   brand: string;
   model: string;
   variant: string;
@@ -10,6 +11,10 @@ export interface CatalogVehicle {
   kwhPer100Km: number;
   rangeKm: number;
   massKg: number | null;
+  group: string | null;
+  fiscalPower: number | null;
+  emptyWeightKg: number | null;
+  urbanRangeKm: number | null;
 }
 
 export interface EVCatalogSource {

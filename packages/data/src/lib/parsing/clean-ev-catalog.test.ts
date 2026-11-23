@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   cleanEVRows,
+  cleanText,
   toCatalogVehicle,
   toNumberOrNull,
 } from "./clean-ev-catalog.ts";
@@ -76,6 +77,12 @@ describe("cleanEVRows", () => {
 });
 
 describe("parsing helpers", () => {
+  it("repairs broken accents and spacing", () => {
+    expect(cleanText("500e Ã©lectrique")).toBe("500e électrique");
+    expect(cleanText("63kWhÂ\u00a0 ENGAGEÂ\u00a0Â\u00a0")).toBe("63kWh ENGAGE");
+    expect(cleanText("ZOE (51Kw)")).toBe("ZOE (51Kw)");
+  });
+
   it("parses French numbers", () => {
     expect(toNumberOrNull("1 234,5")).toBe(1234.5);
     expect(toNumberOrNull("n/a")).toBeNull();

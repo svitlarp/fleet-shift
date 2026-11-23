@@ -40,6 +40,7 @@ export const fleetVehicleSchema = z
 
 export const evModelSchema = z.object({
   id: z.string().min(1),
+  modelKey: z.string().min(1),
   brand: z.string().min(1),
   model: z.string().min(1),
   variant: z.string().min(1),
@@ -50,6 +51,10 @@ export const evModelSchema = z.object({
   kwhPer100Km: z.number().positive(),
   rangeKm: z.number().positive(),
   massKg: z.number().nullable(),
+  group: z.string().nullable(),
+  fiscalPower: z.number().nullable(),
+  emptyWeightKg: z.number().nullable(),
+  urbanRangeKm: z.number().nullable(),
 });
 
 export const chargingStationSchema = z.object({
