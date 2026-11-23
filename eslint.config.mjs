@@ -5,6 +5,16 @@ import { defineConfig } from "eslint/config";
 
 export default defineConfig([
   {
+    ignores: [
+      "**/dist/**",
+      "coverage/**",
+      "workdir/**",
+      "vitest.config.ts",
+      "apps/api/drizzle.config.ts",
+      "apps/web/vite.config.ts",
+    ],
+  },
+  {
     files: ["**/*.{js,mjs,cjs}"],
     plugins: { js },
     extends: [js.configs.recommended],
