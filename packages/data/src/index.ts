@@ -4,8 +4,14 @@ import {
   chargingStationSchema,
   evModelSchema,
   fuelYearPriceSchema,
+  iceReferenceEntrySchema,
 } from "@fleetshift/core";
-import type { ChargingStation, EvModel, FuelYearPrice } from "@fleetshift/core";
+import type {
+  ChargingStation,
+  EvModel,
+  FuelYearPrice,
+  IceReferenceEntry,
+} from "@fleetshift/core";
 import { paths } from "./config/paths.ts";
 
 const readJsonFile = (filePath: string): unknown =>
@@ -52,6 +58,12 @@ export function getFuelYearlyPrices(): FuelYearPrice[] {
       }),
     )
     .sort((a, b) => a.year - b.year);
+}
+
+export function getIceReference(): IceReferenceEntry[] {
+  return z
+    .array(iceReferenceEntrySchema)
+    .parse(readJsonFile(paths.processed.iceReference));
 }
 
 export function getDemoFleetRows(): unknown[] {

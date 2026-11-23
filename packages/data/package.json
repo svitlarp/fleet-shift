@@ -8,7 +8,8 @@
   },
   "scripts": {
     "parse:irve": "tsx src/scripts/run-irve-parser.ts",
-    "parse:ev-catalog": "tsx src/scripts/run-ev-catalog-parser.ts"
+    "parse:ev-catalog": "tsx src/scripts/run-ev-catalog-parser.ts",
+    "parse:ice-reference": "tsx src/scripts/run-ice-reference-parser.ts"
   },
   "dependencies": {
     "@fleetshift/core": "^0.1.0"

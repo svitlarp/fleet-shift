@@ -1,0 +1,1598 @@
+[
+  {
+    "makeKey": "ALFAROMEO",
+    "modelKey": "GIULIA",
+    "fuelType": "any",
+    "medianPriceEur": 50883,
+    "rowCount": 40
+  },
+  {
+    "makeKey": "ALFAROMEO",
+    "modelKey": "GIULIA",
+    "fuelType": "diesel",
+    "medianPriceEur": 50883,
+    "rowCount": 18
+  },
+  {
+    "makeKey": "ALFAROMEO",
+    "modelKey": "GIULIA",
+    "fuelType": "petrol",
+    "medianPriceEur": 51625,
+    "rowCount": 22
+  },
+  {
+    "makeKey": "ALFAROMEO",
+    "modelKey": "STELVIO",
+    "fuelType": "any",
+    "medianPriceEur": 56350,
+    "rowCount": 48
+  },
+  {
+    "makeKey": "ALFAROMEO",
+    "modelKey": "STELVIO",
+    "fuelType": "diesel",
+    "medianPriceEur": 56350,
+    "rowCount": 38
+  },
+  {
+    "makeKey": "ALFAROMEO",
+    "modelKey": "STELVIO",
+    "fuelType": "petrol",
+    "medianPriceEur": 63105,
+    "rowCount": 10
+  },
+  {
+    "makeKey": "ALPINE",
+    "modelKey": "A110",
+    "fuelType": "any",
+    "medianPriceEur": 76250,
+    "rowCount": 11
+  },
+  {
+    "makeKey": "ALPINE",
+    "modelKey": "A110",
+    "fuelType": "petrol",
+    "medianPriceEur": 76250,
+    "rowCount": 11
+  },
+  {
+    "makeKey": "AUDI",
+    "modelKey": "A3",
+    "fuelType": "any",
+    "medianPriceEur": 40729,
+    "rowCount": 8
+  },
+  {
+    "makeKey": "AUDI",
+    "modelKey": "A3",
+    "fuelType": "diesel",
+    "medianPriceEur": 40729,
+    "rowCount": 8
+  },
+  {
+    "makeKey": "AUDI",
+    "modelKey": "Q3",
+    "fuelType": "any",
+    "medianPriceEur": 44365,
+    "rowCount": 1
+  },
+  {
+    "makeKey": "AUDI",
+    "modelKey": "Q3",
+    "fuelType": "petrol",
+    "medianPriceEur": 44365,
+    "rowCount": 1
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "116",
+    "fuelType": "any",
+    "medianPriceEur": 36260,
+    "rowCount": 63
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "116",
+    "fuelType": "diesel",
+    "medianPriceEur": 32878,
+    "rowCount": 1
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "116",
+    "fuelType": "petrol",
+    "medianPriceEur": 36260,
+    "rowCount": 62
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "118",
+    "fuelType": "any",
+    "medianPriceEur": 37510,
+    "rowCount": 114
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "118",
+    "fuelType": "petrol",
+    "medianPriceEur": 37510,
+    "rowCount": 114
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "120",
+    "fuelType": "any",
+    "medianPriceEur": 41488,
+    "rowCount": 60
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "120",
+    "fuelType": "petrol",
+    "medianPriceEur": 41488,
+    "rowCount": 60
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "128",
+    "fuelType": "any",
+    "medianPriceEur": 47600,
+    "rowCount": 12
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "128",
+    "fuelType": "petrol",
+    "medianPriceEur": 47600,
+    "rowCount": 12
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "135",
+    "fuelType": "any",
+    "medianPriceEur": 56150,
+    "rowCount": 2
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "135",
+    "fuelType": "petrol",
+    "medianPriceEur": 56150,
+    "rowCount": 2
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "218",
+    "fuelType": "any",
+    "medianPriceEur": 38888,
+    "rowCount": 65
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "218",
+    "fuelType": "diesel",
+    "medianPriceEur": 38888,
+    "rowCount": 15
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "218",
+    "fuelType": "petrol",
+    "medianPriceEur": 38363,
+    "rowCount": 50
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "220",
+    "fuelType": "any",
+    "medianPriceEur": 44133,
+    "rowCount": 61
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "220",
+    "fuelType": "petrol",
+    "medianPriceEur": 44133,
+    "rowCount": 61
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "235",
+    "fuelType": "any",
+    "medianPriceEur": 58750,
+    "rowCount": 3
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "235",
+    "fuelType": "petrol",
+    "medianPriceEur": 58750,
+    "rowCount": 3
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "240",
+    "fuelType": "any",
+    "medianPriceEur": 61550,
+    "rowCount": 9
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "240",
+    "fuelType": "petrol",
+    "medianPriceEur": 61550,
+    "rowCount": 9
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "318",
+    "fuelType": "any",
+    "medianPriceEur": 48100,
+    "rowCount": 4
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "318",
+    "fuelType": "petrol",
+    "medianPriceEur": 48100,
+    "rowCount": 4
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "420",
+    "fuelType": "any",
+    "medianPriceEur": 53833,
+    "rowCount": 64
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "420",
+    "fuelType": "petrol",
+    "medianPriceEur": 53833,
+    "rowCount": 64
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "840",
+    "fuelType": "any",
+    "medianPriceEur": 107400,
+    "rowCount": 4
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "840",
+    "fuelType": "petrol",
+    "medianPriceEur": 107400,
+    "rowCount": 4
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "850",
+    "fuelType": "any",
+    "medianPriceEur": 113975,
+    "rowCount": 2
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "850",
+    "fuelType": "petrol",
+    "medianPriceEur": 113975,
+    "rowCount": 2
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "M3",
+    "fuelType": "any",
+    "medianPriceEur": 102000,
+    "rowCount": 10
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "M3",
+    "fuelType": "petrol",
+    "medianPriceEur": 102000,
+    "rowCount": 10
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "M4",
+    "fuelType": "any",
+    "medianPriceEur": 104550,
+    "rowCount": 17
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "M4",
+    "fuelType": "petrol",
+    "medianPriceEur": 104550,
+    "rowCount": 17
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "M8",
+    "fuelType": "any",
+    "medianPriceEur": 181000,
+    "rowCount": 6
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "M8",
+    "fuelType": "petrol",
+    "medianPriceEur": 181000,
+    "rowCount": 6
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "X1",
+    "fuelType": "any",
+    "medianPriceEur": 42463,
+    "rowCount": 21
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "X1",
+    "fuelType": "diesel",
+    "medianPriceEur": 44763,
+    "rowCount": 10
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "X1",
+    "fuelType": "petrol",
+    "medianPriceEur": 42463,
+    "rowCount": 11
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "X2",
+    "fuelType": "any",
+    "medianPriceEur": 45667,
+    "rowCount": 168
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "X2",
+    "fuelType": "diesel",
+    "medianPriceEur": 45667,
+    "rowCount": 83
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "X2",
+    "fuelType": "petrol",
+    "medianPriceEur": 42517,
+    "rowCount": 85
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "X3",
+    "fuelType": "any",
+    "medianPriceEur": 108850,
+    "rowCount": 2
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "X3",
+    "fuelType": "petrol",
+    "medianPriceEur": 108850,
+    "rowCount": 2
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "X4",
+    "fuelType": "any",
+    "medianPriceEur": 111350,
+    "rowCount": 6
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "X4",
+    "fuelType": "petrol",
+    "medianPriceEur": 111350,
+    "rowCount": 6
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "Z4",
+    "fuelType": "any",
+    "medianPriceEur": 53900,
+    "rowCount": 4
+  },
+  {
+    "makeKey": "BMW",
+    "modelKey": "Z4",
+    "fuelType": "petrol",
+    "medianPriceEur": 53900,
+    "rowCount": 4
+  },
+  {
+    "makeKey": "CITROEN",
+    "modelKey": "BERLINGO",
+    "fuelType": "any",
+    "medianPriceEur": 27250,
+    "rowCount": 4
+  },
+  {
+    "makeKey": "CITROEN",
+    "modelKey": "BERLINGO",
+    "fuelType": "diesel",
+    "medianPriceEur": 27250,
+    "rowCount": 4
+  },
+  {
+    "makeKey": "CITROEN",
+    "modelKey": "C3",
+    "fuelType": "any",
+    "medianPriceEur": 20936.5,
+    "rowCount": 22
+  },
+  {
+    "makeKey": "CITROEN",
+    "modelKey": "C3",
+    "fuelType": "diesel",
+    "medianPriceEur": 23200,
+    "rowCount": 1
+  },
+  {
+    "makeKey": "CITROEN",
+    "modelKey": "C3",
+    "fuelType": "petrol",
+    "medianPriceEur": 19273,
+    "rowCount": 21
+  },
+  {
+    "makeKey": "CITROEN",
+    "modelKey": "C3AIRCROSS",
+    "fuelType": "any",
+    "medianPriceEur": 29340,
+    "rowCount": 8
+  },
+  {
+    "makeKey": "CITROEN",
+    "modelKey": "C3AIRCROSS",
+    "fuelType": "diesel",
+    "medianPriceEur": 29340,
+    "rowCount": 8
+  },
+  {
+    "makeKey": "CITROEN",
+    "modelKey": "C4",
+    "fuelType": "any",
+    "medianPriceEur": 29020,
+    "rowCount": 4
+  },
+  {
+    "makeKey": "CITROEN",
+    "modelKey": "C4",
+    "fuelType": "diesel",
+    "medianPriceEur": 29020,
+    "rowCount": 4
+  },
+  {
+    "makeKey": "CITROEN",
+    "modelKey": "C4X",
+    "fuelType": "any",
+    "medianPriceEur": 24000,
+    "rowCount": 2
+  },
+  {
+    "makeKey": "CITROEN",
+    "modelKey": "C4X",
+    "fuelType": "diesel",
+    "medianPriceEur": 24000,
+    "rowCount": 2
+  },
+  {
+    "makeKey": "CITROEN",
+    "modelKey": "C5X",
+    "fuelType": "any",
+    "medianPriceEur": 44000,
+    "rowCount": 3
+  },
+  {
+    "makeKey": "CITROEN",
+    "modelKey": "C5X",
+    "fuelType": "petrol",
+    "medianPriceEur": 44000,
+    "rowCount": 3
+  },
+  {
+    "makeKey": "CUPRA",
+    "modelKey": "FORMENTOR",
+    "fuelType": "any",
+    "medianPriceEur": 45900,
+    "rowCount": 7
+  },
+  {
+    "makeKey": "CUPRA",
+    "modelKey": "FORMENTOR",
+    "fuelType": "petrol",
+    "medianPriceEur": 45900,
+    "rowCount": 7
+  },
+  {
+    "makeKey": "DACIA",
+    "modelKey": "JOGGER",
+    "fuelType": "any",
+    "medianPriceEur": 19750,
+    "rowCount": 4
+  },
+  {
+    "makeKey": "DACIA",
+    "modelKey": "JOGGER",
+    "fuelType": "petrol",
+    "medianPriceEur": 19750,
+    "rowCount": 4
+  },
+  {
+    "makeKey": "DACIA",
+    "modelKey": "LODGY",
+    "fuelType": "any",
+    "medianPriceEur": 19450,
+    "rowCount": 2
+  },
+  {
+    "makeKey": "DACIA",
+    "modelKey": "LODGY",
+    "fuelType": "diesel",
+    "medianPriceEur": 19450,
+    "rowCount": 2
+  },
+  {
+    "makeKey": "DACIA",
+    "modelKey": "SANDERO",
+    "fuelType": "any",
+    "medianPriceEur": 15250,
+    "rowCount": 14
+  },
+  {
+    "makeKey": "DACIA",
+    "modelKey": "SANDERO",
+    "fuelType": "petrol",
+    "medianPriceEur": 15250,
+    "rowCount": 14
+  },
+  {
+    "makeKey": "DS",
+    "modelKey": "3CROSSBACK",
+    "fuelType": "any",
+    "medianPriceEur": 37067,
+    "rowCount": 3
+  },
+  {
+    "makeKey": "DS",
+    "modelKey": "3CROSSBACK",
+    "fuelType": "diesel",
+    "medianPriceEur": 37067,
+    "rowCount": 3
+  },
+  {
+    "makeKey": "DS",
+    "modelKey": "4",
+    "fuelType": "any",
+    "medianPriceEur": 42233,
+    "rowCount": 5
+  },
+  {
+    "makeKey": "DS",
+    "modelKey": "4",
+    "fuelType": "petrol",
+    "medianPriceEur": 42233,
+    "rowCount": 5
+  },
+  {
+    "makeKey": "DS",
+    "modelKey": "9",
+    "fuelType": "any",
+    "medianPriceEur": 52700,
+    "rowCount": 8
+  },
+  {
+    "makeKey": "DS",
+    "modelKey": "9",
+    "fuelType": "petrol",
+    "medianPriceEur": 52700,
+    "rowCount": 8
+  },
+  {
+    "makeKey": "FERRARI",
+    "modelKey": "812",
+    "fuelType": "any",
+    "medianPriceEur": 296961,
+    "rowCount": 2
+  },
+  {
+    "makeKey": "FERRARI",
+    "modelKey": "812",
+    "fuelType": "petrol",
+    "medianPriceEur": 296961,
+    "rowCount": 2
+  },
+  {
+    "makeKey": "FERRARI",
+    "modelKey": "F8",
+    "fuelType": "any",
+    "medianPriceEur": 232599,
+    "rowCount": 2
+  },
+  {
+    "makeKey": "FERRARI",
+    "modelKey": "F8",
+    "fuelType": "petrol",
+    "medianPriceEur": 232599,
+    "rowCount": 2
+  },
+  {
+    "makeKey": "FERRARI",
+    "modelKey": "MONZA",
+    "fuelType": "any",
+    "medianPriceEur": 1586530,
+    "rowCount": 2
+  },
+  {
+    "makeKey": "FERRARI",
+    "modelKey": "MONZA",
+    "fuelType": "petrol",
+    "medianPriceEur": 1586530,
+    "rowCount": 2
+  },
+  {
+    "makeKey": "FORD",
+    "modelKey": "ECOSPORT",
+    "fuelType": "any",
+    "medianPriceEur": 25900,
+    "rowCount": 22
+  },
+  {
+    "makeKey": "FORD",
+    "modelKey": "ECOSPORT",
+    "fuelType": "petrol",
+    "medianPriceEur": 25900,
+    "rowCount": 22
+  },
+  {
+    "makeKey": "FORD",
+    "modelKey": "FIESTA",
+    "fuelType": "any",
+    "medianPriceEur": 27390,
+    "rowCount": 10
+  },
+  {
+    "makeKey": "FORD",
+    "modelKey": "FIESTA",
+    "fuelType": "petrol",
+    "medianPriceEur": 27390,
+    "rowCount": 10
+  },
+  {
+    "makeKey": "FORD",
+    "modelKey": "GT",
+    "fuelType": "any",
+    "medianPriceEur": 405397,
+    "rowCount": 1
+  },
+  {
+    "makeKey": "FORD",
+    "modelKey": "GT",
+    "fuelType": "petrol",
+    "medianPriceEur": 405397,
+    "rowCount": 1
+  },
+  {
+    "makeKey": "FORD",
+    "modelKey": "MUSTANG",
+    "fuelType": "any",
+    "medianPriceEur": 52400,
+    "rowCount": 1
+  },
+  {
+    "makeKey": "FORD",
+    "modelKey": "MUSTANG",
+    "fuelType": "petrol",
+    "medianPriceEur": 52400,
+    "rowCount": 1
+  },
+  {
+    "makeKey": "FORD",
+    "modelKey": "TOURNEOCONNECT",
+    "fuelType": "any",
+    "medianPriceEur": 32627,
+    "rowCount": 9
+  },
+  {
+    "makeKey": "FORD",
+    "modelKey": "TOURNEOCONNECT",
+    "fuelType": "diesel",
+    "medianPriceEur": 32627,
+    "rowCount": 7
+  },
+  {
+    "makeKey": "FORD",
+    "modelKey": "TOURNEOCONNECT",
+    "fuelType": "petrol",
+    "medianPriceEur": 31127,
+    "rowCount": 2
+  },
+  {
+    "makeKey": "FORD",
+    "modelKey": "TRANSITCUSTOM",
+    "fuelType": "any",
+    "medianPriceEur": 51095,
+    "rowCount": 25
+  },
+  {
+    "makeKey": "FORD",
+    "modelKey": "TRANSITCUSTOM",
+    "fuelType": "diesel",
+    "medianPriceEur": 51095,
+    "rowCount": 25
+  },
+  {
+    "makeKey": "HYUNDAI",
+    "modelKey": "I10",
+    "fuelType": "any",
+    "medianPriceEur": 16500,
+    "rowCount": 7
+  },
+  {
+    "makeKey": "HYUNDAI",
+    "modelKey": "I10",
+    "fuelType": "petrol",
+    "medianPriceEur": 16500,
+    "rowCount": 7
+  },
+  {
+    "makeKey": "KIA",
+    "modelKey": "CEED",
+    "fuelType": "any",
+    "medianPriceEur": 30340.5,
+    "rowCount": 14
+  },
+  {
+    "makeKey": "KIA",
+    "modelKey": "CEED",
+    "fuelType": "petrol",
+    "medianPriceEur": 30340.5,
+    "rowCount": 14
+  },
+  {
+    "makeKey": "KIA",
+    "modelKey": "PICANTO",
+    "fuelType": "any",
+    "medianPriceEur": 17173,
+    "rowCount": 24
+  },
+  {
+    "makeKey": "KIA",
+    "modelKey": "PICANTO",
+    "fuelType": "petrol",
+    "medianPriceEur": 17173,
+    "rowCount": 24
+  },
+  {
+    "makeKey": "KIA",
+    "modelKey": "PROCEED",
+    "fuelType": "any",
+    "medianPriceEur": 32033,
+    "rowCount": 5
+  },
+  {
+    "makeKey": "KIA",
+    "modelKey": "PROCEED",
+    "fuelType": "petrol",
+    "medianPriceEur": 32033,
+    "rowCount": 5
+  },
+  {
+    "makeKey": "KIA",
+    "modelKey": "RIO",
+    "fuelType": "any",
+    "medianPriceEur": 19465,
+    "rowCount": 18
+  },
+  {
+    "makeKey": "KIA",
+    "modelKey": "RIO",
+    "fuelType": "petrol",
+    "medianPriceEur": 19465,
+    "rowCount": 18
+  },
+  {
+    "makeKey": "KIA",
+    "modelKey": "STONIC",
+    "fuelType": "any",
+    "medianPriceEur": 23390,
+    "rowCount": 13
+  },
+  {
+    "makeKey": "KIA",
+    "modelKey": "STONIC",
+    "fuelType": "petrol",
+    "medianPriceEur": 23390,
+    "rowCount": 13
+  },
+  {
+    "makeKey": "KIA",
+    "modelKey": "XCEED",
+    "fuelType": "any",
+    "medianPriceEur": 31915,
+    "rowCount": 5
+  },
+  {
+    "makeKey": "KIA",
+    "modelKey": "XCEED",
+    "fuelType": "petrol",
+    "medianPriceEur": 31915,
+    "rowCount": 5
+  },
+  {
+    "makeKey": "LAMBORGHIN",
+    "modelKey": "AVENTADOR",
+    "fuelType": "any",
+    "medianPriceEur": 337865,
+    "rowCount": 3
+  },
+  {
+    "makeKey": "LAMBORGHIN",
+    "modelKey": "AVENTADOR",
+    "fuelType": "petrol",
+    "medianPriceEur": 337865,
+    "rowCount": 3
+  },
+  {
+    "makeKey": "LAMBORGHIN",
+    "modelKey": "URUS",
+    "fuelType": "any",
+    "medianPriceEur": 205715,
+    "rowCount": 3
+  },
+  {
+    "makeKey": "LAMBORGHIN",
+    "modelKey": "URUS",
+    "fuelType": "petrol",
+    "medianPriceEur": 205715,
+    "rowCount": 3
+  },
+  {
+    "makeKey": "MASERATI",
+    "modelKey": "GRECALE",
+    "fuelType": "any",
+    "medianPriceEur": 115400,
+    "rowCount": 1
+  },
+  {
+    "makeKey": "MASERATI",
+    "modelKey": "GRECALE",
+    "fuelType": "petrol",
+    "medianPriceEur": 115400,
+    "rowCount": 1
+  },
+  {
+    "makeKey": "MAZDA",
+    "modelKey": "CX5",
+    "fuelType": "any",
+    "medianPriceEur": 45708,
+    "rowCount": 3
+  },
+  {
+    "makeKey": "MAZDA",
+    "modelKey": "CX5",
+    "fuelType": "diesel",
+    "medianPriceEur": 45708,
+    "rowCount": 3
+  },
+  {
+    "makeKey": "MERCEDES",
+    "modelKey": "E400",
+    "fuelType": "any",
+    "medianPriceEur": 79625,
+    "rowCount": 3
+  },
+  {
+    "makeKey": "MERCEDES",
+    "modelKey": "E400",
+    "fuelType": "diesel",
+    "medianPriceEur": 79625,
+    "rowCount": 3
+  },
+  {
+    "makeKey": "MG",
+    "modelKey": "ZS",
+    "fuelType": "any",
+    "medianPriceEur": 19240,
+    "rowCount": 2
+  },
+  {
+    "makeKey": "MG",
+    "modelKey": "ZS",
+    "fuelType": "petrol",
+    "medianPriceEur": 19240,
+    "rowCount": 2
+  },
+  {
+    "makeKey": "MINI",
+    "modelKey": "CABRIO",
+    "fuelType": "any",
+    "medianPriceEur": 37567,
+    "rowCount": 50
+  },
+  {
+    "makeKey": "MINI",
+    "modelKey": "CABRIO",
+    "fuelType": "petrol",
+    "medianPriceEur": 37567,
+    "rowCount": 50
+  },
+  {
+    "makeKey": "MINI",
+    "modelKey": "CLUBMAN",
+    "fuelType": "any",
+    "medianPriceEur": 41400,
+    "rowCount": 30
+  },
+  {
+    "makeKey": "MINI",
+    "modelKey": "CLUBMAN",
+    "fuelType": "petrol",
+    "medianPriceEur": 41400,
+    "rowCount": 30
+  },
+  {
+    "makeKey": "MINI",
+    "modelKey": "COUNTRYMAN",
+    "fuelType": "any",
+    "medianPriceEur": 40000,
+    "rowCount": 135
+  },
+  {
+    "makeKey": "MINI",
+    "modelKey": "COUNTRYMAN",
+    "fuelType": "diesel",
+    "medianPriceEur": 41733,
+    "rowCount": 51
+  },
+  {
+    "makeKey": "MINI",
+    "modelKey": "COUNTRYMAN",
+    "fuelType": "petrol",
+    "medianPriceEur": 40000,
+    "rowCount": 84
+  },
+  {
+    "makeKey": "MINI",
+    "modelKey": "MINI",
+    "fuelType": "any",
+    "medianPriceEur": 33300,
+    "rowCount": 156
+  },
+  {
+    "makeKey": "MINI",
+    "modelKey": "MINI",
+    "fuelType": "petrol",
+    "medianPriceEur": 33300,
+    "rowCount": 156
+  },
+  {
+    "makeKey": "MITSUBISHI",
+    "modelKey": "SPACESTAR",
+    "fuelType": "any",
+    "medianPriceEur": 14340,
+    "rowCount": 5
+  },
+  {
+    "makeKey": "MITSUBISHI",
+    "modelKey": "SPACESTAR",
+    "fuelType": "petrol",
+    "medianPriceEur": 14340,
+    "rowCount": 5
+  },
+  {
+    "makeKey": "NISSAN",
+    "modelKey": "JUKE",
+    "fuelType": "any",
+    "medianPriceEur": 27622,
+    "rowCount": 12
+  },
+  {
+    "makeKey": "NISSAN",
+    "modelKey": "JUKE",
+    "fuelType": "petrol",
+    "medianPriceEur": 27622,
+    "rowCount": 12
+  },
+  {
+    "makeKey": "NISSAN",
+    "modelKey": "MICRA",
+    "fuelType": "any",
+    "medianPriceEur": 21361,
+    "rowCount": 9
+  },
+  {
+    "makeKey": "NISSAN",
+    "modelKey": "MICRA",
+    "fuelType": "petrol",
+    "medianPriceEur": 21361,
+    "rowCount": 9
+  },
+  {
+    "makeKey": "NISSAN",
+    "modelKey": "PRIMASTAR",
+    "fuelType": "any",
+    "medianPriceEur": 45333,
+    "rowCount": 2
+  },
+  {
+    "makeKey": "NISSAN",
+    "modelKey": "PRIMASTAR",
+    "fuelType": "diesel",
+    "medianPriceEur": 45333,
+    "rowCount": 2
+  },
+  {
+    "makeKey": "NISSAN",
+    "modelKey": "TOWNSTAR",
+    "fuelType": "any",
+    "medianPriceEur": 31180,
+    "rowCount": 3
+  },
+  {
+    "makeKey": "NISSAN",
+    "modelKey": "TOWNSTAR",
+    "fuelType": "petrol",
+    "medianPriceEur": 31180,
+    "rowCount": 3
+  },
+  {
+    "makeKey": "OPEL",
+    "modelKey": "CORSA",
+    "fuelType": "any",
+    "medianPriceEur": 21900,
+    "rowCount": 3
+  },
+  {
+    "makeKey": "OPEL",
+    "modelKey": "CORSA",
+    "fuelType": "petrol",
+    "medianPriceEur": 21900,
+    "rowCount": 3
+  },
+  {
+    "makeKey": "OPEL",
+    "modelKey": "CROSSLANDX",
+    "fuelType": "any",
+    "medianPriceEur": 28975,
+    "rowCount": 8
+  },
+  {
+    "makeKey": "OPEL",
+    "modelKey": "CROSSLANDX",
+    "fuelType": "diesel",
+    "medianPriceEur": 28850,
+    "rowCount": 4
+  },
+  {
+    "makeKey": "OPEL",
+    "modelKey": "CROSSLANDX",
+    "fuelType": "petrol",
+    "medianPriceEur": 29100,
+    "rowCount": 4
+  },
+  {
+    "makeKey": "OPEL",
+    "modelKey": "GRANDLAND",
+    "fuelType": "any",
+    "medianPriceEur": 40625,
+    "rowCount": 6
+  },
+  {
+    "makeKey": "OPEL",
+    "modelKey": "GRANDLAND",
+    "fuelType": "diesel",
+    "medianPriceEur": 40625,
+    "rowCount": 6
+  },
+  {
+    "makeKey": "OPEL",
+    "modelKey": "MOKKA",
+    "fuelType": "any",
+    "medianPriceEur": 29163,
+    "rowCount": 2
+  },
+  {
+    "makeKey": "OPEL",
+    "modelKey": "MOKKA",
+    "fuelType": "petrol",
+    "medianPriceEur": 29163,
+    "rowCount": 2
+  },
+  {
+    "makeKey": "PEUGEOT",
+    "modelKey": "2008",
+    "fuelType": "any",
+    "medianPriceEur": 33203,
+    "rowCount": 24
+  },
+  {
+    "makeKey": "PEUGEOT",
+    "modelKey": "2008",
+    "fuelType": "diesel",
+    "medianPriceEur": 33203,
+    "rowCount": 23
+  },
+  {
+    "makeKey": "PEUGEOT",
+    "modelKey": "2008",
+    "fuelType": "petrol",
+    "medianPriceEur": 30364,
+    "rowCount": 1
+  },
+  {
+    "makeKey": "PEUGEOT",
+    "modelKey": "208",
+    "fuelType": "any",
+    "medianPriceEur": 24256,
+    "rowCount": 19
+  },
+  {
+    "makeKey": "PEUGEOT",
+    "modelKey": "208",
+    "fuelType": "diesel",
+    "medianPriceEur": 25244,
+    "rowCount": 5
+  },
+  {
+    "makeKey": "PEUGEOT",
+    "modelKey": "208",
+    "fuelType": "petrol",
+    "medianPriceEur": 24256,
+    "rowCount": 14
+  },
+  {
+    "makeKey": "PEUGEOT",
+    "modelKey": "308",
+    "fuelType": "any",
+    "medianPriceEur": 32033,
+    "rowCount": 13
+  },
+  {
+    "makeKey": "PEUGEOT",
+    "modelKey": "308",
+    "fuelType": "diesel",
+    "medianPriceEur": 32033,
+    "rowCount": 7
+  },
+  {
+    "makeKey": "PEUGEOT",
+    "modelKey": "308",
+    "fuelType": "petrol",
+    "medianPriceEur": 26900,
+    "rowCount": 6
+  },
+  {
+    "makeKey": "PEUGEOT",
+    "modelKey": "508",
+    "fuelType": "any",
+    "medianPriceEur": 43375,
+    "rowCount": 5
+  },
+  {
+    "makeKey": "PEUGEOT",
+    "modelKey": "508",
+    "fuelType": "petrol",
+    "medianPriceEur": 43375,
+    "rowCount": 5
+  },
+  {
+    "makeKey": "PEUGEOT",
+    "modelKey": "RIFTER",
+    "fuelType": "any",
+    "medianPriceEur": 25825,
+    "rowCount": 9
+  },
+  {
+    "makeKey": "PEUGEOT",
+    "modelKey": "RIFTER",
+    "fuelType": "diesel",
+    "medianPriceEur": 25825,
+    "rowCount": 8
+  },
+  {
+    "makeKey": "PEUGEOT",
+    "modelKey": "RIFTER",
+    "fuelType": "petrol",
+    "medianPriceEur": 25500,
+    "rowCount": 1
+  },
+  {
+    "makeKey": "PORSCHE",
+    "modelKey": "911",
+    "fuelType": "any",
+    "medianPriceEur": 153576,
+    "rowCount": 51
+  },
+  {
+    "makeKey": "PORSCHE",
+    "modelKey": "911",
+    "fuelType": "petrol",
+    "medianPriceEur": 153576,
+    "rowCount": 51
+  },
+  {
+    "makeKey": "PORSCHE",
+    "modelKey": "MACAN",
+    "fuelType": "any",
+    "medianPriceEur": 76946,
+    "rowCount": 15
+  },
+  {
+    "makeKey": "PORSCHE",
+    "modelKey": "MACAN",
+    "fuelType": "petrol",
+    "medianPriceEur": 76946,
+    "rowCount": 15
+  },
+  {
+    "makeKey": "RENAULT",
+    "modelKey": "CAPTUR",
+    "fuelType": "any",
+    "medianPriceEur": 24867,
+    "rowCount": 12
+  },
+  {
+    "makeKey": "RENAULT",
+    "modelKey": "CAPTUR",
+    "fuelType": "petrol",
+    "medianPriceEur": 24867,
+    "rowCount": 12
+  },
+  {
+    "makeKey": "RENAULT",
+    "modelKey": "CLIO",
+    "fuelType": "any",
+    "medianPriceEur": 21183,
+    "rowCount": 22
+  },
+  {
+    "makeKey": "RENAULT",
+    "modelKey": "CLIO",
+    "fuelType": "diesel",
+    "medianPriceEur": 23000,
+    "rowCount": 8
+  },
+  {
+    "makeKey": "RENAULT",
+    "modelKey": "CLIO",
+    "fuelType": "petrol",
+    "medianPriceEur": 18550,
+    "rowCount": 14
+  },
+  {
+    "makeKey": "RENAULT",
+    "modelKey": "ESPACE",
+    "fuelType": "any",
+    "medianPriceEur": 57550,
+    "rowCount": 10
+  },
+  {
+    "makeKey": "RENAULT",
+    "modelKey": "ESPACE",
+    "fuelType": "diesel",
+    "medianPriceEur": 57550,
+    "rowCount": 10
+  },
+  {
+    "makeKey": "RENAULT",
+    "modelKey": "KANGOO",
+    "fuelType": "any",
+    "medianPriceEur": 28900,
+    "rowCount": 60
+  },
+  {
+    "makeKey": "RENAULT",
+    "modelKey": "KANGOO",
+    "fuelType": "diesel",
+    "medianPriceEur": 28050,
+    "rowCount": 27
+  },
+  {
+    "makeKey": "RENAULT",
+    "modelKey": "KANGOO",
+    "fuelType": "petrol",
+    "medianPriceEur": 28900,
+    "rowCount": 33
+  },
+  {
+    "makeKey": "RENAULT",
+    "modelKey": "KOLEOS",
+    "fuelType": "any",
+    "medianPriceEur": 45650,
+    "rowCount": 3
+  },
+  {
+    "makeKey": "RENAULT",
+    "modelKey": "KOLEOS",
+    "fuelType": "petrol",
+    "medianPriceEur": 45650,
+    "rowCount": 3
+  },
+  {
+    "makeKey": "RENAULT",
+    "modelKey": "MEGANE",
+    "fuelType": "any",
+    "medianPriceEur": 32775,
+    "rowCount": 33
+  },
+  {
+    "makeKey": "RENAULT",
+    "modelKey": "MEGANE",
+    "fuelType": "diesel",
+    "medianPriceEur": 33775,
+    "rowCount": 19
+  },
+  {
+    "makeKey": "RENAULT",
+    "modelKey": "MEGANE",
+    "fuelType": "petrol",
+    "medianPriceEur": 32750,
+    "rowCount": 14
+  },
+  {
+    "makeKey": "RENAULT",
+    "modelKey": "SCENIC",
+    "fuelType": "any",
+    "medianPriceEur": 36700,
+    "rowCount": 12
+  },
+  {
+    "makeKey": "RENAULT",
+    "modelKey": "SCENIC",
+    "fuelType": "petrol",
+    "medianPriceEur": 36700,
+    "rowCount": 12
+  },
+  {
+    "makeKey": "RENAULT",
+    "modelKey": "TALISMAN",
+    "fuelType": "any",
+    "medianPriceEur": 41400,
+    "rowCount": 5
+  },
+  {
+    "makeKey": "RENAULT",
+    "modelKey": "TALISMAN",
+    "fuelType": "diesel",
+    "medianPriceEur": 41400,
+    "rowCount": 3
+  },
+  {
+    "makeKey": "RENAULT",
+    "modelKey": "TALISMAN",
+    "fuelType": "petrol",
+    "medianPriceEur": 39025,
+    "rowCount": 2
+  },
+  {
+    "makeKey": "RENAULT",
+    "modelKey": "TRAFIC",
+    "fuelType": "any",
+    "medianPriceEur": 42550,
+    "rowCount": 68
+  },
+  {
+    "makeKey": "RENAULT",
+    "modelKey": "TRAFIC",
+    "fuelType": "diesel",
+    "medianPriceEur": 42550,
+    "rowCount": 68
+  },
+  {
+    "makeKey": "RENAULT",
+    "modelKey": "TWINGO",
+    "fuelType": "any",
+    "medianPriceEur": 16900,
+    "rowCount": 4
+  },
+  {
+    "makeKey": "RENAULT",
+    "modelKey": "TWINGO",
+    "fuelType": "petrol",
+    "medianPriceEur": 16900,
+    "rowCount": 4
+  },
+  {
+    "makeKey": "ROLLSROYC",
+    "modelKey": "CULLINAN",
+    "fuelType": "any",
+    "medianPriceEur": 391800,
+    "rowCount": 1
+  },
+  {
+    "makeKey": "ROLLSROYC",
+    "modelKey": "CULLINAN",
+    "fuelType": "petrol",
+    "medianPriceEur": 391800,
+    "rowCount": 1
+  },
+  {
+    "makeKey": "ROLLSROYC",
+    "modelKey": "DAWN",
+    "fuelType": "any",
+    "medianPriceEur": 411990,
+    "rowCount": 1
+  },
+  {
+    "makeKey": "ROLLSROYC",
+    "modelKey": "DAWN",
+    "fuelType": "petrol",
+    "medianPriceEur": 411990,
+    "rowCount": 1
+  },
+  {
+    "makeKey": "SKODA",
+    "modelKey": "KAMIQ",
+    "fuelType": "any",
+    "medianPriceEur": 30194,
+    "rowCount": 3
+  },
+  {
+    "makeKey": "SKODA",
+    "modelKey": "KAMIQ",
+    "fuelType": "petrol",
+    "medianPriceEur": 30194,
+    "rowCount": 3
+  },
+  {
+    "makeKey": "SKODA",
+    "modelKey": "KAROQ",
+    "fuelType": "any",
+    "medianPriceEur": 37898,
+    "rowCount": 67
+  },
+  {
+    "makeKey": "SKODA",
+    "modelKey": "KAROQ",
+    "fuelType": "diesel",
+    "medianPriceEur": 39098,
+    "rowCount": 13
+  },
+  {
+    "makeKey": "SKODA",
+    "modelKey": "KAROQ",
+    "fuelType": "petrol",
+    "medianPriceEur": 37898,
+    "rowCount": 54
+  },
+  {
+    "makeKey": "SKODA",
+    "modelKey": "KODIAQ",
+    "fuelType": "any",
+    "medianPriceEur": 33820,
+    "rowCount": 21
+  },
+  {
+    "makeKey": "SKODA",
+    "modelKey": "KODIAQ",
+    "fuelType": "diesel",
+    "medianPriceEur": 33820,
+    "rowCount": 17
+  },
+  {
+    "makeKey": "SKODA",
+    "modelKey": "KODIAQ",
+    "fuelType": "petrol",
+    "medianPriceEur": 54050,
+    "rowCount": 4
+  },
+  {
+    "makeKey": "SKODA",
+    "modelKey": "OCTAVIA",
+    "fuelType": "any",
+    "medianPriceEur": 27641.5,
+    "rowCount": 4
+  },
+  {
+    "makeKey": "SKODA",
+    "modelKey": "OCTAVIA",
+    "fuelType": "diesel",
+    "medianPriceEur": 35218,
+    "rowCount": 1
+  },
+  {
+    "makeKey": "SKODA",
+    "modelKey": "OCTAVIA",
+    "fuelType": "petrol",
+    "medianPriceEur": 27183,
+    "rowCount": 3
+  },
+  {
+    "makeKey": "SKODA",
+    "modelKey": "SCALA",
+    "fuelType": "any",
+    "medianPriceEur": 28710,
+    "rowCount": 1
+  },
+  {
+    "makeKey": "SKODA",
+    "modelKey": "SCALA",
+    "fuelType": "petrol",
+    "medianPriceEur": 28710,
+    "rowCount": 1
+  },
+  {
+    "makeKey": "TOYOTA",
+    "modelKey": "YARIS",
+    "fuelType": "any",
+    "medianPriceEur": 20333,
+    "rowCount": 8
+  },
+  {
+    "makeKey": "TOYOTA",
+    "modelKey": "YARIS",
+    "fuelType": "petrol",
+    "medianPriceEur": 20333,
+    "rowCount": 8
+  },
+  {
+    "makeKey": "VOLKSWAGEN",
+    "modelKey": "CADDY",
+    "fuelType": "any",
+    "medianPriceEur": 37713,
+    "rowCount": 57
+  },
+  {
+    "makeKey": "VOLKSWAGEN",
+    "modelKey": "CADDY",
+    "fuelType": "diesel",
+    "medianPriceEur": 38773,
+    "rowCount": 36
+  },
+  {
+    "makeKey": "VOLKSWAGEN",
+    "modelKey": "CADDY",
+    "fuelType": "petrol",
+    "medianPriceEur": 36003,
+    "rowCount": 21
+  },
+  {
+    "makeKey": "VOLKSWAGEN",
+    "modelKey": "TOURAN",
+    "fuelType": "any",
+    "medianPriceEur": 45080,
+    "rowCount": 13
+  },
+  {
+    "makeKey": "VOLKSWAGEN",
+    "modelKey": "TOURAN",
+    "fuelType": "diesel",
+    "medianPriceEur": 45630,
+    "rowCount": 9
+  },
+  {
+    "makeKey": "VOLKSWAGEN",
+    "modelKey": "TOURAN",
+    "fuelType": "petrol",
+    "medianPriceEur": 37750,
+    "rowCount": 4
+  },
+  {
+    "makeKey": "VOLKSWAGEN",
+    "modelKey": "TROC",
+    "fuelType": "any",
+    "medianPriceEur": 37205,
+    "rowCount": 56
+  },
+  {
+    "makeKey": "VOLKSWAGEN",
+    "modelKey": "TROC",
+    "fuelType": "diesel",
+    "medianPriceEur": 42744,
+    "rowCount": 18
+  },
+  {
+    "makeKey": "VOLKSWAGEN",
+    "modelKey": "TROC",
+    "fuelType": "petrol",
+    "medianPriceEur": 36985,
+    "rowCount": 38
+  }
+]

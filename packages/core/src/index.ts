@@ -11,6 +11,7 @@ export * from "./planner/plan.ts";
 export * from "./scenarios/generate.ts";
 export * from "./scenarios/metrics.ts";
 export * from "./scenarios/rng.ts";
+export * from "./tco/baseline-price.ts";
 export * from "./tco/components/energy.ts";
 export * from "./tco/components/financing.ts";
 export * from "./tco/engine.ts";

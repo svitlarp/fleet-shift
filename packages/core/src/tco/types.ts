@@ -12,6 +12,8 @@ export interface TcoContext {
   assumptions: Assumptions;
   /** Base fuel price for this vehicle's fuel, EUR/L. */
   fuelPriceEurPerLitre: number;
+  /** New equivalent combustion car price, EUR. */
+  baselinePriceEur: number;
 }
 
 /** Multipliers on central values; index 0 is operating year 1. */

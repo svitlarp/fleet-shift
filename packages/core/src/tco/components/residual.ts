@@ -11,7 +11,7 @@ export const residualComponent: TcoComponent = {
     const value =
       option.kind === "ev"
         ? option.ev.priceEur * a.evResidualShare * scenario.residualFactor
-        : ctx.vehicle.purchasePriceEur * a.iceResidualShare;
+        : ctx.baselinePriceEur * a.iceResidualShare;
     const flows = Array<number>(HORIZON_YEARS + 1).fill(0);
     flows[HORIZON_YEARS] = -value;
     return flows;

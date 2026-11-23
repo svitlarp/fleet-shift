@@ -31,6 +31,7 @@ export const analysisPlugin: FastifyPluginCallbackZod<AnalysisOptions> = (
         catalog: reference.catalog,
         stations: reference.stations,
         fuelHistory: reference.fuelHistory,
+        iceReference: reference.iceReference,
         assumptions: fleet.assumptions,
       });
       const saved = await repository.saveAnalysis(fleet.id, result);

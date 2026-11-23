@@ -1,8 +1,14 @@
-import type { ChargingStation, EvModel, FuelYearPrice } from "@fleetshift/core";
+import type {
+  ChargingStation,
+  EvModel,
+  FuelYearPrice,
+  IceReferenceEntry,
+} from "@fleetshift/core";
 import {
   getDemoFleetRows,
   getEvCatalog,
   getFuelYearlyPrices,
+  getIceReference,
   getIrveStations,
 } from "@fleetshift/data";
 
@@ -11,6 +17,7 @@ export interface ReferenceData {
   catalogSource: { name: string; url: string; sourceUpdatedAt: string };
   stations: ChargingStation[];
   fuelHistory: FuelYearPrice[];
+  iceReference: IceReferenceEntry[];
   demoFleetRows: unknown[];
 }
 
@@ -25,6 +32,7 @@ export function loadReferenceData(): ReferenceData {
     },
     stations: getIrveStations(),
     fuelHistory: getFuelYearlyPrices(),
+    iceReference: getIceReference(),
     demoFleetRows: getDemoFleetRows(),
   };
 }

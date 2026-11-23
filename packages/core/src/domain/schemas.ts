@@ -68,6 +68,15 @@ export const fuelYearPriceSchema = z.object({
   petrolEurPerLitre: z.number().positive(),
 });
 
+export const iceReferenceEntrySchema = z.object({
+  makeKey: z.string().min(1),
+  modelKey: z.string().min(1),
+  fuelType: z.enum(["diesel", "petrol", "any"]),
+  medianPriceEur: z.number().positive(),
+  rowCount: z.number().int().positive(),
+});
+
+export type IceReferenceEntry = z.infer<typeof iceReferenceEntrySchema>;
 export type FuelType = z.infer<typeof fuelTypeSchema>;
 export type BodyType = z.infer<typeof bodyTypeSchema>;
 export type FleetVehicle = z.infer<typeof fleetVehicleSchema>;
