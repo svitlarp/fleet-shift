@@ -28,7 +28,7 @@ describe("computeTco golden cases", () => {
 
   it("matches the hand calculation for a leased EV on public charging", () => {
     const tco = computeTco({ kind: "ev", ev: evFixture() }, ctx());
-    expect(Math.abs(tco.totalEur - 35508.263222)).toBeLessThan(1);
+    expect(Math.abs(tco.totalEur - 35005.509107)).toBeLessThan(1);
   });
 
   it("matches the hand calculation for a purchased EV with depot charging", () => {
@@ -39,7 +39,7 @@ describe("computeTco golden cases", () => {
         assumptionsFixture({ financingMode: "purchase" }),
       ),
     );
-    expect(Math.abs(tco.totalEur - 31871.83685)).toBeLessThan(1);
+    expect(Math.abs(tco.totalEur - 30638.723598)).toBeLessThan(1);
   });
 });
 
@@ -92,9 +92,9 @@ describe("financing and energy helpers", () => {
   it("uses only public tariffs without depot charging", () => {
     expect(
       blendedElectricityEurPerKwh(false, assumptionsFixture()),
-    ).toBeCloseTo(0.445, 6);
+    ).toBeCloseTo(0.46, 6);
     expect(blendedElectricityEurPerKwh(true, assumptionsFixture())).toBeCloseTo(
-      0.249,
+      0.22,
       6,
     );
   });

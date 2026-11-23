@@ -3,7 +3,7 @@ import type {
   FleetAnalysis,
   FleetVehicle,
 } from "@fleetshift/core";
-import { DEFAULT_ASSUMPTIONS } from "@fleetshift/core";
+import { upgradeAssumptions } from "@fleetshift/core";
 import { and, asc, count, desc, eq, max, sql } from "drizzle-orm";
 import type { Db } from "../db/client.ts";
 import { analyses, fleetAssumptions, fleets, vehicles } from "../db/schema.ts";
@@ -109,13 +109,14 @@ export class DrizzleFleetRepository implements FleetRepository {
       .select({ data: fleetAssumptions.data })
       .from(fleetAssumptions)
       .where(eq(fleetAssumptions.fleetId, id));
+    const fleetVehicles = rows.map((r) => r.data);
     return {
       id: fleet.id,
       name: fleet.name,
       createdAt: fleet.createdAt.toISOString(),
       vehicleCount: rows.length,
-      vehicles: rows.map((r) => r.data),
-      assumptions: saved?.data ?? DEFAULT_ASSUMPTIONS,
+      vehicles: fleetVehicles,
+      assumptions: upgradeAssumptions(saved?.data, fleetVehicles),
     };
   }
 

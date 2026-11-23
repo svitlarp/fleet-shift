@@ -42,11 +42,21 @@ export interface ReplacementPlan {
 
 type PlanAssumptions = Pick<
   Assumptions,
-  "riskMode" | "budget2027Eur" | "budget2028Eur" | "minPaybackShare"
+  | "riskMode"
+  | "budget2027Eur"
+  | "budget2028Eur"
+  | "minPaybackShare"
+  | "riskyMinPaybackShare"
 >;
 
+const RANKING_METRIC = {
+  cautious: "p10Eur",
+  balanced: "medianEur",
+  risky: "p90Eur",
+} as const;
+
 const rankingValue = (s: SavingsMetrics, mode: Assumptions["riskMode"]) =>
-  mode === "cautious" ? s.p10Eur : s.medianEur;
+  s[RANKING_METRIC[mode]];
 
 const leaseEndYear = (date: string): number => Number(date.slice(0, 4));
 const LAST_PLAN_YEAR = Math.max(...PLAN_YEARS);
@@ -65,13 +75,14 @@ function ineligibleDecision(
   }
   const profitable =
     rankingValue(c.savings, a.riskMode) > 0 &&
-    c.savings.paybackShare >= a.minPaybackShare;
+    c.savings.paybackShare >=
+      (a.riskMode === "risky" ? a.riskyMinPaybackShare : a.minPaybackShare);
   return profitable ? null : "not_profitable";
 }
 
 /**
  * Greedy yearly selection: a vehicle becomes eligible in its lease-end year,
- * eligible vehicles are ranked by savings (P10 if cautious, median if balanced)
+ * eligible vehicles are ranked by savings (P10 if cautious, median if balanced, P90 if risky)
  * and chosen while the budget allows. Unfunded vehicles roll to the next year.
  */
 export function buildPlan(
