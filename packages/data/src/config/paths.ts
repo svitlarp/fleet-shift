@@ -37,6 +37,16 @@ export const paths = {
   },
   catalog: {
     evModelDetails: path.join(dataRoot, "catalog", "ev-model-details.json"),
+    evPhotoSelection: path.join(dataRoot, "catalog", "ev-photo-selection.json"),
+    webCarPhotos: path.join(
+      dataRoot,
+      "..",
+      "..",
+      "apps",
+      "web",
+      "public",
+      "cars",
+    ),
   },
   demo: {
     estateAgencyFleet: path.join(dataRoot, "demo", "fleet-estate-agency.json"),

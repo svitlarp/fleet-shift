@@ -37,10 +37,13 @@ export function buildActionSummary(
     return `${t.summary.none} ${fallback}`;
   }
 
-  const activeYears = years
-    .filter((y) => y.vehicleIds.length > 0)
-    .map((y) => `${String(y.year)} (${String(y.vehicleIds.length)})`)
-    .join(" and ");
+  const active = years.filter((y) => y.vehicleIds.length > 0);
+  const activeYears =
+    active.length === 1
+      ? String(active[0]?.year)
+      : active
+          .map((y) => `${String(y.year)} (${String(y.vehicleIds.length)})`)
+          .join(" and ");
   const spentEur = years.reduce((sum, y) => sum + y.spentEur, 0);
   const best = result.vehicles
     .find((v) => v.vehicleId === top.vehicleId)

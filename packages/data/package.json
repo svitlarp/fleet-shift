@@ -9,6 +9,7 @@
   "scripts": {
     "parse:irve": "tsx src/scripts/run-irve-parser.ts",
     "parse:ev-catalog": "tsx src/scripts/run-ev-catalog-parser.ts",
+    "fetch:ev-photos": "tsx src/scripts/fetch-ev-photos.ts",
     "parse:ice-reference": "tsx src/scripts/run-ice-reference-parser.ts"
   },
   "dependencies": {
