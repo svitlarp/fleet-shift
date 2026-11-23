@@ -1,0 +1,11 @@
+{
+  "name": "@fleetshift/data",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": {
+    "parse:irve": "tsx src/scripts/run-irve-parser.ts",
+    "parse:ev-catalog": "tsx src/scripts/run-ev-catalog-parser.ts"
+  }
+}

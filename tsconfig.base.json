@@ -3,6 +3,9 @@
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "module": "nodenext",
-    "moduleResolution": "nodenext"
+    "moduleResolution": "nodenext",
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "skipLibCheck": true
   }
 }
