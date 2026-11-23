@@ -70,6 +70,18 @@ const reference: ReferenceData = {
     { year: 2025, dieselEurPerLitre: 1.6, petrolEurPerLitre: 1.7 },
   ],
   iceReference: [],
+  modelDetails: {
+    "peugeot-208": {
+      photo: {
+        file: "peugeot-208.jpg",
+        title: "File:Example.jpg",
+        author: "Author",
+        license: "CC BY 4.0",
+        licenseUrl: "https://creativecommons.org/licenses/by/4.0",
+        sourceUrl: "https://commons.wikimedia.org/wiki/File:Example.jpg",
+      },
+    },
+  },
   demoFleetRows: fleetVehicles,
 };
 
@@ -280,6 +292,34 @@ describe("reference routes", () => {
     expect(stations.json()).toHaveLength(1);
     const invalid = await app.inject({ url: "/api/stations?lat=500&lon=7" });
     expect(invalid.statusCode).toBe(400);
+  });
+});
+
+describe("EV details and fleet summaries", () => {
+  it("returns an EV with its photo credit and 404 for an unknown id", async () => {
+    const found = await app.inject({ url: "/api/catalog/ev1" });
+    expect(found.json()).toMatchObject({
+      ev: { id: "ev1" },
+      photo: { license: "CC BY 4.0" },
+      seatsAssumed: 5,
+      batteryKwh: null,
+    });
+    expect((await app.inject({ url: "/api/catalog/nope" })).statusCode).toBe(
+      404,
+    );
+  });
+
+  it("adds the latest analysis to the fleet list", async () => {
+    const id = await createFleet();
+    const before = (await app.inject({ url: "/api/fleets" })).json<
+      { latestAnalysis: unknown }[]
+    >();
+    expect(before[0]?.latestAnalysis).toBeNull();
+    await app.inject({ method: "POST", url: `/api/fleets/${id}/analyses` });
+    const after = (await app.inject({ url: "/api/fleets" })).json<
+      { latestAnalysis: { replaceCount: number } | null }[]
+    >();
+    expect(after[0]?.latestAnalysis?.replaceCount).toEqual(expect.any(Number));
   });
 });
 

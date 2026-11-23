@@ -1,12 +1,14 @@
 import type {
   ChargingStation,
   EvModel,
+  EvModelDetails,
   FuelYearPrice,
   IceReferenceEntry,
 } from "@fleetshift/core";
 import {
   getDemoFleetRows,
   getEvCatalog,
+  getEvModelDetails,
   getFuelYearlyPrices,
   getIceReference,
   getIrveStations,
@@ -14,6 +16,7 @@ import {
 
 export interface ReferenceData {
   catalog: EvModel[];
+  modelDetails: EvModelDetails;
   catalogSource: { name: string; url: string; sourceUpdatedAt: string };
   stations: ChargingStation[];
   fuelHistory: FuelYearPrice[];
@@ -25,6 +28,7 @@ export function loadReferenceData(): ReferenceData {
   const { vehicles, source } = getEvCatalog();
   return {
     catalog: vehicles,
+    modelDetails: getEvModelDetails(),
     catalogSource: {
       name: source.name,
       url: source.url,

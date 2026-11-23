@@ -11,6 +11,16 @@ export interface FleetSummary {
   vehicleCount: number;
 }
 
+export interface LatestAnalysisSummary {
+  createdAt: string;
+  replaceCount: number;
+  medianSavingsEur: number;
+}
+
+export interface FleetListItem extends FleetSummary {
+  latestAnalysis: LatestAnalysisSummary | null;
+}
+
 export interface FleetDetail extends FleetSummary {
   vehicles: FleetVehicle[];
   assumptions: Assumptions;
@@ -25,7 +35,7 @@ export interface SavedAnalysis {
 
 /** Update and delete methods return false when the target does not exist. */
 export interface FleetRepository {
-  listFleets(): Promise<FleetSummary[]>;
+  listFleets(): Promise<FleetListItem[]>;
   createFleet(
     name: string,
     vehicles: FleetVehicle[],

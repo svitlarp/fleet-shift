@@ -10,6 +10,7 @@ import { assessChargingAccess } from "./charging-access.ts";
 import type { ChargingAccess } from "./charging-access.ts";
 import {
   assumedSeats,
+  batteryKwhFromVariant,
   findRejection,
   requiredWltpRangeKm,
 } from "./hard-filters.ts";
@@ -119,6 +120,12 @@ describe("findRejection", () => {
         a,
       ),
     ).toBe("cargo_data_missing");
+  });
+
+  it("reads battery size only when the variant states it", () => {
+    expect(batteryKwhFromVariant("500e électrique 23.8 kWh")).toBe(23.8);
+    expect(batteryKwhFromVariant("63kWh ENGAGE")).toBe(63);
+    expect(batteryKwhFromVariant("e-208 (57Kw)")).toBeNull();
   });
 
   it("assumes eight seats for a minibus", () => {

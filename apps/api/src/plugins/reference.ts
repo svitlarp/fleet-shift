@@ -1,6 +1,11 @@
-import { stationsWithinRadius } from "@fleetshift/core";
+import {
+  assumedSeats,
+  batteryKwhFromVariant,
+  stationsWithinRadius,
+} from "@fleetshift/core";
 import type { FastifyPluginCallbackZod } from "fastify-type-provider-zod";
 import { z } from "zod";
+import { notFound } from "../lib/api-error.ts";
 import type { ReferenceData } from "../services/reference-data.ts";
 
 const stationsQuery = z.object({
@@ -16,6 +21,22 @@ export const referencePlugin: FastifyPluginCallbackZod<{
     source: reference.catalogSource,
     vehicles: reference.catalog,
   }));
+
+  app.get(
+    "/catalog/:evId",
+    { schema: { params: z.object({ evId: z.string().min(1) }) } },
+    (request) => {
+      const ev = reference.catalog.find((v) => v.id === request.params.evId);
+      if (!ev) throw notFound("EV");
+      return {
+        ev,
+        photo: reference.modelDetails[ev.modelKey]?.photo ?? null,
+        seatsAssumed: assumedSeats(ev),
+        batteryKwh: batteryKwhFromVariant(ev.variant),
+        source: reference.catalogSource,
+      };
+    },
+  );
 
   app.get(
     "/stations",

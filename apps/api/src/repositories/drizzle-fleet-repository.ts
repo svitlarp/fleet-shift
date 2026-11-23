@@ -4,13 +4,13 @@ import type {
   FleetVehicle,
 } from "@fleetshift/core";
 import { DEFAULT_ASSUMPTIONS } from "@fleetshift/core";
-import { and, asc, count, desc, eq, max } from "drizzle-orm";
+import { and, asc, count, desc, eq, max, sql } from "drizzle-orm";
 import type { Db } from "../db/client.ts";
 import { analyses, fleetAssumptions, fleets, vehicles } from "../db/schema.ts";
 import type {
   FleetDetail,
+  FleetListItem,
   FleetRepository,
-  FleetSummary,
   SavedAnalysis,
 } from "./fleet-repository.ts";
 
@@ -21,7 +21,7 @@ export class DrizzleFleetRepository implements FleetRepository {
     this.db = db;
   }
 
-  async listFleets(): Promise<FleetSummary[]> {
+  async listFleets(): Promise<FleetListItem[]> {
     const rows = await this.db
       .select({
         id: fleets.id,
@@ -33,7 +33,34 @@ export class DrizzleFleetRepository implements FleetRepository {
       .leftJoin(vehicles, eq(vehicles.fleetId, fleets.id))
       .groupBy(fleets.id)
       .orderBy(desc(fleets.createdAt));
-    return rows.map((r) => ({ ...r, createdAt: r.createdAt.toISOString() }));
+    const latest = await this.db
+      .selectDistinctOn([analyses.fleetId], {
+        fleetId: analyses.fleetId,
+        createdAt: analyses.createdAt,
+        replaceCount: sql<number>`(
+          select count(*)::int
+          from jsonb_array_elements(${analyses.result}->'plan'->'entries') as entry
+          where entry->>'decision' = 'replace'
+        )`,
+        medianSavingsEur: sql<number>`(${analyses.result}->'plan'->>'totalMedianSavingsEur')::float8`,
+      })
+      .from(analyses)
+      .orderBy(analyses.fleetId, desc(analyses.createdAt));
+    const latestByFleet = new Map(latest.map((a) => [a.fleetId, a]));
+    return rows.map((r) => {
+      const analysis = latestByFleet.get(r.id);
+      return {
+        ...r,
+        createdAt: r.createdAt.toISOString(),
+        latestAnalysis: analysis
+          ? {
+              createdAt: analysis.createdAt.toISOString(),
+              replaceCount: analysis.replaceCount,
+              medianSavingsEur: analysis.medianSavingsEur,
+            }
+          : null,
+      };
+    });
   }
 
   async createFleet(
