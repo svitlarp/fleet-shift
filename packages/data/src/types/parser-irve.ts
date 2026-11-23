@@ -15,4 +15,5 @@ export interface EVStation {
   commissionedDate: string | null;
   chargingPoints: number;
   declaredChargingPoints: number | null;
+  maxPowerKw: number | null;
 }
