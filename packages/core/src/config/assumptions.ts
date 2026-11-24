@@ -14,7 +14,7 @@ export const assumptionsSchema = z
     riskMode: z.enum(["cautious", "balanced", "risky"]).default("balanced"),
     budget2027Eur: z.number().min(0).default(60_000),
     budget2028Eur: z.number().min(0).default(60_000),
-    discountRate: z.number().min(0).max(0.3).default(0.04),
+    discountRate: z.number().min(0).default(0.04),
     winterRangeFactor: z.number().gt(0).max(1).default(0.8),
     rangeReserve: z.number().min(0).max(1).default(0.1),
     rangeReserveNoCharging: z.number().min(0).max(1).default(0.25),

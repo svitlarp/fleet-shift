@@ -52,7 +52,7 @@ const NUMBER_INPUTS: Record<
 > = {
   budget2027Eur: { step: 1000, min: 0 },
   budget2028Eur: { step: 1000, min: 0 },
-  discountRate: { step: 0.01, min: 0, max: 0.3 },
+  discountRate: { step: 0.01, min: 0 },
   leaseAnnualRate: { step: 0.005, min: 0, max: 0.3 },
   evResidualShare: { step: 0.05, min: 0, max: 1 },
   iceResidualShare: { step: 0.05, min: 0, max: 1 },
