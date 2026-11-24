@@ -45,6 +45,28 @@ type NumericField = keyof typeof t.assumptions.fields &
     [K in keyof Assumptions]: Assumptions[K] extends number ? K : never;
   }[keyof Assumptions];
 
+/** Steps and limits for the number inputs; limits match the shared assumptions schema. */
+const NUMBER_INPUTS: Record<
+  NumericField,
+  { step: number; min: number; max?: number }
+> = {
+  budget2027Eur: { step: 1000, min: 0 },
+  budget2028Eur: { step: 1000, min: 0 },
+  discountRate: { step: 0.01, min: 0 },
+  leaseAnnualRate: { step: 0.005, min: 0, max: 0.3 },
+  evResidualShare: { step: 0.05, min: 0, max: 1 },
+  iceResidualShare: { step: 0.05, min: 0, max: 1 },
+  evMaintenanceFactor: { step: 0.1, min: 0, max: 2 },
+  depotTariffEurPerKwh: { step: 0.01, min: 0 },
+  publicAcTariffEurPerKwh: { step: 0.01, min: 0 },
+  publicDcTariffEurPerKwh: { step: 0.01, min: 0 },
+  depotChargingShare: { step: 0.05, min: 0, max: 1 },
+  publicFastShare: { step: 0.05, min: 0, max: 1 },
+  winterRangeFactor: { step: 0.05, min: 0.05, max: 1 },
+  rangeReserve: { step: 0.05, min: 0, max: 1 },
+  realWorldConsumptionFactor: { step: 0.05, min: 1, max: 2 },
+};
+
 const COST_FIELDS: { name: NumericField; icon: LucideIcon }[] = [
   { name: "discountRate", icon: Percent },
   { name: "leaseAnnualRate", icon: Landmark },
@@ -116,6 +138,7 @@ export function AssumptionsPage() {
       label={t.assumptions.fields[name]}
       icon={icon}
       hint={t.assumptions.hints[name]}
+      {...NUMBER_INPUTS[name]}
     />
   );
 

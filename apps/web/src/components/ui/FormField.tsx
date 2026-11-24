@@ -10,6 +10,10 @@ interface FormFieldProps {
   icon: LucideIcon;
   type?: "text" | "number" | "date";
   hint?: string;
+  /** Arrow-key and spinner increment; without it a number field moves in steps of 1. */
+  step?: number;
+  min?: number;
+  max?: number;
 }
 
 export function FormField({
@@ -18,6 +22,9 @@ export function FormField({
   icon: Icon,
   type = "text",
   hint,
+  step,
+  min,
+  max,
 }: FormFieldProps) {
   const inputId = useId();
   return (
@@ -35,7 +42,9 @@ export function FormField({
           className={css.input}
           name={name}
           type={type}
-          step={type === "number" ? "any" : undefined}
+          step={type === "number" ? (step ?? "any") : undefined}
+          min={min}
+          max={max}
         />
       </span>
       <ErrorMessage name={name} component="span" className={css.error} />
